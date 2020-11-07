@@ -15,6 +15,9 @@ jobs:
       - name: Get and format api
         run: |-
           curl https://www.githubstatus.com/api/v2/status.json | jq . > github_outages_v1.json
+      - name: Get and format api
+        run: |-
+          curl https://www.githubstatus.com/api/v2/summary.json | jq . > github_summary_v1.json
       - name: Add results to repo
         run: |-
           git config user.name "Outages Project Worker"
