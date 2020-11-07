@@ -1,0 +1,26 @@
+---
+name: Fetch latest GitHub outages data
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: "1,16,31,46 * * * *"
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetches repo
+        uses: actions/checkout@v2
+      - name: Get and format api
+        run: |-
+          curl https://www.githubstatus.com/api/v2/status.json | jq . > github_outages_v1.json
+      - name: Add results to repo
+        run: |-
+          git config user.name "Outages Project Worker"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A *.json
+          timestamp=$(date -u -Is)
+          git commit -m "Update outages data on ${timestamp}" || exit 0
+          git push
+
