@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-18T23:26:46.057Z"
+    "updated_at": "2020-11-18T23:38:14.469Z"
   },
   "components": [
     {
@@ -40,9 +40,9 @@
     {
       "id": "4230lsnqdsld",
       "name": "Webhooks",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:00:24.256Z",
-      "updated_at": "2020-11-18T23:02:18.240Z",
+      "updated_at": "2020-11-18T23:38:14.467Z",
       "position": 3,
       "description": "Real time HTTP callbacks of user-generated and system events",
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2020-11-18T23:24:07.082Z",
+      "updated_at": "2020-11-18T23:36:59.799Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2020-11-18T23:26:46.054Z",
+      "updated_at": "2020-11-18T23:36:47.289Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -143,89 +143,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "j4vrg2ljjb5c",
-      "name": "Incident on 2020-11-18 23:02 UTC",
-      "status": "investigating",
-      "created_at": "2020-11-18T23:02:10.343Z",
-      "updated_at": "2020-11-18T23:26:43.892Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/cfhg0rxb5cxr",
-      "started_at": "2020-11-18T23:02:10.335Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "259dt6xnlkqq",
-          "status": "investigating",
-          "body": "Pull Requests is  experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "j4vrg2ljjb5c",
-          "created_at": "2020-11-18T23:26:43.889Z",
-          "updated_at": "2020-11-18T23:26:43.889Z",
-          "display_at": "2020-11-18T23:26:43.889Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "4vbby8qghftr",
-          "status": "investigating",
-          "body": "Issues is  experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "j4vrg2ljjb5c",
-          "created_at": "2020-11-18T23:24:04.687Z",
-          "updated_at": "2020-11-18T23:24:04.687Z",
-          "display_at": "2020-11-18T23:24:04.687Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "2mbh9tv4j8sc",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Webhooks.",
-          "incident_id": "j4vrg2ljjb5c",
-          "created_at": "2020-11-18T23:02:10.386Z",
-          "updated_at": "2020-11-18T23:02:10.386Z",
-          "display_at": "2020-11-18T23:02:10.386Z",
-          "affected_components": [
-            {
-              "code": "4230lsnqdsld",
-              "name": "Webhooks",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4230lsnqdsld",
-          "name": "Webhooks",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:00:24.256Z",
-          "updated_at": "2020-11-18T23:02:18.240Z",
-          "position": 3,
-          "description": "Real time HTTP callbacks of user-generated and system events",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
