@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-01-09T15:00:38.349Z"
+    "updated_at": "2021-01-09T16:03:27.486Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "GitHub Packages",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2020-12-17T00:54:37.707Z",
+      "updated_at": "2021-01-09T16:03:27.484Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -143,14 +143,67 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "978zwz4crz1z",
+      "name": "Incident on 2021-01-09 16:03 UTC",
+      "status": "investigating",
+      "created_at": "2021-01-09T16:03:21.158Z",
+      "updated_at": "2021-01-09T16:03:27.499Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/f4m1zs1fgtws",
+      "started_at": "2021-01-09T16:03:21.150Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "7ncvxgfwmlj0",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for GitHub Packages.",
+          "incident_id": "978zwz4crz1z",
+          "created_at": "2021-01-09T16:03:21.194Z",
+          "updated_at": "2021-01-09T16:03:21.194Z",
+          "display_at": "2021-01-09T16:03:21.194Z",
+          "affected_components": [
+            {
+              "code": "st3j38cctv9l",
+              "name": "GitHub Packages",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "st3j38cctv9l",
+          "name": "GitHub Packages",
+          "status": "partial_outage",
+          "created_at": "2019-11-13T18:02:40.064Z",
+          "updated_at": "2021-01-09T16:03:27.484Z",
+          "position": 8,
+          "description": "API requests and webhook delivery for GitHub Packages",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "b48hhfrdlfk4",
       "name": "GitHub Container Registry enters Read Only mode",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2021-01-07T16:07:16.448Z",
-      "updated_at": "2021-01-09T15:00:38.334Z",
+      "updated_at": "2021-01-09T16:00:45.125Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -158,6 +211,26 @@
       "started_at": "2021-01-07T16:07:16.443Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "bs1lyhjlq05t",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "b48hhfrdlfk4",
+          "created_at": "2021-01-09T16:00:45.119Z",
+          "updated_at": "2021-01-09T16:00:45.119Z",
+          "display_at": "2021-01-09T16:00:45.119Z",
+          "affected_components": [
+            {
+              "code": "st3j38cctv9l",
+              "name": "GitHub Packages",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "lx3hw7996w62",
           "status": "scheduled",
@@ -196,9 +269,9 @@
         {
           "id": "st3j38cctv9l",
           "name": "GitHub Packages",
-          "status": "operational",
+          "status": "partial_outage",
           "created_at": "2019-11-13T18:02:40.064Z",
-          "updated_at": "2020-12-17T00:54:37.707Z",
+          "updated_at": "2021-01-09T16:03:27.484Z",
           "position": 8,
           "description": "API requests and webhook delivery for GitHub Packages",
           "showcase": false,
@@ -214,7 +287,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
