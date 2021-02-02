@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-02T13:52:07.523Z"
+    "updated_at": "2021-02-02T14:23:39.751Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "GitHub Packages",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2021-01-19T14:50:12.098Z",
+      "updated_at": "2021-02-02T14:05:52.119Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -149,7 +149,7 @@
       "name": "Incident on 2021-02-02 13:52 UTC",
       "status": "investigating",
       "created_at": "2021-02-02T13:52:00.655Z",
-      "updated_at": "2021-02-02T13:52:07.553Z",
+      "updated_at": "2021-02-02T14:05:50.456Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -157,6 +157,19 @@
       "started_at": "2021-02-02T13:52:00.645Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "cn1qv0h4673h",
+          "status": "investigating",
+          "body": "GitHub Packages is experiencing degraded performance. We are still investigating and will provide an update when we have one.",
+          "incident_id": "jc7y32whwpzx",
+          "created_at": "2021-02-02T14:05:50.453Z",
+          "updated_at": "2021-02-02T14:05:50.453Z",
+          "display_at": "2021-02-02T14:05:50.453Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "qpjxd09c1rk3",
           "status": "investigating",
