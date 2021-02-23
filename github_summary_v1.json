@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-23T16:37:11.455Z"
+    "updated_at": "2021-02-23T16:37:20.140Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "GitHub Actions",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2021-02-18T01:35:13.059Z",
+      "updated_at": "2021-02-23T16:37:20.136Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -149,7 +149,7 @@
       "name": "Incident on 2021-02-23 16:37 UTC",
       "status": "investigating",
       "created_at": "2021-02-23T16:37:11.403Z",
-      "updated_at": "2021-02-23T16:37:11.452Z",
+      "updated_at": "2021-02-23T16:37:20.163Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -182,9 +182,9 @@
         {
           "id": "br0l2tvcx85d",
           "name": "GitHub Actions",
-          "status": "operational",
+          "status": "partial_outage",
           "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2021-02-18T01:35:13.059Z",
+          "updated_at": "2021-02-23T16:37:20.136Z",
           "position": 7,
           "description": "Workflows, Compute and Orchestration for GitHub Actions",
           "showcase": false,
@@ -199,7 +199,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
