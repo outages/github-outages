@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-05T13:23:42.198Z"
+    "updated_at": "2021-05-05T14:01:22.661Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2021-04-22T17:38:46.361Z",
+      "updated_at": "2021-05-05T14:01:22.592Z",
       "position": 2,
       "description": "Requests for GitHub APIs",
       "showcase": false,
@@ -146,11 +146,65 @@
   "incidents": [],
   "scheduled_maintenances": [
     {
-      "id": "lkcdh6zsvngf",
+      "id": "d5l3bkvh9ttf",
       "name": "Sunsetting API Authentication via Query Parameters, and the OAuth Applications API",
       "status": "scheduled",
+      "created_at": "2021-04-22T08:46:03.434Z",
+      "updated_at": "2021-04-22T08:50:16.863Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/9vpp2xdh8gl5",
+      "started_at": "2021-04-22T08:46:03.429Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "170rnss8kbh7",
+          "status": "scheduled",
+          "body": "We will be removing <a href=\"https://developer.github.com/changes/2020-02-10-deprecating-auth-through-query-param/\">API Authentication via Query Parameters</a> and <a href=\"https://developer.github.com/changes/2020-02-14-deprecating-oauth-app-endpoint\">OAuth Application API</a> during these hours as part of a planned deprecation cycle. For more information, please read our <a href=\"https://github.blog/changelog/2021-04-19-sunsetting-api-authentication-via-query-parameters-and-the-oauth-applications-api/\">blog post</a>.",
+          "incident_id": "d5l3bkvh9ttf",
+          "created_at": "2021-04-22T08:46:03.482Z",
+          "updated_at": "2021-04-22T08:50:16.861Z",
+          "display_at": "2021-04-22T08:46:03.482Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "brv1bkgrwx7q",
+          "name": "API Requests",
+          "status": "under_maintenance",
+          "created_at": "2017-01-31T20:01:46.621Z",
+          "updated_at": "2021-05-05T14:01:22.592Z",
+          "position": 2,
+          "description": "Requests for GitHub APIs",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-06-09T14:00:00.000Z",
+      "scheduled_until": "2021-06-10T14:00:00.000Z"
+    },
+    {
+      "id": "lkcdh6zsvngf",
+      "name": "Sunsetting API Authentication via Query Parameters, and the OAuth Applications API",
+      "status": "in_progress",
       "created_at": "2021-04-22T08:44:58.328Z",
-      "updated_at": "2021-05-05T12:59:33.149Z",
+      "updated_at": "2021-05-05T14:01:22.653Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -158,6 +212,26 @@
       "started_at": "2021-04-22T08:44:58.323Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "25xzrhy0rchz",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "lkcdh6zsvngf",
+          "created_at": "2021-05-05T14:01:22.651Z",
+          "updated_at": "2021-05-05T14:01:22.651Z",
+          "display_at": "2021-05-05T14:01:22.651Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "zkpqm0nhdqy8",
           "status": "scheduled",
@@ -196,9 +270,9 @@
         {
           "id": "brv1bkgrwx7q",
           "name": "API Requests",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2017-01-31T20:01:46.621Z",
-          "updated_at": "2021-04-22T17:38:46.361Z",
+          "updated_at": "2021-05-05T14:01:22.592Z",
           "position": 2,
           "description": "Requests for GitHub APIs",
           "showcase": false,
@@ -211,64 +285,10 @@
       ],
       "scheduled_for": "2021-05-05T14:00:00.000Z",
       "scheduled_until": "2021-05-06T02:00:00.000Z"
-    },
-    {
-      "id": "d5l3bkvh9ttf",
-      "name": "Sunsetting API Authentication via Query Parameters, and the OAuth Applications API",
-      "status": "scheduled",
-      "created_at": "2021-04-22T08:46:03.434Z",
-      "updated_at": "2021-04-22T08:50:16.863Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/9vpp2xdh8gl5",
-      "started_at": "2021-04-22T08:46:03.429Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "170rnss8kbh7",
-          "status": "scheduled",
-          "body": "We will be removing <a href=\"https://developer.github.com/changes/2020-02-10-deprecating-auth-through-query-param/\">API Authentication via Query Parameters</a> and <a href=\"https://developer.github.com/changes/2020-02-14-deprecating-oauth-app-endpoint\">OAuth Application API</a> during these hours as part of a planned deprecation cycle. For more information, please read our <a href=\"https://github.blog/changelog/2021-04-19-sunsetting-api-authentication-via-query-parameters-and-the-oauth-applications-api/\">blog post</a>.",
-          "incident_id": "d5l3bkvh9ttf",
-          "created_at": "2021-04-22T08:46:03.482Z",
-          "updated_at": "2021-04-22T08:50:16.861Z",
-          "display_at": "2021-04-22T08:46:03.482Z",
-          "affected_components": [
-            {
-              "code": "brv1bkgrwx7q",
-              "name": "API Requests",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "brv1bkgrwx7q",
-          "name": "API Requests",
-          "status": "operational",
-          "created_at": "2017-01-31T20:01:46.621Z",
-          "updated_at": "2021-04-22T17:38:46.361Z",
-          "position": 2,
-          "description": "Requests for GitHub APIs",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-06-09T14:00:00.000Z",
-      "scheduled_until": "2021-06-10T14:00:00.000Z"
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
