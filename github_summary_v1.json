@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-18T11:06:58.909Z"
+    "updated_at": "2021-05-18T13:12:40.014Z"
   },
   "components": [
     {
@@ -149,7 +149,7 @@
       "name": "Incident with GitHub Actions",
       "status": "investigating",
       "created_at": "2021-05-18T08:45:48.587Z",
-      "updated_at": "2021-05-18T11:06:58.901Z",
+      "updated_at": "2021-05-18T13:12:40.002Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -157,6 +157,26 @@
       "started_at": "2021-05-18T08:45:48.578Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "ybkprydlvp0y",
+          "status": "investigating",
+          "body": "We have begun rolling out a mitigation attempt and will provide an update once we know more.",
+          "incident_id": "m16jzl31gnqt",
+          "created_at": "2021-05-18T13:12:39.999Z",
+          "updated_at": "2021-05-18T13:12:39.999Z",
+          "display_at": "2021-05-18T13:12:39.999Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "GitHub Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "246tfr46qx3y",
           "status": "investigating",
