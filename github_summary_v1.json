@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-02T09:59:09.290Z"
+    "updated_at": "2021-06-02T14:23:41.780Z"
   },
   "components": [
     {
@@ -145,6 +145,60 @@
   ],
   "incidents": [],
   "scheduled_maintenances": [
+    {
+      "id": "wh3yy9v46929",
+      "name": "GitHub Container Registry in read-only mode",
+      "status": "scheduled",
+      "created_at": "2021-06-02T14:20:22.439Z",
+      "updated_at": "2021-06-02T14:20:22.487Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/rl1vn8dszh3b",
+      "started_at": "2021-06-02T14:20:22.435Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "b3zz492f16f1",
+          "status": "scheduled",
+          "body": "GitHub will be performing scheduled maintenance on GitHub Container Registry (ghcr.io). During this time GitHub Container Registry will be put in Read Only mode. This means that docker pull commands will continue to work, however docker push commands to the GitHub Container Registry will be denied during this period.",
+          "incident_id": "wh3yy9v46929",
+          "created_at": "2021-06-02T14:20:22.485Z",
+          "updated_at": "2021-06-02T14:20:22.485Z",
+          "display_at": "2021-06-02T14:20:22.485Z",
+          "affected_components": [
+            {
+              "code": "st3j38cctv9l",
+              "name": "GitHub Packages",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "st3j38cctv9l",
+          "name": "GitHub Packages",
+          "status": "operational",
+          "created_at": "2019-11-13T18:02:40.064Z",
+          "updated_at": "2021-06-02T09:29:11.087Z",
+          "position": 8,
+          "description": "API requests and webhook delivery for GitHub Packages",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-06-05T16:00:00.000Z",
+      "scheduled_until": "2021-06-05T17:30:00.000Z"
+    },
     {
       "id": "d5l3bkvh9ttf",
       "name": "Sunsetting API Authentication via Query Parameters, and the OAuth Applications API",
