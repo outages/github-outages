@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-05T16:00:45.262Z"
+    "updated_at": "2021-06-05T17:30:29.915Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "GitHub Packages",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2021-06-05T16:00:45.219Z",
+      "updated_at": "2021-06-05T17:30:29.854Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -198,97 +198,10 @@
       ],
       "scheduled_for": "2021-06-09T14:00:00.000Z",
       "scheduled_until": "2021-06-10T14:00:00.000Z"
-    },
-    {
-      "id": "wh3yy9v46929",
-      "name": "GitHub Container Registry in read-only mode",
-      "status": "in_progress",
-      "created_at": "2021-06-02T14:20:22.439Z",
-      "updated_at": "2021-06-05T16:00:45.254Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/rl1vn8dszh3b",
-      "started_at": "2021-06-02T14:20:22.435Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "r957g3s0xjc9",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "wh3yy9v46929",
-          "created_at": "2021-06-05T16:00:45.251Z",
-          "updated_at": "2021-06-05T16:00:45.251Z",
-          "display_at": "2021-06-05T16:00:45.251Z",
-          "affected_components": [
-            {
-              "code": "st3j38cctv9l",
-              "name": "GitHub Packages",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "cmlg7wnxn6v6",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "wh3yy9v46929",
-          "created_at": "2021-06-05T15:00:30.906Z",
-          "updated_at": "2021-06-05T15:00:30.906Z",
-          "display_at": "2021-06-05T15:00:30.906Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "b3zz492f16f1",
-          "status": "scheduled",
-          "body": "GitHub will be performing scheduled maintenance on GitHub Container Registry (ghcr.io). During this time GitHub Container Registry will be put in Read Only mode. This means that docker pull commands will continue to work, however docker push commands to the GitHub Container Registry will be denied during this period.",
-          "incident_id": "wh3yy9v46929",
-          "created_at": "2021-06-02T14:20:22.485Z",
-          "updated_at": "2021-06-02T14:20:22.485Z",
-          "display_at": "2021-06-02T14:20:22.485Z",
-          "affected_components": [
-            {
-              "code": "st3j38cctv9l",
-              "name": "GitHub Packages",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "st3j38cctv9l",
-          "name": "GitHub Packages",
-          "status": "under_maintenance",
-          "created_at": "2019-11-13T18:02:40.064Z",
-          "updated_at": "2021-06-05T16:00:45.219Z",
-          "position": 8,
-          "description": "API requests and webhook delivery for GitHub Packages",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-06-05T16:00:00.000Z",
-      "scheduled_until": "2021-06-05T17:30:00.000Z"
     }
   ],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
