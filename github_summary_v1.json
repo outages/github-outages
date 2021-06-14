@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-14T10:34:52.547Z"
+    "updated_at": "2021-06-14T10:53:51.943Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2021-06-14T10:32:41.456Z",
+      "updated_at": "2021-06-14T10:53:49.314Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2021-06-14T10:32:42.655Z",
+      "updated_at": "2021-06-14T10:53:51.941Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "GitHub Packages",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2021-06-14T10:34:52.544Z",
+      "updated_at": "2021-06-14T10:53:50.479Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -143,97 +143,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "g9lqqdb8xhns",
-      "name": "Incident with Issues, GitHub Packages, and Pull Requests",
-      "status": "investigating",
-      "created_at": "2021-06-14T10:32:35.132Z",
-      "updated_at": "2021-06-14T10:34:49.566Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/97b5hcfytf9f",
-      "started_at": "2021-06-14T10:32:35.122Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "p3fv741rkpsq",
-          "status": "investigating",
-          "body": "GitHub Packages is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "g9lqqdb8xhns",
-          "created_at": "2021-06-14T10:34:49.563Z",
-          "updated_at": "2021-06-14T10:34:49.563Z",
-          "display_at": "2021-06-14T10:34:49.563Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "zsx1nglv4n0m",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Issues and Pull Requests.",
-          "incident_id": "g9lqqdb8xhns",
-          "created_at": "2021-06-14T10:32:35.181Z",
-          "updated_at": "2021-06-14T10:32:35.181Z",
-          "display_at": "2021-06-14T10:32:35.181Z",
-          "affected_components": [
-            {
-              "code": "kr09ddfgbfsf",
-              "name": "Issues",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hhtssxt0f5v2",
-          "name": "Pull Requests",
-          "status": "partial_outage",
-          "created_at": "2020-09-02T15:39:06.329Z",
-          "updated_at": "2021-06-14T10:32:42.655Z",
-          "position": 6,
-          "description": "Requests for Pull Requests on GitHub.com",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "kr09ddfgbfsf",
-          "name": "Issues",
-          "status": "partial_outage",
-          "created_at": "2017-01-31T20:01:46.638Z",
-          "updated_at": "2021-06-14T10:32:41.456Z",
-          "position": 5,
-          "description": "Requests for Issues on GitHub.com",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
