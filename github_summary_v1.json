@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-26T08:07:47.273Z"
+    "updated_at": "2021-06-29T07:14:25.334Z"
   },
   "components": [
     {
@@ -144,7 +144,62 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "6gpzw3mdnkwj",
+      "name": "Sunsetting API Authentication via Query Parameters, and the OAuth Applications API",
+      "status": "scheduled",
+      "created_at": "2021-06-29T07:14:25.286Z",
+      "updated_at": "2021-06-29T07:14:25.332Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/vrtrk0fyhy25",
+      "started_at": "2021-06-29T07:14:25.282Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "8309j5bg0z53",
+          "status": "scheduled",
+          "body": "We will be removing <a href=\"https://developer.github.com/changes/2020-02-10-deprecating-auth-through-query-param/\">API Authentication via Query Parameters</a> and <a href=\"https://developer.github.com/changes/2020-02-14-deprecating-oauth-app-endpoint\">OAuth Application API</a> during these hours as part of a planned deprecation cycle. For more information, please read our <a href=\"https://github.blog/changelog/2021-04-19-sunsetting-api-authentication-via-query-parameters-and-the-oauth-applications-api/\">blog post</a>.",
+          "incident_id": "6gpzw3mdnkwj",
+          "created_at": "2021-06-29T07:14:25.330Z",
+          "updated_at": "2021-06-29T07:14:25.330Z",
+          "display_at": "2021-06-29T07:14:25.330Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "brv1bkgrwx7q",
+          "name": "API Requests",
+          "status": "operational",
+          "created_at": "2017-01-31T20:01:46.621Z",
+          "updated_at": "2021-06-10T14:00:29.517Z",
+          "position": 2,
+          "description": "Requests for GitHub APIs",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-08-11T14:00:00.000Z",
+      "scheduled_until": "2021-08-13T14:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
