@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-29T20:29:34.573Z"
+    "updated_at": "2021-07-29T20:45:18.957Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "GitHub Actions",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2021-06-21T08:12:04.443Z",
+      "updated_at": "2021-07-29T20:45:18.953Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -146,10 +146,10 @@
   "incidents": [
     {
       "id": "8qy34dmg4kdm",
-      "name": "Incident with Webhooks",
+      "name": "Incident with GitHub Actions and Webhooks",
       "status": "investigating",
       "created_at": "2021-07-29T20:29:27.043Z",
-      "updated_at": "2021-07-29T20:29:34.594Z",
+      "updated_at": "2021-07-29T20:45:15.539Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -157,6 +157,19 @@
       "started_at": "2021-07-29T20:29:27.034Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "lpnd649sbfcy",
+          "status": "investigating",
+          "body": "GitHub Actions is experiencing degraded performance. We are still investigating and will provide an update when we have one.",
+          "incident_id": "8qy34dmg4kdm",
+          "created_at": "2021-07-29T20:45:15.536Z",
+          "updated_at": "2021-07-29T20:45:15.536Z",
+          "display_at": "2021-07-29T20:45:15.536Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "ql600p3hvgls",
           "status": "investigating",
