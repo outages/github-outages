@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-25T18:38:39.670Z"
+    "updated_at": "2021-08-25T19:02:22.081Z"
   },
   "components": [
     {
@@ -164,7 +164,7 @@
       "name": "Incident with GitHub Pages",
       "status": "investigating",
       "created_at": "2021-08-25T18:38:37.103Z",
-      "updated_at": "2021-08-25T18:38:39.713Z",
+      "updated_at": "2021-08-25T19:02:22.068Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -172,6 +172,19 @@
       "started_at": "2021-08-25T18:38:37.095Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "rr6ksxw1tyjt",
+          "status": "investigating",
+          "body": "We're currently investigating issues creating HTTPS certificates for GitHub Pages with custom domains.",
+          "incident_id": "4my29vphhm7m",
+          "created_at": "2021-08-25T19:02:22.065Z",
+          "updated_at": "2021-08-25T19:02:22.065Z",
+          "display_at": "2021-08-25T19:02:22.065Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "4t7bp6pxk8y3",
           "status": "investigating",
