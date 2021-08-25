@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-23T15:23:35.914Z"
+    "updated_at": "2021-08-25T18:38:39.670Z"
   },
   "components": [
     {
@@ -130,9 +130,9 @@
     {
       "id": "vg70hn9s2tyj",
       "name": "GitHub Pages",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2021-08-10T16:33:55.782Z",
+      "updated_at": "2021-08-25T18:38:39.659Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": false,
@@ -158,10 +158,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "4my29vphhm7m",
+      "name": "Incident with GitHub Pages",
+      "status": "investigating",
+      "created_at": "2021-08-25T18:38:37.103Z",
+      "updated_at": "2021-08-25T18:38:39.713Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/5n5dj6dbb628",
+      "started_at": "2021-08-25T18:38:37.095Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "4t7bp6pxk8y3",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for GitHub Pages.",
+          "incident_id": "4my29vphhm7m",
+          "created_at": "2021-08-25T18:38:37.157Z",
+          "updated_at": "2021-08-25T18:38:37.157Z",
+          "display_at": "2021-08-25T18:38:37.157Z",
+          "affected_components": [
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "GitHub Pages",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "vg70hn9s2tyj",
+          "name": "GitHub Pages",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:04:33.923Z",
+          "updated_at": "2021-08-25T18:38:39.659Z",
+          "position": 9,
+          "description": "Frontend application and API servers for Pages builds",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
