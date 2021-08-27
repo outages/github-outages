@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-27T03:23:41.360Z"
+    "updated_at": "2021-08-27T12:26:18.196Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "GitHub Packages",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2021-08-27T03:19:01.995Z",
+      "updated_at": "2021-08-27T12:26:18.193Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -158,10 +158,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "wsh4dvm6x81k",
+      "name": "Incident with GitHub Packages",
+      "status": "investigating",
+      "created_at": "2021-08-27T12:25:57.258Z",
+      "updated_at": "2021-08-27T12:26:18.220Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/6n361rgfqbbf",
+      "started_at": "2021-08-27T12:25:57.244Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "3z8bg0s7c04n",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for GitHub Packages.",
+          "incident_id": "wsh4dvm6x81k",
+          "created_at": "2021-08-27T12:25:57.322Z",
+          "updated_at": "2021-08-27T12:25:57.322Z",
+          "display_at": "2021-08-27T12:25:57.322Z",
+          "affected_components": [
+            {
+              "code": "st3j38cctv9l",
+              "name": "GitHub Packages",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "st3j38cctv9l",
+          "name": "GitHub Packages",
+          "status": "partial_outage",
+          "created_at": "2019-11-13T18:02:40.064Z",
+          "updated_at": "2021-08-27T12:26:18.193Z",
+          "position": 8,
+          "description": "API requests and webhook delivery for GitHub Packages",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
