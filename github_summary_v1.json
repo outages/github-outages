@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-14T08:04:29.326Z"
+    "updated_at": "2021-09-15T05:37:00.632Z"
   },
   "components": [
     {
@@ -40,9 +40,9 @@
     {
       "id": "4230lsnqdsld",
       "name": "Webhooks",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:00:24.256Z",
-      "updated_at": "2021-08-10T16:57:38.769Z",
+      "updated_at": "2021-09-15T05:35:27.130Z",
       "position": 3,
       "description": "Real time HTTP callbacks of user-generated and system events",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "GitHub Packages",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2021-08-28T03:43:27.421Z",
+      "updated_at": "2021-09-15T05:37:00.629Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -158,10 +158,76 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "c63xqykh321z",
+      "name": "Incident with GitHub Packages and Webhooks",
+      "status": "investigating",
+      "created_at": "2021-09-15T05:35:12.096Z",
+      "updated_at": "2021-09-15T05:36:58.702Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/j0lwwhk7xqv3",
+      "started_at": "2021-09-15T05:35:12.086Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "gjrlxkw9qzvh",
+          "status": "investigating",
+          "body": "GitHub Packages is experiencing degraded performance. We are still investigating and will provide an update when we have one.",
+          "incident_id": "c63xqykh321z",
+          "created_at": "2021-09-15T05:36:58.699Z",
+          "updated_at": "2021-09-15T05:36:58.699Z",
+          "display_at": "2021-09-15T05:36:58.699Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "8kcs69k59q3g",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Webhooks.",
+          "incident_id": "c63xqykh321z",
+          "created_at": "2021-09-15T05:35:12.148Z",
+          "updated_at": "2021-09-15T05:35:12.148Z",
+          "display_at": "2021-09-15T05:35:12.148Z",
+          "affected_components": [
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "4230lsnqdsld",
+          "name": "Webhooks",
+          "status": "partial_outage",
+          "created_at": "2019-11-13T18:00:24.256Z",
+          "updated_at": "2021-09-15T05:35:27.130Z",
+          "position": 3,
+          "description": "Real time HTTP callbacks of user-generated and system events",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
