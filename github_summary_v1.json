@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-22T21:23:46.243Z"
+    "updated_at": "2021-09-23T00:57:51.916Z"
   },
   "components": [
     {
@@ -132,7 +132,7 @@
       "name": "GitHub Pages",
       "status": "operational",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2021-08-25T19:20:59.823Z",
+      "updated_at": "2021-09-23T00:57:51.913Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": false,
@@ -161,10 +161,10 @@
   "incidents": [
     {
       "id": "gptb0dcy01nj",
-      "name": "Incident with Codespaces",
+      "name": "Incident with Codespaces and GitHub Pages",
       "status": "investigating",
       "created_at": "2021-09-22T21:13:42.887Z",
-      "updated_at": "2021-09-22T21:13:48.141Z",
+      "updated_at": "2021-09-23T00:57:50.711Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -172,6 +172,32 @@
       "started_at": "2021-09-22T21:13:42.877Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "pg7vfvvbgnff",
+          "status": "investigating",
+          "body": "GitHub Pages is operating normally.",
+          "incident_id": "gptb0dcy01nj",
+          "created_at": "2021-09-23T00:57:50.709Z",
+          "updated_at": "2021-09-23T00:57:50.709Z",
+          "display_at": "2021-09-23T00:57:50.709Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "bqpcps3d8v2x",
+          "status": "investigating",
+          "body": "GitHub Pages is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "gptb0dcy01nj",
+          "created_at": "2021-09-23T00:48:24.091Z",
+          "updated_at": "2021-09-23T00:48:24.091Z",
+          "display_at": "2021-09-23T00:48:24.091Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "9cl85x8r7ydr",
           "status": "investigating",
