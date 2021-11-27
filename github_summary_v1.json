@@ -4,15 +4,15 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-27T08:05:32.345Z"
+    "updated_at": "2021-11-27T21:42:02.577Z"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2017-01-31T20:05:05.370Z",
-      "updated_at": "2021-10-05T15:10:25.334Z",
+      "updated_at": "2021-11-27T20:49:13.340Z",
       "position": 1,
       "description": "Performance of git clones, pulls, pushes, and associated operations",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2021-08-13T14:00:29.803Z",
+      "updated_at": "2021-11-27T20:50:16.306Z",
       "position": 2,
       "description": "Requests for GitHub APIs",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "4230lsnqdsld",
       "name": "Webhooks",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:00:24.256Z",
-      "updated_at": "2021-10-21T16:03:21.292Z",
+      "updated_at": "2021-11-27T21:09:11.540Z",
       "position": 3,
       "description": "Real time HTTP callbacks of user-generated and system events",
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2021-11-22T13:41:01.170Z",
+      "updated_at": "2021-11-27T20:48:05.103Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2021-11-22T13:41:02.198Z",
+      "updated_at": "2021-11-27T20:48:05.770Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "GitHub Actions",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2021-11-04T18:54:24.420Z",
+      "updated_at": "2021-11-27T20:48:04.406Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "GitHub Packages",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2021-10-21T16:05:21.544Z",
+      "updated_at": "2021-11-27T20:48:40.074Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "vg70hn9s2tyj",
       "name": "GitHub Pages",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2021-10-21T16:02:18.029Z",
+      "updated_at": "2021-11-27T20:56:50.656Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2021-11-13T00:57:16.083Z",
+      "updated_at": "2021-11-27T21:42:02.574Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -158,10 +158,167 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "r5qrpp2f5fc0",
+      "name": "Incident with GitHub Actions, API Requests, Codespaces, Git Operations, Issues, GitHub Packages, GitHub Pages, Pull Requests, and Webhooks",
+      "status": "investigating",
+      "created_at": "2021-11-27T20:43:33.411Z",
+      "updated_at": "2021-11-27T21:42:00.956Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/4l1pjqbf4z1m",
+      "started_at": "2021-11-27T20:43:33.404Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "zv1m4bfcd1z3",
+          "status": "investigating",
+          "body": "Codespaces is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "r5qrpp2f5fc0",
+          "created_at": "2021-11-27T21:42:00.954Z",
+          "updated_at": "2021-11-27T21:42:00.954Z",
+          "display_at": "2021-11-27T21:42:00.954Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "ddr59zvtjgfg",
+          "status": "investigating",
+          "body": "Webhooks is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "r5qrpp2f5fc0",
+          "created_at": "2021-11-27T21:09:09.073Z",
+          "updated_at": "2021-11-27T21:09:09.073Z",
+          "display_at": "2021-11-27T21:09:09.073Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "wz0dlvg2sjv1",
+          "status": "investigating",
+          "body": "GitHub Pages is experiencing degraded performance. We are still investigating and will provide an update when we have one.",
+          "incident_id": "r5qrpp2f5fc0",
+          "created_at": "2021-11-27T20:56:47.984Z",
+          "updated_at": "2021-11-27T20:56:47.984Z",
+          "display_at": "2021-11-27T20:56:47.984Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "vdtgszw0n1xt",
+          "status": "investigating",
+          "body": "We're investigating errors affecting most GitHub services. We're actively investigating and will provide an update as soon as possible.",
+          "incident_id": "r5qrpp2f5fc0",
+          "created_at": "2021-11-27T20:55:43.159Z",
+          "updated_at": "2021-11-27T20:55:43.159Z",
+          "display_at": "2021-11-27T20:55:43.159Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "c6xmy4mrfdwm",
+          "status": "investigating",
+          "body": "API Requests is experiencing degraded availability. We are still investigating and will provide an update when we have one.",
+          "incident_id": "r5qrpp2f5fc0",
+          "created_at": "2021-11-27T20:50:14.596Z",
+          "updated_at": "2021-11-27T20:50:14.596Z",
+          "display_at": "2021-11-27T20:50:14.596Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "lm8c8wxkqclt",
+          "status": "investigating",
+          "body": "Git Operations is experiencing degraded availability. We are still investigating and will provide an update when we have one.",
+          "incident_id": "r5qrpp2f5fc0",
+          "created_at": "2021-11-27T20:49:11.351Z",
+          "updated_at": "2021-11-27T20:49:11.351Z",
+          "display_at": "2021-11-27T20:49:11.351Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "38mhp2x737dq",
+          "status": "investigating",
+          "body": "GitHub Packages is experiencing degraded availability. We are still investigating and will provide an update when we have one.",
+          "incident_id": "r5qrpp2f5fc0",
+          "created_at": "2021-11-27T20:48:38.127Z",
+          "updated_at": "2021-11-27T20:48:38.127Z",
+          "display_at": "2021-11-27T20:48:38.127Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "tx2fzwmgjy3h",
+          "status": "investigating",
+          "body": "GitHub Actions, Issues, and Pull Requests are experiencing degraded availability. We are still investigating and will provide an update when we have one.",
+          "incident_id": "r5qrpp2f5fc0",
+          "created_at": "2021-11-27T20:47:59.899Z",
+          "updated_at": "2021-11-27T20:47:59.899Z",
+          "display_at": "2021-11-27T20:47:59.899Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "622lv7gj3vs9",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for GitHub Actions.",
+          "incident_id": "r5qrpp2f5fc0",
+          "created_at": "2021-11-27T20:43:33.448Z",
+          "updated_at": "2021-11-27T20:43:33.448Z",
+          "display_at": "2021-11-27T20:43:33.448Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "GitHub Actions",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "br0l2tvcx85d",
+          "name": "GitHub Actions",
+          "status": "major_outage",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2021-11-27T20:48:04.406Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
