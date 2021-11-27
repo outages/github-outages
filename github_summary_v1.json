@@ -4,15 +4,15 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-27T21:42:02.577Z"
+    "updated_at": "2021-11-27T23:15:16.038Z"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
-      "status": "major_outage",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:05:05.370Z",
-      "updated_at": "2021-11-27T20:49:13.340Z",
+      "updated_at": "2021-11-27T23:15:13.921Z",
       "position": 1,
       "description": "Performance of git clones, pulls, pushes, and associated operations",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "major_outage",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2021-11-27T20:50:16.306Z",
+      "updated_at": "2021-11-27T23:15:12.788Z",
       "position": 2,
       "description": "Requests for GitHub APIs",
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "major_outage",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2021-11-27T20:48:05.103Z",
+      "updated_at": "2021-11-27T23:15:14.690Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "major_outage",
+      "status": "partial_outage",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2021-11-27T20:48:05.770Z",
+      "updated_at": "2021-11-27T23:15:16.035Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "GitHub Actions",
-      "status": "major_outage",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2021-11-27T20:48:04.406Z",
+      "updated_at": "2021-11-27T23:15:12.013Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "GitHub Packages",
-      "status": "major_outage",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2021-11-27T20:48:40.074Z",
+      "updated_at": "2021-11-27T23:15:15.462Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "major_outage",
+      "status": "partial_outage",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2021-11-27T21:42:02.574Z",
+      "updated_at": "2021-11-27T23:15:13.407Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -164,7 +164,7 @@
       "name": "Incident with GitHub Actions, API Requests, Codespaces, Git Operations, Issues, GitHub Packages, GitHub Pages, Pull Requests, and Webhooks",
       "status": "investigating",
       "created_at": "2021-11-27T20:43:33.411Z",
-      "updated_at": "2021-11-27T21:42:00.956Z",
+      "updated_at": "2021-11-27T23:15:10.682Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -172,6 +172,32 @@
       "started_at": "2021-11-27T20:43:33.404Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "h7w7jz6cs25w",
+          "status": "investigating",
+          "body": "GitHub Actions, API Requests, Codespaces, Git Operations, Issues, GitHub Packages, and Pull Requests are now experiencing degraded performance. We are still investigating and will provide an update when we have one.",
+          "incident_id": "r5qrpp2f5fc0",
+          "created_at": "2021-11-27T23:15:10.678Z",
+          "updated_at": "2021-11-27T23:15:10.678Z",
+          "display_at": "2021-11-27T23:15:10.678Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "7sjlzdhwhdks",
+          "status": "investigating",
+          "body": "We identified the cause of the problem and are working on remediation.",
+          "incident_id": "r5qrpp2f5fc0",
+          "created_at": "2021-11-27T22:59:12.738Z",
+          "updated_at": "2021-11-27T22:59:12.738Z",
+          "display_at": "2021-11-27T22:59:12.738Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "zv1m4bfcd1z3",
           "status": "investigating",
@@ -301,9 +327,9 @@
         {
           "id": "br0l2tvcx85d",
           "name": "GitHub Actions",
-          "status": "major_outage",
+          "status": "partial_outage",
           "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2021-11-27T20:48:04.406Z",
+          "updated_at": "2021-11-27T23:15:12.013Z",
           "position": 7,
           "description": "Workflows, Compute and Orchestration for GitHub Actions",
           "showcase": false,
@@ -318,7 +344,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
