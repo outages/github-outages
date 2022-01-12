@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-01-11T15:56:49.102Z"
+    "updated_at": "2022-01-12T03:16:46.269Z"
   },
   "components": [
     {
@@ -102,7 +102,7 @@
       "name": "GitHub Actions",
       "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2021-12-27T16:50:09.247Z",
+      "updated_at": "2022-01-12T03:16:46.266Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -132,7 +132,7 @@
       "name": "GitHub Pages",
       "status": "operational",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2022-01-05T19:37:44.886Z",
+      "updated_at": "2022-01-12T03:15:44.122Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": false,
