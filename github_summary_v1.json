@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-02T19:26:55.440Z"
+    "updated_at": "2022-02-02T19:34:39.104Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2022-02-02T19:26:54.645Z",
+      "updated_at": "2022-02-02T19:34:39.102Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2022-02-02T19:26:55.438Z",
+      "updated_at": "2022-02-02T19:34:13.502Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "GitHub Actions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2022-02-02T19:17:20.600Z",
+      "updated_at": "2022-02-02T19:32:08.500Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2022-02-02T19:19:46.129Z",
+      "updated_at": "2022-02-02T19:33:10.218Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -158,157 +158,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "fz1bdbw24y81",
-      "name": "Incident with GitHub Actions, Codespaces, Issues, and Pull Requests",
-      "status": "investigating",
-      "created_at": "2022-02-02T19:12:59.321Z",
-      "updated_at": "2022-02-02T19:26:53.194Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/b7xjn8l65s1v",
-      "started_at": "2022-02-02T19:12:59.313Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "pyx8fckxgkzm",
-          "status": "investigating",
-          "body": "Issues and Pull Requests are now experiencing degraded performance. We are still investigating and will provide an update when we have one.",
-          "incident_id": "fz1bdbw24y81",
-          "created_at": "2022-02-02T19:26:53.191Z",
-          "updated_at": "2022-02-02T19:26:53.191Z",
-          "display_at": "2022-02-02T19:26:53.191Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "kml9zws5dy5g",
-          "status": "investigating",
-          "body": "Codespaces is experiencing degraded performance. We are still investigating and will provide an update when we have one.",
-          "incident_id": "fz1bdbw24y81",
-          "created_at": "2022-02-02T19:19:43.050Z",
-          "updated_at": "2022-02-02T19:19:43.050Z",
-          "display_at": "2022-02-02T19:19:43.050Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "x82lzygwym6k",
-          "status": "investigating",
-          "body": "GitHub Actions is now experiencing degraded performance. We are still investigating and will provide an update when we have one.",
-          "incident_id": "fz1bdbw24y81",
-          "created_at": "2022-02-02T19:17:18.686Z",
-          "updated_at": "2022-02-02T19:17:18.686Z",
-          "display_at": "2022-02-02T19:17:18.686Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "n4r8wnftmnhq",
-          "status": "investigating",
-          "body": "GitHub Actions, Issues, and Pull Requests are now experiencing degraded availability. We are continuing to investigate.",
-          "incident_id": "fz1bdbw24y81",
-          "created_at": "2022-02-02T19:14:42.418Z",
-          "updated_at": "2022-02-02T19:14:42.418Z",
-          "display_at": "2022-02-02T19:14:42.418Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "g6j019cjdfbq",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for GitHub Actions, Issues, and Pull Requests.",
-          "incident_id": "fz1bdbw24y81",
-          "created_at": "2022-02-02T19:12:59.381Z",
-          "updated_at": "2022-02-02T19:12:59.381Z",
-          "display_at": "2022-02-02T19:12:59.381Z",
-          "affected_components": [
-            {
-              "code": "kr09ddfgbfsf",
-              "name": "Issues",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "br0l2tvcx85d",
-              "name": "GitHub Actions",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "kr09ddfgbfsf",
-          "name": "Issues",
-          "status": "partial_outage",
-          "created_at": "2017-01-31T20:01:46.638Z",
-          "updated_at": "2022-02-02T19:26:54.645Z",
-          "position": 5,
-          "description": "Requests for Issues on GitHub.com",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hhtssxt0f5v2",
-          "name": "Pull Requests",
-          "status": "partial_outage",
-          "created_at": "2020-09-02T15:39:06.329Z",
-          "updated_at": "2022-02-02T19:26:55.438Z",
-          "position": 6,
-          "description": "Requests for Pull Requests on GitHub.com",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "br0l2tvcx85d",
-          "name": "GitHub Actions",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2022-02-02T19:17:20.600Z",
-          "position": 7,
-          "description": "Workflows, Compute and Orchestration for GitHub Actions",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
