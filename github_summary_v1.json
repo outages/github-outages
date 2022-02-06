@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-05T23:38:44.892Z"
+    "updated_at": "2022-02-06T02:01:31.824Z"
   },
   "components": [
     {
@@ -40,9 +40,9 @@
     {
       "id": "4230lsnqdsld",
       "name": "Webhooks",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:00:24.256Z",
-      "updated_at": "2022-02-05T22:18:31.443Z",
+      "updated_at": "2022-02-06T01:41:20.874Z",
       "position": 3,
       "description": "Real time HTTP callbacks of user-generated and system events",
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "GitHub Actions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2022-02-05T22:25:32.308Z",
+      "updated_at": "2022-02-06T02:01:31.822Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "vg70hn9s2tyj",
       "name": "GitHub Pages",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2022-02-05T23:38:44.888Z",
+      "updated_at": "2022-02-06T01:33:34.437Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": false,
@@ -158,89 +158,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "vvthhf8gxt80",
-      "name": "Incident with GitHub Actions, GitHub Pages, and Webhooks",
-      "status": "investigating",
-      "created_at": "2022-02-05T22:18:24.568Z",
-      "updated_at": "2022-02-05T23:38:42.711Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/0s9sbhvrhw1v",
-      "started_at": "2022-02-05T22:18:24.560Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "2m5z70vx9x4l",
-          "status": "investigating",
-          "body": "GitHub Pages is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "vvthhf8gxt80",
-          "created_at": "2022-02-05T23:38:42.708Z",
-          "updated_at": "2022-02-05T23:38:42.708Z",
-          "display_at": "2022-02-05T23:38:42.708Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "dxbcpqy1rnt0",
-          "status": "investigating",
-          "body": "GitHub Actions is experiencing degraded performance. We are still investigating and will provide an update when we have one.",
-          "incident_id": "vvthhf8gxt80",
-          "created_at": "2022-02-05T22:25:30.070Z",
-          "updated_at": "2022-02-05T22:25:30.070Z",
-          "display_at": "2022-02-05T22:25:30.070Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "s9py5mz8sy0d",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Webhooks.",
-          "incident_id": "vvthhf8gxt80",
-          "created_at": "2022-02-05T22:18:24.627Z",
-          "updated_at": "2022-02-05T22:18:24.627Z",
-          "display_at": "2022-02-05T22:18:24.627Z",
-          "affected_components": [
-            {
-              "code": "4230lsnqdsld",
-              "name": "Webhooks",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4230lsnqdsld",
-          "name": "Webhooks",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:00:24.256Z",
-          "updated_at": "2022-02-05T22:18:31.443Z",
-          "position": 3,
-          "description": "Real time HTTP callbacks of user-generated and system events",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
