@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-22T17:08:35.938Z"
+    "updated_at": "2022-03-22T17:19:53.253Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2022-03-22T16:00:22.957Z",
+      "updated_at": "2022-03-22T17:19:53.250Z",
       "position": 2,
       "description": "Requests for GitHub APIs",
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2022-03-22T15:53:18.553Z",
+      "updated_at": "2022-03-22T17:14:02.448Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": false,
@@ -164,7 +164,7 @@
       "name": "Incident with GitHub Actions, API Requests, Codespaces, Git Operations, Issues, GitHub Packages, GitHub Pages, Pull Requests, and Webhooks",
       "status": "investigating",
       "created_at": "2022-03-22T15:53:08.504Z",
-      "updated_at": "2022-03-22T17:08:34.667Z",
+      "updated_at": "2022-03-22T17:19:52.124Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -172,6 +172,32 @@
       "started_at": "2022-03-22T15:53:08.497Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "ty2sl1lvdwh8",
+          "status": "investigating",
+          "body": "API Requests is operating normally.",
+          "incident_id": "83lq7ftk19r5",
+          "created_at": "2022-03-22T17:19:52.121Z",
+          "updated_at": "2022-03-22T17:19:52.121Z",
+          "display_at": "2022-03-22T17:19:52.121Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "9s89vc08kl7q",
+          "status": "investigating",
+          "body": "Issues is operating normally.",
+          "incident_id": "83lq7ftk19r5",
+          "created_at": "2022-03-22T17:14:01.136Z",
+          "updated_at": "2022-03-22T17:14:01.136Z",
+          "display_at": "2022-03-22T17:14:01.136Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "h068ng2qb0g6",
           "status": "investigating",
@@ -379,9 +405,9 @@
         {
           "id": "kr09ddfgbfsf",
           "name": "Issues",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-01-31T20:01:46.638Z",
-          "updated_at": "2022-03-22T15:53:18.553Z",
+          "updated_at": "2022-03-22T17:14:02.448Z",
           "position": 5,
           "description": "Requests for Issues on GitHub.com",
           "showcase": false,
