@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-24T11:34:08.580Z"
+    "updated_at": "2022-03-24T12:02:33.986Z"
   },
   "components": [
     {
@@ -163,9 +163,9 @@
     {
       "id": "flf8c4lvch31",
       "name": "Migrations to GitHub are Paused",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2022-03-24T10:39:09.937Z",
-      "updated_at": "2022-03-24T10:39:09.998Z",
+      "updated_at": "2022-03-24T12:02:33.969Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -173,6 +173,19 @@
       "started_at": "2022-03-24T10:39:09.932Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "sb61jht10js9",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "flf8c4lvch31",
+          "created_at": "2022-03-24T12:02:33.965Z",
+          "updated_at": "2022-03-24T12:02:33.965Z",
+          "display_at": "2022-03-24T12:02:33.965Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "0n2d45mqfcdm",
           "status": "scheduled",
