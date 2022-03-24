@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-24T18:11:47.832Z"
+    "updated_at": "2022-03-24T19:11:11.381Z"
   },
   "components": [
     {
@@ -161,65 +161,26 @@
   "incidents": [],
   "scheduled_maintenances": [
     {
-      "id": "flf8c4lvch31",
+      "id": "cz2k50kvfwsw",
       "name": "Migrations to GitHub are Paused",
-      "status": "in_progress",
-      "created_at": "2022-03-24T10:39:09.937Z",
-      "updated_at": "2022-03-24T17:37:15.346Z",
+      "status": "scheduled",
+      "created_at": "2022-03-24T19:10:08.289Z",
+      "updated_at": "2022-03-24T19:10:08.333Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
-      "shortlink": "https://stspg.io/v3m3srgnnmmq",
-      "started_at": "2022-03-24T10:39:09.932Z",
+      "shortlink": "https://stspg.io/mwzymgzw5wp7",
+      "started_at": "2022-03-24T19:10:08.285Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
         {
-          "id": "kzwb0thm1y84",
-          "status": "in_progress",
-          "body": "Our proactive pause of migrations to GitHub is being extended to 20:30 UTC as we continue to reduce load on mySQL1. We will provide updates as necessary.",
-          "incident_id": "flf8c4lvch31",
-          "created_at": "2022-03-24T17:37:15.343Z",
-          "updated_at": "2022-03-24T17:37:15.343Z",
-          "display_at": "2022-03-24T17:37:15.343Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "v1gck3bq40dv",
-          "status": "in_progress",
-          "body": "Our proactive pause of migrations to GitHub is being extended to 18:30 UTC as we continue to reduce load on mySQL1. We will provide updates as necessary.",
-          "incident_id": "flf8c4lvch31",
-          "created_at": "2022-03-24T16:06:38.900Z",
-          "updated_at": "2022-03-24T16:06:38.900Z",
-          "display_at": "2022-03-24T16:06:38.900Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "sb61jht10js9",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "flf8c4lvch31",
-          "created_at": "2022-03-24T12:02:33.965Z",
-          "updated_at": "2022-03-24T12:02:33.965Z",
-          "display_at": "2022-03-24T12:02:33.965Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "0n2d45mqfcdm",
+          "id": "cmh9tznnhfdn",
           "status": "scheduled",
-          "body": "Migrations to GitHub will proactively be paused to reduce mySQL1 load from 12:00 - 16:30 UTC on Thursday, March 24th",
-          "incident_id": "flf8c4lvch31",
-          "created_at": "2022-03-24T10:39:09.994Z",
-          "updated_at": "2022-03-24T10:39:09.994Z",
-          "display_at": "2022-03-24T10:39:09.994Z",
+          "body": "Migrations to GitHub will proactively be paused on Friday, March 25th from 12:00 to 16:30 UTC to reduce mySQL1 load.",
+          "incident_id": "cz2k50kvfwsw",
+          "created_at": "2022-03-24T19:10:08.330Z",
+          "updated_at": "2022-03-24T19:10:08.330Z",
+          "display_at": "2022-03-24T19:10:08.330Z",
           "affected_components": null,
           "deliver_notifications": false,
           "custom_tweet": null,
@@ -227,8 +188,39 @@
         }
       ],
       "components": [],
-      "scheduled_for": "2022-03-24T12:00:00.000Z",
-      "scheduled_until": "2022-03-24T20:30:00.000Z"
+      "scheduled_for": "2022-03-25T12:00:00.000Z",
+      "scheduled_until": "2022-03-25T16:30:00.000Z"
+    },
+    {
+      "id": "n2vqnsg14tw2",
+      "name": "Migrations to GitHub are Paused",
+      "status": "scheduled",
+      "created_at": "2022-03-24T19:11:11.343Z",
+      "updated_at": "2022-03-24T19:11:11.379Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/0sbybcwhh1kh",
+      "started_at": "2022-03-24T19:11:11.340Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "2347r7zr11nc",
+          "status": "scheduled",
+          "body": "Migrations to GitHub will proactively be paused on Monday, March 28th from 12:00 to 16:30 UTC to reduce mySQL1 load.",
+          "incident_id": "n2vqnsg14tw2",
+          "created_at": "2022-03-24T19:11:11.376Z",
+          "updated_at": "2022-03-24T19:11:11.376Z",
+          "display_at": "2022-03-24T19:11:11.376Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "scheduled_for": "2022-03-28T12:00:00.000Z",
+      "scheduled_until": "2022-03-28T16:30:00.000Z"
     }
   ],
   "status": {
