@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-25T19:54:33.980Z"
+    "updated_at": "2022-03-26T02:33:36.930Z"
   },
   "components": [
     {
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2022-03-23T15:14:02.659Z",
+      "updated_at": "2022-03-26T01:43:17.768Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -158,7 +158,86 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "5jfkz8q1mlql",
+      "name": "Incident with Codespaces",
+      "status": "investigating",
+      "created_at": "2022-03-26T01:43:14.826Z",
+      "updated_at": "2022-03-26T02:20:08.975Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/w9ft6thwxfyp",
+      "started_at": "2022-03-26T01:43:14.818Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "zr7t25nqcdkb",
+          "status": "investigating",
+          "body": "Follow these steps to change creation region: https://docs.github.com/en/codespaces/customizing-your-codespace/setting-your-default-region-for-codespaces. Restarts cannot be changed to another region.",
+          "incident_id": "5jfkz8q1mlql",
+          "created_at": "2022-03-26T02:20:08.972Z",
+          "updated_at": "2022-03-26T02:20:08.972Z",
+          "display_at": "2022-03-26T02:20:08.972Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "qxs0jxdz8z2f",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Codespaces in the following region:  WestEurope",
+          "incident_id": "5jfkz8q1mlql",
+          "created_at": "2022-03-26T01:44:01.738Z",
+          "updated_at": "2022-03-26T01:44:01.738Z",
+          "display_at": "2022-03-26T01:44:01.738Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "qqg30pp56vqw",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Codespaces.",
+          "incident_id": "5jfkz8q1mlql",
+          "created_at": "2022-03-26T01:43:14.872Z",
+          "updated_at": "2022-03-26T01:43:14.872Z",
+          "display_at": "2022-03-26T01:43:14.872Z",
+          "affected_components": [
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "h2ftsgbw7kmk",
+          "name": "Codespaces",
+          "status": "partial_outage",
+          "created_at": "2021-08-11T16:02:09.505Z",
+          "updated_at": "2022-03-26T01:43:17.768Z",
+          "position": 10,
+          "description": "Orchestration and Compute for GitHub Codespaces",
+          "showcase": false,
+          "start_date": "2021-08-11",
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "qdh0m7tdrh80",
@@ -278,7 +357,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
