@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-06T15:41:10.061Z"
+    "updated_at": "2022-04-06T16:37:35.978Z"
   },
   "components": [
     {
@@ -159,7 +159,62 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "xfd2x56328gl",
+      "name": "Scheduled Maintenance for GitHub Actions",
+      "status": "scheduled",
+      "created_at": "2022-04-06T16:37:35.909Z",
+      "updated_at": "2022-04-06T16:37:35.974Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/bj199s67tk96",
+      "started_at": "2022-04-06T16:37:35.903Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "881ldc9xwqt6",
+          "status": "scheduled",
+          "body": "Actions will be in a maintenance window from Friday, April 8th 23:00 to Saturday, April 9th 1:00 UTC as we migrate to a new database cluster. Starting jobs could be delayed during this timeframe. We will update our status with more details if there is notable impact. Our engineers will be working to minimize disruption as much as possible.",
+          "incident_id": "xfd2x56328gl",
+          "created_at": "2022-04-06T16:37:35.970Z",
+          "updated_at": "2022-04-06T16:37:35.970Z",
+          "display_at": "2022-04-06T16:37:35.970Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "GitHub Actions",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "br0l2tvcx85d",
+          "name": "GitHub Actions",
+          "status": "operational",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2022-03-30T19:20:08.845Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2022-04-08T23:00:00.000Z",
+      "scheduled_until": "2022-04-09T01:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
