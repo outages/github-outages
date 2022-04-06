@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-06T12:49:17.034Z"
+    "updated_at": "2022-04-06T15:41:10.061Z"
   },
   "components": [
     {
@@ -132,7 +132,7 @@
       "name": "GitHub Pages",
       "status": "operational",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2022-03-28T20:09:50.217Z",
+      "updated_at": "2022-04-06T15:34:41.835Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": false,
