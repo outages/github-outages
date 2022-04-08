@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-08T22:00:23.436Z"
+    "updated_at": "2022-04-08T23:01:14.959Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "GitHub Actions",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2022-03-30T19:20:08.845Z",
+      "updated_at": "2022-04-08T23:01:14.896Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -163,9 +163,9 @@
     {
       "id": "xfd2x56328gl",
       "name": "Scheduled Maintenance for GitHub Actions",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2022-04-06T16:37:35.909Z",
-      "updated_at": "2022-04-08T22:00:23.415Z",
+      "updated_at": "2022-04-08T23:01:14.947Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -173,6 +173,26 @@
       "started_at": "2022-04-06T16:37:35.903Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "wmdb7dt7bbr1",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "xfd2x56328gl",
+          "created_at": "2022-04-08T23:01:14.942Z",
+          "updated_at": "2022-04-08T23:01:14.942Z",
+          "display_at": "2022-04-08T23:01:14.942Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "GitHub Actions",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "py3wk9m6kbr7",
           "status": "scheduled",
@@ -211,9 +231,9 @@
         {
           "id": "br0l2tvcx85d",
           "name": "GitHub Actions",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2022-03-30T19:20:08.845Z",
+          "updated_at": "2022-04-08T23:01:14.896Z",
           "position": 7,
           "description": "Workflows, Compute and Orchestration for GitHub Actions",
           "showcase": false,
@@ -229,7 +249,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
