@@ -4,10 +4,10 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-08T23:01:14.959Z"
+    "updated_at": "2022-04-09T01:00:23.533Z"
   },
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
