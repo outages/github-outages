@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-12T16:33:04.539Z"
+    "updated_at": "2022-04-12T17:02:37.321Z"
   },
   "components": [
     {
@@ -164,7 +164,7 @@
       "name": "Incident with GitHub Actions",
       "status": "investigating",
       "created_at": "2022-04-12T16:33:01.197Z",
-      "updated_at": "2022-04-12T16:33:04.556Z",
+      "updated_at": "2022-04-12T17:02:37.309Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -172,6 +172,19 @@
       "started_at": "2022-04-12T16:33:01.189Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "qmfq1cfjg14g",
+          "status": "investigating",
+          "body": "GitHub Actions is experiencing capacity constraints with hosted macos-11 and macos-latest, leading to high wait times. Hosted Windows, hosted Linux, and self-hosted runners are not impacted.",
+          "incident_id": "p5zql65p615b",
+          "created_at": "2022-04-12T17:02:37.307Z",
+          "updated_at": "2022-04-12T17:02:37.307Z",
+          "display_at": "2022-04-12T17:02:37.307Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "mfrfw3hyx0md",
           "status": "investigating",
