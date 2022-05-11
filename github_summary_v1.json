@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-11T15:38:20.928Z"
+    "updated_at": "2022-05-11T16:23:41.710Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2022-03-23T15:09:18.057Z",
+      "updated_at": "2022-05-11T15:55:17.899Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -158,10 +158,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "d1stj7xcn4fy",
+      "name": "Incident with Pull Requests",
+      "status": "investigating",
+      "created_at": "2022-05-11T15:55:10.472Z",
+      "updated_at": "2022-05-11T15:55:17.918Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/0j491s8pjgyn",
+      "started_at": "2022-05-11T15:55:10.461Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "st2yfzxdqxw9",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Pull Requests.",
+          "incident_id": "d1stj7xcn4fy",
+          "created_at": "2022-05-11T15:55:10.529Z",
+          "updated_at": "2022-05-11T15:55:10.529Z",
+          "display_at": "2022-05-11T15:55:10.529Z",
+          "affected_components": [
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hhtssxt0f5v2",
+          "name": "Pull Requests",
+          "status": "partial_outage",
+          "created_at": "2020-09-02T15:39:06.329Z",
+          "updated_at": "2022-05-11T15:55:17.899Z",
+          "position": 6,
+          "description": "Requests for Pull Requests on GitHub.com",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
