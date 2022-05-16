@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-16T15:38:29.251Z"
+    "updated_at": "2022-05-16T21:00:33.474Z"
   },
   "components": [
     {
@@ -159,52 +159,7 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "rw3k5dz04rqj",
-      "name": "Insights charts maintenance",
-      "status": "in_progress",
-      "created_at": "2022-05-12T21:11:09.752Z",
-      "updated_at": "2022-05-12T21:12:40.873Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/35621n3ytxj3",
-      "started_at": "2022-05-12T21:11:09.748Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "9qy679gm7ygg",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "rw3k5dz04rqj",
-          "created_at": "2022-05-12T21:12:40.870Z",
-          "updated_at": "2022-05-12T21:12:40.870Z",
-          "display_at": "2022-05-12T21:12:40.870Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "2nn51hc927nb",
-          "status": "scheduled",
-          "body": "GitHub is performing maintenance on the database backing repository and organization Insights charts - once the maintenance is completed, all charts will resume updating.",
-          "incident_id": "rw3k5dz04rqj",
-          "created_at": "2022-05-12T21:11:09.789Z",
-          "updated_at": "2022-05-12T21:11:09.789Z",
-          "display_at": "2022-05-12T21:11:09.789Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "scheduled_for": "2022-05-12T21:12:00.000Z",
-      "scheduled_until": "2022-05-16T21:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
