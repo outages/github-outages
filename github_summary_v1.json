@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-20T09:46:58.168Z"
+    "updated_at": "2022-05-20T10:23:42.088Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "GitHub Packages",
-      "status": "major_outage",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2022-05-20T09:46:58.165Z",
+      "updated_at": "2022-05-20T10:18:17.014Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -132,7 +132,7 @@
       "name": "GitHub Pages",
       "status": "operational",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2022-04-25T11:04:51.611Z",
+      "updated_at": "2022-05-20T10:18:28.464Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": false,
@@ -161,10 +161,10 @@
   "incidents": [
     {
       "id": "gcqz5grcs4z6",
-      "name": "Incident with GitHub Packages",
+      "name": "Incident with GitHub Packages and GitHub Pages",
       "status": "investigating",
       "created_at": "2022-05-20T09:44:37.913Z",
-      "updated_at": "2022-05-20T09:46:58.185Z",
+      "updated_at": "2022-05-20T10:18:27.387Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -172,6 +172,45 @@
       "started_at": "2022-05-20T09:44:37.904Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "gx8tz3h26t0d",
+          "status": "investigating",
+          "body": "GitHub Pages is operating normally.",
+          "incident_id": "gcqz5grcs4z6",
+          "created_at": "2022-05-20T10:18:27.385Z",
+          "updated_at": "2022-05-20T10:18:27.385Z",
+          "display_at": "2022-05-20T10:18:27.385Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "f7nl4spwzhz0",
+          "status": "investigating",
+          "body": "GitHub Packages is now experiencing degraded performance. We are still investigating and will provide an update when we have one.",
+          "incident_id": "gcqz5grcs4z6",
+          "created_at": "2022-05-20T10:18:15.638Z",
+          "updated_at": "2022-05-20T10:18:15.638Z",
+          "display_at": "2022-05-20T10:18:15.638Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "30kbdr2yhygg",
+          "status": "investigating",
+          "body": "GitHub Pages is experiencing degraded performance. We are still investigating and will provide an update when we have one.",
+          "incident_id": "gcqz5grcs4z6",
+          "created_at": "2022-05-20T10:09:09.580Z",
+          "updated_at": "2022-05-20T10:09:09.580Z",
+          "display_at": "2022-05-20T10:09:09.580Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "5mbqlhyrskwp",
           "status": "investigating",
@@ -210,9 +249,9 @@
         {
           "id": "st3j38cctv9l",
           "name": "GitHub Packages",
-          "status": "major_outage",
+          "status": "partial_outage",
           "created_at": "2019-11-13T18:02:40.064Z",
-          "updated_at": "2022-05-20T09:46:58.165Z",
+          "updated_at": "2022-05-20T10:18:17.014Z",
           "position": 8,
           "description": "API requests and webhook delivery for GitHub Packages",
           "showcase": false,
@@ -227,7 +266,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
