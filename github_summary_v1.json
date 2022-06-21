@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-21T10:41:08.211Z"
+    "updated_at": "2022-06-21T11:27:31.237Z"
   },
   "components": [
     {
@@ -164,7 +164,7 @@
       "name": "Incident with GitHub Actions",
       "status": "investigating",
       "created_at": "2022-06-21T08:55:46.229Z",
-      "updated_at": "2022-06-21T08:55:53.788Z",
+      "updated_at": "2022-06-21T11:27:31.225Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -172,6 +172,19 @@
       "started_at": "2022-06-21T08:55:46.221Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "tnz8fwg674nd",
+          "status": "investigating",
+          "body": "GitHub Actions is experiencing capacity constraints with hosted ubuntu, leading to high wait times. Other hosted labels and self-hosted runners are not impacted.",
+          "incident_id": "x4qbck5mz9xs",
+          "created_at": "2022-06-21T11:27:31.222Z",
+          "updated_at": "2022-06-21T11:27:31.222Z",
+          "display_at": "2022-06-21T11:27:31.222Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "1wy7tk1hdlcg",
           "status": "investigating",
