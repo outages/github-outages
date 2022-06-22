@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-22T12:43:30.911Z"
+    "updated_at": "2022-06-22T12:57:14.742Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "GitHub Packages",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2022-06-22T12:43:30.908Z",
+      "updated_at": "2022-06-22T12:51:56.979Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "vg70hn9s2tyj",
       "name": "GitHub Pages",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2022-06-22T12:12:47.763Z",
+      "updated_at": "2022-06-22T12:57:14.739Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": false,
@@ -173,76 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "10vm6ctn52gx",
-      "name": "Incident with GitHub Packages and GitHub Pages",
-      "status": "investigating",
-      "created_at": "2022-06-22T12:12:40.627Z",
-      "updated_at": "2022-06-22T12:43:28.863Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/ny351v65f99j",
-      "started_at": "2022-06-22T12:12:40.619Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "rf3g7qnglvq5",
-          "status": "investigating",
-          "body": "GitHub Packages is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "10vm6ctn52gx",
-          "created_at": "2022-06-22T12:43:28.861Z",
-          "updated_at": "2022-06-22T12:43:28.861Z",
-          "display_at": "2022-06-22T12:43:28.861Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "r7f2z94qmxm6",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for GitHub Pages.",
-          "incident_id": "10vm6ctn52gx",
-          "created_at": "2022-06-22T12:12:40.673Z",
-          "updated_at": "2022-06-22T12:12:40.673Z",
-          "display_at": "2022-06-22T12:12:40.673Z",
-          "affected_components": [
-            {
-              "code": "vg70hn9s2tyj",
-              "name": "GitHub Pages",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "vg70hn9s2tyj",
-          "name": "GitHub Pages",
-          "status": "partial_outage",
-          "created_at": "2017-01-31T20:04:33.923Z",
-          "updated_at": "2022-06-22T12:12:47.763Z",
-          "position": 9,
-          "description": "Frontend application and API servers for Pages builds",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
