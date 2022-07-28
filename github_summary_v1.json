@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-28T05:32:08.208Z"
+    "updated_at": "2022-07-28T06:24:48.238Z"
   },
   "components": [
     {
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2022-07-27T22:30:02.900Z",
+      "updated_at": "2022-07-28T06:24:48.235Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -173,232 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "7rghmvv5crq0",
-      "name": "Incident with Codespaces",
-      "status": "investigating",
-      "created_at": "2022-07-27T22:29:55.636Z",
-      "updated_at": "2022-07-28T05:32:08.194Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/83djfbtz9rs8",
-      "started_at": "2022-07-27T22:29:55.629Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "3hcpl1rl9fgs",
-          "status": "investigating",
-          "body": "We have identified an issue that impacts Codespaces customers in the West US 2 and East US regions. We are still working to mitigate the problem.",
-          "incident_id": "7rghmvv5crq0",
-          "created_at": "2022-07-28T05:32:08.191Z",
-          "updated_at": "2022-07-28T05:32:08.191Z",
-          "display_at": "2022-07-28T05:32:08.191Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "bshpg8nk19tp",
-          "status": "investigating",
-          "body": "We have identified an issue that impacts Codespaces customers in the East US region. We are still working to mitigate the problem.",
-          "incident_id": "7rghmvv5crq0",
-          "created_at": "2022-07-28T04:57:38.656Z",
-          "updated_at": "2022-07-28T04:57:38.656Z",
-          "display_at": "2022-07-28T04:57:38.656Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "gwjkdd20c6hm",
-          "status": "investigating",
-          "body": "We have identified an issue that impacts Codespaces customers in the East US region. We are working to mitigate the problem.",
-          "incident_id": "7rghmvv5crq0",
-          "created_at": "2022-07-28T04:21:45.061Z",
-          "updated_at": "2022-07-28T04:21:45.061Z",
-          "display_at": "2022-07-28T04:21:45.061Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "9x3lvgvbh6jj",
-          "status": "investigating",
-          "body": "We are working to mitigate an issue that impacts Codespaces customers in the East US region.",
-          "incident_id": "7rghmvv5crq0",
-          "created_at": "2022-07-28T03:49:06.116Z",
-          "updated_at": "2022-07-28T03:49:06.116Z",
-          "display_at": "2022-07-28T03:49:06.116Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "qh9637wp2rfz",
-          "status": "investigating",
-          "body": "We have resolved an issue that impacts Codespaces customers in the West US 2 region. We are continuing to mitigate the problem in the East US region.",
-          "incident_id": "7rghmvv5crq0",
-          "created_at": "2022-07-28T03:15:01.114Z",
-          "updated_at": "2022-07-28T03:15:01.114Z",
-          "display_at": "2022-07-28T03:15:01.114Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "ys8zswnpm6x0",
-          "status": "investigating",
-          "body": "We are working to mitigate an issue that impacts Codespaces customers in the West US 2 and East US regions. We will continue to keep you updated on progress.",
-          "incident_id": "7rghmvv5crq0",
-          "created_at": "2022-07-28T02:41:52.863Z",
-          "updated_at": "2022-07-28T02:41:52.863Z",
-          "display_at": "2022-07-28T02:41:52.863Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "gqmcs0tyrplk",
-          "status": "investigating",
-          "body": "We have identified an issue that impacts Codespaces customers in the West US 2 and East US regions. We will continue to keep you updated on progress as we attempt mitigation.",
-          "incident_id": "7rghmvv5crq0",
-          "created_at": "2022-07-28T02:00:33.839Z",
-          "updated_at": "2022-07-28T02:00:33.839Z",
-          "display_at": "2022-07-28T02:00:33.839Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "l74c7s61r70k",
-          "status": "investigating",
-          "body": "We're attempting to mitigate degraded performance for Codespaces in the West US 2 and East US regions.",
-          "incident_id": "7rghmvv5crq0",
-          "created_at": "2022-07-28T01:25:49.680Z",
-          "updated_at": "2022-07-28T01:25:49.680Z",
-          "display_at": "2022-07-28T01:25:49.680Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "mkqqd4wy10ws",
-          "status": "investigating",
-          "body": "We're attempting to mitigate degraded performance for Codespaces in the West US 2 and East US regions.",
-          "incident_id": "7rghmvv5crq0",
-          "created_at": "2022-07-28T00:51:49.477Z",
-          "updated_at": "2022-07-28T00:51:49.477Z",
-          "display_at": "2022-07-28T00:51:49.477Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "6y6ttssvhmg4",
-          "status": "investigating",
-          "body": "We are still investigating reports of degraded performance for Codespaces in the West US 2 and East US regions.",
-          "incident_id": "7rghmvv5crq0",
-          "created_at": "2022-07-28T00:14:00.827Z",
-          "updated_at": "2022-07-28T00:14:00.827Z",
-          "display_at": "2022-07-28T00:14:00.827Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "pzjyr9jv37yt",
-          "status": "investigating",
-          "body": "We are continuing to investigate reports of degraded performance for Codespaces in the West US 2 and East US regions.",
-          "incident_id": "7rghmvv5crq0",
-          "created_at": "2022-07-27T23:39:16.183Z",
-          "updated_at": "2022-07-27T23:39:16.183Z",
-          "display_at": "2022-07-27T23:39:16.183Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "5m084cv9xgp2",
-          "status": "investigating",
-          "body": "We are continuing to investigate reports of degraded performance for Codespaces in the West US 2 and East US regions.",
-          "incident_id": "7rghmvv5crq0",
-          "created_at": "2022-07-27T23:08:26.479Z",
-          "updated_at": "2022-07-27T23:08:26.479Z",
-          "display_at": "2022-07-27T23:08:26.479Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "cqwczc9z5nhf",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Codespaces in the following region(s): West US 2 and East US",
-          "incident_id": "7rghmvv5crq0",
-          "created_at": "2022-07-27T22:33:40.646Z",
-          "updated_at": "2022-07-27T22:33:40.646Z",
-          "display_at": "2022-07-27T22:33:40.646Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "d0qst0s9m4k4",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Codespaces.",
-          "incident_id": "7rghmvv5crq0",
-          "created_at": "2022-07-27T22:29:55.689Z",
-          "updated_at": "2022-07-27T22:29:55.689Z",
-          "display_at": "2022-07-27T22:29:55.689Z",
-          "affected_components": [
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "h2ftsgbw7kmk",
-          "name": "Codespaces",
-          "status": "partial_outage",
-          "created_at": "2021-08-11T16:02:09.505Z",
-          "updated_at": "2022-07-27T22:30:02.900Z",
-          "position": 10,
-          "description": "Orchestration and Compute for GitHub Codespaces",
-          "showcase": false,
-          "start_date": "2021-08-11",
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
