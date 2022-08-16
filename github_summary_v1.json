@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-08-16T14:28:21.213Z"
+    "updated_at": "2022-08-16T15:13:26.964Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Codespaces",
       "status": "investigating",
       "created_at": "2022-08-16T13:38:19.282Z",
-      "updated_at": "2022-08-16T14:28:21.203Z",
+      "updated_at": "2022-08-16T15:13:26.952Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2022-08-16T13:38:19.274Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "qlq4fw8tm7qg",
+          "status": "investigating",
+          "body": "We are testing a hotfix for our Codespaces web client us-east outage.  Note:  Workaround is to use VS Code desktop client.  ETA ~1h.",
+          "incident_id": "bdtztmrydlwz",
+          "created_at": "2022-08-16T15:13:26.949Z",
+          "updated_at": "2022-08-16T15:13:26.949Z",
+          "display_at": "2022-08-16T15:13:26.949Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "7dggtnmp56sf",
           "status": "investigating",
