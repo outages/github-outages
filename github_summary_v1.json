@@ -4,15 +4,15 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-06T22:23:42.389Z"
+    "updated_at": "2022-09-06T23:23:45.418Z"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-01-31T20:05:05.370Z",
-      "updated_at": "2022-09-06T22:20:01.085Z",
+      "updated_at": "2022-09-06T22:56:58.234Z",
       "position": 1,
       "description": "Performance of git clones, pulls, pushes, and associated operations",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2022-09-06T22:20:01.103Z",
+      "updated_at": "2022-09-06T22:56:58.254Z",
       "position": 2,
       "description": "Requests for GitHub APIs",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "4230lsnqdsld",
       "name": "Webhooks",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-11-13T18:00:24.256Z",
-      "updated_at": "2022-09-06T22:20:01.120Z",
+      "updated_at": "2022-09-06T22:56:58.271Z",
       "position": 3,
       "description": "Real time HTTP callbacks of user-generated and system events",
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "0l2p9nhqnxpd",
       "name": "Visit www.githubstatus.com for more information",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-12-05T19:39:40.838Z",
-      "updated_at": "2022-09-06T22:20:01.137Z",
+      "updated_at": "2022-09-06T22:56:58.288Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2022-09-06T22:20:01.154Z",
+      "updated_at": "2022-09-06T22:56:58.304Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2022-09-06T22:20:01.171Z",
+      "updated_at": "2022-09-06T22:56:58.320Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2022-09-06T22:20:01.187Z",
+      "updated_at": "2022-09-06T22:56:58.336Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "Packages",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2022-09-06T22:20:01.203Z",
+      "updated_at": "2022-09-06T22:56:58.352Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "vg70hn9s2tyj",
       "name": "Pages",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2022-09-06T22:20:01.220Z",
+      "updated_at": "2022-09-06T22:56:58.367Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2022-09-06T22:20:01.237Z",
+      "updated_at": "2022-09-06T22:56:58.381Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -160,9 +160,9 @@
     {
       "id": "pjmpxvq2cmr2",
       "name": "Copilot",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2022-06-21T16:04:33.017Z",
-      "updated_at": "2022-09-06T22:20:01.254Z",
+      "updated_at": "2022-09-06T22:56:58.396Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -173,10 +173,273 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "wl09fvhb20x8",
+      "name": "Incident on 2022-09-06 22:56 UTC",
+      "status": "investigating",
+      "created_at": "2022-09-06T22:56:58.173Z",
+      "updated_at": "2022-09-06T22:56:59.046Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/3wk1lltp36vb",
+      "started_at": "2022-09-06T22:56:58.159Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "rkjhssf3s0df",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for all GitHub Services.",
+          "incident_id": "wl09fvhb20x8",
+          "created_at": "2022-09-06T22:56:58.435Z",
+          "updated_at": "2022-09-06T22:56:59.042Z",
+          "display_at": "2022-09-06T22:56:58.435Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "0l2p9nhqnxpd",
+              "name": "Visit www.githubstatus.com for more information",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1567285761443270700
+        }
+      ],
+      "components": [
+        {
+          "id": "8l4ygp009s5s",
+          "name": "Git Operations",
+          "status": "degraded_performance",
+          "created_at": "2017-01-31T20:05:05.370Z",
+          "updated_at": "2022-09-06T22:56:58.234Z",
+          "position": 1,
+          "description": "Performance of git clones, pulls, pushes, and associated operations",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "brv1bkgrwx7q",
+          "name": "API Requests",
+          "status": "degraded_performance",
+          "created_at": "2017-01-31T20:01:46.621Z",
+          "updated_at": "2022-09-06T22:56:58.254Z",
+          "position": 2,
+          "description": "Requests for GitHub APIs",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "4230lsnqdsld",
+          "name": "Webhooks",
+          "status": "degraded_performance",
+          "created_at": "2019-11-13T18:00:24.256Z",
+          "updated_at": "2022-09-06T22:56:58.271Z",
+          "position": 3,
+          "description": "Real time HTTP callbacks of user-generated and system events",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "0l2p9nhqnxpd",
+          "name": "Visit www.githubstatus.com for more information",
+          "status": "degraded_performance",
+          "created_at": "2018-12-05T19:39:40.838Z",
+          "updated_at": "2022-09-06T22:56:58.288Z",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "kr09ddfgbfsf",
+          "name": "Issues",
+          "status": "degraded_performance",
+          "created_at": "2017-01-31T20:01:46.638Z",
+          "updated_at": "2022-09-06T22:56:58.304Z",
+          "position": 5,
+          "description": "Requests for Issues on GitHub.com",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "hhtssxt0f5v2",
+          "name": "Pull Requests",
+          "status": "degraded_performance",
+          "created_at": "2020-09-02T15:39:06.329Z",
+          "updated_at": "2022-09-06T22:56:58.320Z",
+          "position": 6,
+          "description": "Requests for Pull Requests on GitHub.com",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "br0l2tvcx85d",
+          "name": "Actions",
+          "status": "degraded_performance",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2022-09-06T22:56:58.336Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "st3j38cctv9l",
+          "name": "Packages",
+          "status": "degraded_performance",
+          "created_at": "2019-11-13T18:02:40.064Z",
+          "updated_at": "2022-09-06T22:56:58.352Z",
+          "position": 8,
+          "description": "API requests and webhook delivery for GitHub Packages",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "vg70hn9s2tyj",
+          "name": "Pages",
+          "status": "degraded_performance",
+          "created_at": "2017-01-31T20:04:33.923Z",
+          "updated_at": "2022-09-06T22:56:58.367Z",
+          "position": 9,
+          "description": "Frontend application and API servers for Pages builds",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "h2ftsgbw7kmk",
+          "name": "Codespaces",
+          "status": "degraded_performance",
+          "created_at": "2021-08-11T16:02:09.505Z",
+          "updated_at": "2022-09-06T22:56:58.381Z",
+          "position": 10,
+          "description": "Orchestration and Compute for GitHub Codespaces",
+          "showcase": false,
+          "start_date": "2021-08-11",
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "pjmpxvq2cmr2",
+          "name": "Copilot",
+          "status": "degraded_performance",
+          "created_at": "2022-06-21T16:04:33.017Z",
+          "updated_at": "2022-09-06T22:56:58.396Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": "2022-06-21",
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
