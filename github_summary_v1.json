@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-07T16:16:19.225Z"
+    "updated_at": "2022-09-07T18:05:40.254Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident on 2022-09-07 15:04 UTC",
       "status": "investigating",
       "created_at": "2022-09-07T15:04:29.966Z",
-      "updated_at": "2022-09-07T15:04:30.002Z",
+      "updated_at": "2022-09-07T18:05:40.247Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",
@@ -190,10 +190,10 @@
         {
           "id": "8hsmg4z76kly",
           "status": "investigating",
-          "body": "We are investigating and mitigating intermittant availability issues on some GitHub services.",
+          "body": "We are investigating and mitigating intermittent availability issues on some GitHub services.",
           "incident_id": "pz0bvrjx9ztp",
           "created_at": "2022-09-07T15:04:30.000Z",
-          "updated_at": "2022-09-07T15:04:30.000Z",
+          "updated_at": "2022-09-07T18:05:40.244Z",
           "display_at": "2022-09-07T15:04:30.000Z",
           "affected_components": null,
           "deliver_notifications": false,
