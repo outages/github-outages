@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-08T20:23:41.308Z"
+    "updated_at": "2022-09-08T21:04:46.701Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Pull Requests",
       "status": "investigating",
       "created_at": "2022-09-08T19:44:27.105Z",
-      "updated_at": "2022-09-08T19:44:30.949Z",
+      "updated_at": "2022-09-08T21:04:46.691Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2022-09-08T19:44:27.097Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "lshpfl8x9bd4",
+          "status": "investigating",
+          "body": "We found an issue that impacts some of customers. We are working on mitigation.",
+          "incident_id": "p38y9j23bt7b",
+          "created_at": "2022-09-08T21:04:46.688Z",
+          "updated_at": "2022-09-08T21:04:46.688Z",
+          "display_at": "2022-09-08T21:04:46.688Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "smfp2nlpwxlp",
           "status": "investigating",
