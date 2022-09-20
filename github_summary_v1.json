@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-20T12:23:33.465Z"
+    "updated_at": "2022-09-20T14:15:08.921Z"
   },
   "components": [
     {
@@ -173,37 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "v5bcd4pzckky",
-      "name": "An update from GitHub",
-      "status": "investigating",
-      "created_at": "2022-09-20T12:10:23.113Z",
-      "updated_at": "2022-09-20T12:10:23.160Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/fhcvh0yvcg46",
-      "started_at": "2022-09-20T12:10:23.106Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "t49nryxsgfcp",
-          "status": "investigating",
-          "body": "Audit log REST API requests for organizations are currently disabled. We are actively investigating and working on a fix.",
-          "incident_id": "v5bcd4pzckky",
-          "created_at": "2022-09-20T12:10:23.157Z",
-          "updated_at": "2022-09-20T12:10:23.157Z",
-          "display_at": "2022-09-20T12:10:23.157Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
