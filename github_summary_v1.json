@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-05T04:00:48.532Z"
+    "updated_at": "2022-10-05T05:00:40.155Z"
   },
   "components": [
     {
@@ -174,52 +174,7 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "6w7lf30qkgqq",
-      "name": "GitHub Enterprise Importer Maintenance",
-      "status": "in_progress",
-      "created_at": "2022-09-29T14:04:44.490Z",
-      "updated_at": "2022-10-05T04:00:48.523Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/5srlh8tv6p4d",
-      "started_at": "2022-09-29T14:04:44.486Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "3v095wk31chs",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "6w7lf30qkgqq",
-          "created_at": "2022-10-05T04:00:48.521Z",
-          "updated_at": "2022-10-05T04:00:48.521Z",
-          "display_at": "2022-10-05T04:00:48.521Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "hgm41qmjzfq8",
-          "status": "scheduled",
-          "body": "GitHub Enterprise Importer will be undergoing scheduled maintenance. During this time, all migrations will be paused. You will be able to queue new migrations, but they will not start until the end of the maintenance window.",
-          "incident_id": "6w7lf30qkgqq",
-          "created_at": "2022-09-29T14:04:44.529Z",
-          "updated_at": "2022-09-29T14:04:44.529Z",
-          "display_at": "2022-09-29T14:04:44.529Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "scheduled_for": "2022-10-05T04:00:00.000Z",
-      "scheduled_until": "2022-10-05T05:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
