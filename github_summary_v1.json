@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-05T17:25:02.226Z"
+    "updated_at": "2022-10-05T17:41:33.612Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2022-10-05T15:04:34.006Z",
+      "updated_at": "2022-10-05T17:41:33.610Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -173,200 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "smn1qtqvbsb6",
-      "name": "Incident with Actions",
-      "status": "investigating",
-      "created_at": "2022-10-05T13:19:52.799Z",
-      "updated_at": "2022-10-05T17:25:02.222Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/jlh3qwzg6q7s",
-      "started_at": "2022-10-05T13:19:52.790Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "dz8z5lspzchb",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "smn1qtqvbsb6",
-          "created_at": "2022-10-05T17:24:50.917Z",
-          "updated_at": "2022-10-05T17:24:50.917Z",
-          "display_at": "2022-10-05T17:24:50.917Z",
-          "affected_components": [
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "4r1w9dz2j15q",
-          "status": "investigating",
-          "body": "We are seeing recovery in Actions and will update status when all runs are no longer delayed.",
-          "incident_id": "smn1qtqvbsb6",
-          "created_at": "2022-10-05T17:03:02.696Z",
-          "updated_at": "2022-10-05T17:03:02.696Z",
-          "display_at": "2022-10-05T17:03:02.696Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "mn1rvszbdsm2",
-          "status": "investigating",
-          "body": "Webhooks is operating normally.",
-          "incident_id": "smn1qtqvbsb6",
-          "created_at": "2022-10-05T16:32:44.919Z",
-          "updated_at": "2022-10-05T16:32:44.919Z",
-          "display_at": "2022-10-05T16:32:44.919Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "fytw123wtw7n",
-          "status": "investigating",
-          "body": "We continue to see recovery and have added capacity to speed recovery time. We still expect to see slower than normal Actions job runs and webhook deliveries.",
-          "incident_id": "smn1qtqvbsb6",
-          "created_at": "2022-10-05T16:12:15.497Z",
-          "updated_at": "2022-10-05T16:12:15.497Z",
-          "display_at": "2022-10-05T16:12:15.497Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "v9n2p63lzwtk",
-          "status": "investigating",
-          "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "smn1qtqvbsb6",
-          "created_at": "2022-10-05T15:04:29.362Z",
-          "updated_at": "2022-10-05T15:04:29.362Z",
-          "display_at": "2022-10-05T15:04:29.362Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "1f62zf15rf1m",
-          "status": "investigating",
-          "body": "We are continuing to monitor webhook deliveries following our earlier mitigation. Next update in 20 minutes.",
-          "incident_id": "smn1qtqvbsb6",
-          "created_at": "2022-10-05T15:02:18.740Z",
-          "updated_at": "2022-10-05T15:02:18.740Z",
-          "display_at": "2022-10-05T15:02:18.740Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "0nxbqjxbzv2w",
-          "status": "investigating",
-          "body": "We found an issue that impacts some of customers related to webhook delivery. We have implemented a mitigation and are monitoring for impact. Next update in 15 minutes.",
-          "incident_id": "smn1qtqvbsb6",
-          "created_at": "2022-10-05T14:46:13.868Z",
-          "updated_at": "2022-10-05T14:46:13.868Z",
-          "display_at": "2022-10-05T14:46:13.868Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wzsg2pmy8pw4",
-          "status": "investigating",
-          "body": "Codespaces is operating normally.",
-          "incident_id": "smn1qtqvbsb6",
-          "created_at": "2022-10-05T14:08:24.013Z",
-          "updated_at": "2022-10-05T14:08:24.013Z",
-          "display_at": "2022-10-05T14:08:24.013Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "g5m85zhnbf5s",
-          "status": "investigating",
-          "body": "We identified reports of Codespaces not creating/resuming successfully in eu-west region at 1230 UTC. We mitigated this issue and have seen recovery since 1315 UTC. Next update in 15 mins.",
-          "incident_id": "smn1qtqvbsb6",
-          "created_at": "2022-10-05T13:59:52.623Z",
-          "updated_at": "2022-10-05T13:59:52.623Z",
-          "display_at": "2022-10-05T13:59:52.623Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "lcdm17h3qgx3",
-          "status": "investigating",
-          "body": "Webhooks is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "smn1qtqvbsb6",
-          "created_at": "2022-10-05T13:32:42.948Z",
-          "updated_at": "2022-10-05T13:32:42.948Z",
-          "display_at": "2022-10-05T13:32:42.948Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wq6n064vf2zm",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Codespaces.",
-          "incident_id": "smn1qtqvbsb6",
-          "created_at": "2022-10-05T13:19:52.849Z",
-          "updated_at": "2022-10-05T13:19:52.849Z",
-          "display_at": "2022-10-05T13:19:52.849Z",
-          "affected_components": [
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "h2ftsgbw7kmk",
-          "name": "Codespaces",
-          "status": "operational",
-          "created_at": "2021-08-11T16:02:09.505Z",
-          "updated_at": "2022-10-05T14:08:27.014Z",
-          "position": 10,
-          "description": "Orchestration and Compute for GitHub Codespaces",
-          "showcase": false,
-          "start_date": "2021-08-11",
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
