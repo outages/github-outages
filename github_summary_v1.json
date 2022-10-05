@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-05T15:20:13.931Z"
+    "updated_at": "2022-10-05T16:12:15.509Z"
   },
   "components": [
     {
@@ -176,10 +176,10 @@
   "incidents": [
     {
       "id": "smn1qtqvbsb6",
-      "name": "Incident with Actions and Webhooks",
+      "name": "Incident with Codespaces",
       "status": "investigating",
       "created_at": "2022-10-05T13:19:52.799Z",
-      "updated_at": "2022-10-05T15:20:13.926Z",
+      "updated_at": "2022-10-05T16:12:15.499Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2022-10-05T13:19:52.790Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "fytw123wtw7n",
+          "status": "investigating",
+          "body": "We continue to see recovery and have added capacity to speed recovery time. We still expect to see slower than normal Actions job runs and webhook deliveries.",
+          "incident_id": "smn1qtqvbsb6",
+          "created_at": "2022-10-05T16:12:15.497Z",
+          "updated_at": "2022-10-05T16:12:15.497Z",
+          "display_at": "2022-10-05T16:12:15.497Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "v9n2p63lzwtk",
           "status": "investigating",
