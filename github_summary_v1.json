@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-05T15:02:18.753Z"
+    "updated_at": "2022-10-05T15:20:13.931Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2022-10-05T07:01:56.831Z",
+      "updated_at": "2022-10-05T15:04:34.006Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -176,10 +176,10 @@
   "incidents": [
     {
       "id": "smn1qtqvbsb6",
-      "name": "Incident with Codespaces",
+      "name": "Incident with Actions and Webhooks",
       "status": "investigating",
       "created_at": "2022-10-05T13:19:52.799Z",
-      "updated_at": "2022-10-05T15:02:18.742Z",
+      "updated_at": "2022-10-05T15:20:13.926Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2022-10-05T13:19:52.790Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "v9n2p63lzwtk",
+          "status": "investigating",
+          "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "smn1qtqvbsb6",
+          "created_at": "2022-10-05T15:04:29.362Z",
+          "updated_at": "2022-10-05T15:04:29.362Z",
+          "display_at": "2022-10-05T15:04:29.362Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "1f62zf15rf1m",
           "status": "investigating",
