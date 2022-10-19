@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-19T19:28:48.680Z"
+    "updated_at": "2022-10-19T19:35:45.115Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with API Requests",
       "status": "investigating",
       "created_at": "2022-10-19T17:39:41.682Z",
-      "updated_at": "2022-10-19T19:28:48.668Z",
+      "updated_at": "2022-10-19T19:35:45.106Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2022-10-19T17:39:41.673Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "lnwjrmw31gx2",
+          "status": "investigating",
+          "body": "A small percentage of requests to the audit log APIs are failing. We are continuing to apply additional mitigations.",
+          "incident_id": "4vr2qz8lgdmq",
+          "created_at": "2022-10-19T19:35:45.102Z",
+          "updated_at": "2022-10-19T19:35:45.102Z",
+          "display_at": "2022-10-19T19:35:45.102Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "z9cwtl3dtywq",
           "status": "investigating",
