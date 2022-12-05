@@ -4,15 +4,15 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-12-05T08:06:43.799Z"
+    "updated_at": "2022-12-05T17:32:01.455Z"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:05:05.370Z",
-      "updated_at": "2022-11-09T01:54:03.540Z",
+      "updated_at": "2022-12-05T17:32:00.720Z",
       "position": 1,
       "description": "Performance of git clones, pulls, pushes, and associated operations",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2022-11-09T01:54:06.027Z",
+      "updated_at": "2022-12-05T17:32:01.451Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -173,10 +173,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "01g5rt6z89q2",
+      "name": "Incident with Git Operations and Pull Requests",
+      "status": "investigating",
+      "created_at": "2022-12-05T17:31:51.169Z",
+      "updated_at": "2022-12-05T17:32:01.475Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/hc8tk9p4r77c",
+      "started_at": "2022-12-05T17:31:51.160Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "vmb7tgwsq0tb",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Git Operations and Pull Requests.",
+          "incident_id": "01g5rt6z89q2",
+          "created_at": "2022-12-05T17:31:51.210Z",
+          "updated_at": "2022-12-05T17:31:51.210Z",
+          "display_at": "2022-12-05T17:31:51.210Z",
+          "affected_components": [
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "8l4ygp009s5s",
+          "name": "Git Operations",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:05:05.370Z",
+          "updated_at": "2022-12-05T17:32:00.720Z",
+          "position": 1,
+          "description": "Performance of git clones, pulls, pushes, and associated operations",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "hhtssxt0f5v2",
+          "name": "Pull Requests",
+          "status": "partial_outage",
+          "created_at": "2020-09-02T15:39:06.329Z",
+          "updated_at": "2022-12-05T17:32:01.451Z",
+          "position": 6,
+          "description": "Requests for Pull Requests on GitHub.com",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
