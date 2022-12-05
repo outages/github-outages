@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-12-05T17:32:01.455Z"
+    "updated_at": "2022-12-05T18:23:47.008Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Git Operations and Pull Requests",
       "status": "investigating",
       "created_at": "2022-12-05T17:31:51.169Z",
-      "updated_at": "2022-12-05T17:32:01.475Z",
+      "updated_at": "2022-12-05T18:07:05.338Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2022-12-05T17:31:51.160Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "5jdbqfq951zb",
+          "status": "investigating",
+          "body": "We have identified possible causes slowing down git operations including push and pull for a small number of customers, as well as some slow merge operations and are working on mitigating now.",
+          "incident_id": "01g5rt6z89q2",
+          "created_at": "2022-12-05T18:07:05.336Z",
+          "updated_at": "2022-12-05T18:07:05.336Z",
+          "display_at": "2022-12-05T18:07:05.336Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "vmb7tgwsq0tb",
           "status": "investigating",
