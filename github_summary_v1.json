@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-12-06T20:34:37.917Z"
+    "updated_at": "2022-12-06T20:58:53.916Z"
   },
   "components": [
     {
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2022-12-06T17:53:47.926Z",
+      "updated_at": "2022-12-06T20:58:53.912Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -173,128 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "by950fpm0xlg",
-      "name": "Incident with Codespaces",
-      "status": "investigating",
-      "created_at": "2022-12-06T17:53:39.937Z",
-      "updated_at": "2022-12-06T20:34:37.905Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/l2h63m5s2tpx",
-      "started_at": "2022-12-06T17:53:39.930Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "sj100zdh8jwp",
-          "status": "investigating",
-          "body": "We are continuing to investigate issues affecting some Codespaces customers in the westus2 region.",
-          "incident_id": "by950fpm0xlg",
-          "created_at": "2022-12-06T20:34:37.903Z",
-          "updated_at": "2022-12-06T20:34:37.903Z",
-          "display_at": "2022-12-06T20:34:37.903Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "h01r4pvqtfb8",
-          "status": "investigating",
-          "body": "We are continuing to investigate issues affecting some Codespaces customers.",
-          "incident_id": "by950fpm0xlg",
-          "created_at": "2022-12-06T19:51:33.773Z",
-          "updated_at": "2022-12-06T19:51:33.773Z",
-          "display_at": "2022-12-06T19:51:33.773Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "n9vps1pgwjb1",
-          "status": "investigating",
-          "body": "We are continuing to investigate issues affecting customers connecting to and starting Codespaces.",
-          "incident_id": "by950fpm0xlg",
-          "created_at": "2022-12-06T19:15:52.154Z",
-          "updated_at": "2022-12-06T19:15:52.154Z",
-          "display_at": "2022-12-06T19:15:52.154Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "2p4l4gybfgrj",
-          "status": "investigating",
-          "body": "We are continuing to investigate issues affecting customers connecting to and starting Codespaces.",
-          "incident_id": "by950fpm0xlg",
-          "created_at": "2022-12-06T18:41:55.474Z",
-          "updated_at": "2022-12-06T18:41:55.474Z",
-          "display_at": "2022-12-06T18:41:55.474Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wn77y9ktncrf",
-          "status": "investigating",
-          "body": "We are investigating issues preventing customers from starting and connecting to existing Codespaces. Creating a new Codespaces is one possible workaround for those affected.",
-          "incident_id": "by950fpm0xlg",
-          "created_at": "2022-12-06T18:06:31.691Z",
-          "updated_at": "2022-12-06T18:06:31.691Z",
-          "display_at": "2022-12-06T18:06:31.691Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wdw500vcryt1",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Codespaces.",
-          "incident_id": "by950fpm0xlg",
-          "created_at": "2022-12-06T17:53:39.974Z",
-          "updated_at": "2022-12-06T17:53:39.974Z",
-          "display_at": "2022-12-06T17:53:39.974Z",
-          "affected_components": [
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "h2ftsgbw7kmk",
-          "name": "Codespaces",
-          "status": "partial_outage",
-          "created_at": "2021-08-11T16:02:09.505Z",
-          "updated_at": "2022-12-06T17:53:47.926Z",
-          "position": 10,
-          "description": "Orchestration and Compute for GitHub Codespaces",
-          "showcase": false,
-          "start_date": "2021-08-11",
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
