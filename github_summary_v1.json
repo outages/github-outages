@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-12-20T01:38:27.483Z"
+    "updated_at": "2022-12-20T06:56:01.334Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2022-12-20T01:38:27.479Z",
+      "updated_at": "2022-12-20T06:56:01.330Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -173,10 +173,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "cb6ljbzhktxd",
+      "name": "Incident with Actions",
+      "status": "investigating",
+      "created_at": "2022-12-20T06:55:52.801Z",
+      "updated_at": "2022-12-20T06:56:01.351Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/zwd9n6jypgth",
+      "started_at": "2022-12-20T06:55:52.792Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "dkvrdcm9s072",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Actions.",
+          "incident_id": "cb6ljbzhktxd",
+          "created_at": "2022-12-20T06:55:52.871Z",
+          "updated_at": "2022-12-20T06:55:52.871Z",
+          "display_at": "2022-12-20T06:55:52.871Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "br0l2tvcx85d",
+          "name": "Actions",
+          "status": "partial_outage",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2022-12-20T06:56:01.330Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
