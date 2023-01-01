@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-01-01T17:23:33.447Z"
+    "updated_at": "2023-01-01T17:28:49.068Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Codespaces",
       "status": "investigating",
       "created_at": "2023-01-01T16:33:19.762Z",
-      "updated_at": "2023-01-01T16:44:48.339Z",
+      "updated_at": "2023-01-01T17:28:49.057Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2023-01-01T16:33:19.754Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "d3sj9nnkdlgt",
+          "status": "investigating",
+          "body": "We have identified the issue and are deploying a fix. We will update our status when the fix is fully deployed.",
+          "incident_id": "srn4b1fjxp8h",
+          "created_at": "2023-01-01T17:28:49.055Z",
+          "updated_at": "2023-01-01T17:28:49.055Z",
+          "display_at": "2023-01-01T17:28:49.055Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "w3nhj7cmd0xm",
           "status": "investigating",
