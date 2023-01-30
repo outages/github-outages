@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-01-30T22:08:09.593Z"
+    "updated_at": "2023-01-30T22:23:36.373Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "Packages",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2023-01-30T22:08:09.588Z",
+      "updated_at": "2023-01-30T22:23:25.515Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "vg70hn9s2tyj",
       "name": "Pages",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2023-01-30T21:48:52.511Z",
+      "updated_at": "2023-01-30T22:21:13.474Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": false,
@@ -173,130 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "zf2tk6x40gmh",
-      "name": "Incident with Packages and Pages",
-      "status": "investigating",
-      "created_at": "2023-01-30T21:48:45.083Z",
-      "updated_at": "2023-01-30T22:08:08.401Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/zbrvdh7bf0kv",
-      "started_at": "2023-01-30T21:48:45.076Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "b5hk0154s3h3",
-          "status": "investigating",
-          "body": "Packages is now experiencing degraded availability. We are continuing to investigate.",
-          "incident_id": "zf2tk6x40gmh",
-          "created_at": "2023-01-30T22:08:08.398Z",
-          "updated_at": "2023-01-30T22:08:08.398Z",
-          "display_at": "2023-01-30T22:08:08.398Z",
-          "affected_components": [
-            {
-              "code": "vg70hn9s2tyj",
-              "name": "Pages",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "st3j38cctv9l",
-              "name": "Packages",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "mmglylknj603",
-          "status": "investigating",
-          "body": "Packages is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "zf2tk6x40gmh",
-          "created_at": "2023-01-30T21:55:55.488Z",
-          "updated_at": "2023-01-30T21:55:55.488Z",
-          "display_at": "2023-01-30T21:55:55.488Z",
-          "affected_components": [
-            {
-              "code": "vg70hn9s2tyj",
-              "name": "Pages",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "st3j38cctv9l",
-              "name": "Packages",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "2lh46br9tp95",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Pages.",
-          "incident_id": "zf2tk6x40gmh",
-          "created_at": "2023-01-30T21:48:45.122Z",
-          "updated_at": "2023-01-30T21:48:45.122Z",
-          "display_at": "2023-01-30T21:48:45.122Z",
-          "affected_components": [
-            {
-              "code": "vg70hn9s2tyj",
-              "name": "Pages",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "st3j38cctv9l",
-          "name": "Packages",
-          "status": "major_outage",
-          "created_at": "2019-11-13T18:02:40.064Z",
-          "updated_at": "2023-01-30T22:08:09.588Z",
-          "position": 8,
-          "description": "API requests and webhook delivery for GitHub Packages",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "vg70hn9s2tyj",
-          "name": "Pages",
-          "status": "partial_outage",
-          "created_at": "2017-01-31T20:04:33.923Z",
-          "updated_at": "2023-01-30T21:48:52.511Z",
-          "position": 9,
-          "description": "Frontend application and API servers for Pages builds",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
