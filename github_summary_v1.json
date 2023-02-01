@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-01-31T21:23:24.590Z"
+    "updated_at": "2023-02-01T01:23:40.196Z"
   },
   "components": [
     {
@@ -42,7 +42,7 @@
       "name": "Webhooks",
       "status": "operational",
       "created_at": "2019-11-13T18:00:24.256Z",
-      "updated_at": "2022-11-09T01:54:07.258Z",
+      "updated_at": "2023-02-01T01:11:24.514Z",
       "position": 3,
       "description": "Real time HTTP callbacks of user-generated and system events",
       "showcase": false,
