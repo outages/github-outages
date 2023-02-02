@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-02-02T08:09:35.576Z"
+    "updated_at": "2023-02-02T11:29:47.051Z"
   },
   "components": [
     {
@@ -173,7 +173,50 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "1cdsggtd2q5k",
+      "name": "Investigating reports of degraded performance.",
+      "status": "investigating",
+      "created_at": "2023-02-02T11:29:38.497Z",
+      "updated_at": "2023-02-02T11:29:47.042Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/05hgpcbhrzf5",
+      "started_at": "2023-02-02T11:29:38.489Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "2lcj181j18tj",
+          "status": "investigating",
+          "body": "We are investigating and mitigating intermittent availability issues on some GitHub services.",
+          "incident_id": "1cdsggtd2q5k",
+          "created_at": "2023-02-02T11:29:47.040Z",
+          "updated_at": "2023-02-02T11:29:47.040Z",
+          "display_at": "2023-02-02T11:29:47.040Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "w115llbgmtbk",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "1cdsggtd2q5k",
+          "created_at": "2023-02-02T11:29:38.544Z",
+          "updated_at": "2023-02-02T11:29:38.544Z",
+          "display_at": "2023-02-02T11:29:38.544Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
