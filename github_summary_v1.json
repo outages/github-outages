@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-02-08T17:05:12.964Z"
+    "updated_at": "2023-02-08T21:00:03.416Z"
   },
   "components": [
     {
@@ -180,7 +180,7 @@
       "name": "Planned maintenance on GitHub Package Registry",
       "status": "scheduled",
       "created_at": "2023-02-07T10:08:16.166Z",
-      "updated_at": "2023-02-07T11:52:40.241Z",
+      "updated_at": "2023-02-08T21:00:03.394Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -188,6 +188,19 @@
       "started_at": "2023-02-07T10:08:16.162Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "m1h2w785zdq6",
+          "status": "scheduled",
+          "body": "Maintenance will begin as scheduled in 60 minutes.",
+          "incident_id": "53t2nlxs8016",
+          "created_at": "2023-02-08T21:00:03.043Z",
+          "updated_at": "2023-02-08T21:00:03.043Z",
+          "display_at": "2023-02-08T21:00:03.043Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "tjx78vcfl4ml",
           "status": "scheduled",
