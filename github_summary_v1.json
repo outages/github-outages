@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-02-09T08:05:50.749Z"
+    "updated_at": "2023-02-09T09:09:50.261Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "Packages",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2023-02-08T22:00:20.057Z",
+      "updated_at": "2023-02-09T09:09:50.205Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -174,117 +174,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "53t2nlxs8016",
-      "name": "Planned maintenance on GitHub Package Registry",
-      "status": "in_progress",
-      "created_at": "2023-02-07T10:08:16.166Z",
-      "updated_at": "2023-02-08T22:00:20.106Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/5psr38wmcwhv",
-      "started_at": "2023-02-07T10:08:16.162Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "nfx8pjw89lzb",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "53t2nlxs8016",
-          "created_at": "2023-02-08T22:00:20.101Z",
-          "updated_at": "2023-02-08T22:00:20.101Z",
-          "display_at": "2023-02-08T22:00:20.101Z",
-          "affected_components": [
-            {
-              "code": "st3j38cctv9l",
-              "name": "Packages",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "m1h2w785zdq6",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "53t2nlxs8016",
-          "created_at": "2023-02-08T21:00:03.043Z",
-          "updated_at": "2023-02-08T21:00:03.043Z",
-          "display_at": "2023-02-08T21:00:03.043Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "tjx78vcfl4ml",
-          "status": "scheduled",
-          "body": "Due to planned maintenance on our infrastructure, we expect an interruption to GitHub Packages Registry that will last two minutes at an unconfirmed time during this 15 hour time window. If you experience interruption, please wait two minutes then try again.\n\nThank you for your patience while we complete this critical work.",
-          "incident_id": "53t2nlxs8016",
-          "created_at": "2023-02-07T11:52:40.238Z",
-          "updated_at": "2023-02-07T11:52:40.238Z",
-          "display_at": "2023-02-07T11:52:40.238Z",
-          "affected_components": [
-            {
-              "code": "st3j38cctv9l",
-              "name": "Packages",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "bdm3n692y4pf",
-          "status": "scheduled",
-          "body": "We will be undergoing scheduled maintenance during this time.",
-          "incident_id": "53t2nlxs8016",
-          "created_at": "2023-02-07T10:08:16.217Z",
-          "updated_at": "2023-02-07T10:08:16.217Z",
-          "display_at": "2023-02-07T10:08:16.217Z",
-          "affected_components": [
-            {
-              "code": "st3j38cctv9l",
-              "name": "Packages",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "st3j38cctv9l",
-          "name": "Packages",
-          "status": "under_maintenance",
-          "created_at": "2019-11-13T18:02:40.064Z",
-          "updated_at": "2023-02-08T22:00:20.057Z",
-          "position": 8,
-          "description": "API requests and webhook delivery for GitHub Packages",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2023-02-08T22:00:00.000Z",
-      "scheduled_until": "2023-02-09T13:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
