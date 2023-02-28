@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-02-28T07:55:55.241Z"
+    "updated_at": "2023-02-28T16:20:05.308Z"
   },
   "components": [
     {
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2023-02-18T04:45:16.997Z",
+      "updated_at": "2023-02-28T16:18:49.538Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -173,10 +173,96 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "d6f6kjk81v33",
+      "name": "Incident with Codespaces",
+      "status": "investigating",
+      "created_at": "2023-02-28T16:05:20.256Z",
+      "updated_at": "2023-02-28T16:20:05.297Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/ry1jmrvzlqg0",
+      "started_at": "2023-02-28T16:05:20.246Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "yq9zbs94f6dv",
+          "status": "investigating",
+          "body": "We are investigating issues with Codespaces in the US East geographic area. Users may not be able to create or connect to their codespaces at this time. We will update you on mitigation progress.",
+          "incident_id": "d6f6kjk81v33",
+          "created_at": "2023-02-28T16:20:05.294Z",
+          "updated_at": "2023-02-28T16:20:05.294Z",
+          "display_at": "2023-02-28T16:20:05.294Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "j3jwm1z1q9xm",
+          "status": "investigating",
+          "body": "Codespaces is now experiencing degraded availability. We are still investigating and will provide an update when we have one.",
+          "incident_id": "d6f6kjk81v33",
+          "created_at": "2023-02-28T16:18:48.625Z",
+          "updated_at": "2023-02-28T16:18:48.625Z",
+          "display_at": "2023-02-28T16:18:48.625Z",
+          "affected_components": [
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "t35y2sn6dsd4",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Codespaces.",
+          "incident_id": "d6f6kjk81v33",
+          "created_at": "2023-02-28T16:05:20.308Z",
+          "updated_at": "2023-02-28T16:05:20.308Z",
+          "display_at": "2023-02-28T16:05:20.308Z",
+          "affected_components": [
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "h2ftsgbw7kmk",
+          "name": "Codespaces",
+          "status": "major_outage",
+          "created_at": "2021-08-11T16:02:09.505Z",
+          "updated_at": "2023-02-28T16:18:49.538Z",
+          "position": 10,
+          "description": "Orchestration and Compute for GitHub Codespaces",
+          "showcase": false,
+          "start_date": "2021-08-11",
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
