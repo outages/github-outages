@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-02-28T17:17:41.657Z"
+    "updated_at": "2023-02-28T17:31:47.895Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2023-02-28T17:00:35.346Z",
+      "updated_at": "2023-02-28T17:31:47.891Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2023-02-28T16:18:49.538Z",
+      "updated_at": "2023-02-28T17:26:39.424Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -173,202 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "d6f6kjk81v33",
-      "name": "Incident with Actions and Codespaces",
-      "status": "investigating",
-      "created_at": "2023-02-28T16:05:20.256Z",
-      "updated_at": "2023-02-28T17:17:41.650Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/ry1jmrvzlqg0",
-      "started_at": "2023-02-28T16:05:20.246Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "cvnxt4fwdr4m",
-          "status": "investigating",
-          "body": "Actions is now experiencing degraded performance. We are still investigating and will provide an update when we have one.",
-          "incident_id": "d6f6kjk81v33",
-          "created_at": "2023-02-28T17:00:34.226Z",
-          "updated_at": "2023-02-28T17:00:34.226Z",
-          "display_at": "2023-02-28T17:00:34.226Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "7g14bkq6nr8t",
-          "status": "investigating",
-          "body": "Actions is now experiencing degraded availability. We are continuing to investigate.",
-          "incident_id": "d6f6kjk81v33",
-          "created_at": "2023-02-28T17:00:09.679Z",
-          "updated_at": "2023-02-28T17:00:09.679Z",
-          "display_at": "2023-02-28T17:00:09.679Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "fmmz00vjypm6",
-          "status": "investigating",
-          "body": "The Actions Larger Runner beta is experiencing issues with VM scale up which will lead to longer queue times for runs using Larger Runners. Hosted and self-hosted runners are not impacted. We're continuing to investigate and work on mitigations.",
-          "incident_id": "d6f6kjk81v33",
-          "created_at": "2023-02-28T16:58:14.752Z",
-          "updated_at": "2023-02-28T17:17:41.647Z",
-          "display_at": "2023-02-28T16:58:14.000Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "nz2khj51smck",
-          "status": "investigating",
-          "body": "Actions is experiencing degraded performance. We are still investigating and will provide an update when we have one.",
-          "incident_id": "d6f6kjk81v33",
-          "created_at": "2023-02-28T16:49:12.525Z",
-          "updated_at": "2023-02-28T16:49:12.525Z",
-          "display_at": "2023-02-28T16:49:12.525Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "yq9zbs94f6dv",
-          "status": "investigating",
-          "body": "We are investigating issues with Codespaces in the US East geographic area. Users may not be able to create or connect to their codespaces at this time. We will update you on mitigation progress.",
-          "incident_id": "d6f6kjk81v33",
-          "created_at": "2023-02-28T16:20:05.294Z",
-          "updated_at": "2023-02-28T16:20:05.294Z",
-          "display_at": "2023-02-28T16:20:05.294Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "j3jwm1z1q9xm",
-          "status": "investigating",
-          "body": "Codespaces is now experiencing degraded availability. We are still investigating and will provide an update when we have one.",
-          "incident_id": "d6f6kjk81v33",
-          "created_at": "2023-02-28T16:18:48.625Z",
-          "updated_at": "2023-02-28T16:18:48.625Z",
-          "display_at": "2023-02-28T16:18:48.625Z",
-          "affected_components": [
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "t35y2sn6dsd4",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Codespaces.",
-          "incident_id": "d6f6kjk81v33",
-          "created_at": "2023-02-28T16:05:20.308Z",
-          "updated_at": "2023-02-28T16:05:20.308Z",
-          "display_at": "2023-02-28T16:05:20.308Z",
-          "affected_components": [
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "br0l2tvcx85d",
-          "name": "Actions",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2023-02-28T17:00:35.346Z",
-          "position": 7,
-          "description": "Workflows, Compute and Orchestration for GitHub Actions",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "h2ftsgbw7kmk",
-          "name": "Codespaces",
-          "status": "major_outage",
-          "created_at": "2021-08-11T16:02:09.505Z",
-          "updated_at": "2023-02-28T16:18:49.538Z",
-          "position": 10,
-          "description": "Orchestration and Compute for GitHub Codespaces",
-          "showcase": false,
-          "start_date": "2021-08-11",
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
