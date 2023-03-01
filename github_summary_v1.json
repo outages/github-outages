@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-03-01T13:31:48.182Z"
+    "updated_at": "2023-03-01T13:44:16.766Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "Packages",
-      "status": "partial_outage",
+      "status": "major_outage",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2023-03-01T12:20:03.447Z",
+      "updated_at": "2023-03-01T13:44:16.763Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "vg70hn9s2tyj",
       "name": "Pages",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2023-02-18T04:46:12.838Z",
+      "updated_at": "2023-03-01T13:39:06.786Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": false,
@@ -176,17 +176,69 @@
   "incidents": [
     {
       "id": "bypf7bqdh4g0",
-      "name": "Incident with Packages",
+      "name": "Incident with Packages and Pages",
       "status": "investigating",
       "created_at": "2023-03-01T12:19:54.703Z",
-      "updated_at": "2023-03-01T13:31:48.173Z",
+      "updated_at": "2023-03-01T13:44:15.831Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "minor",
+      "impact": "major",
       "shortlink": "https://stspg.io/wqz0drgk45dd",
       "started_at": "2023-03-01T12:19:54.696Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "5krdbph6t572",
+          "status": "investigating",
+          "body": "Packages is now experiencing degraded availability. We are still investigating and will provide an update when we have one.",
+          "incident_id": "bypf7bqdh4g0",
+          "created_at": "2023-03-01T13:44:15.827Z",
+          "updated_at": "2023-03-01T13:44:15.827Z",
+          "display_at": "2023-03-01T13:44:15.827Z",
+          "affected_components": [
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "lgrcmf965r0c",
+          "status": "investigating",
+          "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "bypf7bqdh4g0",
+          "created_at": "2023-03-01T13:39:03.381Z",
+          "updated_at": "2023-03-01T13:39:03.381Z",
+          "display_at": "2023-03-01T13:39:03.381Z",
+          "affected_components": [
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "lt5w125hty3m",
           "status": "investigating",
@@ -238,11 +290,26 @@
         {
           "id": "st3j38cctv9l",
           "name": "Packages",
-          "status": "partial_outage",
+          "status": "major_outage",
           "created_at": "2019-11-13T18:02:40.064Z",
-          "updated_at": "2023-03-01T12:20:03.447Z",
+          "updated_at": "2023-03-01T13:44:16.763Z",
           "position": 8,
           "description": "API requests and webhook delivery for GitHub Packages",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "vg70hn9s2tyj",
+          "name": "Pages",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:04:33.923Z",
+          "updated_at": "2023-03-01T13:39:06.786Z",
+          "position": 9,
+          "description": "Frontend application and API servers for Pages builds",
           "showcase": false,
           "start_date": null,
           "group_id": null,
@@ -255,7 +322,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
