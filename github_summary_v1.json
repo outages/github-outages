@@ -4,15 +4,15 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-03-02T18:26:15.316Z"
+    "updated_at": "2023-03-02T18:43:52.421Z"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:05:05.370Z",
-      "updated_at": "2023-03-02T18:26:15.312Z",
+      "updated_at": "2023-03-02T18:43:52.418Z",
       "position": 1,
       "description": "Performance of git clones, pulls, pushes, and associated operations",
       "showcase": false,
@@ -173,63 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "z0kj7nzrhrn5",
-      "name": "Incident with Git Operations",
-      "status": "investigating",
-      "created_at": "2023-03-02T18:26:08.494Z",
-      "updated_at": "2023-03-02T18:26:15.341Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/vl5qtntd2tnp",
-      "started_at": "2023-03-02T18:26:08.488Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "x0kj4bjm76c9",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Git Operations.",
-          "incident_id": "z0kj7nzrhrn5",
-          "created_at": "2023-03-02T18:26:08.537Z",
-          "updated_at": "2023-03-02T18:26:08.537Z",
-          "display_at": "2023-03-02T18:26:08.537Z",
-          "affected_components": [
-            {
-              "code": "8l4ygp009s5s",
-              "name": "Git Operations",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "8l4ygp009s5s",
-          "name": "Git Operations",
-          "status": "partial_outage",
-          "created_at": "2017-01-31T20:05:05.370Z",
-          "updated_at": "2023-03-02T18:26:15.312Z",
-          "position": 1,
-          "description": "Performance of git clones, pulls, pushes, and associated operations",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
