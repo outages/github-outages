@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-03-15T15:17:53.221Z"
+    "updated_at": "2023-03-15T15:27:28.625Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2023-03-15T14:52:44.888Z",
+      "updated_at": "2023-03-15T15:27:27.991Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "Packages",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2023-03-15T15:17:53.218Z",
+      "updated_at": "2023-03-15T15:27:28.622Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -173,274 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "ybnn77s3lyf8",
-      "name": "Incident with Actions, Packages and Pages",
-      "status": "investigating",
-      "created_at": "2023-03-15T14:07:20.301Z",
-      "updated_at": "2023-03-15T15:17:52.097Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/6n5hbq7zbxkp",
-      "started_at": "2023-03-15T14:07:20.295Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "04ly3lbrr8yb",
-          "status": "investigating",
-          "body": "Packages is now experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "ybnn77s3lyf8",
-          "created_at": "2023-03-15T15:17:52.095Z",
-          "updated_at": "2023-03-15T15:17:52.095Z",
-          "display_at": "2023-03-15T15:17:52.095Z",
-          "affected_components": [
-            {
-              "code": "vg70hn9s2tyj",
-              "name": "Pages",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "st3j38cctv9l",
-              "name": "Packages",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wqyn18lphc3r",
-          "status": "investigating",
-          "body": "Our mitigation for Packages is progressing well. We are adding capacity back and beginning to see 5xx error rates reduce. Next update in 10 minutes.",
-          "incident_id": "ybnn77s3lyf8",
-          "created_at": "2023-03-15T15:10:33.841Z",
-          "updated_at": "2023-03-15T15:10:33.841Z",
-          "display_at": "2023-03-15T15:10:33.841Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "z2bfc5d98v3s",
-          "status": "investigating",
-          "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "ybnn77s3lyf8",
-          "created_at": "2023-03-15T14:52:42.076Z",
-          "updated_at": "2023-03-15T14:52:42.076Z",
-          "display_at": "2023-03-15T14:52:42.076Z",
-          "affected_components": [
-            {
-              "code": "vg70hn9s2tyj",
-              "name": "Pages",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "st3j38cctv9l",
-              "name": "Packages",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "g2scltymmz55",
-          "status": "investigating",
-          "body": "Users of GitHub Package Registry (except Docker and Maven registries) will be experiencing timeout failures. This includes GitHub Actions, Packages API and Packages UI on GitHub.com.",
-          "incident_id": "ybnn77s3lyf8",
-          "created_at": "2023-03-15T14:51:17.772Z",
-          "updated_at": "2023-03-15T14:51:17.772Z",
-          "display_at": "2023-03-15T14:51:17.772Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "by4bpsfkkmzn",
-          "status": "investigating",
-          "body": "We have identified the source of the issue with GitHub Packages and are working to mitigate the problem.",
-          "incident_id": "ybnn77s3lyf8",
-          "created_at": "2023-03-15T14:39:25.846Z",
-          "updated_at": "2023-03-15T14:39:25.846Z",
-          "display_at": "2023-03-15T14:39:25.846Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "1pj5mmbv0f98",
-          "status": "investigating",
-          "body": "Pages is operating normally.",
-          "incident_id": "ybnn77s3lyf8",
-          "created_at": "2023-03-15T14:22:06.130Z",
-          "updated_at": "2023-03-15T14:22:06.130Z",
-          "display_at": "2023-03-15T14:22:06.130Z",
-          "affected_components": [
-            {
-              "code": "vg70hn9s2tyj",
-              "name": "Pages",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "st3j38cctv9l",
-              "name": "Packages",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "l3d39tcxchg1",
-          "status": "investigating",
-          "body": "Packages is now experiencing degraded availability. We are continuing to investigate.",
-          "incident_id": "ybnn77s3lyf8",
-          "created_at": "2023-03-15T14:20:01.494Z",
-          "updated_at": "2023-03-15T14:20:01.494Z",
-          "display_at": "2023-03-15T14:20:01.494Z",
-          "affected_components": [
-            {
-              "code": "vg70hn9s2tyj",
-              "name": "Pages",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "st3j38cctv9l",
-              "name": "Packages",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "15ddldbcq9d5",
-          "status": "investigating",
-          "body": "Packages is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "ybnn77s3lyf8",
-          "created_at": "2023-03-15T14:09:08.854Z",
-          "updated_at": "2023-03-15T14:09:08.854Z",
-          "display_at": "2023-03-15T14:09:08.854Z",
-          "affected_components": [
-            {
-              "code": "vg70hn9s2tyj",
-              "name": "Pages",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "st3j38cctv9l",
-              "name": "Packages",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "8q3f636d0bft",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Pages.",
-          "incident_id": "ybnn77s3lyf8",
-          "created_at": "2023-03-15T14:07:20.329Z",
-          "updated_at": "2023-03-15T14:07:20.329Z",
-          "display_at": "2023-03-15T14:07:20.329Z",
-          "affected_components": [
-            {
-              "code": "vg70hn9s2tyj",
-              "name": "Pages",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "br0l2tvcx85d",
-          "name": "Actions",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2023-03-15T14:52:44.888Z",
-          "position": 7,
-          "description": "Workflows, Compute and Orchestration for GitHub Actions",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "st3j38cctv9l",
-          "name": "Packages",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:02:40.064Z",
-          "updated_at": "2023-03-15T15:17:53.218Z",
-          "position": 8,
-          "description": "API requests and webhook delivery for GitHub Packages",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "vg70hn9s2tyj",
-          "name": "Pages",
-          "status": "operational",
-          "created_at": "2017-01-31T20:04:33.923Z",
-          "updated_at": "2023-03-15T14:22:07.593Z",
-          "position": 9,
-          "description": "Frontend application and API servers for Pages builds",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
