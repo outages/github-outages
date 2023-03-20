@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-03-20T16:02:37.415Z"
+    "updated_at": "2023-03-20T16:44:00.069Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with API Requests, Git Operations, Issues and Pull Requests",
       "status": "investigating",
       "created_at": "2023-03-20T15:56:20.411Z",
-      "updated_at": "2023-03-20T16:02:37.404Z",
+      "updated_at": "2023-03-20T16:44:00.051Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2023-03-20T15:56:20.403Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "ld0bqw14hc3b",
+          "status": "investigating",
+          "body": "We continue to investigate the cause of high latency across multiple GitHub services.",
+          "incident_id": "z5ykrdm7ykwg",
+          "created_at": "2023-03-20T16:44:00.047Z",
+          "updated_at": "2023-03-20T16:44:00.047Z",
+          "display_at": "2023-03-20T16:44:00.047Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "nwlwxmhmb7rz",
           "status": "investigating",
