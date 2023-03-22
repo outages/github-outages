@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-03-22T20:43:18.052Z"
+    "updated_at": "2023-03-22T21:03:25.832Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Codespaces",
       "status": "investigating",
       "created_at": "2023-03-22T20:23:50.680Z",
-      "updated_at": "2023-03-22T20:31:33.934Z",
+      "updated_at": "2023-03-22T21:03:25.820Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2023-03-22T20:23:50.673Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "d42rct42tnj7",
+          "status": "investigating",
+          "body": "Some customers are currently unable to resume Codespaces created in the US West region. We are working to restore Codespaces to full functionality for those customers.",
+          "incident_id": "rzqm3bfcn80x",
+          "created_at": "2023-03-22T21:03:25.817Z",
+          "updated_at": "2023-03-22T21:03:25.817Z",
+          "display_at": "2023-03-22T21:03:25.817Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "862gnt8ftcl8",
           "status": "investigating",
