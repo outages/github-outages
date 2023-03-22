@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-03-22T22:26:46.129Z"
+    "updated_at": "2023-03-22T22:42:03.845Z"
   },
   "components": [
     {
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2023-03-22T20:23:57.368Z",
+      "updated_at": "2023-03-22T22:42:03.842Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -173,102 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "rzqm3bfcn80x",
-      "name": "Incident with Codespaces",
-      "status": "investigating",
-      "created_at": "2023-03-22T20:23:50.680Z",
-      "updated_at": "2023-03-22T22:26:46.119Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/nc4qj4549pch",
-      "started_at": "2023-03-22T20:23:50.673Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "qqsrwpx0bd8h",
-          "status": "investigating",
-          "body": "We are continuing to investigate issues with Codespaces in the US West region.",
-          "incident_id": "rzqm3bfcn80x",
-          "created_at": "2023-03-22T22:26:46.118Z",
-          "updated_at": "2023-03-22T22:26:46.118Z",
-          "display_at": "2023-03-22T22:26:46.118Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "d42rct42tnj7",
-          "status": "investigating",
-          "body": "Some customers are currently unable to resume Codespaces created in the US West region. We are working to restore Codespaces to full functionality for those customers.",
-          "incident_id": "rzqm3bfcn80x",
-          "created_at": "2023-03-22T21:03:25.817Z",
-          "updated_at": "2023-03-22T21:03:25.817Z",
-          "display_at": "2023-03-22T21:03:25.817Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "862gnt8ftcl8",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Codespaces created in our US West 3 cluster.",
-          "incident_id": "rzqm3bfcn80x",
-          "created_at": "2023-03-22T20:31:33.931Z",
-          "updated_at": "2023-03-22T20:31:33.931Z",
-          "display_at": "2023-03-22T20:31:33.931Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "gbtl544xw6ss",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Codespaces.",
-          "incident_id": "rzqm3bfcn80x",
-          "created_at": "2023-03-22T20:23:50.726Z",
-          "updated_at": "2023-03-22T20:23:50.726Z",
-          "display_at": "2023-03-22T20:23:50.726Z",
-          "affected_components": [
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "h2ftsgbw7kmk",
-          "name": "Codespaces",
-          "status": "partial_outage",
-          "created_at": "2021-08-11T16:02:09.505Z",
-          "updated_at": "2023-03-22T20:23:57.368Z",
-          "position": 10,
-          "description": "Orchestration and Compute for GitHub Codespaces",
-          "showcase": false,
-          "start_date": "2021-08-11",
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
