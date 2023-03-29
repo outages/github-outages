@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-03-29T16:56:26.989Z"
+    "updated_at": "2023-03-29T17:41:40.269Z"
   },
   "components": [
     {
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2023-03-27T13:29:17.788Z",
+      "updated_at": "2023-03-29T17:29:26.956Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -176,10 +176,10 @@
   "incidents": [
     {
       "id": "z3c6q056q332",
-      "name": "Incident with Actions and Pages",
+      "name": "Incident with Actions, Codespaces and Pages",
       "status": "investigating",
       "created_at": "2023-03-29T14:21:21.951Z",
-      "updated_at": "2023-03-29T16:56:26.979Z",
+      "updated_at": "2023-03-29T17:41:40.260Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,51 @@
       "started_at": "2023-03-29T14:21:21.944Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "xqsvx4rz8dkr",
+          "status": "investigating",
+          "body": "We are still working towards full recovery. Actions jobs still experience delays when being queued.",
+          "incident_id": "z3c6q056q332",
+          "created_at": "2023-03-29T17:41:40.257Z",
+          "updated_at": "2023-03-29T17:41:40.257Z",
+          "display_at": "2023-03-29T17:41:40.257Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "k5bxzk2wt9np",
+          "status": "investigating",
+          "body": "Codespaces is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "z3c6q056q332",
+          "created_at": "2023-03-29T17:29:25.655Z",
+          "updated_at": "2023-03-29T17:29:25.655Z",
+          "display_at": "2023-03-29T17:29:25.655Z",
+          "affected_components": [
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "2f1md1k2wbn2",
           "status": "investigating",
@@ -358,6 +403,21 @@
           "description": "Frontend application and API servers for Pages builds",
           "showcase": false,
           "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "h2ftsgbw7kmk",
+          "name": "Codespaces",
+          "status": "partial_outage",
+          "created_at": "2021-08-11T16:02:09.505Z",
+          "updated_at": "2023-03-29T17:29:26.956Z",
+          "position": 10,
+          "description": "Orchestration and Compute for GitHub Codespaces",
+          "showcase": false,
+          "start_date": "2021-08-11",
           "group_id": null,
           "page_id": "kctbh9vrtdwd",
           "group": false,
