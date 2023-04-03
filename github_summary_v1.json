@@ -4,15 +4,15 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-04-03T22:17:06.602Z"
+    "updated_at": "2023-04-03T22:41:56.946Z"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:05:05.370Z",
-      "updated_at": "2023-04-03T20:57:25.480Z",
+      "updated_at": "2023-04-03T22:41:56.944Z",
       "position": 1,
       "description": "Performance of git clones, pulls, pushes, and associated operations",
       "showcase": false,
@@ -173,102 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "5nlnzt80fk7g",
-      "name": "Incident with Git Operations",
-      "status": "investigating",
-      "created_at": "2023-04-03T20:57:18.930Z",
-      "updated_at": "2023-04-03T22:17:06.591Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/q9lnt9b7n1cy",
-      "started_at": "2023-04-03T20:57:18.924Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "m6s5c3z57d1x",
-          "status": "investigating",
-          "body": "We have mitigated the intermittent errors for Git requests and are continuing to monitor the system",
-          "incident_id": "5nlnzt80fk7g",
-          "created_at": "2023-04-03T22:17:06.589Z",
-          "updated_at": "2023-04-03T22:17:06.589Z",
-          "display_at": "2023-04-03T22:17:06.589Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "lffb16v0fmcw",
-          "status": "investigating",
-          "body": "We are currently working to mitigate intermittent errors for Git requests",
-          "incident_id": "5nlnzt80fk7g",
-          "created_at": "2023-04-03T21:52:25.044Z",
-          "updated_at": "2023-04-03T21:52:25.044Z",
-          "display_at": "2023-04-03T21:52:25.044Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "522nh3mfycw2",
-          "status": "investigating",
-          "body": "We are currently investigating intermittent errors for Git requests",
-          "incident_id": "5nlnzt80fk7g",
-          "created_at": "2023-04-03T21:32:00.204Z",
-          "updated_at": "2023-04-03T21:32:00.204Z",
-          "display_at": "2023-04-03T21:32:00.204Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "q52lnfcsjmqq",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Git Operations.",
-          "incident_id": "5nlnzt80fk7g",
-          "created_at": "2023-04-03T20:57:18.959Z",
-          "updated_at": "2023-04-03T20:57:18.959Z",
-          "display_at": "2023-04-03T20:57:18.959Z",
-          "affected_components": [
-            {
-              "code": "8l4ygp009s5s",
-              "name": "Git Operations",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "8l4ygp009s5s",
-          "name": "Git Operations",
-          "status": "partial_outage",
-          "created_at": "2017-01-31T20:05:05.370Z",
-          "updated_at": "2023-04-03T20:57:25.480Z",
-          "position": 1,
-          "description": "Performance of git clones, pulls, pushes, and associated operations",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
