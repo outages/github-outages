@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-04-03T18:43:59.210Z"
+    "updated_at": "2023-04-03T19:00:46.301Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2023-04-03T18:35:46.283Z",
+      "updated_at": "2023-04-03T19:00:35.415Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "vg70hn9s2tyj",
       "name": "Pages",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2023-04-03T18:42:40.527Z",
+      "updated_at": "2023-04-03T19:00:46.299Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": false,
@@ -173,117 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "0d1bcqt29hm2",
-      "name": "Incident with Actions and Pages",
-      "status": "investigating",
-      "created_at": "2023-04-03T18:35:40.133Z",
-      "updated_at": "2023-04-03T18:43:59.201Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/zpy5mxc87ffb",
-      "started_at": "2023-04-03T18:35:40.127Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "zjjgt9ygy42k",
-          "status": "investigating",
-          "body": "We are investigating issues with workflow run failures when downloading actions.",
-          "incident_id": "0d1bcqt29hm2",
-          "created_at": "2023-04-03T18:43:59.200Z",
-          "updated_at": "2023-04-03T18:43:59.200Z",
-          "display_at": "2023-04-03T18:43:59.200Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "7x0680ycfqyr",
-          "status": "investigating",
-          "body": "Pages is experiencing degraded performance. We are still investigating and will provide an update when we have one.",
-          "incident_id": "0d1bcqt29hm2",
-          "created_at": "2023-04-03T18:42:38.148Z",
-          "updated_at": "2023-04-03T18:42:38.148Z",
-          "display_at": "2023-04-03T18:42:38.148Z",
-          "affected_components": [
-            {
-              "code": "vg70hn9s2tyj",
-              "name": "Pages",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "tzn9rzjwnknk",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Actions.",
-          "incident_id": "0d1bcqt29hm2",
-          "created_at": "2023-04-03T18:35:40.170Z",
-          "updated_at": "2023-04-03T18:35:40.170Z",
-          "display_at": "2023-04-03T18:35:40.170Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "br0l2tvcx85d",
-          "name": "Actions",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2023-04-03T18:35:46.283Z",
-          "position": 7,
-          "description": "Workflows, Compute and Orchestration for GitHub Actions",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "vg70hn9s2tyj",
-          "name": "Pages",
-          "status": "partial_outage",
-          "created_at": "2017-01-31T20:04:33.923Z",
-          "updated_at": "2023-04-03T18:42:40.527Z",
-          "position": 9,
-          "description": "Frontend application and API servers for Pages builds",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
