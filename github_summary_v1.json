@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-04-19T18:43:14.930Z"
+    "updated_at": "2023-04-19T19:28:00.754Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2023-04-19T18:28:33.753Z",
+      "updated_at": "2023-04-19T19:28:00.750Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -173,76 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "jl6ryhty8h5x",
-      "name": "Incident with Actions",
-      "status": "investigating",
-      "created_at": "2023-04-19T18:28:25.862Z",
-      "updated_at": "2023-04-19T18:33:46.562Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/6fkbg7pvy6g7",
-      "started_at": "2023-04-19T18:28:25.854Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "7xcwjglcgrjb",
-          "status": "investigating",
-          "body": "Actions is experiencing capacity constraints with hosted Linux/Windows Larger Runners, leading to high wait times. Other hosted labels and self-hosted runners are not impacted.",
-          "incident_id": "jl6ryhty8h5x",
-          "created_at": "2023-04-19T18:33:46.560Z",
-          "updated_at": "2023-04-19T18:33:46.560Z",
-          "display_at": "2023-04-19T18:33:46.560Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "98zvppgmcc5z",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Actions.",
-          "incident_id": "jl6ryhty8h5x",
-          "created_at": "2023-04-19T18:28:25.904Z",
-          "updated_at": "2023-04-19T18:28:25.904Z",
-          "display_at": "2023-04-19T18:28:25.904Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "br0l2tvcx85d",
-          "name": "Actions",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2023-04-19T18:28:33.753Z",
-          "position": 7,
-          "description": "Workflows, Compute and Orchestration for GitHub Actions",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
