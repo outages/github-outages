@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-04-25T00:13:34.405Z"
+    "updated_at": "2023-04-25T01:31:10.762Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Actions, API Requests, Copilot and Git Operations",
       "status": "investigating",
       "created_at": "2023-04-24T21:14:49.239Z",
-      "updated_at": "2023-04-25T00:13:33.142Z",
+      "updated_at": "2023-04-25T01:31:10.753Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2023-04-24T21:14:49.231Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "lcy3vpj28jsl",
+          "status": "investigating",
+          "body": "Starting at 20:30 UTC, a small % of clients in West US are seeing connection resets or connection timeouts, leading to failed action downloads.  We are continuing to work to identify a mitigation.",
+          "incident_id": "rcnl10p4hywg",
+          "created_at": "2023-04-25T01:31:10.750Z",
+          "updated_at": "2023-04-25T01:31:10.750Z",
+          "display_at": "2023-04-25T01:31:10.750Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "xbbdv1yp9pht",
           "status": "investigating",
