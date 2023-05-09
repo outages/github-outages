@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-05-09T09:50:40.123Z"
+    "updated_at": "2023-05-09T10:04:39.335Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2023-05-09T08:07:40.116Z",
+      "updated_at": "2023-05-09T10:04:39.333Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -173,102 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "wzv2wd9zvhpr",
-      "name": "Incident with Pull Requests",
-      "status": "investigating",
-      "created_at": "2023-05-09T08:07:33.110Z",
-      "updated_at": "2023-05-09T09:50:40.114Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/v616z655629s",
-      "started_at": "2023-05-09T08:07:33.105Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "b13dj7z0tjdd",
-          "status": "investigating",
-          "body": "Our engineers continue to monitor the delivery of backlogged notifications.",
-          "incident_id": "wzv2wd9zvhpr",
-          "created_at": "2023-05-09T09:50:40.111Z",
-          "updated_at": "2023-05-09T09:50:40.111Z",
-          "display_at": "2023-05-09T09:50:40.111Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "nch6gxmb7q9g",
-          "status": "investigating",
-          "body": "We have mitigated the issue impacting the delivery of notifications, and are working to deliver the backlog of notifications.",
-          "incident_id": "wzv2wd9zvhpr",
-          "created_at": "2023-05-09T08:44:27.755Z",
-          "updated_at": "2023-05-09T08:44:27.755Z",
-          "display_at": "2023-05-09T08:44:27.755Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "g45c8mq40z06",
-          "status": "investigating",
-          "body": "We are investigating delays in the delivery of Pull Request notifications.",
-          "incident_id": "wzv2wd9zvhpr",
-          "created_at": "2023-05-09T08:09:26.337Z",
-          "updated_at": "2023-05-09T08:09:26.337Z",
-          "display_at": "2023-05-09T08:09:26.337Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "v5ddwx8z52pj",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Pull Requests.",
-          "incident_id": "wzv2wd9zvhpr",
-          "created_at": "2023-05-09T08:07:33.135Z",
-          "updated_at": "2023-05-09T08:07:33.135Z",
-          "display_at": "2023-05-09T08:07:33.135Z",
-          "affected_components": [
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hhtssxt0f5v2",
-          "name": "Pull Requests",
-          "status": "partial_outage",
-          "created_at": "2020-09-02T15:39:06.329Z",
-          "updated_at": "2023-05-09T08:07:40.116Z",
-          "position": 6,
-          "description": "Requests for Pull Requests on GitHub.com",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
