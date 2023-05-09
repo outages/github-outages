@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-05-09T22:52:30.518Z"
+    "updated_at": "2023-05-09T23:31:11.074Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Git Operations",
       "status": "investigating",
       "created_at": "2023-05-09T22:39:41.852Z",
-      "updated_at": "2023-05-09T22:52:30.508Z",
+      "updated_at": "2023-05-09T23:31:11.064Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2023-05-09T22:39:41.845Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "vw6rrnvkx4pf",
+          "status": "investigating",
+          "body": "We are seeing slower than usual times to run git clone over HTTPS. SSH is not impacted. We continue to investigate.",
+          "incident_id": "wj1qbq7r9tcl",
+          "created_at": "2023-05-09T23:31:11.061Z",
+          "updated_at": "2023-05-09T23:31:11.061Z",
+          "display_at": "2023-05-09T23:31:11.061Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "stbs8054zby4",
           "status": "investigating",
