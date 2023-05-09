@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-05-09T16:55:50.677Z"
+    "updated_at": "2023-05-09T19:43:43.321Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Actions, API Requests, Codespaces, Git Operations, Issues, Pages, Pull Requests and Webhooks",
       "status": "investigating",
       "created_at": "2023-05-09T11:32:57.687Z",
-      "updated_at": "2023-05-09T16:55:49.352Z",
+      "updated_at": "2023-05-09T19:43:43.309Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,19 @@
       "started_at": "2023-05-09T11:32:57.678Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "szd2b101hy27",
+          "status": "investigating",
+          "body": "All services continue to operate normally and we are continuing work on restoring delayed pull request updates for some impacted customers. We will go back to green once that work has completed.",
+          "incident_id": "f0mhbz9xn497",
+          "created_at": "2023-05-09T19:43:43.307Z",
+          "updated_at": "2023-05-09T19:43:43.307Z",
+          "display_at": "2023-05-09T19:43:43.307Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "v4ww797w03g3",
           "status": "investigating",
