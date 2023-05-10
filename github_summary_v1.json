@@ -4,15 +4,15 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-05-09T23:31:11.074Z"
+    "updated_at": "2023-05-10T00:06:07.472Z"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:05:05.370Z",
-      "updated_at": "2023-05-09T22:39:50.611Z",
+      "updated_at": "2023-05-10T00:06:07.470Z",
       "position": 1,
       "description": "Performance of git clones, pulls, pushes, and associated operations",
       "showcase": false,
@@ -173,89 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "wj1qbq7r9tcl",
-      "name": "Incident with Git Operations",
-      "status": "investigating",
-      "created_at": "2023-05-09T22:39:41.852Z",
-      "updated_at": "2023-05-09T23:31:11.064Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/pb100xrg4lhy",
-      "started_at": "2023-05-09T22:39:41.845Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "vw6rrnvkx4pf",
-          "status": "investigating",
-          "body": "We are seeing slower than usual times to run git clone over HTTPS. SSH is not impacted. We continue to investigate.",
-          "incident_id": "wj1qbq7r9tcl",
-          "created_at": "2023-05-09T23:31:11.061Z",
-          "updated_at": "2023-05-09T23:31:11.061Z",
-          "display_at": "2023-05-09T23:31:11.061Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "stbs8054zby4",
-          "status": "investigating",
-          "body": "We are seeing slower than usual times to run git clone over HTTPS. SSH is not impacted. We continue to investigate.",
-          "incident_id": "wj1qbq7r9tcl",
-          "created_at": "2023-05-09T22:52:30.506Z",
-          "updated_at": "2023-05-09T22:52:30.506Z",
-          "display_at": "2023-05-09T22:52:30.506Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "zqk1tcr613hc",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Git Operations.",
-          "incident_id": "wj1qbq7r9tcl",
-          "created_at": "2023-05-09T22:39:41.889Z",
-          "updated_at": "2023-05-09T22:39:41.889Z",
-          "display_at": "2023-05-09T22:39:41.889Z",
-          "affected_components": [
-            {
-              "code": "8l4ygp009s5s",
-              "name": "Git Operations",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "8l4ygp009s5s",
-          "name": "Git Operations",
-          "status": "partial_outage",
-          "created_at": "2017-01-31T20:05:05.370Z",
-          "updated_at": "2023-05-09T22:39:50.611Z",
-          "position": 1,
-          "description": "Performance of git clones, pulls, pushes, and associated operations",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
