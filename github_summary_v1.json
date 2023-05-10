@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-05-10T13:00:47.049Z"
+    "updated_at": "2023-05-10T13:28:16.284Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2023-05-09T12:52:32.893Z",
+      "updated_at": "2023-05-10T13:28:16.282Z",
       "position": 2,
       "description": "Requests for GitHub APIs",
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "vg70hn9s2tyj",
       "name": "Pages",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2023-05-09T12:52:42.794Z",
+      "updated_at": "2023-05-10T13:10:51.266Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": false,
@@ -176,10 +176,10 @@
   "incidents": [
     {
       "id": "pr3498h3qkfy",
-      "name": "Incident with Actions and Codespaces",
+      "name": "Incident with Actions, API Requests, Codespaces and Pages",
       "status": "investigating",
       "created_at": "2023-05-10T13:00:31.119Z",
-      "updated_at": "2023-05-10T13:00:43.837Z",
+      "updated_at": "2023-05-10T13:28:14.013Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,89 @@
       "started_at": "2023-05-10T13:00:31.110Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "nsh5j9byxggq",
+          "status": "investigating",
+          "body": "API Requests is experiencing degraded performance. We are still investigating and will provide an update when we have one.",
+          "incident_id": "pr3498h3qkfy",
+          "created_at": "2023-05-10T13:28:14.010Z",
+          "updated_at": "2023-05-10T13:28:14.010Z",
+          "display_at": "2023-05-10T13:28:14.010Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "sjg6b2qhtpwx",
+          "status": "investigating",
+          "body": "We are investigating issues which are impacting Codespaces, Actions and GitHub Apps which use server-to-server tokens. We are working towards mitigation and will update as we know more.",
+          "incident_id": "pr3498h3qkfy",
+          "created_at": "2023-05-10T13:23:41.706Z",
+          "updated_at": "2023-05-10T13:23:41.706Z",
+          "display_at": "2023-05-10T13:23:41.706Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "t2lmph9fgz05",
+          "status": "investigating",
+          "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "pr3498h3qkfy",
+          "created_at": "2023-05-10T13:10:48.355Z",
+          "updated_at": "2023-05-10T13:10:48.355Z",
+          "display_at": "2023-05-10T13:10:48.355Z",
+          "affected_components": [
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "ffn0k6w5p212",
           "status": "investigating",
@@ -236,6 +319,21 @@
       ],
       "components": [
         {
+          "id": "brv1bkgrwx7q",
+          "name": "API Requests",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:01:46.621Z",
+          "updated_at": "2023-05-10T13:28:16.282Z",
+          "position": 2,
+          "description": "Requests for GitHub APIs",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
           "id": "br0l2tvcx85d",
           "name": "Actions",
           "status": "partial_outage",
@@ -243,6 +341,21 @@
           "updated_at": "2023-05-10T13:00:38.325Z",
           "position": 7,
           "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "vg70hn9s2tyj",
+          "name": "Pages",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:04:33.923Z",
+          "updated_at": "2023-05-10T13:10:51.266Z",
+          "position": 9,
+          "description": "Frontend application and API servers for Pages builds",
           "showcase": false,
           "start_date": null,
           "group_id": null,
