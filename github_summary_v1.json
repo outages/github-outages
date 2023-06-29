@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-06-28T23:44:29.372Z"
+    "updated_at": "2023-06-29T01:26:21.063Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Actions, API Requests and Pages",
       "status": "investigating",
       "created_at": "2023-06-28T22:59:03.965Z",
-      "updated_at": "2023-06-28T23:39:37.854Z",
+      "updated_at": "2023-06-29T01:26:21.054Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,45 @@
       "started_at": "2023-06-28T22:59:03.956Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "mls6l4p4xc62",
+          "status": "investigating",
+          "body": "We are deploying a fix for failing Actions jobs using environments. The issue is also impacting GitHub Pages - deployments are pending in an approval stage.",
+          "incident_id": "ws2l6203cs7g",
+          "created_at": "2023-06-29T01:26:21.052Z",
+          "updated_at": "2023-06-29T01:26:21.052Z",
+          "display_at": "2023-06-29T01:26:21.052Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "tz8rpx4d2ptf",
+          "status": "investigating",
+          "body": "We continue working on a fix for failing Actions jobs using environments.",
+          "incident_id": "ws2l6203cs7g",
+          "created_at": "2023-06-29T00:37:14.488Z",
+          "updated_at": "2023-06-29T00:37:14.488Z",
+          "display_at": "2023-06-29T00:37:14.488Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "zyjk9nbr8nrb",
+          "status": "investigating",
+          "body": "We now understand the root cause of failing Actions jobs using environments. We are working on a fix.",
+          "incident_id": "ws2l6203cs7g",
+          "created_at": "2023-06-29T00:11:15.989Z",
+          "updated_at": "2023-06-29T00:11:15.989Z",
+          "display_at": "2023-06-29T00:11:15.989Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "c29qq10skv9s",
           "status": "investigating",
