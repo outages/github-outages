@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-06-29T16:30:21.824Z"
+    "updated_at": "2023-06-29T17:19:37.882Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2023-06-29T14:51:15.387Z",
+      "updated_at": "2023-06-29T17:19:37.879Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -173,115 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "xqskfvqm07w3",
-      "name": "Incident with Actions",
-      "status": "investigating",
-      "created_at": "2023-06-29T14:51:08.460Z",
-      "updated_at": "2023-06-29T16:30:21.811Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/4z9f9tbr4rhf",
-      "started_at": "2023-06-29T14:51:08.450Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "xm0qy1928zhf",
-          "status": "investigating",
-          "body": "The third party provider GitHub uses is continuing to work through the issue that is causing delays for some customers with Actions Larger Runners and has started applying mitigations.",
-          "incident_id": "xqskfvqm07w3",
-          "created_at": "2023-06-29T16:30:21.807Z",
-          "updated_at": "2023-06-29T16:30:21.807Z",
-          "display_at": "2023-06-29T16:30:21.807Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "2npt9zmk6zc0",
-          "status": "investigating",
-          "body": "The third party provider GitHub uses is continuing to work through the issue that is causing delays for some customers with Actions Larger Runners and is seeking to provide a mitigation soon.",
-          "incident_id": "xqskfvqm07w3",
-          "created_at": "2023-06-29T15:45:53.317Z",
-          "updated_at": "2023-06-29T15:45:53.317Z",
-          "display_at": "2023-06-29T15:45:53.317Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "p064qnw08cmq",
-          "status": "investigating",
-          "body": "A third party provider GitHub uses has identified an issue and is working on recovery over the next hour. Standard Hosted Runners and Self Hosted Runners should not be impacted.",
-          "incident_id": "xqskfvqm07w3",
-          "created_at": "2023-06-29T15:05:19.041Z",
-          "updated_at": "2023-06-29T15:05:19.041Z",
-          "display_at": "2023-06-29T15:05:19.041Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "ylmxtfydpftn",
-          "status": "investigating",
-          "body": "GitHub Actions customers using Windows and Linux Larger Runners may be experiencing longer than normal queue times.",
-          "incident_id": "xqskfvqm07w3",
-          "created_at": "2023-06-29T15:02:27.129Z",
-          "updated_at": "2023-06-29T15:02:27.129Z",
-          "display_at": "2023-06-29T15:02:27.129Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "kwyhkckp9h2g",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Actions.",
-          "incident_id": "xqskfvqm07w3",
-          "created_at": "2023-06-29T14:51:08.500Z",
-          "updated_at": "2023-06-29T14:51:08.500Z",
-          "display_at": "2023-06-29T14:51:08.500Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "br0l2tvcx85d",
-          "name": "Actions",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2023-06-29T14:51:15.387Z",
-          "position": 7,
-          "description": "Workflows, Compute and Orchestration for GitHub Actions",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
