@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-06-29T04:19:44.914Z"
+    "updated_at": "2023-06-29T04:54:16.678Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Actions, API Requests and Pages",
       "status": "investigating",
       "created_at": "2023-06-28T22:59:03.965Z",
-      "updated_at": "2023-06-29T04:19:44.901Z",
+      "updated_at": "2023-06-29T04:54:16.667Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2023-06-28T22:59:03.956Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "wjw3f8676z8r",
+          "status": "investigating",
+          "body": "We are continuing to monitor the rollout of the fix for failing Actions jobs using the deployment environments feature. We are expecting the rollout to take up to another 1 to 1.5 hours.",
+          "incident_id": "ws2l6203cs7g",
+          "created_at": "2023-06-29T04:54:16.664Z",
+          "updated_at": "2023-06-29T04:54:16.664Z",
+          "display_at": "2023-06-29T04:54:16.664Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "fnz0p7ty5ms9",
           "status": "investigating",
