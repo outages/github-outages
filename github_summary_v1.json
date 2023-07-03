@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-07-03T13:22:33.585Z"
+    "updated_at": "2023-07-03T13:47:41.329Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2023-07-03T13:19:04.922Z",
+      "updated_at": "2023-07-03T13:47:41.326Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -173,76 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "mc06mgh6qv9r",
-      "name": "Incident with Pull Requests",
-      "status": "investigating",
-      "created_at": "2023-07-03T13:18:57.445Z",
-      "updated_at": "2023-07-03T13:22:33.576Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/55fjgr1svnbc",
-      "started_at": "2023-07-03T13:18:57.438Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "2p5f9rjsrbk4",
-          "status": "investigating",
-          "body": "We are aware of an increase in 5xx errors for Pull Requests. Our team has been working on mitigation for the past 40 minutes and expects to see full recovery in the next 20 minutes.",
-          "incident_id": "mc06mgh6qv9r",
-          "created_at": "2023-07-03T13:22:33.575Z",
-          "updated_at": "2023-07-03T13:22:33.575Z",
-          "display_at": "2023-07-03T13:22:33.575Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "t81twc0fj713",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Pull Requests.",
-          "incident_id": "mc06mgh6qv9r",
-          "created_at": "2023-07-03T13:18:57.502Z",
-          "updated_at": "2023-07-03T13:18:57.502Z",
-          "display_at": "2023-07-03T13:18:57.502Z",
-          "affected_components": [
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hhtssxt0f5v2",
-          "name": "Pull Requests",
-          "status": "partial_outage",
-          "created_at": "2020-09-02T15:39:06.329Z",
-          "updated_at": "2023-07-03T13:19:04.922Z",
-          "position": 6,
-          "description": "Requests for Pull Requests on GitHub.com",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
