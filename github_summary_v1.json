@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-07-07T16:14:12.918Z"
+    "updated_at": "2023-07-07T16:43:06.202Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Pull Requests",
       "status": "investigating",
       "created_at": "2023-07-07T15:53:10.923Z",
-      "updated_at": "2023-07-07T16:14:12.904Z",
+      "updated_at": "2023-07-07T16:36:18.240Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2023-07-07T15:53:10.916Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "zwnqvzj0hcgp",
+          "status": "investigating",
+          "body": "The fix has been confirmed to work in production and is in the process of being deployed to all users.",
+          "incident_id": "hz717kx2gsvq",
+          "created_at": "2023-07-07T16:36:18.237Z",
+          "updated_at": "2023-07-07T16:36:18.237Z",
+          "display_at": "2023-07-07T16:36:18.237Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "t6b4vzhgldqz",
           "status": "investigating",
