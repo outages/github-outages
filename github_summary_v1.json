@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-07-18T15:51:51.013Z"
+    "updated_at": "2023-07-18T16:05:51.115Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Git Operations and Pull Requests",
       "status": "investigating",
       "created_at": "2023-07-18T15:44:01.223Z",
-      "updated_at": "2023-07-18T15:51:48.130Z",
+      "updated_at": "2023-07-18T16:05:51.106Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2023-07-18T15:44:01.216Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "t15kyq85sbb8",
+          "status": "investigating",
+          "body": "Some customers may be experiencing slow git operations. We have identified the cause of the issue and are working on a mitigation.",
+          "incident_id": "shbq71s0g00z",
+          "created_at": "2023-07-18T16:05:51.104Z",
+          "updated_at": "2023-07-18T16:05:51.104Z",
+          "display_at": "2023-07-18T16:05:51.104Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "qn6y4wrqbvvh",
           "status": "investigating",
