@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-07-21T13:22:58.750Z"
+    "updated_at": "2023-07-21T13:36:16.865Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2023-06-29T18:35:47.799Z",
+      "updated_at": "2023-07-21T13:36:16.862Z",
       "position": 2,
       "description": "Requests for GitHub APIs",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2023-07-18T16:43:55.442Z",
+      "updated_at": "2023-07-21T13:27:41.551Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -176,10 +176,10 @@
   "incidents": [
     {
       "id": "6503rcn8s34s",
-      "name": "Incident with Actions, Git Operations, Packages and Pages",
+      "name": "Incident with Actions, API Requests, Git Operations, Packages, Pages and Pull Requests",
       "status": "investigating",
       "created_at": "2023-07-21T13:12:53.820Z",
-      "updated_at": "2023-07-21T13:22:56.343Z",
+      "updated_at": "2023-07-21T13:36:14.118Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,113 @@
       "started_at": "2023-07-21T13:12:53.814Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "8brn3n8kyxb1",
+          "status": "investigating",
+          "body": "API Requests is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "6503rcn8s34s",
+          "created_at": "2023-07-21T13:36:14.116Z",
+          "updated_at": "2023-07-21T13:36:14.116Z",
+          "display_at": "2023-07-21T13:36:14.116Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "3r7wfqlpknlr",
+          "status": "investigating",
+          "body": "We are experiencing a power failure at a datacenter related to our networking infrastructure that is impacting a subset of customers using our services. We are working on mitigating the issue.",
+          "incident_id": "6503rcn8s34s",
+          "created_at": "2023-07-21T13:34:14.242Z",
+          "updated_at": "2023-07-21T13:34:14.242Z",
+          "display_at": "2023-07-21T13:34:14.242Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "cgqq69hbj2mv",
+          "status": "investigating",
+          "body": "Pull Requests is experiencing degraded performance. We are still investigating and will provide an update when we have one.",
+          "incident_id": "6503rcn8s34s",
+          "created_at": "2023-07-21T13:27:38.727Z",
+          "updated_at": "2023-07-21T13:27:38.727Z",
+          "display_at": "2023-07-21T13:27:38.727Z",
+          "affected_components": [
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "shnmsmxcrr5b",
           "status": "investigating",
@@ -313,6 +420,36 @@
           "updated_at": "2023-07-21T13:13:01.910Z",
           "position": 1,
           "description": "Performance of git clones, pulls, pushes, and associated operations",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "brv1bkgrwx7q",
+          "name": "API Requests",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:01:46.621Z",
+          "updated_at": "2023-07-21T13:36:16.862Z",
+          "position": 2,
+          "description": "Requests for GitHub APIs",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "hhtssxt0f5v2",
+          "name": "Pull Requests",
+          "status": "partial_outage",
+          "created_at": "2020-09-02T15:39:06.329Z",
+          "updated_at": "2023-07-21T13:27:41.551Z",
+          "position": 6,
+          "description": "Requests for Pull Requests on GitHub.com",
           "showcase": false,
           "start_date": null,
           "group_id": null,
