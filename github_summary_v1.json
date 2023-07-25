@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-07-25T22:33:22.251Z"
+    "updated_at": "2023-07-25T22:43:47.757Z"
   },
   "components": [
     {
@@ -173,50 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "98fs1552d2nw",
-      "name": "Investigating reports of degraded performance.",
-      "status": "investigating",
-      "created_at": "2023-07-25T22:33:16.583Z",
-      "updated_at": "2023-07-25T22:33:22.241Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/bkw3x9xz95f7",
-      "started_at": "2023-07-25T22:33:16.576Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "fqzt8s1s0m2x",
-          "status": "investigating",
-          "body": "We found an issue that impacts a small subset of customers <1% have encountered audit logs sent via splunk at a slower than usual rate. We have identified the source and have resolved the issue.",
-          "incident_id": "98fs1552d2nw",
-          "created_at": "2023-07-25T22:33:22.239Z",
-          "updated_at": "2023-07-25T22:33:22.239Z",
-          "display_at": "2023-07-25T22:33:22.239Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "rdwz4vm56dwg",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "98fs1552d2nw",
-          "created_at": "2023-07-25T22:33:16.632Z",
-          "updated_at": "2023-07-25T22:33:16.632Z",
-          "display_at": "2023-07-25T22:33:16.632Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
