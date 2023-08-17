@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-17T19:12:04.212Z"
+    "updated_at": "2023-08-17T19:28:50.110Z"
   },
   "components": [
     {
@@ -173,50 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "nj39bg7wbgdq",
-      "name": "We are investigating reports of degraded performance.",
-      "status": "investigating",
-      "created_at": "2023-08-17T19:12:01.681Z",
-      "updated_at": "2023-08-17T19:12:04.205Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/b35v6c1w848b",
-      "started_at": "2023-08-17T19:12:01.675Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "tcdl65q490vz",
-          "status": "investigating",
-          "body": "Intermittent large runners and self hosted runners issue has been mitigated",
-          "incident_id": "nj39bg7wbgdq",
-          "created_at": "2023-08-17T19:12:04.203Z",
-          "updated_at": "2023-08-17T19:12:04.203Z",
-          "display_at": "2023-08-17T19:12:04.203Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "n2ttsg8sdvjj",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "nj39bg7wbgdq",
-          "created_at": "2023-08-17T19:12:01.711Z",
-          "updated_at": "2023-08-17T19:12:01.711Z",
-          "display_at": "2023-08-17T19:12:01.711Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
