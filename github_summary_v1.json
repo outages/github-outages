@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-21T17:43:23.498Z"
+    "updated_at": "2023-08-21T18:23:27.933Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Actions",
       "status": "investigating",
       "created_at": "2023-08-21T17:27:05.518Z",
-      "updated_at": "2023-08-21T17:41:29.995Z",
+      "updated_at": "2023-08-21T18:23:27.925Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2023-08-21T17:27:05.513Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "z7mr2d5cvqwh",
+          "status": "investigating",
+          "body": "Mitigation is in place for delays in Actions workflows and should be fully recovered in the next 30 minutes.",
+          "incident_id": "q8swpy90g6pp",
+          "created_at": "2023-08-21T18:23:27.923Z",
+          "updated_at": "2023-08-21T18:23:27.923Z",
+          "display_at": "2023-08-21T18:23:27.923Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "pcm92m7vd5wb",
           "status": "investigating",
