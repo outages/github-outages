@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-05T04:52:29.984Z"
+    "updated_at": "2023-09-05T05:10:01.719Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2023-09-05T04:17:21.374Z",
+      "updated_at": "2023-09-05T05:09:59.209Z",
       "position": 2,
       "description": "Requests for GitHub APIs",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2023-09-05T04:17:21.388Z",
+      "updated_at": "2023-09-05T05:10:01.673Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2023-09-05T04:51:26.529Z",
+      "updated_at": "2023-09-05T05:09:55.403Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -173,163 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "c8zjb9351hlc",
-      "name": "Incident with API Requests, Pull Requests and Actions",
-      "status": "investigating",
-      "created_at": "2023-09-05T04:17:21.345Z",
-      "updated_at": "2023-09-05T04:52:29.977Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/8z331rmlvryl",
-      "started_at": "2023-09-05T04:17:21.338Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "k21n1c4pvf2h",
-          "status": "investigating",
-          "body": "We are investigating reports of issues with service(s): Actions, API Requests, Pull Requests. We will continue to keep users updated on progress towards mitigation.",
-          "incident_id": "c8zjb9351hlc",
-          "created_at": "2023-09-05T04:52:29.975Z",
-          "updated_at": "2023-09-05T04:52:29.975Z",
-          "display_at": "2023-09-05T04:52:29.975Z",
-          "affected_components": [
-            {
-              "code": "brv1bkgrwx7q",
-              "name": "API Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "b6f54y2b2vl3",
-          "status": "investigating",
-          "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "c8zjb9351hlc",
-          "created_at": "2023-09-05T04:51:26.559Z",
-          "updated_at": "2023-09-05T04:51:26.559Z",
-          "display_at": "2023-09-05T04:51:26.559Z",
-          "affected_components": [
-            {
-              "code": "brv1bkgrwx7q",
-              "name": "API Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "y85w7m5crs5c",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for API Requests and Pull Requests",
-          "incident_id": "c8zjb9351hlc",
-          "created_at": "2023-09-05T04:17:21.422Z",
-          "updated_at": "2023-09-05T04:17:21.422Z",
-          "display_at": "2023-09-05T04:17:21.422Z",
-          "affected_components": [
-            {
-              "code": "brv1bkgrwx7q",
-              "name": "API Requests",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "brv1bkgrwx7q",
-          "name": "API Requests",
-          "status": "partial_outage",
-          "created_at": "2017-01-31T20:01:46.621Z",
-          "updated_at": "2023-09-05T04:17:21.374Z",
-          "position": 2,
-          "description": "Requests for GitHub APIs",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hhtssxt0f5v2",
-          "name": "Pull Requests",
-          "status": "partial_outage",
-          "created_at": "2020-09-02T15:39:06.329Z",
-          "updated_at": "2023-09-05T04:17:21.388Z",
-          "position": 6,
-          "description": "Requests for Pull Requests on GitHub.com",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "br0l2tvcx85d",
-          "name": "Actions",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2023-09-05T04:51:26.529Z",
-          "position": 7,
-          "description": "Workflows, Compute and Orchestration for GitHub Actions",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
