@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-05T07:45:15.468Z"
+    "updated_at": "2023-09-05T08:04:30.174Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2023-09-05T05:09:55.403Z",
+      "updated_at": "2023-09-05T08:04:30.132Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -176,10 +176,10 @@
   "incidents": [
     {
       "id": "frdfpnnt85s8",
-      "name": "Incident with Git Operations",
+      "name": "Incident with Git Operations and Actions",
       "status": "investigating",
       "created_at": "2023-09-05T06:59:25.351Z",
-      "updated_at": "2023-09-05T07:30:38.977Z",
+      "updated_at": "2023-09-05T08:04:30.167Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,52 @@
       "started_at": "2023-09-05T06:59:25.344Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "dxjfjgvcl4fp",
+          "status": "investigating",
+          "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "frdfpnnt85s8",
+          "created_at": "2023-09-05T08:04:30.165Z",
+          "updated_at": "2023-09-05T08:04:30.165Z",
+          "display_at": "2023-09-05T08:04:30.165Z",
+          "affected_components": [
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "3wqgvzb370xg",
+          "status": "investigating",
+          "body": "We are investigating reports of issues with service(s): Git Operations. We will continue to keep users updated on progress towards mitigation.",
+          "incident_id": "frdfpnnt85s8",
+          "created_at": "2023-09-05T08:01:35.383Z",
+          "updated_at": "2023-09-05T08:01:35.383Z",
+          "display_at": "2023-09-05T08:01:35.383Z",
+          "affected_components": [
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "n0s65phcwbgq",
           "status": "investigating",
@@ -237,6 +283,21 @@
           "updated_at": "2023-09-05T06:59:25.398Z",
           "position": 1,
           "description": "Performance of git clones, pulls, pushes, and associated operations",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "br0l2tvcx85d",
+          "name": "Actions",
+          "status": "partial_outage",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2023-09-05T08:04:30.132Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
           "showcase": false,
           "start_date": null,
           "group_id": null,
