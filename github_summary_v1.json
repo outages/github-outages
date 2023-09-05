@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-05T12:48:14.164Z"
+    "updated_at": "2023-09-05T13:18:34.874Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Git Operations and Actions",
       "status": "investigating",
       "created_at": "2023-09-05T06:59:25.351Z",
-      "updated_at": "2023-09-05T12:48:14.156Z",
+      "updated_at": "2023-09-05T13:18:34.866Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,32 @@
       "started_at": "2023-09-05T06:59:25.344Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "783p2tvc0c4m",
+          "status": "investigating",
+          "body": "We have mitigated the impact on download and raw file operations and are seeing recovery on response times but are continuing to monitor.",
+          "incident_id": "frdfpnnt85s8",
+          "created_at": "2023-09-05T13:18:34.863Z",
+          "updated_at": "2023-09-05T13:18:34.863Z",
+          "display_at": "2023-09-05T13:18:34.863Z",
+          "affected_components": [
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "1vzcbzkrxwrt",
           "status": "investigating",
