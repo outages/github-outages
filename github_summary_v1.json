@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-06T20:45:27.824Z"
+    "updated_at": "2023-09-06T21:51:12.702Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Webhooks",
       "status": "investigating",
       "created_at": "2023-09-06T20:32:01.887Z",
-      "updated_at": "2023-09-06T20:36:53.838Z",
+      "updated_at": "2023-09-06T21:51:12.695Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2023-09-06T20:32:01.881Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "mrdryn0dkyq6",
+          "status": "investigating",
+          "body": "We have mitigated the issue with webhooks and are working to confirm that customers are no longer seeing issues verifying payload signatures.",
+          "incident_id": "n8wpsvv7wt6x",
+          "created_at": "2023-09-06T21:51:12.692Z",
+          "updated_at": "2023-09-06T21:51:12.692Z",
+          "display_at": "2023-09-06T21:51:12.692Z",
+          "affected_components": [
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "5yvfxgmd18m5",
           "status": "investigating",
