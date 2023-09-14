@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-14T07:45:42.128Z"
+    "updated_at": "2023-09-14T09:35:10.760Z"
   },
   "components": [
     {
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2023-09-13T07:16:13.570Z",
+      "updated_at": "2023-09-14T09:35:10.709Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -173,10 +173,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "8rwpr0c6hvbc",
+      "name": "Incident with Codespaces",
+      "status": "investigating",
+      "created_at": "2023-09-14T09:35:10.675Z",
+      "updated_at": "2023-09-14T09:35:10.756Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/tqcm5xthvqht",
+      "started_at": "2023-09-14T09:35:10.668Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "scbc570mm0y7",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Codespaces",
+          "incident_id": "8rwpr0c6hvbc",
+          "created_at": "2023-09-14T09:35:10.753Z",
+          "updated_at": "2023-09-14T09:35:10.753Z",
+          "display_at": "2023-09-14T09:35:10.753Z",
+          "affected_components": [
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "h2ftsgbw7kmk",
+          "name": "Codespaces",
+          "status": "partial_outage",
+          "created_at": "2021-08-11T16:02:09.505Z",
+          "updated_at": "2023-09-14T09:35:10.709Z",
+          "position": 10,
+          "description": "Orchestration and Compute for GitHub Codespaces",
+          "showcase": false,
+          "start_date": "2021-08-11",
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
