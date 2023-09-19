@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-19T14:04:05.247Z"
+    "updated_at": "2023-09-19T21:10:03.713Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2023-09-05T16:51:18.553Z",
+      "updated_at": "2023-09-19T21:10:03.663Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": false,
@@ -173,10 +173,90 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "zjchv3zvfg50",
+      "name": "Incident with Issues",
+      "status": "investigating",
+      "created_at": "2023-09-19T20:57:46.617Z",
+      "updated_at": "2023-09-19T21:10:03.705Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/9w6m6k7qlqhl",
+      "started_at": "2023-09-19T20:57:46.609Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "937rtpd815lh",
+          "status": "investigating",
+          "body": "Issues is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "zjchv3zvfg50",
+          "created_at": "2023-09-19T21:10:03.704Z",
+          "updated_at": "2023-09-19T21:10:03.704Z",
+          "display_at": "2023-09-19T21:10:03.704Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "cw73vbzpg81x",
+          "status": "investigating",
+          "body": "We are currently investigating an issue with project items not loading",
+          "incident_id": "zjchv3zvfg50",
+          "created_at": "2023-09-19T21:01:44.636Z",
+          "updated_at": "2023-09-19T21:01:44.636Z",
+          "display_at": "2023-09-19T21:01:44.636Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "r0lsl7xln25j",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "zjchv3zvfg50",
+          "created_at": "2023-09-19T20:57:46.660Z",
+          "updated_at": "2023-09-19T20:57:46.660Z",
+          "display_at": "2023-09-19T20:57:46.660Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "kr09ddfgbfsf",
+          "name": "Issues",
+          "status": "major_outage",
+          "created_at": "2017-01-31T20:01:46.638Z",
+          "updated_at": "2023-09-19T21:10:03.663Z",
+          "position": 5,
+          "description": "Requests for Issues on GitHub.com",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
