@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-19T21:10:03.713Z"
+    "updated_at": "2023-09-19T21:29:45.510Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Issues",
       "status": "investigating",
       "created_at": "2023-09-19T20:57:46.617Z",
-      "updated_at": "2023-09-19T21:10:03.705Z",
+      "updated_at": "2023-09-19T21:29:45.502Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,26 @@
       "started_at": "2023-09-19T20:57:46.609Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "92qsml9gjbh0",
+          "status": "investigating",
+          "body": "We have identified the issue and are actively working to restore missing project items",
+          "incident_id": "zjchv3zvfg50",
+          "created_at": "2023-09-19T21:29:45.499Z",
+          "updated_at": "2023-09-19T21:29:45.499Z",
+          "display_at": "2023-09-19T21:29:45.499Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "937rtpd815lh",
           "status": "investigating",
