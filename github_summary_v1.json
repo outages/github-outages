@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-20T03:17:53.064Z"
+    "updated_at": "2023-09-20T04:02:13.933Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2023-09-20T00:44:48.495Z",
+      "updated_at": "2023-09-20T04:02:13.895Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": false,
@@ -179,7 +179,7 @@
       "name": "Incident with Issues, API Requests and Git Operations",
       "status": "investigating",
       "created_at": "2023-09-19T20:57:46.617Z",
-      "updated_at": "2023-09-20T03:17:53.056Z",
+      "updated_at": "2023-09-20T04:02:13.926Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,70 @@
       "started_at": "2023-09-19T20:57:46.609Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "8fl2n3dt5bw9",
+          "status": "investigating",
+          "body": "Issues is operating normally.",
+          "incident_id": "zjchv3zvfg50",
+          "created_at": "2023-09-20T04:02:13.923Z",
+          "updated_at": "2023-09-20T04:02:13.923Z",
+          "display_at": "2023-09-20T04:02:13.923Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "nhlvp0x5blrp",
+          "status": "investigating",
+          "body": "We experienced an incident causing missing Project item data. We have restored all data from before the incident, up to 19 Sep 20:36 UTC. Project data modified between 20:36 UTC and 20 Sep 00:06 UTC was partially restored.\n\nWe will publish a root cause analysis for this issue by Sep 29.",
+          "incident_id": "zjchv3zvfg50",
+          "created_at": "2023-09-20T04:01:50.508Z",
+          "updated_at": "2023-09-20T04:01:50.508Z",
+          "display_at": "2023-09-20T04:01:50.508Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "6p6jskqv5kk0",
           "status": "investigating",
@@ -692,9 +756,9 @@
         {
           "id": "kr09ddfgbfsf",
           "name": "Issues",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-01-31T20:01:46.638Z",
-          "updated_at": "2023-09-20T00:44:48.495Z",
+          "updated_at": "2023-09-20T04:02:13.895Z",
           "position": 5,
           "description": "Requests for Issues on GitHub.com",
           "showcase": false,
@@ -710,7 +774,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
