@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-20T02:35:20.587Z"
+    "updated_at": "2023-09-20T03:17:53.064Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Issues, API Requests and Git Operations",
       "status": "investigating",
       "created_at": "2023-09-19T20:57:46.617Z",
-      "updated_at": "2023-09-20T02:35:20.578Z",
+      "updated_at": "2023-09-20T03:17:53.056Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,38 @@
       "started_at": "2023-09-19T20:57:46.609Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "6p6jskqv5kk0",
+          "status": "investigating",
+          "body": "Projects data has been restored to the state prior to the incident (19 Sep 20:57 UTC). We are continuing to restore the last of Project metadata updated since 20:57 UTC.",
+          "incident_id": "zjchv3zvfg50",
+          "created_at": "2023-09-20T03:17:53.053Z",
+          "updated_at": "2023-09-20T03:17:53.053Z",
+          "display_at": "2023-09-20T03:17:53.053Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "qdkyplld02wb",
           "status": "investigating",
