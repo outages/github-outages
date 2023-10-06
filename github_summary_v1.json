@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-10-06T02:42:52.151Z"
+    "updated_at": "2023-10-06T02:59:36.332Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2023-10-06T01:12:26.121Z",
+      "updated_at": "2023-10-06T02:59:36.289Z",
       "position": 2,
       "description": "Requests for GitHub APIs",
       "showcase": false,
@@ -173,124 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "w554d74dv18j",
-      "name": "Incident with API Requests",
-      "status": "investigating",
-      "created_at": "2023-10-06T01:12:26.084Z",
-      "updated_at": "2023-10-06T02:42:52.144Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/q0gl6k79wd8n",
-      "started_at": "2023-10-06T01:12:26.075Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "s3rzkzpn1qj8",
-          "status": "investigating",
-          "body": "We have confirmed that the fix has resolved the issue in the subset of regions where it has been deployed. We are now continuing the deployment to the remaining regions.",
-          "incident_id": "w554d74dv18j",
-          "created_at": "2023-10-06T02:42:52.143Z",
-          "updated_at": "2023-10-06T02:42:52.143Z",
-          "display_at": "2023-10-06T02:42:52.143Z",
-          "affected_components": [
-            {
-              "code": "brv1bkgrwx7q",
-              "name": "API Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "4v1mm9mj6h6s",
-          "status": "investigating",
-          "body": "We are monitoring the rollout of the fix and are beginning to see signs of improvement. We will send another update shortly.",
-          "incident_id": "w554d74dv18j",
-          "created_at": "2023-10-06T02:03:19.060Z",
-          "updated_at": "2023-10-06T02:03:19.060Z",
-          "display_at": "2023-10-06T02:03:19.060Z",
-          "affected_components": [
-            {
-              "code": "brv1bkgrwx7q",
-              "name": "API Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "s9lr4mfft0mw",
-          "status": "investigating",
-          "body": "A small number of customers are experiencing 403 errors when attempting to access repository data via the API. We have found what we believe to be the cause of the issue and are deploying a fix.",
-          "incident_id": "w554d74dv18j",
-          "created_at": "2023-10-06T01:31:43.098Z",
-          "updated_at": "2023-10-06T01:31:43.098Z",
-          "display_at": "2023-10-06T01:31:43.098Z",
-          "affected_components": [
-            {
-              "code": "brv1bkgrwx7q",
-              "name": "API Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "2z6j1h4xd0qr",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for API Requests",
-          "incident_id": "w554d74dv18j",
-          "created_at": "2023-10-06T01:12:26.168Z",
-          "updated_at": "2023-10-06T01:12:26.168Z",
-          "display_at": "2023-10-06T01:12:26.168Z",
-          "affected_components": [
-            {
-              "code": "brv1bkgrwx7q",
-              "name": "API Requests",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "brv1bkgrwx7q",
-          "name": "API Requests",
-          "status": "partial_outage",
-          "created_at": "2017-01-31T20:01:46.621Z",
-          "updated_at": "2023-10-06T01:12:26.121Z",
-          "position": 2,
-          "description": "Requests for GitHub APIs",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
