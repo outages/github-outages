@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-10-25T20:53:39.784Z"
+    "updated_at": "2023-10-25T21:37:05.829Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Copilot",
       "status": "investigating",
       "created_at": "2023-10-25T20:50:32.187Z",
-      "updated_at": "2023-10-25T20:53:39.775Z",
+      "updated_at": "2023-10-25T21:37:05.821Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,46 @@
       "started_at": "2023-10-25T20:50:32.179Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "1fvdwmcbpv7t",
+          "status": "investigating",
+          "body": "The observed Copilot API error rate is around 5% of the requests. As a result, some of the Copilot code suggestions are skipped or not delivered on time.",
+          "incident_id": "sbjdwn6mvht7",
+          "created_at": "2023-10-25T21:37:05.818Z",
+          "updated_at": "2023-10-25T21:37:05.818Z",
+          "display_at": "2023-10-25T21:37:05.818Z",
+          "affected_components": [
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "l3fpmzqcd3lz",
+          "status": "investigating",
+          "body": "We are seeing an impact in the US region as well. We continue the investigation.",
+          "incident_id": "sbjdwn6mvht7",
+          "created_at": "2023-10-25T21:19:19.530Z",
+          "updated_at": "2023-10-25T21:19:19.530Z",
+          "display_at": "2023-10-25T21:19:19.530Z",
+          "affected_components": [
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "rmh9xz3zsr29",
           "status": "investigating",
