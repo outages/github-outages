@@ -4,10 +4,10 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-10-25T13:02:51.315Z"
+    "updated_at": "2023-10-25T20:50:32.272Z"
   },
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
