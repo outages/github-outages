@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-11-07T08:11:58.515Z"
+    "updated_at": "2023-11-07T13:50:26.626Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2023-11-03T19:15:36.417Z",
+      "updated_at": "2023-11-07T13:44:31.296Z",
       "position": 2,
       "description": "Requests for GitHub APIs",
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2023-11-03T19:15:45.009Z",
+      "updated_at": "2023-11-07T13:46:01.340Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": false,
@@ -173,10 +173,131 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "m61vxgn4kvh2",
+      "name": "Incident with API Requests and Issues",
+      "status": "investigating",
+      "created_at": "2023-11-07T13:44:31.238Z",
+      "updated_at": "2023-11-07T13:50:26.618Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/8tyvmqmng1c0",
+      "started_at": "2023-11-07T13:44:31.232Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "4qrdl67rgf45",
+          "status": "investigating",
+          "body": "We are investigating reports of issues with service(s): Issues, API Requests. We will continue to keep users updated on progress towards mitigation.",
+          "incident_id": "m61vxgn4kvh2",
+          "created_at": "2023-11-07T13:50:26.616Z",
+          "updated_at": "2023-11-07T13:50:26.616Z",
+          "display_at": "2023-11-07T13:50:26.616Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "lsqdktqxx5lr",
+          "status": "investigating",
+          "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "m61vxgn4kvh2",
+          "created_at": "2023-11-07T13:46:01.377Z",
+          "updated_at": "2023-11-07T13:46:01.377Z",
+          "display_at": "2023-11-07T13:46:01.377Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "r01y5ylrrmz4",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for API Requests",
+          "incident_id": "m61vxgn4kvh2",
+          "created_at": "2023-11-07T13:44:31.331Z",
+          "updated_at": "2023-11-07T13:44:31.331Z",
+          "display_at": "2023-11-07T13:44:31.331Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "brv1bkgrwx7q",
+          "name": "API Requests",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:01:46.621Z",
+          "updated_at": "2023-11-07T13:44:31.296Z",
+          "position": 2,
+          "description": "Requests for GitHub APIs",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "kr09ddfgbfsf",
+          "name": "Issues",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:01:46.638Z",
+          "updated_at": "2023-11-07T13:46:01.340Z",
+          "position": 5,
+          "description": "Requests for Issues on GitHub.com",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
