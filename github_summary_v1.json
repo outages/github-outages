@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-11-15T10:43:20.734Z"
+    "updated_at": "2023-11-15T11:04:10.353Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "We are investigating reports of degraded performance.",
       "status": "investigating",
       "created_at": "2023-11-15T09:50:47.994Z",
-      "updated_at": "2023-11-15T09:50:48.100Z",
+      "updated_at": "2023-11-15T11:04:10.344Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2023-11-15T09:50:47.985Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "j1z1bd3v3tfl",
+          "status": "investigating",
+          "body": "We are seeing connectivity issues between some of our systems and git backend services. This is causing intermittent error responses and delays in pull request experiences for a very small percentage of traffic. We are investigating mitigations and expect to provide another update within 30 minutes.",
+          "incident_id": "mnv0g944fncw",
+          "created_at": "2023-11-15T11:04:10.342Z",
+          "updated_at": "2023-11-15T11:04:10.342Z",
+          "display_at": "2023-11-15T11:04:10.342Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "zft6pf0cqb5c",
           "status": "investigating",
