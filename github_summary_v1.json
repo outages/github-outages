@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-11-28T17:43:17.730Z"
+    "updated_at": "2023-11-28T18:09:59.100Z"
   },
   "components": [
     {
@@ -40,9 +40,9 @@
     {
       "id": "4230lsnqdsld",
       "name": "Webhooks",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:00:24.256Z",
-      "updated_at": "2023-11-28T17:24:53.323Z",
+      "updated_at": "2023-11-28T17:59:15.474Z",
       "position": 3,
       "description": "Real time HTTP callbacks of user-generated and system events",
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2023-11-28T17:24:53.340Z",
+      "updated_at": "2023-11-28T17:59:10.423Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -175,109 +175,52 @@
   ],
   "incidents": [
     {
-      "id": "dsb3kn1zfdl7",
-      "name": "Incident with Actions and Webhooks",
+      "id": "dq9m4n5tfyr6",
+      "name": "We are investigating reports of degraded performance.",
       "status": "investigating",
-      "created_at": "2023-11-28T17:24:53.273Z",
-      "updated_at": "2023-11-28T17:36:08.167Z",
+      "created_at": "2023-11-28T18:09:52.094Z",
+      "updated_at": "2023-11-28T18:09:59.090Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
-      "shortlink": "https://stspg.io/xycyhtpd314p",
-      "started_at": "2023-11-28T17:24:53.265Z",
+      "shortlink": "https://stspg.io/wlw5pnj5q070",
+      "started_at": "2023-11-28T18:09:52.085Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
         {
-          "id": "vqt2wp2lg24b",
+          "id": "bwtv5fms619w",
           "status": "investigating",
-          "body": "Customers saw pull requests push event deliveries for Actions and Webhooks fail between 16:23 and 17:12 (UTC). We fixed the issue, and we are working to re-process push events for the affected time period.",
-          "incident_id": "dsb3kn1zfdl7",
-          "created_at": "2023-11-28T17:36:08.163Z",
-          "updated_at": "2023-11-28T17:36:08.163Z",
-          "display_at": "2023-11-28T17:36:08.163Z",
-          "affected_components": [
-            {
-              "code": "4230lsnqdsld",
-              "name": "Webhooks",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
+          "body": "Customers saw push event deliveries for Actions and Webhooks fail between 16:23 and 17:12 (UTC). We fixed the issue, and we are working to re-process push events for the affected time period.",
+          "incident_id": "dq9m4n5tfyr6",
+          "created_at": "2023-11-28T18:09:59.086Z",
+          "updated_at": "2023-11-28T18:09:59.086Z",
+          "display_at": "2023-11-28T18:09:59.086Z",
+          "affected_components": null,
           "deliver_notifications": true,
           "custom_tweet": null,
           "tweet_id": null
         },
         {
-          "id": "spx1976fp0gr",
+          "id": "8d3x1zqzpjms",
           "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Actions and Webhooks",
-          "incident_id": "dsb3kn1zfdl7",
-          "created_at": "2023-11-28T17:24:53.385Z",
-          "updated_at": "2023-11-28T17:24:53.385Z",
-          "display_at": "2023-11-28T17:24:53.385Z",
-          "affected_components": [
-            {
-              "code": "4230lsnqdsld",
-              "name": "Webhooks",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
+          "body": "We are currently investigating this issue.",
+          "incident_id": "dq9m4n5tfyr6",
+          "created_at": "2023-11-28T18:09:52.143Z",
+          "updated_at": "2023-11-28T18:09:52.143Z",
+          "display_at": "2023-11-28T18:09:52.143Z",
+          "affected_components": null,
           "deliver_notifications": true,
           "custom_tweet": null,
           "tweet_id": null
         }
       ],
-      "components": [
-        {
-          "id": "4230lsnqdsld",
-          "name": "Webhooks",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:00:24.256Z",
-          "updated_at": "2023-11-28T17:24:53.323Z",
-          "position": 3,
-          "description": "Real time HTTP callbacks of user-generated and system events",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "br0l2tvcx85d",
-          "name": "Actions",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2023-11-28T17:24:53.340Z",
-          "position": 7,
-          "description": "Workflows, Compute and Orchestration for GitHub Actions",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
+      "components": [],
       "reminder_intervals": null
     }
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
