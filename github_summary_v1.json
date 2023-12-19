@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-12-19T21:45:57.063Z"
+    "updated_at": "2023-12-19T22:12:57.911Z"
   },
   "components": [
     {
@@ -40,9 +40,9 @@
     {
       "id": "4230lsnqdsld",
       "name": "Webhooks",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:00:24.256Z",
-      "updated_at": "2023-11-28T17:59:15.474Z",
+      "updated_at": "2023-12-19T21:58:57.164Z",
       "position": 3,
       "description": "Real time HTTP callbacks of user-generated and system events",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "Packages",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2023-12-19T21:12:36.299Z",
+      "updated_at": "2023-12-19T22:10:32.301Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -176,10 +176,10 @@
   "incidents": [
     {
       "id": "d3mfyt4nqnv5",
-      "name": "Incident with Packages, Issues and Pull Requests",
+      "name": "Incident with Packages, Issues, Pull Requests and Webhooks",
       "status": "investigating",
       "created_at": "2023-12-19T21:12:36.258Z",
-      "updated_at": "2023-12-19T21:45:57.055Z",
+      "updated_at": "2023-12-19T22:12:57.903Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,120 @@
       "started_at": "2023-12-19T21:12:36.250Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "zm9010y0dbd2",
+          "status": "investigating",
+          "body": "We applied a configuration change to our database, and we are seeing a recovery.",
+          "incident_id": "d3mfyt4nqnv5",
+          "created_at": "2023-12-19T22:12:57.900Z",
+          "updated_at": "2023-12-19T22:12:57.900Z",
+          "display_at": "2023-12-19T22:12:57.900Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "24cw5j4fx7bq",
+          "status": "investigating",
+          "body": "Packages is operating normally.",
+          "incident_id": "d3mfyt4nqnv5",
+          "created_at": "2023-12-19T22:10:32.334Z",
+          "updated_at": "2023-12-19T22:10:32.334Z",
+          "display_at": "2023-12-19T22:10:32.334Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "2x32f9990dt1",
+          "status": "investigating",
+          "body": "Webhooks is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "d3mfyt4nqnv5",
+          "created_at": "2023-12-19T21:58:57.192Z",
+          "updated_at": "2023-12-19T21:58:57.192Z",
+          "display_at": "2023-12-19T21:58:57.192Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "1rjl8lk02ft9",
           "status": "investigating",
@@ -300,6 +414,21 @@
       ],
       "components": [
         {
+          "id": "4230lsnqdsld",
+          "name": "Webhooks",
+          "status": "partial_outage",
+          "created_at": "2019-11-13T18:00:24.256Z",
+          "updated_at": "2023-12-19T21:58:57.164Z",
+          "position": 3,
+          "description": "Real time HTTP callbacks of user-generated and system events",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
           "id": "kr09ddfgbfsf",
           "name": "Issues",
           "status": "partial_outage",
@@ -332,9 +461,9 @@
         {
           "id": "st3j38cctv9l",
           "name": "Packages",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-11-13T18:02:40.064Z",
-          "updated_at": "2023-12-19T21:12:36.299Z",
+          "updated_at": "2023-12-19T22:10:32.301Z",
           "position": 8,
           "description": "API requests and webhook delivery for GitHub Packages",
           "showcase": false,
