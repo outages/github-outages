@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-12-28T06:49:37.650Z"
+    "updated_at": "2023-12-28T06:57:42.945Z"
   },
   "components": [
     {
@@ -173,64 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "lt4kyp4tgx45",
-      "name": "We are investigating reports of degraded performance.",
-      "status": "investigating",
-      "created_at": "2023-12-28T06:43:07.090Z",
-      "updated_at": "2023-12-28T06:49:37.642Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/zpt8zd87bzvz",
-      "started_at": "2023-12-28T06:43:07.084Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "2cb5jqz410r7",
-          "status": "investigating",
-          "body": "We have deployed a fix and email service should be restored shortly.",
-          "incident_id": "lt4kyp4tgx45",
-          "created_at": "2023-12-28T06:49:37.640Z",
-          "updated_at": "2023-12-28T06:49:37.640Z",
-          "display_at": "2023-12-28T06:49:37.640Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "y64gfrts3fj0",
-          "status": "investigating",
-          "body": "We are experiencing issues sending some pull request, actions and other notification emails. Some emails may not be received as the result of activity on GitHub. Web and mobile push notifications are not affected.",
-          "incident_id": "lt4kyp4tgx45",
-          "created_at": "2023-12-28T06:48:58.322Z",
-          "updated_at": "2023-12-28T06:48:58.322Z",
-          "display_at": "2023-12-28T06:48:58.322Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "l1qlrfhdsg7z",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "lt4kyp4tgx45",
-          "created_at": "2023-12-28T06:43:07.120Z",
-          "updated_at": "2023-12-28T06:43:07.120Z",
-          "display_at": "2023-12-28T06:43:07.120Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
