@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-12-29T18:43:01.726Z"
+    "updated_at": "2023-12-29T20:05:31.993Z"
   },
   "components": [
     {
@@ -173,7 +173,51 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "1ksntt4bk3bq",
+      "name": "We are investigating reports of degraded performance.",
+      "status": "investigating",
+      "created_at": "2023-12-29T20:05:28.878Z",
+      "updated_at": "2023-12-29T20:05:31.987Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/fc6q7sjxq22f",
+      "started_at": "2023-12-29T20:05:28.871Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "x1cj17jm2sl1",
+          "status": "investigating",
+          "body": "We’re investigating reports of increased failure rates for migrations with GitHub Enterprise Importer and exports using the Organization Migrations REST API.",
+          "incident_id": "1ksntt4bk3bq",
+          "created_at": "2023-12-29T20:05:31.984Z",
+          "updated_at": "2023-12-29T20:05:31.984Z",
+          "display_at": "2023-12-29T20:05:31.984Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "41xkz553z5qj",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "1ksntt4bk3bq",
+          "created_at": "2023-12-29T20:05:28.915Z",
+          "updated_at": "2023-12-29T20:05:28.915Z",
+          "display_at": "2023-12-29T20:05:28.915Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
