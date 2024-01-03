@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-03T09:25:47.514Z"
+    "updated_at": "2024-01-03T12:43:02.640Z"
   },
   "components": [
     {
@@ -173,7 +173,51 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "zzy7pdshgqk0",
+      "name": "We are investigating reports of degraded performance.",
+      "status": "investigating",
+      "created_at": "2024-01-03T12:42:15.346Z",
+      "updated_at": "2024-01-03T12:42:19.578Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/sxp6mm5g6x1x",
+      "started_at": "2024-01-03T12:42:15.342Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "ndqb2nw8q87y",
+          "status": "investigating",
+          "body": "We're seeing problems loading the /settings/emails page.",
+          "incident_id": "zzy7pdshgqk0",
+          "created_at": "2024-01-03T12:42:19.575Z",
+          "updated_at": "2024-01-03T12:42:19.575Z",
+          "display_at": "2024-01-03T12:42:19.575Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "syb4twvvktd3",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "zzy7pdshgqk0",
+          "created_at": "2024-01-03T12:42:15.381Z",
+          "updated_at": "2024-01-03T12:42:15.381Z",
+          "display_at": "2024-01-03T12:42:15.381Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
