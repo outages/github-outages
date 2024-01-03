@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-03T15:13:43.824Z"
+    "updated_at": "2024-01-03T16:08:14.904Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "We are investigating reports of degraded performance.",
       "status": "investigating",
       "created_at": "2024-01-03T12:42:15.346Z",
-      "updated_at": "2024-01-03T15:13:43.815Z",
+      "updated_at": "2024-01-03T16:08:14.896Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2024-01-03T12:42:15.342Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "qnpr0wkln0ld",
+          "status": "investigating",
+          "body": "We have resolved the timeouts on our end, but customers will still see slow load times on the /settings/email page.",
+          "incident_id": "zzy7pdshgqk0",
+          "created_at": "2024-01-03T16:08:14.894Z",
+          "updated_at": "2024-01-03T16:08:14.894Z",
+          "display_at": "2024-01-03T16:08:14.894Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "r21lscj1c4bv",
           "status": "investigating",
