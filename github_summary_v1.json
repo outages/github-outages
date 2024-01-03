@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-03T16:51:48.445Z"
+    "updated_at": "2024-01-03T17:05:05.349Z"
   },
   "components": [
     {
@@ -173,129 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "zzy7pdshgqk0",
-      "name": "We are investigating reports of degraded performance.",
-      "status": "investigating",
-      "created_at": "2024-01-03T12:42:15.346Z",
-      "updated_at": "2024-01-03T16:51:48.436Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/sxp6mm5g6x1x",
-      "started_at": "2024-01-03T12:42:15.342Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "6jp5xlmz4xlm",
-          "status": "investigating",
-          "body": "The /settings/email page remains slow, but we are continuing to see improvements.",
-          "incident_id": "zzy7pdshgqk0",
-          "created_at": "2024-01-03T16:51:48.433Z",
-          "updated_at": "2024-01-03T16:51:48.433Z",
-          "display_at": "2024-01-03T16:51:48.433Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "qnpr0wkln0ld",
-          "status": "investigating",
-          "body": "We have resolved the timeouts on our end, but customers will still see slow load times on the /settings/email page.",
-          "incident_id": "zzy7pdshgqk0",
-          "created_at": "2024-01-03T16:08:14.894Z",
-          "updated_at": "2024-01-03T16:08:14.894Z",
-          "display_at": "2024-01-03T16:08:14.894Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "r21lscj1c4bv",
-          "status": "investigating",
-          "body": "We have identified a potential mitigation for the issue and are rolling it out. Additionally, we are still working with our external provider for a mitigation from them.",
-          "incident_id": "zzy7pdshgqk0",
-          "created_at": "2024-01-03T15:13:43.813Z",
-          "updated_at": "2024-01-03T15:13:43.813Z",
-          "display_at": "2024-01-03T15:13:43.813Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "3rtdsmxrst85",
-          "status": "investigating",
-          "body": "We are continuing to investigate reports of issues with the /settings/emails page. We are working with the provider to get a mitigation and are exploring options to mitigate on our end.",
-          "incident_id": "zzy7pdshgqk0",
-          "created_at": "2024-01-03T14:07:25.605Z",
-          "updated_at": "2024-01-03T14:07:25.605Z",
-          "display_at": "2024-01-03T14:07:25.605Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "sfvym94pxcq4",
-          "status": "investigating",
-          "body": "We're seeing issues related to a provider and are engaging them to investigate the issue.",
-          "incident_id": "zzy7pdshgqk0",
-          "created_at": "2024-01-03T13:23:56.797Z",
-          "updated_at": "2024-01-03T13:23:56.797Z",
-          "display_at": "2024-01-03T13:23:56.797Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "hn3gr7rspzdx",
-          "status": "investigating",
-          "body": "We are continuing to investigate reports of issues with the /settings/emails page. We will continue to keep users updated on progress towards mitigation.",
-          "incident_id": "zzy7pdshgqk0",
-          "created_at": "2024-01-03T12:59:46.006Z",
-          "updated_at": "2024-01-03T12:59:46.006Z",
-          "display_at": "2024-01-03T12:59:46.006Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "ndqb2nw8q87y",
-          "status": "investigating",
-          "body": "We're seeing problems loading the /settings/emails page.",
-          "incident_id": "zzy7pdshgqk0",
-          "created_at": "2024-01-03T12:42:19.575Z",
-          "updated_at": "2024-01-03T12:42:19.575Z",
-          "display_at": "2024-01-03T12:42:19.575Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "syb4twvvktd3",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "zzy7pdshgqk0",
-          "created_at": "2024-01-03T12:42:15.381Z",
-          "updated_at": "2024-01-03T12:42:15.381Z",
-          "display_at": "2024-01-03T12:42:15.381Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
