@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-08T08:05:03.387Z"
+    "updated_at": "2024-01-08T20:22:35.230Z"
   },
   "components": [
     {
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2023-12-27T04:00:57.581Z",
+      "updated_at": "2024-01-08T20:22:31.439Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -173,10 +173,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "35pgg0gc75nv",
+      "name": "Incident with Codespaces",
+      "status": "investigating",
+      "created_at": "2024-01-08T20:22:31.415Z",
+      "updated_at": "2024-01-08T20:22:35.221Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/7fk9rvl6lsnw",
+      "started_at": "2024-01-08T20:22:31.409Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "f092dtmjfwky",
+          "status": "investigating",
+          "body": "We are actively mitigating degraded performance of Codespaces port forwarding in the web and GitHub CLI.  Codespaces port forwarding on VS Code Desktop is unaffected.",
+          "incident_id": "35pgg0gc75nv",
+          "created_at": "2024-01-08T20:22:35.217Z",
+          "updated_at": "2024-01-08T20:22:35.217Z",
+          "display_at": "2024-01-08T20:22:35.217Z",
+          "affected_components": [
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "mktk89gdnz1x",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Codespaces",
+          "incident_id": "35pgg0gc75nv",
+          "created_at": "2024-01-08T20:22:31.470Z",
+          "updated_at": "2024-01-08T20:22:31.470Z",
+          "display_at": "2024-01-08T20:22:31.470Z",
+          "affected_components": [
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "h2ftsgbw7kmk",
+          "name": "Codespaces",
+          "status": "partial_outage",
+          "created_at": "2021-08-11T16:02:09.505Z",
+          "updated_at": "2024-01-08T20:22:31.439Z",
+          "position": 10,
+          "description": "Orchestration and Compute for GitHub Codespaces",
+          "showcase": false,
+          "start_date": "2021-08-11",
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
