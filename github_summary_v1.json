@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-09T13:34:05.586Z"
+    "updated_at": "2024-01-09T13:43:11.343Z"
   },
   "components": [
     {
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2024-01-08T23:41:03.807Z",
+      "updated_at": "2024-01-09T13:35:54.831Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -176,10 +176,10 @@
   "incidents": [
     {
       "id": "pxg3dz4yg7lp",
-      "name": "Incident with Issues, API Requests, Pull Requests, Actions, Pages, Git Operations, Webhooks and Packages",
+      "name": "Incident with Issues, API Requests, Pull Requests, Actions, Pages, Git Operations, Webhooks, Packages and Codespaces",
       "status": "investigating",
       "created_at": "2024-01-09T13:02:32.141Z",
-      "updated_at": "2024-01-09T13:34:05.577Z",
+      "updated_at": "2024-01-09T13:39:15.557Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,142 @@
       "started_at": "2024-01-09T13:02:32.132Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "xd49vzvdvrzd",
+          "status": "investigating",
+          "body": "We are experiencing an elevated rate of 5xx errors on the order of 1-5% being returned from numerous APIs across the site. The issue has been isolated to one datacenter. We will continue to keep users updated on progress towards mitigation.",
+          "incident_id": "pxg3dz4yg7lp",
+          "created_at": "2024-01-09T13:39:15.554Z",
+          "updated_at": "2024-01-09T13:39:15.554Z",
+          "display_at": "2024-01-09T13:39:15.554Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "7hkzdgqys6qf",
+          "status": "investigating",
+          "body": "Codespaces is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "pxg3dz4yg7lp",
+          "created_at": "2024-01-09T13:35:54.865Z",
+          "updated_at": "2024-01-09T13:35:54.865Z",
+          "display_at": "2024-01-09T13:35:54.865Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "0wmb1pz2xdbx",
           "status": "investigating",
@@ -688,6 +824,21 @@
           "description": "Frontend application and API servers for Pages builds",
           "showcase": false,
           "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "h2ftsgbw7kmk",
+          "name": "Codespaces",
+          "status": "partial_outage",
+          "created_at": "2021-08-11T16:02:09.505Z",
+          "updated_at": "2024-01-09T13:35:54.831Z",
+          "position": 10,
+          "description": "Orchestration and Compute for GitHub Codespaces",
+          "showcase": false,
+          "start_date": "2021-08-11",
           "group_id": null,
           "page_id": "kctbh9vrtdwd",
           "group": false,
