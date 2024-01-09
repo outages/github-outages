@@ -4,15 +4,15 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-09T13:02:32.274Z"
+    "updated_at": "2024-01-09T13:34:05.586Z"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:05:05.370Z",
-      "updated_at": "2023-12-18T21:26:13.650Z",
+      "updated_at": "2024-01-09T13:24:31.954Z",
       "position": 1,
       "description": "Performance of git clones, pulls, pushes, and associated operations",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "partial_outage",
+      "status": "major_outage",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2024-01-09T13:02:32.198Z",
+      "updated_at": "2024-01-09T13:07:14.558Z",
       "position": 2,
       "description": "Requests for GitHub APIs",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "4230lsnqdsld",
       "name": "Webhooks",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:00:24.256Z",
-      "updated_at": "2023-12-19T22:25:07.380Z",
+      "updated_at": "2024-01-09T13:31:35.348Z",
       "position": 3,
       "description": "Real time HTTP callbacks of user-generated and system events",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2023-12-19T22:14:57.668Z",
+      "updated_at": "2024-01-09T13:04:06.971Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2023-11-28T17:59:10.423Z",
+      "updated_at": "2024-01-09T13:05:40.499Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "Packages",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2023-12-19T22:10:32.301Z",
+      "updated_at": "2024-01-09T13:34:05.550Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "vg70hn9s2tyj",
       "name": "Pages",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2023-12-27T19:25:23.930Z",
+      "updated_at": "2024-01-09T13:23:37.238Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": false,
@@ -176,17 +176,375 @@
   "incidents": [
     {
       "id": "pxg3dz4yg7lp",
-      "name": "Incident with Issues and API Requests",
+      "name": "Incident with Issues, API Requests, Pull Requests, Actions, Pages, Git Operations, Webhooks and Packages",
       "status": "investigating",
       "created_at": "2024-01-09T13:02:32.141Z",
-      "updated_at": "2024-01-09T13:02:32.271Z",
+      "updated_at": "2024-01-09T13:34:05.577Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "minor",
+      "impact": "major",
       "shortlink": "https://stspg.io/9ndfgvcm1q06",
       "started_at": "2024-01-09T13:02:32.132Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "0wmb1pz2xdbx",
+          "status": "investigating",
+          "body": "Packages is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "pxg3dz4yg7lp",
+          "created_at": "2024-01-09T13:34:05.575Z",
+          "updated_at": "2024-01-09T13:34:05.575Z",
+          "display_at": "2024-01-09T13:34:05.575Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "6k2wf62hjd3v",
+          "status": "investigating",
+          "body": "Webhooks is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "pxg3dz4yg7lp",
+          "created_at": "2024-01-09T13:31:35.381Z",
+          "updated_at": "2024-01-09T13:31:35.381Z",
+          "display_at": "2024-01-09T13:31:35.381Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "bx9lbqx561jp",
+          "status": "investigating",
+          "body": "Git Operations is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "pxg3dz4yg7lp",
+          "created_at": "2024-01-09T13:24:31.988Z",
+          "updated_at": "2024-01-09T13:24:31.988Z",
+          "display_at": "2024-01-09T13:24:31.988Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "0bmzvzvlcddr",
+          "status": "investigating",
+          "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "pxg3dz4yg7lp",
+          "created_at": "2024-01-09T13:23:37.266Z",
+          "updated_at": "2024-01-09T13:23:37.266Z",
+          "display_at": "2024-01-09T13:23:37.266Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "k611bvbknh82",
+          "status": "investigating",
+          "body": "API Requests is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "pxg3dz4yg7lp",
+          "created_at": "2024-01-09T13:07:14.583Z",
+          "updated_at": "2024-01-09T13:07:14.583Z",
+          "display_at": "2024-01-09T13:07:14.583Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "jqvwlv330nyj",
+          "status": "investigating",
+          "body": "We are an increase in the rate of 5xx errors on the order of 1-3% being returned from numerous APIs across the site. We will continue to keep users updated on progress towards mitigation.",
+          "incident_id": "pxg3dz4yg7lp",
+          "created_at": "2024-01-09T13:05:58.591Z",
+          "updated_at": "2024-01-09T13:05:58.591Z",
+          "display_at": "2024-01-09T13:05:58.591Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "gc4rjd6mv2gp",
+          "status": "investigating",
+          "body": "Actions is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "pxg3dz4yg7lp",
+          "created_at": "2024-01-09T13:05:40.533Z",
+          "updated_at": "2024-01-09T13:05:40.533Z",
+          "display_at": "2024-01-09T13:05:40.533Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "8bqdp56t72g2",
+          "status": "investigating",
+          "body": "Pull Requests is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "pxg3dz4yg7lp",
+          "created_at": "2024-01-09T13:04:07.004Z",
+          "updated_at": "2024-01-09T13:04:07.004Z",
+          "display_at": "2024-01-09T13:04:07.004Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "zffnt3dj4y7v",
           "status": "investigating",
@@ -216,13 +574,43 @@
       ],
       "components": [
         {
+          "id": "8l4ygp009s5s",
+          "name": "Git Operations",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:05:05.370Z",
+          "updated_at": "2024-01-09T13:24:31.954Z",
+          "position": 1,
+          "description": "Performance of git clones, pulls, pushes, and associated operations",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
           "id": "brv1bkgrwx7q",
           "name": "API Requests",
-          "status": "partial_outage",
+          "status": "major_outage",
           "created_at": "2017-01-31T20:01:46.621Z",
-          "updated_at": "2024-01-09T13:02:32.198Z",
+          "updated_at": "2024-01-09T13:07:14.558Z",
           "position": 2,
           "description": "Requests for GitHub APIs",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "4230lsnqdsld",
+          "name": "Webhooks",
+          "status": "partial_outage",
+          "created_at": "2019-11-13T18:00:24.256Z",
+          "updated_at": "2024-01-09T13:31:35.348Z",
+          "position": 3,
+          "description": "Real time HTTP callbacks of user-generated and system events",
           "showcase": false,
           "start_date": null,
           "group_id": null,
@@ -244,6 +632,66 @@
           "page_id": "kctbh9vrtdwd",
           "group": false,
           "only_show_if_degraded": false
+        },
+        {
+          "id": "hhtssxt0f5v2",
+          "name": "Pull Requests",
+          "status": "partial_outage",
+          "created_at": "2020-09-02T15:39:06.329Z",
+          "updated_at": "2024-01-09T13:04:06.971Z",
+          "position": 6,
+          "description": "Requests for Pull Requests on GitHub.com",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "br0l2tvcx85d",
+          "name": "Actions",
+          "status": "major_outage",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2024-01-09T13:05:40.499Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "st3j38cctv9l",
+          "name": "Packages",
+          "status": "partial_outage",
+          "created_at": "2019-11-13T18:02:40.064Z",
+          "updated_at": "2024-01-09T13:34:05.550Z",
+          "position": 8,
+          "description": "API requests and webhook delivery for GitHub Packages",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "vg70hn9s2tyj",
+          "name": "Pages",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:04:33.923Z",
+          "updated_at": "2024-01-09T13:23:37.238Z",
+          "position": 9,
+          "description": "Frontend application and API servers for Pages builds",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
         }
       ],
       "reminder_intervals": null
@@ -251,7 +699,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
