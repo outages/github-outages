@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-23T15:50:15.203Z"
+    "updated_at": "2024-01-23T16:02:24.055Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "We are investigating reports of degraded performance.",
       "status": "investigating",
       "created_at": "2024-01-23T15:50:15.140Z",
-      "updated_at": "2024-01-23T15:50:15.199Z",
+      "updated_at": "2024-01-23T15:59:46.327Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,19 @@
       "started_at": "2024-01-23T15:50:15.132Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "mzl895vmhmwd",
+          "status": "investigating",
+          "body": "We are investigating intermittent issues with live updates to our Web UI that power automatic page updates such as the merge box on Pull Requests. Users will intermittently see actions spinning on the PR merge box for example. As a work around, please refresh the page to get the page updated while we work to fix the issue. We will provide further updates as we continue resolving the issue.",
+          "incident_id": "bsk6hmj0d7nv",
+          "created_at": "2024-01-23T15:59:46.324Z",
+          "updated_at": "2024-01-23T15:59:46.324Z",
+          "display_at": "2024-01-23T15:59:46.324Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "qs1jc9tjf8f2",
           "status": "investigating",
