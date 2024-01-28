@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-28T13:57:05.334Z"
+    "updated_at": "2024-01-28T14:27:09.174Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "We are investigating reports of degraded performance.",
       "status": "investigating",
       "created_at": "2024-01-28T13:20:36.803Z",
-      "updated_at": "2024-01-28T13:57:05.324Z",
+      "updated_at": "2024-01-28T14:27:09.164Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2024-01-28T13:20:36.798Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "q4zxc3b77qgk",
+          "status": "investigating",
+          "body": "We have mitigated all customer impact. We are no longer serving fallback avatar icons when loading web pages for some customers. We continue to monitor the results.",
+          "incident_id": "g6drnqm54qd4",
+          "created_at": "2024-01-28T14:27:09.161Z",
+          "updated_at": "2024-01-28T14:27:09.161Z",
+          "display_at": "2024-01-28T14:27:09.161Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "srjpww56jkb9",
           "status": "investigating",
