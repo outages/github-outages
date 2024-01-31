@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-31T14:33:55.451Z"
+    "updated_at": "2024-01-31T14:49:34.845Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "We are investigating reports of degraded performance.",
       "status": "investigating",
       "created_at": "2024-01-31T14:14:11.478Z",
-      "updated_at": "2024-01-31T14:33:55.445Z",
+      "updated_at": "2024-01-31T14:49:34.835Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,19 @@
       "started_at": "2024-01-31T14:14:11.470Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "jwfk3p4v1mt8",
+          "status": "investigating",
+          "body": "The fix for ip allow lists is currently rolling out; and we are awaiting confirmation from specific geographic regions.",
+          "incident_id": "5y8b8lsqbbyq",
+          "created_at": "2024-01-31T14:49:34.832Z",
+          "updated_at": "2024-01-31T14:49:34.832Z",
+          "display_at": "2024-01-31T14:49:34.832Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "5bglm83cgs01",
           "status": "investigating",
