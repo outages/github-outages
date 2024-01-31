@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-31T10:52:59.786Z"
+    "updated_at": "2024-01-31T14:14:23.534Z"
   },
   "components": [
     {
@@ -173,7 +173,51 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "5y8b8lsqbbyq",
+      "name": "We are investigating reports of degraded performance.",
+      "status": "investigating",
+      "created_at": "2024-01-31T14:14:11.478Z",
+      "updated_at": "2024-01-31T14:14:23.524Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/zhlts4kfj4l7",
+      "started_at": "2024-01-31T14:14:11.470Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "hwnxklmdptcf",
+          "status": "investigating",
+          "body": "Some customers are experiencing issues with IP allow lists.",
+          "incident_id": "5y8b8lsqbbyq",
+          "created_at": "2024-01-31T14:14:23.521Z",
+          "updated_at": "2024-01-31T14:14:23.521Z",
+          "display_at": "2024-01-31T14:14:23.521Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "m4wlynprcw9b",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "5y8b8lsqbbyq",
+          "created_at": "2024-01-31T14:14:11.518Z",
+          "updated_at": "2024-01-31T14:14:11.518Z",
+          "display_at": "2024-01-31T14:14:11.518Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
