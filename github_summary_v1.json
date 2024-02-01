@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-31T21:07:00.241Z"
+    "updated_at": "2024-02-01T03:14:07.223Z"
   },
   "components": [
     {
@@ -173,7 +173,51 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "7k5wl5j4f1t4",
+      "name": "We are investigating reports of degraded performance.",
+      "status": "investigating",
+      "created_at": "2024-02-01T03:13:58.059Z",
+      "updated_at": "2024-02-01T03:14:07.216Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/yv8xjkjg8g87",
+      "started_at": "2024-02-01T03:13:58.054Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "zx3frvfm5z5h",
+          "status": "investigating",
+          "body": "We are currently investigating reports of some components of the GitHub.com website not loading for some users.",
+          "incident_id": "7k5wl5j4f1t4",
+          "created_at": "2024-02-01T03:14:07.213Z",
+          "updated_at": "2024-02-01T03:14:07.213Z",
+          "display_at": "2024-02-01T03:14:07.213Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "z3mfrs1f65lq",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "7k5wl5j4f1t4",
+          "created_at": "2024-02-01T03:13:58.090Z",
+          "updated_at": "2024-02-01T03:13:58.090Z",
+          "display_at": "2024-02-01T03:13:58.090Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
