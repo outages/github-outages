@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-02-12T15:16:03.428Z"
+    "updated_at": "2024-02-12T15:51:49.919Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Copilot",
       "status": "investigating",
       "created_at": "2024-02-12T13:28:39.905Z",
-      "updated_at": "2024-02-12T15:16:03.421Z",
+      "updated_at": "2024-02-12T15:51:49.911Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2024-02-12T13:28:39.896Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "l36q73vc5try",
+          "status": "investigating",
+          "body": "Code completions are now working for the impacted users, but completing more slowly than expected. Investigation continues to completely mitigate the issue and restore Copilot code completion functionality to normal.",
+          "incident_id": "k0qjh7s64fxk",
+          "created_at": "2024-02-12T15:51:49.909Z",
+          "updated_at": "2024-02-12T15:51:49.909Z",
+          "display_at": "2024-02-12T15:51:49.909Z",
+          "affected_components": [
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "433mw4q86gh2",
           "status": "investigating",
