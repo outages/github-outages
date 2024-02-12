@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-02-12T17:30:48.066Z"
+    "updated_at": "2024-02-12T18:14:07.229Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "pjmpxvq2cmr2",
       "name": "Copilot",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2022-06-21T16:04:33.017Z",
-      "updated_at": "2024-02-12T13:28:39.963Z",
+      "updated_at": "2024-02-12T18:14:07.190Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -173,224 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "k0qjh7s64fxk",
-      "name": "Incident with Copilot",
-      "status": "investigating",
-      "created_at": "2024-02-12T13:28:39.905Z",
-      "updated_at": "2024-02-12T17:30:48.055Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/0sxtlw8hz349",
-      "started_at": "2024-02-12T13:28:39.896Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "3qsh6jcbzqld",
-          "status": "investigating",
-          "body": "We’re still continuing to investigate slower than expected code completions for a subset of users in Europe. Next update to be provided in 30 minutes.",
-          "incident_id": "k0qjh7s64fxk",
-          "created_at": "2024-02-12T17:30:48.053Z",
-          "updated_at": "2024-02-12T17:30:48.053Z",
-          "display_at": "2024-02-12T17:30:48.053Z",
-          "affected_components": [
-            {
-              "code": "pjmpxvq2cmr2",
-              "name": "Copilot",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "yp9gk7g4xdy5",
-          "status": "investigating",
-          "body": "We’re continuing to investigate slower than expected code completions for a subset of users in Europe. Next update to be provided in 30 minutes.",
-          "incident_id": "k0qjh7s64fxk",
-          "created_at": "2024-02-12T17:01:52.563Z",
-          "updated_at": "2024-02-12T17:01:52.563Z",
-          "display_at": "2024-02-12T17:01:52.563Z",
-          "affected_components": [
-            {
-              "code": "pjmpxvq2cmr2",
-              "name": "Copilot",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "b77wt2lfxpwq",
-          "status": "investigating",
-          "body": "We're continuing to investigate slower than expected code completions for a subset of users in Europe. Next update to be provided in 30 minutes.",
-          "incident_id": "k0qjh7s64fxk",
-          "created_at": "2024-02-12T16:26:46.260Z",
-          "updated_at": "2024-02-12T16:26:46.260Z",
-          "display_at": "2024-02-12T16:26:46.260Z",
-          "affected_components": [
-            {
-              "code": "pjmpxvq2cmr2",
-              "name": "Copilot",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "l36q73vc5try",
-          "status": "investigating",
-          "body": "Code completions are now working for the impacted users, but completing more slowly than expected. Investigation continues to completely mitigate the issue and restore Copilot code completion functionality to normal.",
-          "incident_id": "k0qjh7s64fxk",
-          "created_at": "2024-02-12T15:51:49.909Z",
-          "updated_at": "2024-02-12T15:51:49.909Z",
-          "display_at": "2024-02-12T15:51:49.909Z",
-          "affected_components": [
-            {
-              "code": "pjmpxvq2cmr2",
-              "name": "Copilot",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "433mw4q86gh2",
-          "status": "investigating",
-          "body": "Following mitigation steps taken, we have reduced the impact to a more narrow subset of users. Investigation continues to completely mitigate the issue and restore Copilot code completion functionality.",
-          "incident_id": "k0qjh7s64fxk",
-          "created_at": "2024-02-12T15:16:03.419Z",
-          "updated_at": "2024-02-12T15:16:03.419Z",
-          "display_at": "2024-02-12T15:16:03.419Z",
-          "affected_components": [
-            {
-              "code": "pjmpxvq2cmr2",
-              "name": "Copilot",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "xngnk9rvcsc2",
-          "status": "investigating",
-          "body": "We are continuing to investigate the issues with Copilot code completion currently impacting some users in Europe. We will provide further details as we have them.",
-          "incident_id": "k0qjh7s64fxk",
-          "created_at": "2024-02-12T14:36:12.256Z",
-          "updated_at": "2024-02-12T14:36:12.256Z",
-          "display_at": "2024-02-12T14:36:12.256Z",
-          "affected_components": [
-            {
-              "code": "pjmpxvq2cmr2",
-              "name": "Copilot",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "nbc6ydcwhj4x",
-          "status": "investigating",
-          "body": "We have confirmed that this is a reoccurrence of the earlier issue. Impact is currently limited to some European users. The team is working through alternative mitigation strategies to resolve the issue and return normal service.",
-          "incident_id": "k0qjh7s64fxk",
-          "created_at": "2024-02-12T14:04:35.747Z",
-          "updated_at": "2024-02-12T14:04:35.747Z",
-          "display_at": "2024-02-12T14:04:35.747Z",
-          "affected_components": [
-            {
-              "code": "pjmpxvq2cmr2",
-              "name": "Copilot",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "66wg6jggtbj3",
-          "status": "investigating",
-          "body": "We are investigating reports that the earlier problem with Copilot code completions is reoccurring.",
-          "incident_id": "k0qjh7s64fxk",
-          "created_at": "2024-02-12T13:28:48.816Z",
-          "updated_at": "2024-02-12T13:28:48.816Z",
-          "display_at": "2024-02-12T13:28:48.816Z",
-          "affected_components": [
-            {
-              "code": "pjmpxvq2cmr2",
-              "name": "Copilot",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "79wd1trr9qr9",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Copilot",
-          "incident_id": "k0qjh7s64fxk",
-          "created_at": "2024-02-12T13:28:40.005Z",
-          "updated_at": "2024-02-12T13:28:40.005Z",
-          "display_at": "2024-02-12T13:28:40.005Z",
-          "affected_components": [
-            {
-              "code": "pjmpxvq2cmr2",
-              "name": "Copilot",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "pjmpxvq2cmr2",
-          "name": "Copilot",
-          "status": "partial_outage",
-          "created_at": "2022-06-21T16:04:33.017Z",
-          "updated_at": "2024-02-12T13:28:39.963Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2022-06-21",
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
