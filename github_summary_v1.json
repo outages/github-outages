@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-02-26T19:05:05.000Z"
+    "updated_at": "2024-02-26T19:37:32.464Z"
   },
   "components": [
     {
@@ -40,9 +40,9 @@
     {
       "id": "4230lsnqdsld",
       "name": "Webhooks",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:00:24.256Z",
-      "updated_at": "2024-02-26T18:55:14.435Z",
+      "updated_at": "2024-02-26T19:37:05.049Z",
       "position": 3,
       "description": "Real time HTTP callbacks of user-generated and system events",
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2024-02-26T19:05:04.956Z",
+      "updated_at": "2024-02-26T19:37:05.066Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2024-02-26T18:57:38.799Z",
+      "updated_at": "2024-02-26T19:37:06.551Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2024-02-26T18:48:28.531Z",
+      "updated_at": "2024-02-26T19:37:06.569Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -173,257 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "78qz8zwhx9tj",
-      "name": "Incident with Webhooks, Actions, Pull Requests and Issues",
-      "status": "investigating",
-      "created_at": "2024-02-26T18:47:36.957Z",
-      "updated_at": "2024-02-26T19:05:04.991Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/l593fjq7hsym",
-      "started_at": "2024-02-26T18:47:36.951Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "c2dmvf2dy431",
-          "status": "investigating",
-          "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "78qz8zwhx9tj",
-          "created_at": "2024-02-26T19:05:04.989Z",
-          "updated_at": "2024-02-26T19:05:04.989Z",
-          "display_at": "2024-02-26T19:05:04.989Z",
-          "affected_components": [
-            {
-              "code": "kr09ddfgbfsf",
-              "name": "Issues",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "4230lsnqdsld",
-              "name": "Webhooks",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "118vs2kkw1lw",
-          "status": "investigating",
-          "body": "Pull Requests is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "78qz8zwhx9tj",
-          "created_at": "2024-02-26T18:57:38.828Z",
-          "updated_at": "2024-02-26T18:57:38.828Z",
-          "display_at": "2024-02-26T18:57:38.828Z",
-          "affected_components": [
-            {
-              "code": "4230lsnqdsld",
-              "name": "Webhooks",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "pmhmwkx35srd",
-          "status": "investigating",
-          "body": "We have deployed a fix for issues affecting Webhooks, Actions, and some other services. We are beginning to see recovery and will continue to monitor and fix as needed.",
-          "incident_id": "78qz8zwhx9tj",
-          "created_at": "2024-02-26T18:55:57.969Z",
-          "updated_at": "2024-02-26T18:55:57.969Z",
-          "display_at": "2024-02-26T18:55:57.969Z",
-          "affected_components": [
-            {
-              "code": "4230lsnqdsld",
-              "name": "Webhooks",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "4lxpg6c12p4m",
-          "status": "investigating",
-          "body": "Webhooks is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "78qz8zwhx9tj",
-          "created_at": "2024-02-26T18:55:14.461Z",
-          "updated_at": "2024-02-26T18:55:14.461Z",
-          "display_at": "2024-02-26T18:55:14.461Z",
-          "affected_components": [
-            {
-              "code": "4230lsnqdsld",
-              "name": "Webhooks",
-              "old_status": "major_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "qydx198t78wf",
-          "status": "investigating",
-          "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "78qz8zwhx9tj",
-          "created_at": "2024-02-26T18:48:28.561Z",
-          "updated_at": "2024-02-26T18:48:28.561Z",
-          "display_at": "2024-02-26T18:48:28.561Z",
-          "affected_components": [
-            {
-              "code": "4230lsnqdsld",
-              "name": "Webhooks",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "ztjcmc3lvkrq",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Webhooks",
-          "incident_id": "78qz8zwhx9tj",
-          "created_at": "2024-02-26T18:47:37.017Z",
-          "updated_at": "2024-02-26T18:47:37.017Z",
-          "display_at": "2024-02-26T18:47:37.017Z",
-          "affected_components": [
-            {
-              "code": "4230lsnqdsld",
-              "name": "Webhooks",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4230lsnqdsld",
-          "name": "Webhooks",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:00:24.256Z",
-          "updated_at": "2024-02-26T18:55:14.435Z",
-          "position": 3,
-          "description": "Real time HTTP callbacks of user-generated and system events",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "kr09ddfgbfsf",
-          "name": "Issues",
-          "status": "partial_outage",
-          "created_at": "2017-01-31T20:01:46.638Z",
-          "updated_at": "2024-02-26T19:05:04.956Z",
-          "position": 5,
-          "description": "Requests for Issues on GitHub.com",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hhtssxt0f5v2",
-          "name": "Pull Requests",
-          "status": "partial_outage",
-          "created_at": "2020-09-02T15:39:06.329Z",
-          "updated_at": "2024-02-26T18:57:38.799Z",
-          "position": 6,
-          "description": "Requests for Pull Requests on GitHub.com",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "br0l2tvcx85d",
-          "name": "Actions",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2024-02-26T18:48:28.531Z",
-          "position": 7,
-          "description": "Workflows, Compute and Orchestration for GitHub Actions",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
