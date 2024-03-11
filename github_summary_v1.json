@@ -4,15 +4,15 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-03-11T23:09:19.871Z"
+    "updated_at": "2024-03-11T23:31:17.278Z"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
-      "status": "major_outage",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:05:05.370Z",
-      "updated_at": "2024-03-11T23:01:04.054Z",
+      "updated_at": "2024-03-11T23:20:35.986Z",
       "position": 1,
       "description": "Performance of git clones, pulls, pushes, and associated operations",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "4230lsnqdsld",
       "name": "Webhooks",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:00:24.256Z",
-      "updated_at": "2024-03-11T23:09:19.828Z",
+      "updated_at": "2024-03-11T23:31:17.232Z",
       "position": 3,
       "description": "Real time HTTP callbacks of user-generated and system events",
       "showcase": false,
@@ -160,9 +160,9 @@
     {
       "id": "pjmpxvq2cmr2",
       "name": "Copilot",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2022-06-21T16:04:33.017Z",
-      "updated_at": "2024-03-11T10:20:15.741Z",
+      "updated_at": "2024-03-11T23:21:49.468Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -176,10 +176,10 @@
   "incidents": [
     {
       "id": "fr6fgvdn41sw",
-      "name": "Incident with API Requests, Git Operations and Webhooks",
+      "name": "Incident with API Requests, Git Operations, Webhooks and Copilot",
       "status": "investigating",
       "created_at": "2024-03-11T23:01:04.013Z",
-      "updated_at": "2024-03-11T23:09:19.863Z",
+      "updated_at": "2024-03-11T23:31:17.268Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,114 @@
       "started_at": "2024-03-11T23:01:04.004Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "tbpr60ygz71d",
+          "status": "investigating",
+          "body": "Webhooks is operating normally.",
+          "incident_id": "fr6fgvdn41sw",
+          "created_at": "2024-03-11T23:31:17.265Z",
+          "updated_at": "2024-03-11T23:31:17.265Z",
+          "display_at": "2024-03-11T23:31:17.265Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "hw5mh576dtpj",
+          "status": "investigating",
+          "body": "Copilot is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "fr6fgvdn41sw",
+          "created_at": "2024-03-11T23:21:49.507Z",
+          "updated_at": "2024-03-11T23:21:49.507Z",
+          "display_at": "2024-03-11T23:21:49.507Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "r1g348s1gt87",
+          "status": "investigating",
+          "body": "Git Operations is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "fr6fgvdn41sw",
+          "created_at": "2024-03-11T23:20:36.011Z",
+          "updated_at": "2024-03-11T23:20:36.011Z",
+          "display_at": "2024-03-11T23:20:36.011Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "major_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "b8t28t4rpk6w",
           "status": "investigating",
@@ -256,9 +364,9 @@
         {
           "id": "8l4ygp009s5s",
           "name": "Git Operations",
-          "status": "major_outage",
+          "status": "partial_outage",
           "created_at": "2017-01-31T20:05:05.370Z",
-          "updated_at": "2024-03-11T23:01:04.054Z",
+          "updated_at": "2024-03-11T23:20:35.986Z",
           "position": 1,
           "description": "Performance of git clones, pulls, pushes, and associated operations",
           "showcase": false,
@@ -286,13 +394,28 @@
         {
           "id": "4230lsnqdsld",
           "name": "Webhooks",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-11-13T18:00:24.256Z",
-          "updated_at": "2024-03-11T23:09:19.828Z",
+          "updated_at": "2024-03-11T23:31:17.232Z",
           "position": 3,
           "description": "Real time HTTP callbacks of user-generated and system events",
           "showcase": false,
           "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "pjmpxvq2cmr2",
+          "name": "Copilot",
+          "status": "partial_outage",
+          "created_at": "2022-06-21T16:04:33.017Z",
+          "updated_at": "2024-03-11T23:21:49.468Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": "2022-06-21",
           "group_id": null,
           "page_id": "kctbh9vrtdwd",
           "group": false,
