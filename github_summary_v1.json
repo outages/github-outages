@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-03-12T23:43:10.443Z"
+    "updated_at": "2024-03-13T00:47:04.314Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Pull Requests",
       "status": "investigating",
       "created_at": "2024-03-12T23:39:25.869Z",
-      "updated_at": "2024-03-12T23:39:36.309Z",
+      "updated_at": "2024-03-13T00:47:04.307Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,46 @@
       "started_at": "2024-03-12T23:39:25.863Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "lvtswwlzwtg7",
+          "status": "investigating",
+          "body": "We're continuing to investigate an elevated number of pull requests that are out of sync on page load.",
+          "incident_id": "q3gl44chgxwv",
+          "created_at": "2024-03-13T00:47:04.305Z",
+          "updated_at": "2024-03-13T00:47:04.305Z",
+          "display_at": "2024-03-13T00:47:04.305Z",
+          "affected_components": [
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "8qzk70z5d7n5",
+          "status": "investigating",
+          "body": "We're continuing to investigate an elevated number of pull requests that are out of sync on page load.",
+          "incident_id": "q3gl44chgxwv",
+          "created_at": "2024-03-13T00:12:10.962Z",
+          "updated_at": "2024-03-13T00:12:10.962Z",
+          "display_at": "2024-03-13T00:12:10.962Z",
+          "affected_components": [
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "bxk8sy6c3pls",
           "status": "investigating",
