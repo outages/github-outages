@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-03-15T18:18:46.491Z"
+    "updated_at": "2024-03-15T20:17:55.734Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2024-03-12T00:56:16.410Z",
+      "updated_at": "2024-03-15T20:11:54.249Z",
       "position": 2,
       "description": "Requests for GitHub APIs",
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2024-03-11T19:22:16.007Z",
+      "updated_at": "2024-03-15T20:07:45.758Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "vg70hn9s2tyj",
       "name": "Pages",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2024-03-01T17:41:52.992Z",
+      "updated_at": "2024-03-15T20:09:37.681Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2024-01-21T09:34:34.651Z",
+      "updated_at": "2024-03-15T20:03:32.649Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -173,10 +173,303 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "9ym5p2sg6w5v",
+      "name": "Incident with Codespaces and API Requests",
+      "status": "investigating",
+      "created_at": "2024-03-15T19:55:20.307Z",
+      "updated_at": "2024-03-15T20:17:55.723Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/gm0txszlp87y",
+      "started_at": "2024-03-15T19:55:20.301Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "jqn758czkv5f",
+          "status": "investigating",
+          "body": "We rolled back the most recent deployment and are seeing improvements across all services, and will continue to monitor for additional impact.",
+          "incident_id": "9ym5p2sg6w5v",
+          "created_at": "2024-03-15T20:17:55.718Z",
+          "updated_at": "2024-03-15T20:17:55.718Z",
+          "display_at": "2024-03-15T20:17:55.718Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "v1v99fxd88h6",
+          "status": "investigating",
+          "body": "API Requests is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "9ym5p2sg6w5v",
+          "created_at": "2024-03-15T20:11:54.278Z",
+          "updated_at": "2024-03-15T20:11:54.278Z",
+          "display_at": "2024-03-15T20:11:54.278Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "major_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "36djvndm5k18",
+          "status": "investigating",
+          "body": "Codespaces is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "9ym5p2sg6w5v",
+          "created_at": "2024-03-15T20:03:32.689Z",
+          "updated_at": "2024-03-15T20:03:32.689Z",
+          "display_at": "2024-03-15T20:03:32.689Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "pt4gfvgn7w5z",
+          "status": "investigating",
+          "body": "API Requests is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "9ym5p2sg6w5v",
+          "created_at": "2024-03-15T20:03:03.024Z",
+          "updated_at": "2024-03-15T20:03:03.024Z",
+          "display_at": "2024-03-15T20:03:03.024Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "pz4gggg9lw0m",
+          "status": "investigating",
+          "body": "API Requests is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "9ym5p2sg6w5v",
+          "created_at": "2024-03-15T20:00:40.654Z",
+          "updated_at": "2024-03-15T20:00:40.654Z",
+          "display_at": "2024-03-15T20:00:40.654Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "xr54gnzf79r2",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Codespaces",
+          "incident_id": "9ym5p2sg6w5v",
+          "created_at": "2024-03-15T19:55:20.373Z",
+          "updated_at": "2024-03-15T19:55:20.373Z",
+          "display_at": "2024-03-15T19:55:20.373Z",
+          "affected_components": [
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "brv1bkgrwx7q",
+          "name": "API Requests",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:01:46.621Z",
+          "updated_at": "2024-03-15T20:11:54.249Z",
+          "position": 2,
+          "description": "Requests for GitHub APIs",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "h2ftsgbw7kmk",
+          "name": "Codespaces",
+          "status": "major_outage",
+          "created_at": "2021-08-11T16:02:09.505Z",
+          "updated_at": "2024-03-15T20:03:32.649Z",
+          "position": 10,
+          "description": "Orchestration and Compute for GitHub Codespaces",
+          "showcase": false,
+          "start_date": "2021-08-11",
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "m07hfg0gly20",
+      "name": "Incident with Actions and Pages",
+      "status": "investigating",
+      "created_at": "2024-03-15T20:07:45.726Z",
+      "updated_at": "2024-03-15T20:09:37.795Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/d74qk6zjsdr9",
+      "started_at": "2024-03-15T20:07:45.719Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "0kzbtdggb9fh",
+          "status": "investigating",
+          "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "m07hfg0gly20",
+          "created_at": "2024-03-15T20:09:37.786Z",
+          "updated_at": "2024-03-15T20:09:37.786Z",
+          "display_at": "2024-03-15T20:09:37.786Z",
+          "affected_components": [
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "yrg4b8p4w6r6",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Actions",
+          "incident_id": "m07hfg0gly20",
+          "created_at": "2024-03-15T20:07:45.800Z",
+          "updated_at": "2024-03-15T20:07:45.800Z",
+          "display_at": "2024-03-15T20:07:45.800Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "br0l2tvcx85d",
+          "name": "Actions",
+          "status": "partial_outage",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2024-03-15T20:07:45.758Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "vg70hn9s2tyj",
+          "name": "Pages",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:04:33.923Z",
+          "updated_at": "2024-03-15T20:09:37.681Z",
+          "position": 9,
+          "description": "Frontend application and API servers for Pages builds",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
