@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-04-09T19:06:15.437Z"
+    "updated_at": "2024-04-09T19:43:48.546Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Actions",
       "status": "investigating",
       "created_at": "2024-04-09T18:36:04.766Z",
-      "updated_at": "2024-04-09T19:06:15.429Z",
+      "updated_at": "2024-04-09T19:43:48.538Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2024-04-09T18:36:04.759Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "wtn6k4c4nd90",
+          "status": "investigating",
+          "body": "We continue to work to resolve issues with repositories not being able to enable Actions and Actions network configuration setup not working properly. We have confirmed a fix and are in the process of deploying it to production. Another update will be shared within the next 30 minutes.",
+          "incident_id": "xcjgp37zx5dt",
+          "created_at": "2024-04-09T19:43:48.536Z",
+          "updated_at": "2024-04-09T19:43:48.536Z",
+          "display_at": "2024-04-09T19:43:48.536Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "1sljqhry4tqy",
           "status": "investigating",
