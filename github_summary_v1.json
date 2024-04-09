@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-04-09T04:32:52.767Z"
+    "updated_at": "2024-04-09T04:51:16.489Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "We are investigating reports of degraded performance.",
       "status": "investigating",
       "created_at": "2024-04-09T04:32:52.731Z",
-      "updated_at": "2024-04-09T04:32:52.764Z",
+      "updated_at": "2024-04-09T04:51:16.481Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2024-04-09T04:32:52.726Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "fy9qd5vsn3tt",
+          "status": "investigating",
+          "body": "We are investigating reports of issues with downloading NPM packages. We will continue to keep users updated on progress towards mitigation.",
+          "incident_id": "6tgmk1j7b4rn",
+          "created_at": "2024-04-09T04:51:16.478Z",
+          "updated_at": "2024-04-09T04:51:16.478Z",
+          "display_at": "2024-04-09T04:51:16.478Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "zv834mp1qr64",
           "status": "investigating",
