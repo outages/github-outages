@@ -4,10 +4,10 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-04-10T18:55:48.136Z"
+    "updated_at": "2024-04-10T19:03:05.812Z"
   },
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
