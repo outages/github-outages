@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-04-14T08:46:39.896Z"
+    "updated_at": "2024-04-14T14:21:47.720Z"
   },
   "components": [
     {
@@ -173,7 +173,38 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "b6f4j9ljz9r6",
+      "name": "We are investigating reports of degraded performance.",
+      "status": "investigating",
+      "created_at": "2024-04-14T14:21:47.663Z",
+      "updated_at": "2024-04-14T14:21:47.716Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/xg751bqwtq3h",
+      "started_at": "2024-04-14T14:21:47.655Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "lbx514bjcvbb",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "b6f4j9ljz9r6",
+          "created_at": "2024-04-14T14:21:47.713Z",
+          "updated_at": "2024-04-14T14:21:47.713Z",
+          "display_at": "2024-04-14T14:21:47.713Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
