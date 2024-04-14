@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-04-14T14:21:47.720Z"
+    "updated_at": "2024-04-14T15:02:06.637Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "We are investigating reports of degraded performance.",
       "status": "investigating",
       "created_at": "2024-04-14T14:21:47.663Z",
-      "updated_at": "2024-04-14T14:21:47.716Z",
+      "updated_at": "2024-04-14T15:01:35.212Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,32 @@
       "started_at": "2024-04-14T14:21:47.655Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "vvrcmt5rx1hw",
+          "status": "investigating",
+          "body": "We are continuing to investigate issues with the delivery of device verification emails for users without 2FA on new devices.",
+          "incident_id": "b6f4j9ljz9r6",
+          "created_at": "2024-04-14T15:01:35.209Z",
+          "updated_at": "2024-04-14T15:01:35.209Z",
+          "display_at": "2024-04-14T15:01:35.209Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "qfp4yg2q7dpf",
+          "status": "investigating",
+          "body": "Device verification emails for sign-ins for users without 2FA on new devices are being sent late or not at all. This is blocking successful sign-ins for these users. We are investigating.",
+          "incident_id": "b6f4j9ljz9r6",
+          "created_at": "2024-04-14T14:27:17.748Z",
+          "updated_at": "2024-04-14T14:27:17.748Z",
+          "display_at": "2024-04-14T14:27:17.748Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "lbx514bjcvbb",
           "status": "investigating",
