@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-14T20:47:34.005Z"
+    "updated_at": "2024-05-14T21:04:49.552Z"
   },
   "components": [
     {
@@ -173,90 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "bfkxf0w61z1n",
-      "name": "We are investigating reports of degraded performance.",
-      "status": "investigating",
-      "created_at": "2024-05-14T18:37:22.092Z",
-      "updated_at": "2024-05-14T20:47:33.998Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/3dhmn8ky50m0",
-      "started_at": "2024-05-14T18:37:22.083Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "fy6kk3sh3kqv",
-          "status": "investigating",
-          "body": "We are seeing recovery for queue times on Actions Larger Runners and are continuing to monitor full recovery.",
-          "incident_id": "bfkxf0w61z1n",
-          "created_at": "2024-05-14T20:47:33.995Z",
-          "updated_at": "2024-05-14T20:47:33.995Z",
-          "display_at": "2024-05-14T20:47:33.995Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "spsymwrtvl3g",
-          "status": "investigating",
-          "body": "We've applied a mitigation to fix the issues with queuing and running Actions jobs. We are seeing improvements in telemetry and are monitoring for full recovery.",
-          "incident_id": "bfkxf0w61z1n",
-          "created_at": "2024-05-14T20:09:08.137Z",
-          "updated_at": "2024-05-14T20:09:08.137Z",
-          "display_at": "2024-05-14T20:09:08.137Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "g87rh8x8kbxm",
-          "status": "investigating",
-          "body": "We are continuing to investigate long queue times for Actions Larger Runners",
-          "incident_id": "bfkxf0w61z1n",
-          "created_at": "2024-05-14T19:16:01.332Z",
-          "updated_at": "2024-05-14T19:16:01.332Z",
-          "display_at": "2024-05-14T19:16:01.332Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "mm09829xdtyp",
-          "status": "investigating",
-          "body": "We are investigating long queue times for Actions Larger Runners",
-          "incident_id": "bfkxf0w61z1n",
-          "created_at": "2024-05-14T18:40:33.771Z",
-          "updated_at": "2024-05-14T18:40:33.771Z",
-          "display_at": "2024-05-14T18:40:33.771Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "8prlvxj88p23",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "bfkxf0w61z1n",
-          "created_at": "2024-05-14T18:37:22.134Z",
-          "updated_at": "2024-05-14T18:37:22.134Z",
-          "display_at": "2024-05-14T18:37:22.134Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
