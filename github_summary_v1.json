@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-20T16:50:34.194Z"
+    "updated_at": "2024-05-20T17:05:48.480Z"
   },
   "components": [
     {
@@ -173,51 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "915nn7rmqth9",
-      "name": "We are investigating reports of degraded performance.",
-      "status": "investigating",
-      "created_at": "2024-05-20T16:47:10.139Z",
-      "updated_at": "2024-05-20T16:50:34.186Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/3r810pz84lh6",
-      "started_at": "2024-05-20T16:47:10.132Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "xhthldfcd2n6",
-          "status": "investigating",
-          "body": "Customers may experience errors viewing rendered Jupyter notebooks from PR diff pages or the files tab",
-          "incident_id": "915nn7rmqth9",
-          "created_at": "2024-05-20T16:50:34.183Z",
-          "updated_at": "2024-05-20T16:50:34.183Z",
-          "display_at": "2024-05-20T16:50:34.183Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "46hywhs6lksr",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "915nn7rmqth9",
-          "created_at": "2024-05-20T16:47:10.177Z",
-          "updated_at": "2024-05-20T16:47:10.177Z",
-          "display_at": "2024-05-20T16:47:10.177Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
