@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-21T16:02:27.497Z"
+    "updated_at": "2024-05-21T17:14:49.636Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Actions",
       "status": "investigating",
       "created_at": "2024-05-21T12:45:17.500Z",
-      "updated_at": "2024-05-21T16:02:27.490Z",
+      "updated_at": "2024-05-21T17:14:49.627Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2024-05-21T12:45:17.492Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "cl578r7xcl7r",
+          "status": "investigating",
+          "body": "We are continuing to investigate delays to status updates to Actions Workflow Runs, Workflow Job Runs, and Check Steps. Customers may see that their Actions workflows may have completed, but the run may appear to be hung waiting for its status to update. This is also impacting GitHub Enterprise Importer migrations. Migrations may take longer to complete. We are are working with our provider to address the issue and will continue to provide updates as we learn more.",
+          "incident_id": "nj47vccwm2zj",
+          "created_at": "2024-05-21T17:14:49.625Z",
+          "updated_at": "2024-05-21T17:14:49.625Z",
+          "display_at": "2024-05-21T17:14:49.625Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "x5nylmvr2ps8",
           "status": "investigating",
