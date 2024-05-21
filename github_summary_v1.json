@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-21T13:43:01.129Z"
+    "updated_at": "2024-05-21T13:58:09.691Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Actions",
       "status": "investigating",
       "created_at": "2024-05-21T12:45:17.500Z",
-      "updated_at": "2024-05-21T12:45:17.579Z",
+      "updated_at": "2024-05-21T13:58:09.685Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2024-05-21T12:45:17.492Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "flvx9h3xdw0f",
+          "status": "investigating",
+          "body": "We are investigating delayed updates to Actions job statuses.",
+          "incident_id": "nj47vccwm2zj",
+          "created_at": "2024-05-21T13:58:09.683Z",
+          "updated_at": "2024-05-21T13:58:09.683Z",
+          "display_at": "2024-05-21T13:58:09.683Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "g56w138g4q7h",
           "status": "investigating",
