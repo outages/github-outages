@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-07-05T17:20:31.989Z"
+    "updated_at": "2024-07-05T17:43:00.312Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Webhooks",
       "status": "investigating",
       "created_at": "2024-07-05T17:04:49.331Z",
-      "updated_at": "2024-07-05T17:20:31.979Z",
+      "updated_at": "2024-07-05T17:42:21.190Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,26 @@
       "started_at": "2024-07-05T17:04:49.325Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "p0w9dhg4tg7x",
+          "status": "investigating",
+          "body": "We are reverting a configuration change that is suspected to contribute to the problem with webhook deliveries.",
+          "incident_id": "5yx1d67vq9hg",
+          "created_at": "2024-07-05T17:42:21.188Z",
+          "updated_at": "2024-07-05T17:42:21.188Z",
+          "display_at": "2024-07-05T17:42:21.188Z",
+          "affected_components": [
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "lqyhpm1957qk",
           "status": "investigating",
