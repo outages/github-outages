@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-07-11T13:43:00.040Z"
+    "updated_at": "2024-07-11T14:14:23.733Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Copilot",
       "status": "investigating",
       "created_at": "2024-07-11T13:02:10.327Z",
-      "updated_at": "2024-07-11T13:32:07.246Z",
+      "updated_at": "2024-07-11T14:14:23.724Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2024-07-11T13:02:10.319Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "cpthpvfv26m3",
+          "status": "investigating",
+          "body": "We continue to investigate the cause of intermittent timeouts impacting Copilot’s Chat functionality. This is impacting a small fraction of customers. We will provide further updates as we continue resolving the issue.",
+          "incident_id": "9lmrb0ch7cnn",
+          "created_at": "2024-07-11T14:14:23.721Z",
+          "updated_at": "2024-07-11T14:14:23.721Z",
+          "display_at": "2024-07-11T14:14:23.721Z",
+          "affected_components": [
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "35f5jtg64w77",
           "status": "investigating",
