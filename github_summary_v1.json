@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-07-13T07:47:48.501Z"
+    "updated_at": "2024-07-13T11:18:49.194Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Copilot",
       "status": "investigating",
       "created_at": "2024-07-13T00:18:23.267Z",
-      "updated_at": "2024-07-13T03:50:03.260Z",
+      "updated_at": "2024-07-13T11:18:49.184Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,26 @@
       "started_at": "2024-07-13T00:18:23.261Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "swwd6dj6rl76",
+          "status": "investigating",
+          "body": "Our upstream provider is gradually recovering the service. We will provide another update at 23:00 UTC.",
+          "incident_id": "3483v9fw5pm3",
+          "created_at": "2024-07-13T11:18:49.182Z",
+          "updated_at": "2024-07-13T11:18:49.182Z",
+          "display_at": "2024-07-13T11:18:49.182Z",
+          "affected_components": [
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "hglfnyrh9kv4",
           "status": "investigating",
