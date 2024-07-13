@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-07-12T08:04:47.149Z"
+    "updated_at": "2024-07-13T00:49:51.261Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "pjmpxvq2cmr2",
       "name": "Copilot",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2022-06-21T16:04:33.017Z",
-      "updated_at": "2024-07-11T15:21:16.144Z",
+      "updated_at": "2024-07-13T00:29:30.139Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -173,10 +173,124 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "3483v9fw5pm3",
+      "name": "Incident with Copilot",
+      "status": "investigating",
+      "created_at": "2024-07-13T00:18:23.267Z",
+      "updated_at": "2024-07-13T00:49:51.254Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/p9hk6d1tl9xs",
+      "started_at": "2024-07-13T00:18:23.261Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "qx4qwgdz71py",
+          "status": "investigating",
+          "body": "Copilot chat is currently experiencing degraded performance, impacting up to 60% of all chat requests. We are investigating the issue.",
+          "incident_id": "3483v9fw5pm3",
+          "created_at": "2024-07-13T00:49:51.251Z",
+          "updated_at": "2024-07-13T00:49:51.251Z",
+          "display_at": "2024-07-13T00:49:51.251Z",
+          "affected_components": [
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "bvcxhv2140g9",
+          "status": "investigating",
+          "body": "Copilot is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "3483v9fw5pm3",
+          "created_at": "2024-07-13T00:29:30.182Z",
+          "updated_at": "2024-07-13T00:29:30.182Z",
+          "display_at": "2024-07-13T00:29:30.182Z",
+          "affected_components": [
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "pfclj7lvmch3",
+          "status": "investigating",
+          "body": "Copilot API chat experiencing significant failures to backend services",
+          "incident_id": "3483v9fw5pm3",
+          "created_at": "2024-07-13T00:18:29.213Z",
+          "updated_at": "2024-07-13T00:18:29.213Z",
+          "display_at": "2024-07-13T00:18:29.213Z",
+          "affected_components": [
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "nnyfcnnr74qq",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Copilot",
+          "incident_id": "3483v9fw5pm3",
+          "created_at": "2024-07-13T00:18:23.330Z",
+          "updated_at": "2024-07-13T00:18:23.330Z",
+          "display_at": "2024-07-13T00:18:23.330Z",
+          "affected_components": [
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "pjmpxvq2cmr2",
+          "name": "Copilot",
+          "status": "major_outage",
+          "created_at": "2022-06-21T16:04:33.017Z",
+          "updated_at": "2024-07-13T00:29:30.139Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": "2022-06-21",
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
