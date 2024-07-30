@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-07-30T18:23:38.091Z"
+    "updated_at": "2024-07-30T18:30:12.148Z"
   },
   "components": [
     {
@@ -176,10 +176,10 @@
   "incidents": [
     {
       "id": "y0gqch2dhw5l",
-      "name": "Actions runs using large runners delayed for some customers",
+      "name": "Actions runs using large hosted runners delayed for some customers",
       "status": "investigating",
       "created_at": "2024-07-30T18:19:10.462Z",
-      "updated_at": "2024-07-30T18:23:38.085Z",
+      "updated_at": "2024-07-30T18:30:12.143Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
