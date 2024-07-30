@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-07-30T14:16:36.459Z"
+    "updated_at": "2024-07-30T14:22:15.718Z"
   },
   "components": [
     {
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2024-07-30T13:36:52.329Z",
+      "updated_at": "2024-07-30T14:22:15.663Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -173,124 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "h2mghb83nt00",
-      "name": "Incident with Codespaces",
-      "status": "investigating",
-      "created_at": "2024-07-30T13:36:52.292Z",
-      "updated_at": "2024-07-30T14:16:36.452Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/354gfnv689zw",
-      "started_at": "2024-07-30T13:36:52.285Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "94qchf0m2qx5",
-          "status": "investigating",
-          "body": "We are starting to see recovery for this issue and are monitoring things closely. We will keep this incident open for now until we are fully confident on complete recovery.",
-          "incident_id": "h2mghb83nt00",
-          "created_at": "2024-07-30T14:16:36.450Z",
-          "updated_at": "2024-07-30T14:16:36.450Z",
-          "display_at": "2024-07-30T14:16:36.450Z",
-          "affected_components": [
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "30gsl023bttm",
-          "status": "investigating",
-          "body": "We have correlated the impact on Codespaces to an outage with a third party service. We are continuing to investigate ways to reduce impact on our customers while we wait for that outage to be resolved.",
-          "incident_id": "h2mghb83nt00",
-          "created_at": "2024-07-30T14:09:56.056Z",
-          "updated_at": "2024-07-30T14:09:56.056Z",
-          "display_at": "2024-07-30T14:09:56.056Z",
-          "affected_components": [
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "339jt8kd9jds",
-          "status": "investigating",
-          "body": "We are seeing increased failure rates for creation and resumption of Codespaces in the UK South and West Europe regions.<br /><br />We are working to resolve this issue and will update again soon.",
-          "incident_id": "h2mghb83nt00",
-          "created_at": "2024-07-30T13:47:31.484Z",
-          "updated_at": "2024-07-30T13:47:31.484Z",
-          "display_at": "2024-07-30T13:47:31.484Z",
-          "affected_components": [
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "q0zh2cpmxf6r",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Codespaces",
-          "incident_id": "h2mghb83nt00",
-          "created_at": "2024-07-30T13:36:52.372Z",
-          "updated_at": "2024-07-30T13:36:52.372Z",
-          "display_at": "2024-07-30T13:36:52.372Z",
-          "affected_components": [
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "h2ftsgbw7kmk",
-          "name": "Codespaces",
-          "status": "partial_outage",
-          "created_at": "2021-08-11T16:02:09.505Z",
-          "updated_at": "2024-07-30T13:36:52.329Z",
-          "position": 10,
-          "description": "Orchestration and Compute for GitHub Codespaces",
-          "showcase": false,
-          "start_date": "2021-08-11",
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
