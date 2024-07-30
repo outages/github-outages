@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-07-30T21:00:06.600Z"
+    "updated_at": "2024-07-30T21:44:35.429Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Actions runs using large hosted runners delayed for some customers",
       "status": "investigating",
       "created_at": "2024-07-30T18:19:10.462Z",
-      "updated_at": "2024-07-30T21:00:06.593Z",
+      "updated_at": "2024-07-30T21:44:35.420Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2024-07-30T18:19:10.455Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "2sj1nlc63wc3",
+          "status": "investigating",
+          "body": "We are continuing to hold this incident open while the team ensures that mitigation put in place is stable.",
+          "incident_id": "y0gqch2dhw5l",
+          "created_at": "2024-07-30T21:44:35.417Z",
+          "updated_at": "2024-07-30T21:44:35.417Z",
+          "display_at": "2024-07-30T21:44:35.417Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "hj30mp3ybfj1",
           "status": "investigating",
