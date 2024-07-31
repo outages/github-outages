@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-07-31T01:49:15.890Z"
+    "updated_at": "2024-07-31T02:55:42.329Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Codespaces",
       "status": "investigating",
       "created_at": "2024-07-31T00:52:57.115Z",
-      "updated_at": "2024-07-31T01:49:15.883Z",
+      "updated_at": "2024-07-31T02:55:42.320Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2024-07-31T00:52:57.109Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "3vtw3bywcw7z",
+          "status": "investigating",
+          "body": "The team is currently investigating a fix for issues with Codespaces. Impact continues to be limited to non-web clients. Customers receiving errors on desktop clients are encouraged to use the web client as a temporary workaround.",
+          "incident_id": "s4bvfmfm297p",
+          "created_at": "2024-07-31T02:55:42.318Z",
+          "updated_at": "2024-07-31T02:55:42.318Z",
+          "display_at": "2024-07-31T02:55:42.318Z",
+          "affected_components": [
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "xtm3s3zftyxg",
           "status": "investigating",
