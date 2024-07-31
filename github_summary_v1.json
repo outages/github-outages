@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-07-31T21:00:58.716Z"
+    "updated_at": "2024-07-31T21:21:29.364Z"
   },
   "components": [
     {
@@ -173,64 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "cr44n0knc7xj",
-      "name": "Disruption with some GitHub services",
-      "status": "investigating",
-      "created_at": "2024-07-31T20:38:06.250Z",
-      "updated_at": "2024-07-31T21:00:58.709Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/z3bv1fhl5969",
-      "started_at": "2024-07-31T20:38:06.244Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "8xzh3xcdcprq",
-          "status": "investigating",
-          "body": "We have identified the issue is caused by a service outage to a partner, and we are working with the partner to resolve the incident.",
-          "incident_id": "cr44n0knc7xj",
-          "created_at": "2024-07-31T21:00:58.708Z",
-          "updated_at": "2024-07-31T21:00:58.708Z",
-          "display_at": "2024-07-31T21:00:58.708Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "1y93x0cprbdx",
-          "status": "investigating",
-          "body": "We are investigating reports of users seeing some errors in Billing functionality and Billing pages.",
-          "incident_id": "cr44n0knc7xj",
-          "created_at": "2024-07-31T20:45:12.282Z",
-          "updated_at": "2024-07-31T20:45:12.282Z",
-          "display_at": "2024-07-31T20:45:12.282Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "87wzhq4pwbp1",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "cr44n0knc7xj",
-          "created_at": "2024-07-31T20:38:06.281Z",
-          "updated_at": "2024-07-31T20:38:06.281Z",
-          "display_at": "2024-07-31T20:38:06.281Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
