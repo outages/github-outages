@@ -4,15 +4,15 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-08-14T08:05:32.326Z"
+    "updated_at": "2024-08-14T23:50:47.619Z"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2017-01-31T20:05:05.370Z",
-      "updated_at": "2024-07-17T17:06:48.353Z",
+      "updated_at": "2024-08-14T23:19:20.693Z",
       "position": 1,
       "description": "Performance of git clones, pulls, pushes, and associated operations",
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2024-07-02T19:24:48.645Z",
+      "updated_at": "2024-08-14T23:23:55.135Z",
       "position": 2,
       "description": "Requests for GitHub APIs",
       "showcase": false,
@@ -40,9 +40,9 @@
     {
       "id": "4230lsnqdsld",
       "name": "Webhooks",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2019-11-13T18:00:24.256Z",
-      "updated_at": "2024-08-12T14:41:06.060Z",
+      "updated_at": "2024-08-14T23:20:49.421Z",
       "position": 3,
       "description": "Real time HTTP callbacks of user-generated and system events",
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2024-07-17T16:46:18.639Z",
+      "updated_at": "2024-08-14T23:19:34.556Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": false,
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2024-08-13T13:23:55.349Z",
+      "updated_at": "2024-08-14T23:50:47.580Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2024-07-31T09:20:08.998Z",
+      "updated_at": "2024-08-14T23:11:43.351Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "Packages",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2024-07-17T17:06:40.770Z",
+      "updated_at": "2024-08-14T23:18:06.920Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "vg70hn9s2tyj",
       "name": "Pages",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2024-07-19T00:24:20.763Z",
+      "updated_at": "2024-08-14T23:12:18.756Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2024-07-31T03:37:48.061Z",
+      "updated_at": "2024-08-14T23:22:24.353Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -160,9 +160,9 @@
     {
       "id": "pjmpxvq2cmr2",
       "name": "Copilot",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2022-06-21T16:04:33.017Z",
-      "updated_at": "2024-07-13T19:26:54.421Z",
+      "updated_at": "2024-08-14T23:13:21.406Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -173,10 +173,788 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "kz4khcgdsfdv",
+      "name": "All GitHub services are experiencing significant disruptions",
+      "status": "investigating",
+      "created_at": "2024-08-14T23:11:43.288Z",
+      "updated_at": "2024-08-14T23:50:47.612Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/td8mnjtxwh6z",
+      "started_at": "2024-08-14T23:11:43.277Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "2mvp9jzp10lb",
+          "status": "investigating",
+          "body": "Pull Requests is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "kz4khcgdsfdv",
+          "created_at": "2024-08-14T23:50:47.609Z",
+          "updated_at": "2024-08-14T23:50:47.609Z",
+          "display_at": "2024-08-14T23:50:47.609Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "nxsd47v1237t",
+          "status": "investigating",
+          "body": "The database infrastructure change is being rolled back. We are seeing improvements in service health and are monitoring for full recovery.",
+          "incident_id": "kz4khcgdsfdv",
+          "created_at": "2024-08-14T23:45:05.807Z",
+          "updated_at": "2024-08-14T23:45:05.807Z",
+          "display_at": "2024-08-14T23:45:05.807Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "wtf0lnd7327d",
+          "status": "investigating",
+          "body": "We are experiencing interruptions in multiple public GitHub services. We suspect the impact is due to a database infrastructure related change that we are working on rolling back.",
+          "incident_id": "kz4khcgdsfdv",
+          "created_at": "2024-08-14T23:29:04.824Z",
+          "updated_at": "2024-08-14T23:29:04.824Z",
+          "display_at": "2024-08-14T23:29:04.824Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "9s7f71rnr8qq",
+          "status": "investigating",
+          "body": "Codespaces is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "kz4khcgdsfdv",
+          "created_at": "2024-08-14T23:22:24.397Z",
+          "updated_at": "2024-08-14T23:22:24.397Z",
+          "display_at": "2024-08-14T23:22:24.397Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "0fvsdtfb5nfc",
+          "status": "investigating",
+          "body": "Webhooks is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "kz4khcgdsfdv",
+          "created_at": "2024-08-14T23:20:49.460Z",
+          "updated_at": "2024-08-14T23:20:49.460Z",
+          "display_at": "2024-08-14T23:20:49.460Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "qcyn573rqszc",
+          "status": "investigating",
+          "body": "Issues is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "kz4khcgdsfdv",
+          "created_at": "2024-08-14T23:19:34.598Z",
+          "updated_at": "2024-08-14T23:19:34.598Z",
+          "display_at": "2024-08-14T23:19:34.598Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "1t7jczrwwhyw",
+          "status": "investigating",
+          "body": "Git Operations is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "kz4khcgdsfdv",
+          "created_at": "2024-08-14T23:19:20.730Z",
+          "updated_at": "2024-08-14T23:19:20.730Z",
+          "display_at": "2024-08-14T23:19:20.730Z",
+          "affected_components": [
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "9ttxvy3m1lt6",
+          "status": "investigating",
+          "body": "Packages is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "kz4khcgdsfdv",
+          "created_at": "2024-08-14T23:18:06.956Z",
+          "updated_at": "2024-08-14T23:18:06.956Z",
+          "display_at": "2024-08-14T23:18:06.956Z",
+          "affected_components": [
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "19pgmjvfnrmr",
+          "status": "investigating",
+          "body": "We are investigating reports of issues with GitHub.com and GitHub API. We will continue to keep users updated on progress towards mitigation.",
+          "incident_id": "kz4khcgdsfdv",
+          "created_at": "2024-08-14T23:16:04.703Z",
+          "updated_at": "2024-08-14T23:16:04.703Z",
+          "display_at": "2024-08-14T23:16:04.703Z",
+          "affected_components": [
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "xvd0d45x9s2h",
+          "status": "investigating",
+          "body": "Copilot is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "kz4khcgdsfdv",
+          "created_at": "2024-08-14T23:13:21.436Z",
+          "updated_at": "2024-08-14T23:13:21.436Z",
+          "display_at": "2024-08-14T23:13:21.436Z",
+          "affected_components": [
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "shvpn92rm7bs",
+          "status": "investigating",
+          "body": "Pages is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "kz4khcgdsfdv",
+          "created_at": "2024-08-14T23:12:18.813Z",
+          "updated_at": "2024-08-14T23:12:18.813Z",
+          "display_at": "2024-08-14T23:12:18.813Z",
+          "affected_components": [
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "partial_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "n6qbsbqhxms2",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded availability for Actions, Pages and Pull Requests",
+          "incident_id": "kz4khcgdsfdv",
+          "created_at": "2024-08-14T23:11:43.406Z",
+          "updated_at": "2024-08-14T23:11:43.406Z",
+          "display_at": "2024-08-14T23:11:43.406Z",
+          "affected_components": [
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "8l4ygp009s5s",
+          "name": "Git Operations",
+          "status": "major_outage",
+          "created_at": "2017-01-31T20:05:05.370Z",
+          "updated_at": "2024-08-14T23:19:20.693Z",
+          "position": 1,
+          "description": "Performance of git clones, pulls, pushes, and associated operations",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "4230lsnqdsld",
+          "name": "Webhooks",
+          "status": "major_outage",
+          "created_at": "2019-11-13T18:00:24.256Z",
+          "updated_at": "2024-08-14T23:20:49.421Z",
+          "position": 3,
+          "description": "Real time HTTP callbacks of user-generated and system events",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "kr09ddfgbfsf",
+          "name": "Issues",
+          "status": "major_outage",
+          "created_at": "2017-01-31T20:01:46.638Z",
+          "updated_at": "2024-08-14T23:19:34.556Z",
+          "position": 5,
+          "description": "Requests for Issues on GitHub.com",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "hhtssxt0f5v2",
+          "name": "Pull Requests",
+          "status": "partial_outage",
+          "created_at": "2020-09-02T15:39:06.329Z",
+          "updated_at": "2024-08-14T23:50:47.580Z",
+          "position": 6,
+          "description": "Requests for Pull Requests on GitHub.com",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "br0l2tvcx85d",
+          "name": "Actions",
+          "status": "major_outage",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2024-08-14T23:11:43.351Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "st3j38cctv9l",
+          "name": "Packages",
+          "status": "major_outage",
+          "created_at": "2019-11-13T18:02:40.064Z",
+          "updated_at": "2024-08-14T23:18:06.920Z",
+          "position": 8,
+          "description": "API requests and webhook delivery for GitHub Packages",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "vg70hn9s2tyj",
+          "name": "Pages",
+          "status": "major_outage",
+          "created_at": "2017-01-31T20:04:33.923Z",
+          "updated_at": "2024-08-14T23:12:18.756Z",
+          "position": 9,
+          "description": "Frontend application and API servers for Pages builds",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "h2ftsgbw7kmk",
+          "name": "Codespaces",
+          "status": "major_outage",
+          "created_at": "2021-08-11T16:02:09.505Z",
+          "updated_at": "2024-08-14T23:22:24.353Z",
+          "position": 10,
+          "description": "Orchestration and Compute for GitHub Codespaces",
+          "showcase": false,
+          "start_date": "2021-08-11",
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "pjmpxvq2cmr2",
+          "name": "Copilot",
+          "status": "major_outage",
+          "created_at": "2022-06-21T16:04:33.017Z",
+          "updated_at": "2024-08-14T23:13:21.406Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": "2022-06-21",
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
