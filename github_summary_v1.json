@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-08-21T14:51:36.396Z"
+    "updated_at": "2024-08-21T15:11:06.021Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2024-08-21T14:09:30.617Z",
+      "updated_at": "2024-08-21T15:11:05.980Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -173,104 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "3vhw289ftnqp",
-      "name": "Incident with Actions",
-      "status": "investigating",
-      "created_at": "2024-08-21T14:09:30.588Z",
-      "updated_at": "2024-08-21T14:51:36.389Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/49dp4bx5kjll",
-      "started_at": "2024-08-21T14:09:30.582Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "7dm19xxskz9h",
-          "status": "investigating",
-          "body": "We are seeing reduced delays for Actions workflow runs to get triggered. We are continuing to investigate how to further reduce impact on customers and recover more quickly.",
-          "incident_id": "3vhw289ftnqp",
-          "created_at": "2024-08-21T14:51:36.387Z",
-          "updated_at": "2024-08-21T14:51:36.387Z",
-          "display_at": "2024-08-21T14:51:36.387Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "ktkd30r0xcdz",
-          "status": "investigating",
-          "body": "We are investigating reports of users seeing delays for Actions workflow runs to get triggered.",
-          "incident_id": "3vhw289ftnqp",
-          "created_at": "2024-08-21T14:15:53.786Z",
-          "updated_at": "2024-08-21T14:15:53.786Z",
-          "display_at": "2024-08-21T14:15:53.786Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "r168zr1y81hj",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Actions",
-          "incident_id": "3vhw289ftnqp",
-          "created_at": "2024-08-21T14:09:30.657Z",
-          "updated_at": "2024-08-21T14:09:30.657Z",
-          "display_at": "2024-08-21T14:09:30.657Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "br0l2tvcx85d",
-          "name": "Actions",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2024-08-21T14:09:30.617Z",
-          "position": 7,
-          "description": "Workflows, Compute and Orchestration for GitHub Actions",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
