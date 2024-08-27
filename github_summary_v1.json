@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-08-27T22:50:12.944Z"
+    "updated_at": "2024-08-27T23:03:19.482Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2024-08-27T22:37:26.305Z",
-      "updated_at": "2024-08-27T22:50:12.936Z",
+      "updated_at": "2024-08-27T23:03:19.472Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,32 @@
       "started_at": "2024-08-27T22:37:26.297Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "xhy5v4ns73qb",
+          "status": "investigating",
+          "body": "We have drained connections that would be running through the affected routes and are waiting for caches to expire in order to validate that issues are resolved.",
+          "incident_id": "1zyrr8fxrl21",
+          "created_at": "2024-08-27T23:03:19.469Z",
+          "updated_at": "2024-08-27T23:03:19.469Z",
+          "display_at": "2024-08-27T23:03:19.469Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "nh7dvfs8n6n7",
           "status": "investigating",
