@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-08-28T23:38:25.846Z"
+    "updated_at": "2024-08-28T23:43:57.752Z"
   },
   "components": [
     {
@@ -173,129 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "345t4sjty6q3",
-      "name": "Disruption with some GitHub services",
-      "status": "investigating",
-      "created_at": "2024-08-28T22:02:25.396Z",
-      "updated_at": "2024-08-28T23:38:25.837Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/44sjfrd4ctnb",
-      "started_at": "2024-08-28T22:02:25.390Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "kg63p7ts519j",
-          "status": "investigating",
-          "body": "Our mitigation is in place and we are seeing a reduction in overall impact. We are continuing to monitor until we are confident that the issue has been resolved.",
-          "incident_id": "345t4sjty6q3",
-          "created_at": "2024-08-28T23:38:25.834Z",
-          "updated_at": "2024-08-28T23:38:25.834Z",
-          "display_at": "2024-08-28T23:38:25.834Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "xbjd38xw7bns",
-          "status": "investigating",
-          "body": "We have identified a potential mitigation and are currently testing.",
-          "incident_id": "345t4sjty6q3",
-          "created_at": "2024-08-28T23:33:47.626Z",
-          "updated_at": "2024-08-28T23:33:47.626Z",
-          "display_at": "2024-08-28T23:33:47.626Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "5y7yxpyzvlfk",
-          "status": "investigating",
-          "body": "We are experiencing reduced overall impact, but continue to see a continued small impact to unauthenticated requests. We are continuing to investigate.",
-          "incident_id": "345t4sjty6q3",
-          "created_at": "2024-08-28T23:14:41.197Z",
-          "updated_at": "2024-08-28T23:14:41.197Z",
-          "display_at": "2024-08-28T23:14:41.197Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "xd1lsd54ychw",
-          "status": "investigating",
-          "body": "We are continuing to see customer impact and are still investigating.",
-          "incident_id": "345t4sjty6q3",
-          "created_at": "2024-08-28T22:53:32.552Z",
-          "updated_at": "2024-08-28T22:53:32.552Z",
-          "display_at": "2024-08-28T22:53:32.552Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "1v35r7y2n72f",
-          "status": "investigating",
-          "body": "We are continuing to investigate.",
-          "incident_id": "345t4sjty6q3",
-          "created_at": "2024-08-28T22:37:11.442Z",
-          "updated_at": "2024-08-28T22:37:11.442Z",
-          "display_at": "2024-08-28T22:37:11.442Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "mz3jpgzhm7bd",
-          "status": "investigating",
-          "body": "We are seeing cases of user impact in some locations are continuing to investigate.",
-          "incident_id": "345t4sjty6q3",
-          "created_at": "2024-08-28T22:19:51.828Z",
-          "updated_at": "2024-08-28T22:19:51.828Z",
-          "display_at": "2024-08-28T22:19:51.828Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "d7t4lppprhl2",
-          "status": "investigating",
-          "body": "We are seeing elevated traffic in some of our regions that we are in process of investigating.",
-          "incident_id": "345t4sjty6q3",
-          "created_at": "2024-08-28T22:06:35.059Z",
-          "updated_at": "2024-08-28T22:06:35.059Z",
-          "display_at": "2024-08-28T22:06:35.059Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "ym23cv392ywn",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "345t4sjty6q3",
-          "created_at": "2024-08-28T22:02:25.428Z",
-          "updated_at": "2024-08-28T22:02:25.428Z",
-          "display_at": "2024-08-28T22:02:25.428Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
