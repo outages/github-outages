@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-08-28T22:06:35.069Z"
+    "updated_at": "2024-08-28T22:37:11.456Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2024-08-28T22:02:25.396Z",
-      "updated_at": "2024-08-28T22:06:35.061Z",
+      "updated_at": "2024-08-28T22:37:11.445Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,32 @@
       "started_at": "2024-08-28T22:02:25.390Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "1v35r7y2n72f",
+          "status": "investigating",
+          "body": "We are continuing to investigate.",
+          "incident_id": "345t4sjty6q3",
+          "created_at": "2024-08-28T22:37:11.442Z",
+          "updated_at": "2024-08-28T22:37:11.442Z",
+          "display_at": "2024-08-28T22:37:11.442Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "mz3jpgzhm7bd",
+          "status": "investigating",
+          "body": "We are seeing cases of user impact in some locations are continuing to investigate.",
+          "incident_id": "345t4sjty6q3",
+          "created_at": "2024-08-28T22:19:51.828Z",
+          "updated_at": "2024-08-28T22:19:51.828Z",
+          "display_at": "2024-08-28T22:19:51.828Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "d7t4lppprhl2",
           "status": "investigating",
