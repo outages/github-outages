@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-08-29T07:49:40.751Z"
+    "updated_at": "2024-08-29T19:29:39.637Z"
   },
   "components": [
     {
@@ -173,7 +173,51 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "djwfzglh2dyq",
+      "name": "Disruption with some GitHub services",
+      "status": "investigating",
+      "created_at": "2024-08-29T19:29:09.798Z",
+      "updated_at": "2024-08-29T19:29:39.629Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/gj1bzm274nnq",
+      "started_at": "2024-08-29T19:29:09.793Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "1738dx7tf3q4",
+          "status": "investigating",
+          "body": "We are getting reports of users who aren't able to access GitHub.com and are investigating.",
+          "incident_id": "djwfzglh2dyq",
+          "created_at": "2024-08-29T19:29:39.627Z",
+          "updated_at": "2024-08-29T19:29:39.627Z",
+          "display_at": "2024-08-29T19:29:39.627Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "bzxs1x6ttp60",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "djwfzglh2dyq",
+          "created_at": "2024-08-29T19:29:09.826Z",
+          "updated_at": "2024-08-29T19:29:09.826Z",
+          "display_at": "2024-08-29T19:29:09.826Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
