@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-09-05T07:44:04.651Z"
+    "updated_at": "2024-09-05T16:15:08.894Z"
   },
   "components": [
     {
@@ -173,7 +173,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "9dyp7zt86rp5",
+      "name": "Disruption with some GitHub services",
+      "status": "investigating",
+      "created_at": "2024-09-05T15:55:34.486Z",
+      "updated_at": "2024-09-05T16:15:08.885Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/1c8rw2rxlxx4",
+      "started_at": "2024-09-05T15:55:34.478Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "0gjw7bldzsxn",
+          "status": "investigating",
+          "body": "We've reverted a related change and customers can now setup GitHub Connect again. However, customers who attempted to setup GitHub Connect after September 2nd that saw a 404 will see continued failures until we complete an additional repair step. We will provide additional updates as this work progresses.",
+          "incident_id": "9dyp7zt86rp5",
+          "created_at": "2024-09-05T16:15:08.883Z",
+          "updated_at": "2024-09-05T16:15:08.883Z",
+          "display_at": "2024-09-05T16:15:08.883Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "sj29483r2dfj",
+          "status": "investigating",
+          "body": "Enterprise administrators are seeing failures in the form of 404s when attempting to setup GitHub Connect for the first time. Existing Connect setups are not impacted. We are working on a fix for this issue.",
+          "incident_id": "9dyp7zt86rp5",
+          "created_at": "2024-09-05T15:56:24.485Z",
+          "updated_at": "2024-09-05T15:56:24.485Z",
+          "display_at": "2024-09-05T15:56:24.485Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "fxc1z62ck9p6",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "9dyp7zt86rp5",
+          "created_at": "2024-09-05T15:55:34.526Z",
+          "updated_at": "2024-09-05T15:55:34.526Z",
+          "display_at": "2024-09-05T15:55:34.526Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
