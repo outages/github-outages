@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-09-16T13:42:59.175Z"
+    "updated_at": "2024-09-16T14:11:07.798Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with Git SSH",
       "status": "investigating",
       "created_at": "2024-09-16T13:29:47.163Z",
-      "updated_at": "2024-09-16T13:38:25.024Z",
+      "updated_at": "2024-09-16T14:11:07.789Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2024-09-16T13:29:47.155Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "xngt1d0zrgmc",
+          "status": "investigating",
+          "body": "We have taken suspected hosts out of rotation and have not seen any impact in the last 20 minutes.  We are continuing to monitor to ensure the problem is resolved and are investigating the cause.",
+          "incident_id": "r3x7x31k7nn1",
+          "created_at": "2024-09-16T14:11:07.786Z",
+          "updated_at": "2024-09-16T14:11:07.786Z",
+          "display_at": "2024-09-16T14:11:07.786Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "6rswdngzbjfg",
           "status": "investigating",
