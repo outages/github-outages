@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-10-08T22:10:51.845Z"
+    "updated_at": "2024-10-08T22:54:16.255Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Isolated Codespaces creation failures in the West Europe region",
       "status": "investigating",
       "created_at": "2024-10-08T17:02:46.399Z",
-      "updated_at": "2024-10-08T22:10:51.838Z",
+      "updated_at": "2024-10-08T22:54:16.246Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2024-10-08T17:02:46.391Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "xsg5zxkp69lq",
+          "status": "investigating",
+          "body": "We are once again seeing signs of increased latency for codespace creation in this region, but are at the same time recovering previously unavailable resources.",
+          "incident_id": "m17w6x7syhx0",
+          "created_at": "2024-10-08T22:54:16.243Z",
+          "updated_at": "2024-10-08T22:54:16.243Z",
+          "display_at": "2024-10-08T22:54:16.243Z",
+          "affected_components": [
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "fbvbgr5zlfpp",
           "status": "investigating",
