@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-10-11T21:46:45.523Z"
+    "updated_at": "2024-10-11T22:16:50.056Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "pjmpxvq2cmr2",
       "name": "Copilot",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2022-06-21T16:04:33.017Z",
-      "updated_at": "2024-10-11T17:56:54.885Z",
+      "updated_at": "2024-10-11T22:16:50.020Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2024-10-11T17:53:28.291Z",
-      "updated_at": "2024-10-11T21:46:45.514Z",
+      "updated_at": "2024-10-11T22:16:50.048Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,58 @@
       "started_at": "2024-10-11T17:53:28.284Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "0qklhn2g0wjn",
+          "status": "investigating",
+          "body": "Copilot is operating normally.",
+          "incident_id": "myvz2tsj2dh8",
+          "created_at": "2024-10-11T22:16:50.045Z",
+          "updated_at": "2024-10-11T22:16:50.045Z",
+          "display_at": "2024-10-11T22:16:50.045Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "frnfsl4pqf4p",
+          "status": "investigating",
+          "body": "We are rolling out a fix to address the network connectivity issues. Copilot is seeing recovery. support.github.com is recovered.",
+          "incident_id": "myvz2tsj2dh8",
+          "created_at": "2024-10-11T22:14:07.984Z",
+          "updated_at": "2024-10-11T22:14:07.984Z",
+          "display_at": "2024-10-11T22:14:07.984Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "g0tx3cj64mhc",
           "status": "investigating",
@@ -484,9 +536,9 @@
         {
           "id": "pjmpxvq2cmr2",
           "name": "Copilot",
-          "status": "major_outage",
+          "status": "operational",
           "created_at": "2022-06-21T16:04:33.017Z",
-          "updated_at": "2024-10-11T17:56:54.885Z",
+          "updated_at": "2024-10-11T22:16:50.020Z",
           "position": 11,
           "description": null,
           "showcase": false,
@@ -502,7 +554,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
