@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-10-30T08:48:11.471Z"
+    "updated_at": "2024-10-30T09:42:30.760Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2024-10-30T07:25:44.432Z",
+      "updated_at": "2024-10-30T09:42:30.709Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -173,104 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "9yk1fbk0qjjc",
-      "name": "Incident with Actions",
-      "status": "investigating",
-      "created_at": "2024-10-30T07:25:44.399Z",
-      "updated_at": "2024-10-30T08:48:11.458Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/8tpqwbdxvzx3",
-      "started_at": "2024-10-30T07:25:44.391Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "n0d8gtpn20td",
-          "status": "investigating",
-          "body": "We are continuing to investigate delays to status updates to Actions Workflow Runs, Workflow Job Runs, and Check Steps. Customers may see that their Actions workflows have completed, but the run appears to be waiting for its status to update. We will continue providing updates on the progress towards mitigation.",
-          "incident_id": "9yk1fbk0qjjc",
-          "created_at": "2024-10-30T08:48:11.453Z",
-          "updated_at": "2024-10-30T08:48:11.453Z",
-          "display_at": "2024-10-30T08:48:11.453Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "z752n8h1m8s6",
-          "status": "investigating",
-          "body": "We have identified connectivity issues with an internal service causing delays in Actions Workflow Runs, Workflow Job Runs, and Check Steps. We are continuing to investigate.",
-          "incident_id": "9yk1fbk0qjjc",
-          "created_at": "2024-10-30T08:05:07.987Z",
-          "updated_at": "2024-10-30T08:05:07.987Z",
-          "display_at": "2024-10-30T08:05:07.987Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "622wd2xk8rwj",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Actions",
-          "incident_id": "9yk1fbk0qjjc",
-          "created_at": "2024-10-30T07:25:44.473Z",
-          "updated_at": "2024-10-30T07:25:44.473Z",
-          "display_at": "2024-10-30T07:25:44.473Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "br0l2tvcx85d",
-          "name": "Actions",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2024-10-30T07:25:44.432Z",
-          "position": 7,
-          "description": "Workflows, Compute and Orchestration for GitHub Actions",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
