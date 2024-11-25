@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-11-25T10:51:56.584Z"
+    "updated_at": "2024-11-25T11:00:26.746Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2024-11-25T10:51:56.536Z",
-      "updated_at": "2024-11-25T10:51:56.581Z",
+      "updated_at": "2024-11-25T11:00:26.738Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2024-11-25T10:51:56.530Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "q3cbtb5hwmzc",
+          "status": "investigating",
+          "body": "Users cannot use the Claude 3.5 Sonnet model in GitHub Copilot currently, in both VS Code and GitHub.com chat.  The team is investigating.",
+          "incident_id": "nbscbkxwxjrx",
+          "created_at": "2024-11-25T11:00:26.735Z",
+          "updated_at": "2024-11-25T11:00:26.735Z",
+          "display_at": "2024-11-25T11:00:26.735Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "w3flbv0s1rgg",
           "status": "investigating",
