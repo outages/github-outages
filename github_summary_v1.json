@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-11-25T14:20:26.121Z"
+    "updated_at": "2024-11-25T14:40:31.195Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with GitHub Search",
       "status": "investigating",
       "created_at": "2024-11-25T13:57:54.892Z",
-      "updated_at": "2024-11-25T14:10:24.044Z",
+      "updated_at": "2024-11-25T14:40:31.187Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2024-11-25T13:57:54.886Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "z863bncbnqh6",
+          "status": "investigating",
+          "body": "We're observing signs of recovery in search, we will continue to monitor.<br /><br />Next update within 15 minutes.<br />",
+          "incident_id": "ltyqfp67463z",
+          "created_at": "2024-11-25T14:40:31.184Z",
+          "updated_at": "2024-11-25T14:40:31.184Z",
+          "display_at": "2024-11-25T14:40:31.184Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "vc496ttp1vx8",
           "status": "investigating",
