@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-11-28T04:21:03.943Z"
+    "updated_at": "2024-11-28T04:34:30.963Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Sporadic Timeouts in Codespaces",
       "status": "investigating",
       "created_at": "2024-11-28T03:29:34.237Z",
-      "updated_at": "2024-11-28T04:03:41.060Z",
+      "updated_at": "2024-11-28T04:34:30.955Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2024-11-28T03:29:34.229Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "8tctvh5z22tr",
+          "status": "investigating",
+          "body": "We are investigating some network proxy issues that may be contributing to the timeouts in a small percentage of requests in Codespaces. We will continue to investigate.",
+          "incident_id": "y5pb0bxhlcxz",
+          "created_at": "2024-11-28T04:34:30.953Z",
+          "updated_at": "2024-11-28T04:34:30.953Z",
+          "display_at": "2024-11-28T04:34:30.953Z",
+          "affected_components": [
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "d5tqp79204sy",
           "status": "investigating",
