@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-12-17T08:00:32.392Z"
+    "updated_at": "2024-12-17T14:53:02.627Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2024-12-04T19:20:21.830Z",
+      "updated_at": "2024-12-17T14:51:28.525Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": false,
@@ -173,10 +173,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "fnq063tqh7cc",
+      "name": "Live updates on pages not loading reliably",
+      "status": "investigating",
+      "created_at": "2024-12-17T14:51:28.494Z",
+      "updated_at": "2024-12-17T14:53:02.617Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/kk9f3jsc7y3x",
+      "started_at": "2024-12-17T14:51:28.489Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "yrhzwghrvps0",
+          "status": "investigating",
+          "body": "We are currently seeing live updates on some pages not working. This can impact features such as status checks and the merge button for PRs.<br /><br />Current mitigation is to refresh pages manually to see latest details.<br /><br />We are working to mitigate this and will continue to provide updates as the team makes progress.",
+          "incident_id": "fnq063tqh7cc",
+          "created_at": "2024-12-17T14:53:02.614Z",
+          "updated_at": "2024-12-17T14:53:02.614Z",
+          "display_at": "2024-12-17T14:53:02.614Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "q32wl4g3qv1q",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Issues",
+          "incident_id": "fnq063tqh7cc",
+          "created_at": "2024-12-17T14:51:28.561Z",
+          "updated_at": "2024-12-17T14:51:28.561Z",
+          "display_at": "2024-12-17T14:51:28.561Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "kr09ddfgbfsf",
+          "name": "Issues",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:01:46.638Z",
+          "updated_at": "2024-12-17T14:51:28.525Z",
+          "position": 5,
+          "description": "Requests for Issues on GitHub.com",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
