@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-01-02T23:11:28.523Z"
+    "updated_at": "2025-01-03T00:19:10.535Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2025-01-02T23:05:16.612Z",
+      "updated_at": "2025-01-03T00:19:10.484Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2025-01-02T22:09:21.135Z",
+      "updated_at": "2025-01-03T00:19:10.497Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -173,151 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "6ddp6v8g5t72",
-      "name": "Incident with Actions",
-      "status": "investigating",
-      "created_at": "2025-01-02T22:09:21.100Z",
-      "updated_at": "2025-01-02T23:11:28.515Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/hxc0t791h2ln",
-      "started_at": "2025-01-02T22:09:21.091Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "g1ty80dfn0fw",
-          "status": "investigating",
-          "body": "We have remediated the issue impacting Actions workflows. During investigation and remediation, we realized there were also issues with recording metadata around merge commits. No git data or code has been lost. PRs merged today between 20:06 UTC and 22:15 UTC are impacted. We are working on a plan to regenerate the missing metadata and will provide an update once we have one in place.",
-          "incident_id": "6ddp6v8g5t72",
-          "created_at": "2025-01-02T23:11:28.512Z",
-          "updated_at": "2025-01-02T23:11:28.512Z",
-          "display_at": "2025-01-02T23:11:28.512Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "6nh4ms376v81",
-          "status": "investigating",
-          "body": "Pull Requests is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "6ddp6v8g5t72",
-          "created_at": "2025-01-02T23:05:16.650Z",
-          "updated_at": "2025-01-02T23:05:16.650Z",
-          "display_at": "2025-01-02T23:05:16.650Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "0rtjt928fnk4",
-          "status": "investigating",
-          "body": "We have identified and begun to remediate the issue preventing Actions from triggering on closed pull requests. We are beginning to see recovery.",
-          "incident_id": "6ddp6v8g5t72",
-          "created_at": "2025-01-02T22:30:40.168Z",
-          "updated_at": "2025-01-02T22:30:40.168Z",
-          "display_at": "2025-01-02T22:30:40.168Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "8zc29v8zlm2n",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Actions",
-          "incident_id": "6ddp6v8g5t72",
-          "created_at": "2025-01-02T22:09:21.178Z",
-          "updated_at": "2025-01-02T22:09:21.178Z",
-          "display_at": "2025-01-02T22:09:21.178Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hhtssxt0f5v2",
-          "name": "Pull Requests",
-          "status": "partial_outage",
-          "created_at": "2020-09-02T15:39:06.329Z",
-          "updated_at": "2025-01-02T23:05:16.612Z",
-          "position": 6,
-          "description": "Requests for Pull Requests on GitHub.com",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "br0l2tvcx85d",
-          "name": "Actions",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2025-01-02T22:09:21.135Z",
-          "position": 7,
-          "description": "Workflows, Compute and Orchestration for GitHub Actions",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
