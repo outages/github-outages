@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-01-16T09:18:58.464Z"
+    "updated_at": "2025-01-16T09:40:06.826Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2025-01-16T06:22:32.258Z",
+      "updated_at": "2025-01-16T09:40:06.783Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -173,144 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "78wybrzyv0wf",
-      "name": "Incident with Pull Request Rebase Merges",
-      "status": "investigating",
-      "created_at": "2025-01-16T06:22:32.224Z",
-      "updated_at": "2025-01-16T09:18:58.455Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/22ssr7pdhvtm",
-      "started_at": "2025-01-16T06:22:32.217Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "8vfypglytqst",
-          "status": "investigating",
-          "body": "We have mitigated the incident, and any new pull request rebase merges should be recovered. We are working on recovery steps for any pull requests that attempted to merge during this incident.",
-          "incident_id": "78wybrzyv0wf",
-          "created_at": "2025-01-16T09:18:58.452Z",
-          "updated_at": "2025-01-16T09:18:58.452Z",
-          "display_at": "2025-01-16T09:18:58.452Z",
-          "affected_components": [
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "2mn04mqzz5d0",
-          "status": "investigating",
-          "body": "We believe to have found a root cause, and in the process of verifying the mitigation.",
-          "incident_id": "78wybrzyv0wf",
-          "created_at": "2025-01-16T08:37:53.008Z",
-          "updated_at": "2025-01-16T08:37:53.008Z",
-          "display_at": "2025-01-16T08:37:53.008Z",
-          "affected_components": [
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "0w5xlns14hbc",
-          "status": "investigating",
-          "body": "We are still continuing to investigate.",
-          "incident_id": "78wybrzyv0wf",
-          "created_at": "2025-01-16T07:38:07.574Z",
-          "updated_at": "2025-01-16T07:38:07.574Z",
-          "display_at": "2025-01-16T07:38:07.574Z",
-          "affected_components": [
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "66gncsskfjdr",
-          "status": "investigating",
-          "body": "We are still experiencing failures for rebase merges in pull requests, we are continuing to investigate.",
-          "incident_id": "78wybrzyv0wf",
-          "created_at": "2025-01-16T07:05:58.471Z",
-          "updated_at": "2025-01-16T07:05:58.471Z",
-          "display_at": "2025-01-16T07:05:58.471Z",
-          "affected_components": [
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "4t24ybwppbwg",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Pull Requests",
-          "incident_id": "78wybrzyv0wf",
-          "created_at": "2025-01-16T06:22:32.298Z",
-          "updated_at": "2025-01-16T06:22:32.298Z",
-          "display_at": "2025-01-16T06:22:32.298Z",
-          "affected_components": [
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hhtssxt0f5v2",
-          "name": "Pull Requests",
-          "status": "partial_outage",
-          "created_at": "2020-09-02T15:39:06.329Z",
-          "updated_at": "2025-01-16T06:22:32.258Z",
-          "position": 6,
-          "description": "Requests for Pull Requests on GitHub.com",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
