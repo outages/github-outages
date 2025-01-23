@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-01-23T16:25:44.244Z"
+    "updated_at": "2025-01-23T17:03:27.492Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Actions",
       "status": "investigating",
       "created_at": "2025-01-23T10:25:31.315Z",
-      "updated_at": "2025-01-23T16:25:44.234Z",
+      "updated_at": "2025-01-23T17:03:27.483Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2025-01-23T10:25:31.307Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "4n5dt5hkf9zy",
+          "status": "investigating",
+          "body": "We are seeing recovery with the latest mitigation. Queue time for a very small percentage of larger runner jobs are still longer than expected so we are monitoring those for full recovery before going green.",
+          "incident_id": "gszmt35n7k20",
+          "created_at": "2025-01-23T17:03:27.480Z",
+          "updated_at": "2025-01-23T17:03:27.480Z",
+          "display_at": "2025-01-23T17:03:27.480Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "xpdynz7qfhp4",
           "status": "investigating",
