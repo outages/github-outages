@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-01-23T14:17:05.940Z"
+    "updated_at": "2025-01-23T14:53:16.223Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Actions",
       "status": "investigating",
       "created_at": "2025-01-23T10:25:31.315Z",
-      "updated_at": "2025-01-23T14:17:05.927Z",
+      "updated_at": "2025-01-23T14:53:16.214Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2025-01-23T10:25:31.307Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "7g11phvbx3ps",
+          "status": "investigating",
+          "body": "We're still applying mitigations to unblock queueing Actions in large runners. We are monitoring for full recovery.",
+          "incident_id": "gszmt35n7k20",
+          "created_at": "2025-01-23T14:53:16.211Z",
+          "updated_at": "2025-01-23T14:53:16.211Z",
+          "display_at": "2025-01-23T14:53:16.211Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "6fq25f78kr4z",
           "status": "investigating",
