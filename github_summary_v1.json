@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-01-27T23:32:20.468Z"
+    "updated_at": "2025-01-27T23:41:13.692Z"
   },
   "components": [
     {
@@ -173,51 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "r6j3fnl9j58q",
-      "name": "Disruption with some GitHub services",
-      "status": "investigating",
-      "created_at": "2025-01-27T23:32:13.687Z",
-      "updated_at": "2025-01-27T23:32:20.457Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/5l0y0j9lsxqt",
-      "started_at": "2025-01-27T23:32:13.680Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "6f0m6p7p26jw",
-          "status": "investigating",
-          "body": "Our Audit Log Streaming service is experiencing degradation but is experiencing no data outage.",
-          "incident_id": "r6j3fnl9j58q",
-          "created_at": "2025-01-27T23:32:20.454Z",
-          "updated_at": "2025-01-27T23:32:20.454Z",
-          "display_at": "2025-01-27T23:32:20.454Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "9yh7snkfjk12",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "r6j3fnl9j58q",
-          "created_at": "2025-01-27T23:32:13.728Z",
-          "updated_at": "2025-01-27T23:32:13.728Z",
-          "display_at": "2025-01-27T23:32:13.728Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
