@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-01-29T15:20:27.941Z"
+    "updated_at": "2025-01-29T15:37:13.163Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2025-01-29T14:52:56.131Z",
-      "updated_at": "2025-01-29T15:04:42.461Z",
+      "updated_at": "2025-01-29T15:37:13.154Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2025-01-29T14:52:56.123Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "ck4vrvfbdd7b",
+          "status": "investigating",
+          "body": "We're continuing to investigate an issue related to Copilot Chat on GitHub.com",
+          "incident_id": "wg7n9ns64dsd",
+          "created_at": "2025-01-29T15:37:13.151Z",
+          "updated_at": "2025-01-29T15:37:13.151Z",
+          "display_at": "2025-01-29T15:37:13.151Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "vccht9kwlf55",
           "status": "investigating",
