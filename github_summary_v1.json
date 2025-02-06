@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-02-06T08:16:34.089Z"
+    "updated_at": "2025-02-06T09:52:03.824Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2025-01-09T02:27:04.438Z",
+      "updated_at": "2025-02-06T09:42:49.345Z",
       "position": 4,
       "description": "Requests for GitHub APIs",
       "showcase": false,
@@ -173,10 +173,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "yhn3m0yqdxmc",
+      "name": "Incident with GIT LFS and Other Requests",
+      "status": "investigating",
+      "created_at": "2025-02-06T09:42:49.298Z",
+      "updated_at": "2025-02-06T09:52:03.815Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/pcd1g1dmf2sn",
+      "started_at": "2025-02-06T09:42:49.289Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "qmxkqpjkly6z",
+          "status": "investigating",
+          "body": "We are investigating failed Git LFS requests and potentially slow API requests.<br /><br />Customers may experience failures to fetch repositories with LFS.",
+          "incident_id": "yhn3m0yqdxmc",
+          "created_at": "2025-02-06T09:52:03.813Z",
+          "updated_at": "2025-02-06T09:52:03.813Z",
+          "display_at": "2025-02-06T09:52:03.813Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "0wsjx4xvrqxc",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for API Requests",
+          "incident_id": "yhn3m0yqdxmc",
+          "created_at": "2025-02-06T09:42:49.405Z",
+          "updated_at": "2025-02-06T09:42:49.405Z",
+          "display_at": "2025-02-06T09:42:49.405Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "brv1bkgrwx7q",
+          "name": "API Requests",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:01:46.621Z",
+          "updated_at": "2025-02-06T09:42:49.345Z",
+          "position": 4,
+          "description": "Requests for GitHub APIs",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
