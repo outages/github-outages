@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-02-24T18:25:29.858Z"
+    "updated_at": "2025-02-24T18:31:39.415Z"
   },
   "components": [
     {
@@ -173,103 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "135x076mn3tf",
-      "name": "Disruption with some GitHub services",
-      "status": "investigating",
-      "created_at": "2025-02-24T15:17:29.858Z",
-      "updated_at": "2025-02-24T18:25:29.847Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/xh94d8wdqb2h",
-      "started_at": "2025-02-24T15:17:29.851Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "q4xh6pqxwnk4",
-          "status": "investigating",
-          "body": "We have restored all of the data for 2025-02-21 to 2025-02-23.  The data is queryable through the Copilot Metrics API.  We are continuing to monitor the metrics data and expect to resolve the incident in the next hour.",
-          "incident_id": "135x076mn3tf",
-          "created_at": "2025-02-24T18:25:29.845Z",
-          "updated_at": "2025-02-24T18:25:29.845Z",
-          "display_at": "2025-02-24T18:25:29.845Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "mgjgktlggj79",
-          "status": "investigating",
-          "body": "We expect the missing data from the weekend to be available within two hours.",
-          "incident_id": "135x076mn3tf",
-          "created_at": "2025-02-24T17:50:00.116Z",
-          "updated_at": "2025-02-24T17:50:00.116Z",
-          "display_at": "2025-02-24T17:50:00.116Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "v696ktfv4910",
-          "status": "investigating",
-          "body": "Copilot-metrics is in the process of restoring the usage statistics for 2025-02-23, we will continue to restore the previous 2 days over the next few hours.",
-          "incident_id": "135x076mn3tf",
-          "created_at": "2025-02-24T16:28:51.584Z",
-          "updated_at": "2025-02-24T16:28:51.584Z",
-          "display_at": "2025-02-24T16:28:51.584Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "0v9yz4bxdwp8",
-          "status": "investigating",
-          "body": "Customers may not be able to review their usage statistics for copilot starting Saturday through Monday morning UTC. The API is functioning normally, but no data is available for those time periods. We are working on backfilling the data and all metrics will be eventually available later today. We estimate recovery within in the next few hours and will provide updates on this as the recovery process proceeds.",
-          "incident_id": "135x076mn3tf",
-          "created_at": "2025-02-24T15:56:47.020Z",
-          "updated_at": "2025-02-24T15:56:47.020Z",
-          "display_at": "2025-02-24T15:56:47.020Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "cc3kvjx7ww82",
-          "status": "investigating",
-          "body": "We are investigating reports of issues with service: Copilot metrics API. We will continue to keep users updated on progress towards mitigation.",
-          "incident_id": "135x076mn3tf",
-          "created_at": "2025-02-24T15:19:03.948Z",
-          "updated_at": "2025-02-24T15:19:03.948Z",
-          "display_at": "2025-02-24T15:19:03.948Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "3t74c9ntm1w4",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "135x076mn3tf",
-          "created_at": "2025-02-24T15:17:29.896Z",
-          "updated_at": "2025-02-24T15:17:29.896Z",
-          "display_at": "2025-02-24T15:17:29.896Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
