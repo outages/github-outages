@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-02-24T17:50:00.132Z"
+    "updated_at": "2025-02-24T18:25:29.858Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2025-02-24T15:17:29.858Z",
-      "updated_at": "2025-02-24T17:50:00.120Z",
+      "updated_at": "2025-02-24T18:25:29.847Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2025-02-24T15:17:29.851Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "q4xh6pqxwnk4",
+          "status": "investigating",
+          "body": "We have restored all of the data for 2025-02-21 to 2025-02-23.  The data is queryable through the Copilot Metrics API.  We are continuing to monitor the metrics data and expect to resolve the incident in the next hour.",
+          "incident_id": "135x076mn3tf",
+          "created_at": "2025-02-24T18:25:29.845Z",
+          "updated_at": "2025-02-24T18:25:29.845Z",
+          "display_at": "2025-02-24T18:25:29.845Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "mgjgktlggj79",
           "status": "investigating",
