@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-02-24T22:20:23.943Z"
+    "updated_at": "2025-02-25T01:08:43.771Z"
   },
   "components": [
     {
@@ -117,7 +117,7 @@
       "name": "Packages",
       "status": "operational",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2024-08-15T00:20:37.978Z",
+      "updated_at": "2025-02-25T01:08:43.716Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
