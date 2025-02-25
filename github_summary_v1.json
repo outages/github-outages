@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-02-25T15:25:59.351Z"
+    "updated_at": "2025-02-25T15:45:44.813Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "pjmpxvq2cmr2",
       "name": "Copilot",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2022-06-21T16:04:33.017Z",
-      "updated_at": "2025-02-25T14:44:52.038Z",
+      "updated_at": "2025-02-25T15:45:44.773Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -175,110 +175,11 @@
   ],
   "incidents": [
     {
-      "id": "tskzz9n0bjpt",
-      "name": "Claude 3.7 Sonnet Partially Unavailable",
-      "status": "investigating",
-      "created_at": "2025-02-25T14:40:04.241Z",
-      "updated_at": "2025-02-25T15:25:59.340Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/w2tr7s2frnjp",
-      "started_at": "2025-02-25T14:40:04.234Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "vfqhzrwv4cxf",
-          "status": "investigating",
-          "body": "We have disabled Claude 3.7 Sonnet models in Copilot Chat and across IDE integrations (VSCode, Visual Studio, JetBrains) due to an issue with our provider.<br /><br />Users may still see these models as available for a brief period but we recommend switching to a different model. Other models were not impacted and are available.<br /><br />Once our provider has resolved the issues impacting Claude 3.7 Sonnet models, we will re-enable them.",
-          "incident_id": "tskzz9n0bjpt",
-          "created_at": "2025-02-25T15:25:59.337Z",
-          "updated_at": "2025-02-25T15:25:59.337Z",
-          "display_at": "2025-02-25T15:25:59.337Z",
-          "affected_components": [
-            {
-              "code": "pjmpxvq2cmr2",
-              "name": "Copilot",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "lmlmrzn1v84b",
-          "status": "investigating",
-          "body": "Copilot is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "tskzz9n0bjpt",
-          "created_at": "2025-02-25T14:44:52.087Z",
-          "updated_at": "2025-02-25T14:44:52.087Z",
-          "display_at": "2025-02-25T14:44:52.087Z",
-          "affected_components": [
-            {
-              "code": "pjmpxvq2cmr2",
-              "name": "Copilot",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "5j2rm1mxxw8z",
-          "status": "investigating",
-          "body": "We are currently experiencing partial availability for the Claude 3.7 Sonnet and Claude 3.7 Thinking models in Copilot Chat, VSCode and other Copilot products. This is due to problems with an upstream provider. We are working to resolve these issues and will update with more information as it is made available.<br /><br />Other Copilot models are available and working as expected.",
-          "incident_id": "tskzz9n0bjpt",
-          "created_at": "2025-02-25T14:43:29.953Z",
-          "updated_at": "2025-02-25T14:43:29.953Z",
-          "display_at": "2025-02-25T14:43:29.953Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "hf1w9x6prmvv",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "tskzz9n0bjpt",
-          "created_at": "2025-02-25T14:40:04.287Z",
-          "updated_at": "2025-02-25T14:40:04.287Z",
-          "display_at": "2025-02-25T14:40:04.287Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "pjmpxvq2cmr2",
-          "name": "Copilot",
-          "status": "partial_outage",
-          "created_at": "2022-06-21T16:04:33.017Z",
-          "updated_at": "2025-02-25T14:44:52.038Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2022-06-21",
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    },
-    {
       "id": "flt2rxl1dg1t",
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2025-02-25T15:12:25.347Z",
-      "updated_at": "2025-02-25T15:13:47.678Z",
+      "updated_at": "2025-02-25T15:43:34.704Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -286,6 +187,19 @@
       "started_at": "2025-02-25T15:12:25.339Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "3p0w2tx92dxh",
+          "status": "investigating",
+          "body": "We're continuing to investigate delayed web and email notifications.",
+          "incident_id": "flt2rxl1dg1t",
+          "created_at": "2025-02-25T15:43:34.701Z",
+          "updated_at": "2025-02-25T15:43:34.701Z",
+          "display_at": "2025-02-25T15:43:34.701Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "klfs72rggkct",
           "status": "investigating",
@@ -319,7 +233,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
