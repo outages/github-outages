@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-02-27T11:31:31.991Z"
+    "updated_at": "2025-02-27T11:39:48.003Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2025-02-27T11:28:20.114Z",
-      "updated_at": "2025-02-27T11:31:31.980Z",
+      "updated_at": "2025-02-27T11:39:47.993Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2025-02-27T11:28:20.106Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "7615xlfgl7qs",
+          "status": "investigating",
+          "body": "We are seeing an increase in run start delays since 1104 UTC. This is impacting ~3% of Action runs at this time.<br /><br />The team is working to understand the causes of this and to mitigate impact. We will continue to update as we have more information.",
+          "incident_id": "3zss4vv50thx",
+          "created_at": "2025-02-27T11:39:47.991Z",
+          "updated_at": "2025-02-27T11:39:47.991Z",
+          "display_at": "2025-02-27T11:39:47.991Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "tfr1299vrnmb",
           "status": "investigating",
