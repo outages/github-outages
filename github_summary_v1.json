@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-03T04:23:07.113Z"
+    "updated_at": "2025-03-03T04:54:10.842Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Issues, Git Operations and API Requests",
       "status": "investigating",
       "created_at": "2025-03-03T04:20:24.469Z",
-      "updated_at": "2025-03-03T04:23:07.105Z",
+      "updated_at": "2025-03-03T04:54:10.830Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,44 @@
       "started_at": "2025-03-03T04:20:24.461Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "mkg6w3l9b7vy",
+          "status": "investigating",
+          "body": "We are investigating intermittent connectivity issues between our backend and databases and will provide further updates as we have them. The current impact is you may see elevated latency while using our services.",
+          "incident_id": "291w7fn43fy1",
+          "created_at": "2025-03-03T04:54:10.828Z",
+          "updated_at": "2025-03-03T04:54:10.828Z",
+          "display_at": "2025-03-03T04:54:10.828Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "km499dcfk58q",
           "status": "investigating",
