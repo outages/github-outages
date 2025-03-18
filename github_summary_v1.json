@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-18T15:43:34.533Z"
+    "updated_at": "2025-03-18T16:20:26.963Z"
   },
   "components": [
     {
@@ -174,6 +174,49 @@
     }
   ],
   "incidents": [
+    {
+      "id": "fpkvkrdmh033",
+      "name": "Disruption with some GitHub services",
+      "status": "investigating",
+      "created_at": "2025-03-18T15:58:55.134Z",
+      "updated_at": "2025-03-18T16:00:26.284Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/7kd28slz0zmk",
+      "started_at": "2025-03-18T15:58:55.129Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "grqdw5wf1yfh",
+          "status": "investigating",
+          "body": "We are experiencing issues with our underlying data store which is causing a degraded experience for a small percentage of users using Copilot Chat in github.com",
+          "incident_id": "fpkvkrdmh033",
+          "created_at": "2025-03-18T16:00:26.280Z",
+          "updated_at": "2025-03-18T16:00:26.280Z",
+          "display_at": "2025-03-18T16:00:26.280Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "yzvkr57wsxhg",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "fpkvkrdmh033",
+          "created_at": "2025-03-18T15:58:55.185Z",
+          "updated_at": "2025-03-18T15:58:55.185Z",
+          "display_at": "2025-03-18T15:58:55.185Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    },
     {
       "id": "yz50lpc8d4xq",
       "name": "macos-15-arm64 hosted runner queue delays",
