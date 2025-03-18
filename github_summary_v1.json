@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-18T17:42:03.205Z"
+    "updated_at": "2025-03-18T18:28:17.167Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2025-03-18T15:58:55.134Z",
-      "updated_at": "2025-03-18T17:42:03.194Z",
+      "updated_at": "2025-03-18T18:28:17.157Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2025-03-18T15:58:55.129Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "ptds4sl1brh7",
+          "status": "investigating",
+          "body": "We are seeing recovery and no new errors for the last 15mins.",
+          "incident_id": "fpkvkrdmh033",
+          "created_at": "2025-03-18T18:28:17.155Z",
+          "updated_at": "2025-03-18T18:28:17.155Z",
+          "display_at": "2025-03-18T18:28:17.155Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "4s78qybtwgnz",
           "status": "investigating",
