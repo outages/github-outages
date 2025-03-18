@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-18T16:20:26.963Z"
+    "updated_at": "2025-03-18T16:42:42.294Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2025-03-18T15:58:55.134Z",
-      "updated_at": "2025-03-18T16:00:26.284Z",
+      "updated_at": "2025-03-18T16:42:42.273Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2025-03-18T15:58:55.129Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "fntg0p797tvg",
+          "status": "investigating",
+          "body": "We are still investigating infrastructure issues and collaborating with providers. Customers might see some errors when creating messages, or new threads in Copilot Chat. Retries might be successful.",
+          "incident_id": "fpkvkrdmh033",
+          "created_at": "2025-03-18T16:42:42.265Z",
+          "updated_at": "2025-03-18T16:42:42.265Z",
+          "display_at": "2025-03-18T16:42:42.265Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "grqdw5wf1yfh",
           "status": "investigating",
@@ -222,7 +235,7 @@
       "name": "macos-15-arm64 hosted runner queue delays",
       "status": "investigating",
       "created_at": "2025-03-18T15:05:03.105Z",
-      "updated_at": "2025-03-18T15:43:34.523Z",
+      "updated_at": "2025-03-18T16:36:15.227Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -230,6 +243,19 @@
       "started_at": "2025-03-18T15:05:03.086Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "3ypwjx5flsnd",
+          "status": "investigating",
+          "body": "We've applied a mitigation to fix the issues with queuing Actions jobs on macos-15-arm64 Hosted runner. We are monitoring.",
+          "incident_id": "yz50lpc8d4xq",
+          "created_at": "2025-03-18T16:36:15.223Z",
+          "updated_at": "2025-03-18T16:36:15.223Z",
+          "display_at": "2025-03-18T16:36:15.223Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "bw9hrxyyx3pw",
           "status": "investigating",
