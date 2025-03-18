@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-18T21:00:22.357Z"
+    "updated_at": "2025-03-18T23:45:52.320Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2025-03-12T14:07:12.802Z",
+      "updated_at": "2025-03-18T23:45:09.046Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -173,7 +173,81 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "lg4s05t6ttxb",
+      "name": "Incident with Actions: Queue Run Failures",
+      "status": "investigating",
+      "created_at": "2025-03-18T23:45:09.006Z",
+      "updated_at": "2025-03-18T23:45:52.311Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/3rqzt0nb0rj4",
+      "started_at": "2025-03-18T23:45:08.997Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "lp462wpgcrs4",
+          "status": "investigating",
+          "body": "Some customers may be experiencing delays or failures when queueing workflow runs",
+          "incident_id": "lg4s05t6ttxb",
+          "created_at": "2025-03-18T23:45:52.308Z",
+          "updated_at": "2025-03-18T23:45:52.308Z",
+          "display_at": "2025-03-18T23:45:52.308Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "dmy6tmqcv6n7",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Actions",
+          "incident_id": "lg4s05t6ttxb",
+          "created_at": "2025-03-18T23:45:09.096Z",
+          "updated_at": "2025-03-18T23:45:09.096Z",
+          "display_at": "2025-03-18T23:45:09.096Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "br0l2tvcx85d",
+          "name": "Actions",
+          "status": "partial_outage",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2025-03-18T23:45:09.046Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "tldgc85p3q2d",
@@ -264,7 +338,7 @@
     }
   ],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
