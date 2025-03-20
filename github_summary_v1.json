@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-20T20:38:30.397Z"
+    "updated_at": "2025-03-20T20:54:07.417Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "4230lsnqdsld",
       "name": "Webhooks",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:00:24.256Z",
-      "updated_at": "2025-03-20T20:33:39.382Z",
+      "updated_at": "2025-03-20T20:54:07.339Z",
       "position": 2,
       "description": "Real time HTTP callbacks of user-generated and system events",
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "vg70hn9s2tyj",
       "name": "Pages",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2025-03-20T20:04:15.699Z",
+      "updated_at": "2025-03-20T20:54:07.359Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": false,
@@ -173,131 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "kpkc9bwsd42f",
-      "name": "Incident with Pages",
-      "status": "investigating",
-      "created_at": "2025-03-20T20:04:15.666Z",
-      "updated_at": "2025-03-20T20:38:30.388Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/jfqmkhthh6cf",
-      "started_at": "2025-03-20T20:04:15.659Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "sks6gcq2whcp",
-          "status": "investigating",
-          "body": "Customers may not be able to create or make changes to their GitHub Pages sites. Customers who rely on webhook events from Pages builds might also experience a downgraded experience.",
-          "incident_id": "kpkc9bwsd42f",
-          "created_at": "2025-03-20T20:38:30.385Z",
-          "updated_at": "2025-03-20T20:38:30.385Z",
-          "display_at": "2025-03-20T20:38:30.385Z",
-          "affected_components": [
-            {
-              "code": "vg70hn9s2tyj",
-              "name": "Pages",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "4230lsnqdsld",
-              "name": "Webhooks",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "90mrtbj1ctws",
-          "status": "investigating",
-          "body": "Webhooks is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "kpkc9bwsd42f",
-          "created_at": "2025-03-20T20:33:39.424Z",
-          "updated_at": "2025-03-20T20:33:39.424Z",
-          "display_at": "2025-03-20T20:33:39.424Z",
-          "affected_components": [
-            {
-              "code": "vg70hn9s2tyj",
-              "name": "Pages",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "4230lsnqdsld",
-              "name": "Webhooks",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "szczvdt215qy",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Pages",
-          "incident_id": "kpkc9bwsd42f",
-          "created_at": "2025-03-20T20:04:15.741Z",
-          "updated_at": "2025-03-20T20:04:15.741Z",
-          "display_at": "2025-03-20T20:04:15.741Z",
-          "affected_components": [
-            {
-              "code": "vg70hn9s2tyj",
-              "name": "Pages",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4230lsnqdsld",
-          "name": "Webhooks",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:00:24.256Z",
-          "updated_at": "2025-03-20T20:33:39.382Z",
-          "position": 2,
-          "description": "Real time HTTP callbacks of user-generated and system events",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "vg70hn9s2tyj",
-          "name": "Pages",
-          "status": "partial_outage",
-          "created_at": "2017-01-31T20:04:33.923Z",
-          "updated_at": "2025-03-20T20:04:15.699Z",
-          "position": 9,
-          "description": "Frontend application and API servers for Pages builds",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
