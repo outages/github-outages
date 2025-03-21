@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-03-21T09:34:23.937Z"
+    "updated_at": "2025-03-21T12:42:38.631Z"
   },
   "components": [
     {
@@ -173,7 +173,51 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "kgjdbjz65clj",
+      "name": "Disruption with some GitHub services",
+      "status": "investigating",
+      "created_at": "2025-03-21T12:40:14.692Z",
+      "updated_at": "2025-03-21T12:42:38.622Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/czf2dh50yff9",
+      "started_at": "2025-03-21T12:40:14.684Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "hwzzr7r0k28q",
+          "status": "investigating",
+          "body": "We are investigating issues with GitHub Copilot Chat in GitHub. We will continue to keep users updated on progress toward mitigation.",
+          "incident_id": "kgjdbjz65clj",
+          "created_at": "2025-03-21T12:42:38.619Z",
+          "updated_at": "2025-03-21T12:42:38.619Z",
+          "display_at": "2025-03-21T12:42:38.619Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "7rvw877grpb1",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "kgjdbjz65clj",
+          "created_at": "2025-03-21T12:40:14.737Z",
+          "updated_at": "2025-03-21T12:40:14.737Z",
+          "display_at": "2025-03-21T12:40:14.737Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
