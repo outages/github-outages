@@ -2,12 +2,12 @@
   "page": {
     "id": "kctbh9vrtdwd",
     "name": "GitHub",
-    "url": "https://www.githubstatus.com",
+    "url": "http://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-04-09T08:32:23.279Z"
+    "updated_at": "2025-04-09T09:21:05.640Z"
   },
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
