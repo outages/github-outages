@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-04-09T23:39:07.696Z"
+    "updated_at": "2025-04-10T01:11:13.305Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2025-04-09T23:36:35.579Z",
+      "updated_at": "2025-04-10T00:36:57.229Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -173,97 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "vxfd5br11t6v",
-      "name": "Disruption with some Pull Requests stuck in processing state",
-      "status": "investigating",
-      "created_at": "2025-04-09T23:27:16.388Z",
-      "updated_at": "2025-04-09T23:39:07.685Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/2mtxtb0sphpd",
-      "started_at": "2025-04-09T23:27:16.382Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "skct8ml99x0z",
-          "status": "investigating",
-          "body": "Some users are experiencing delays in pull request updates. After pushing new commits, PRs show a \"Processing updates\" message, and the new commits do not appear in the pull request view.",
-          "incident_id": "vxfd5br11t6v",
-          "created_at": "2025-04-09T23:39:07.681Z",
-          "updated_at": "2025-04-09T23:39:07.681Z",
-          "display_at": "2025-04-09T23:39:07.681Z",
-          "affected_components": [
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "tckchhg0ytxb",
-          "status": "investigating",
-          "body": "Pull Requests is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "vxfd5br11t6v",
-          "created_at": "2025-04-09T23:36:35.618Z",
-          "updated_at": "2025-04-09T23:36:35.618Z",
-          "display_at": "2025-04-09T23:36:35.618Z",
-          "affected_components": [
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "73h6nwbc13mp",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "vxfd5br11t6v",
-          "created_at": "2025-04-09T23:27:16.423Z",
-          "updated_at": "2025-04-09T23:27:16.423Z",
-          "display_at": "2025-04-09T23:27:16.423Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hhtssxt0f5v2",
-          "name": "Pull Requests",
-          "status": "partial_outage",
-          "created_at": "2020-09-02T15:39:06.329Z",
-          "updated_at": "2025-04-09T23:36:35.579Z",
-          "position": 6,
-          "description": "Requests for Pull Requests on GitHub.com",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
