@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-04-10T22:46:34.783Z"
+    "updated_at": "2025-04-11T01:20:23.612Z"
   },
   "components": [
     {
@@ -147,7 +147,7 @@
       "name": "Codespaces",
       "status": "operational",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2025-04-03T17:00:22.236Z",
+      "updated_at": "2025-04-11T00:51:49.605Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
