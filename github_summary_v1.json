@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-04-15T12:41:08.297Z"
+    "updated_at": "2025-04-15T13:30:20.234Z"
   },
   "components": [
     {
@@ -173,7 +173,51 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "0r3t35cbghdy",
+      "name": "Disruption with some GitHub services for Safari Users",
+      "status": "investigating",
+      "created_at": "2025-04-15T13:30:04.124Z",
+      "updated_at": "2025-04-15T13:30:20.225Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/jhvm5rspsfpx",
+      "started_at": "2025-04-15T13:30:04.118Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "c33m0d4m35j5",
+          "status": "investigating",
+          "body": "Some unauthenticated Safari users are seeing the message \"Access to this site has been restricted.\"  We are currently investigating this behavior.",
+          "incident_id": "0r3t35cbghdy",
+          "created_at": "2025-04-15T13:30:20.222Z",
+          "updated_at": "2025-04-15T13:30:20.222Z",
+          "display_at": "2025-04-15T13:30:20.222Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "00bsnnvlk643",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "0r3t35cbghdy",
+          "created_at": "2025-04-15T13:30:04.172Z",
+          "updated_at": "2025-04-15T13:30:04.172Z",
+          "display_at": "2025-04-15T13:30:04.172Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
