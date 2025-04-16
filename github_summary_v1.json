@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-04-16T03:40:57.700Z"
+    "updated_at": "2025-04-16T05:11:18.344Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2025-04-15T18:20:21.770Z",
-      "updated_at": "2025-04-16T01:46:39.531Z",
+      "updated_at": "2025-04-16T05:11:18.334Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2025-04-15T18:20:21.764Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "wqbwhyv2bwkd",
+          "status": "investigating",
+          "body": "We have an updated ETA on correcting all Copilot metrics API data: 20 hours. We won't post more updates here unless the ETA changes.",
+          "incident_id": "jmfzh1p2yrg2",
+          "created_at": "2025-04-16T05:11:18.332Z",
+          "updated_at": "2025-04-16T05:11:18.332Z",
+          "display_at": "2025-04-16T05:11:18.332Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "v5p73f6drhcz",
           "status": "investigating",
