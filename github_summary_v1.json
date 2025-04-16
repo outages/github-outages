@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-04-16T14:06:44.175Z"
+    "updated_at": "2025-04-16T15:22:42.522Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2025-04-10T00:36:57.229Z",
+      "updated_at": "2025-04-16T15:22:42.468Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -174,6 +174,59 @@
     }
   ],
   "incidents": [
+    {
+      "id": "jhs2z7c69yfd",
+      "name": "Incident with Pull Requests",
+      "status": "investigating",
+      "created_at": "2025-04-16T15:22:42.423Z",
+      "updated_at": "2025-04-16T15:22:42.519Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/g48vp2v7rrcq",
+      "started_at": "2025-04-16T15:22:42.415Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "4f80tr6jk1v6",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Pull Requests",
+          "incident_id": "jhs2z7c69yfd",
+          "created_at": "2025-04-16T15:22:42.516Z",
+          "updated_at": "2025-04-16T15:22:42.516Z",
+          "display_at": "2025-04-16T15:22:42.516Z",
+          "affected_components": [
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hhtssxt0f5v2",
+          "name": "Pull Requests",
+          "status": "partial_outage",
+          "created_at": "2020-09-02T15:39:06.329Z",
+          "updated_at": "2025-04-16T15:22:42.468Z",
+          "position": 6,
+          "description": "Requests for Pull Requests on GitHub.com",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
     {
       "id": "jmfzh1p2yrg2",
       "name": "Disruption with some GitHub services",
@@ -298,7 +351,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
