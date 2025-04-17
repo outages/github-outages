@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-04-17T16:20:24.792Z"
+    "updated_at": "2025-04-17T17:35:02.758Z"
   },
   "components": [
     {
@@ -173,142 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "jmfzh1p2yrg2",
-      "name": "Disruption with some GitHub services",
-      "status": "investigating",
-      "created_at": "2025-04-15T18:20:21.770Z",
-      "updated_at": "2025-04-16T22:44:02.140Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/blbtlsqwqq3h",
-      "started_at": "2025-04-15T18:20:21.764Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "39lc3kpx4xy2",
-          "status": "investigating",
-          "body": "We are continuing to work on correcting the Copilot Metrics API data from March 19th 2025 to April 14th 2025. Data from April 15 and later is accurate. Currently, the API returns about 10% lower usage numbers. Based on the current investigations we estimate to have a resolution by April 18th 0100 hrs UTC. We will provide an update if there is change in the ETA.",
-          "incident_id": "jmfzh1p2yrg2",
-          "created_at": "2025-04-16T22:44:02.137Z",
-          "updated_at": "2025-04-16T22:44:02.137Z",
-          "display_at": "2025-04-16T22:44:02.137Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wqbwhyv2bwkd",
-          "status": "investigating",
-          "body": "We have an updated ETA on correcting all Copilot metrics API data: 20 hours. We won't post more updates here unless the ETA changes.",
-          "incident_id": "jmfzh1p2yrg2",
-          "created_at": "2025-04-16T05:11:18.332Z",
-          "updated_at": "2025-04-16T05:11:18.332Z",
-          "display_at": "2025-04-16T05:11:18.332Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "v5p73f6drhcz",
-          "status": "investigating",
-          "body": "We are working on correcting the Copilot metrics API source data from March 19th to April 14th. Currently, the API returns about 10% lower usage numbers than the reality. We don't have an ETA for the resolution at the moment.",
-          "incident_id": "jmfzh1p2yrg2",
-          "created_at": "2025-04-16T01:46:39.528Z",
-          "updated_at": "2025-04-16T01:46:39.528Z",
-          "display_at": "2025-04-16T01:46:39.528Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "54ll3s0vp00z",
-          "status": "investigating",
-          "body": "The Copilot metrics API (https://docs.github.com/en/enterprise-cloud@latest/rest/copilot/copilot-metrics?apiVersion=2022-11-28) now returns accurate data for April 15th. We're working on correcting the past 27 days, as we are under-reporting certain metrics from this time.",
-          "incident_id": "jmfzh1p2yrg2",
-          "created_at": "2025-04-16T00:41:10.437Z",
-          "updated_at": "2025-04-16T00:41:10.437Z",
-          "display_at": "2025-04-16T00:41:10.437Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "5ncztj9wd068",
-          "status": "investigating",
-          "body": "We'll have accurate data for April 15th in the next 60 minutes. We're still working on correcting the data for the additional 27 days before April 15th. The complete correction is estimated to take up to 7 days, but we're working to speed this up.<br /><br />https://docs.github.com/en/enterprise-cloud@latest/rest/copilot/copilot-metrics?apiVersion=2022-11-28 is the specific impacted API.",
-          "incident_id": "jmfzh1p2yrg2",
-          "created_at": "2025-04-15T23:33:37.852Z",
-          "updated_at": "2025-04-15T23:33:37.852Z",
-          "display_at": "2025-04-15T23:33:37.852Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "b61jy5t1cs6v",
-          "status": "investigating",
-          "body": "As we've made further progress on correcting the inconsistencies, we estimate it will take approximately a week for a full recovery. We are investigating options for speeding up the recovery, and we appreciate your patience as we work through this incident.",
-          "incident_id": "jmfzh1p2yrg2",
-          "created_at": "2025-04-15T21:45:11.076Z",
-          "updated_at": "2025-04-15T21:45:11.076Z",
-          "display_at": "2025-04-15T21:45:11.076Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "107r1ft9xf5c",
-          "status": "investigating",
-          "body": "We are working on correcting the inconsistencies now, our next update we will provide an estimated time when the issue will be fully resolved.",
-          "incident_id": "jmfzh1p2yrg2",
-          "created_at": "2025-04-15T19:02:35.924Z",
-          "updated_at": "2025-04-15T19:02:35.924Z",
-          "display_at": "2025-04-15T19:02:35.924Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "zd986g7k903l",
-          "status": "investigating",
-          "body": "We are currently experiencing degraded performance with our Copilot metrics API, which is temporarily causing partial inconsistencies in the data returned. Our engineering teams are actively working to restore full functionality. We understand the importance of timely updates and are prioritizing a resolution to ensure all systems are operating normally as quickly as possible.",
-          "incident_id": "jmfzh1p2yrg2",
-          "created_at": "2025-04-15T18:20:47.493Z",
-          "updated_at": "2025-04-15T18:20:47.493Z",
-          "display_at": "2025-04-15T18:20:47.493Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "hdx78d06wlzv",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "jmfzh1p2yrg2",
-          "created_at": "2025-04-15T18:20:21.804Z",
-          "updated_at": "2025-04-15T18:20:21.804Z",
-          "display_at": "2025-04-15T18:20:21.804Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "znhjr4vqqcdw",
