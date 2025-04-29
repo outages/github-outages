@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-04-29T10:20:24.021Z"
+    "updated_at": "2025-04-29T10:37:22.809Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Delays for web notification delivery",
       "status": "investigating",
       "created_at": "2025-04-29T10:05:43.862Z",
-      "updated_at": "2025-04-29T10:07:14.899Z",
+      "updated_at": "2025-04-29T10:37:22.797Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2025-04-29T10:05:43.855Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "5xm4ywkk47xp",
+          "status": "investigating",
+          "body": "We are seeing impact on both web and email notifications with most customers seeing delayed deliveries. <br /><br />The last incident updated regarding impact on email notifications was incorrect. Email notifications have been experiencing the same delays as web notifications for duration of incident.<br /><br />We have applied changes to our system and are monitoring to see if these restore normal service. Updates to follow.",
+          "incident_id": "jvyb8cp9h0lh",
+          "created_at": "2025-04-29T10:37:22.793Z",
+          "updated_at": "2025-04-29T10:37:22.793Z",
+          "display_at": "2025-04-29T10:37:22.793Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "kk1b06ztlvvm",
           "status": "investigating",
