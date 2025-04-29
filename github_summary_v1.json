@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-04-29T12:45:40.929Z"
+    "updated_at": "2025-04-29T12:52:28.930Z"
   },
   "components": [
     {
@@ -173,103 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "jvyb8cp9h0lh",
-      "name": "Delays for web and email notification delivery",
-      "status": "investigating",
-      "created_at": "2025-04-29T10:05:43.862Z",
-      "updated_at": "2025-04-29T12:45:40.918Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/qc851xzt2m5h",
-      "started_at": "2025-04-29T10:05:43.855Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "b33233mxw4ns",
-          "status": "investigating",
-          "body": "New notification deliveries are occuring in a timely manner and we have processed a significant portion of the backlog. Users may still notice delayed delivery of some older notifications.",
-          "incident_id": "jvyb8cp9h0lh",
-          "created_at": "2025-04-29T12:45:40.915Z",
-          "updated_at": "2025-04-29T12:45:40.915Z",
-          "display_at": "2025-04-29T12:45:40.915Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "gg4k43x95rqp",
-          "status": "investigating",
-          "body": "Web and email notifications continue to be delivered successfully and the service is in a healthy state. We are processing the backlog of notification deliveries which are currently as much as 30-60 minutes delayed.",
-          "incident_id": "jvyb8cp9h0lh",
-          "created_at": "2025-04-29T11:57:07.963Z",
-          "updated_at": "2025-04-29T11:58:03.559Z",
-          "display_at": "2025-04-29T11:57:07.000Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "tlxfp86szglm",
-          "status": "investigating",
-          "body": "We are starting to see signals of recovery with delayed web/email notifications now being dispatched.<br /><br />The team continue to monitor recovery and ensure return to normal service.",
-          "incident_id": "jvyb8cp9h0lh",
-          "created_at": "2025-04-29T11:09:17.393Z",
-          "updated_at": "2025-04-29T11:09:17.393Z",
-          "display_at": "2025-04-29T11:09:17.393Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "5xm4ywkk47xp",
-          "status": "investigating",
-          "body": "We are seeing impact on both web and email notifications with most customers seeing delayed deliveries. <br /><br />The last incident updated regarding impact on email notifications was incorrect. Email notifications have been experiencing the same delays as web notifications for duration of incident.<br /><br />We have applied changes to our system and are monitoring to see if these restore normal service. Updates to follow.",
-          "incident_id": "jvyb8cp9h0lh",
-          "created_at": "2025-04-29T10:37:22.793Z",
-          "updated_at": "2025-04-29T10:37:22.793Z",
-          "display_at": "2025-04-29T10:37:22.793Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "kk1b06ztlvvm",
-          "status": "investigating",
-          "body": "Web notifications are experiencing delivery delays for the majority of customers. We are working to mitigate impact and restore delivery times back within normal operating bounds.<br /><br />Email notifications remain unaffected and are delivering as normal.<br /><br />We will provide futher updates as we have more information.",
-          "incident_id": "jvyb8cp9h0lh",
-          "created_at": "2025-04-29T10:07:14.897Z",
-          "updated_at": "2025-04-29T10:07:14.897Z",
-          "display_at": "2025-04-29T10:07:14.897Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "c6rx8ws467vm",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "jvyb8cp9h0lh",
-          "created_at": "2025-04-29T10:05:43.927Z",
-          "updated_at": "2025-04-29T10:05:43.927Z",
-          "display_at": "2025-04-29T10:05:43.927Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
