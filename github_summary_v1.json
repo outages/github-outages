@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-04-29T11:09:17.411Z"
+    "updated_at": "2025-04-29T12:45:40.929Z"
   },
   "components": [
     {
@@ -176,10 +176,10 @@
   "incidents": [
     {
       "id": "jvyb8cp9h0lh",
-      "name": "Delays for web notification delivery",
+      "name": "Delays for web and email notification delivery",
       "status": "investigating",
       "created_at": "2025-04-29T10:05:43.862Z",
-      "updated_at": "2025-04-29T11:09:17.396Z",
+      "updated_at": "2025-04-29T12:45:40.918Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,32 @@
       "started_at": "2025-04-29T10:05:43.855Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "b33233mxw4ns",
+          "status": "investigating",
+          "body": "New notification deliveries are occuring in a timely manner and we have processed a significant portion of the backlog. Users may still notice delayed delivery of some older notifications.",
+          "incident_id": "jvyb8cp9h0lh",
+          "created_at": "2025-04-29T12:45:40.915Z",
+          "updated_at": "2025-04-29T12:45:40.915Z",
+          "display_at": "2025-04-29T12:45:40.915Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "gg4k43x95rqp",
+          "status": "investigating",
+          "body": "Web and email notifications continue to be delivered successfully and the service is in a healthy state. We are processing the backlog of notification deliveries which are currently as much as 30-60 minutes delayed.",
+          "incident_id": "jvyb8cp9h0lh",
+          "created_at": "2025-04-29T11:57:07.963Z",
+          "updated_at": "2025-04-29T11:58:03.559Z",
+          "display_at": "2025-04-29T11:57:07.000Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "tlxfp86szglm",
           "status": "investigating",
