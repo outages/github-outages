@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-05-06T20:20:53.849Z"
+    "updated_at": "2025-05-06T21:57:02.315Z"
   },
   "components": [
     {
@@ -180,7 +180,7 @@
       "name": "Codespaces Scheduled Maintenance",
       "status": "scheduled",
       "created_at": "2025-05-06T19:29:11.725Z",
-      "updated_at": "2025-05-06T19:29:12.076Z",
+      "updated_at": "2025-05-06T21:57:02.307Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -191,10 +191,10 @@
         {
           "id": "zlp56kqkgqhb",
           "status": "scheduled",
-          "body": "Codespaces will be undergoing global maintenance from 16:30 UTC on Monday, May 7 to 16:30 UTC on Tuesday, May 8. Maintenance will begin in our Europe, Asia, and Australia regions. Once it is complete, maintenance will start in our US regions. Each batch of regions will take approximately three to four hours to complete.\n\nDuring this time period, users may experience intermittent connectivity issues when creating new Codespaces or accessing existing ones.\n\nTo avoid disruptions, ensure that any uncommitted changes are committed and pushed before the maintenance starts. Codespaces with uncommitted changes will remain accessible as usual after the maintenance is complete.",
+          "body": "Codespaces will be undergoing global maintenance from 16:30 UTC on Wednesday, May 7 to 16:30 UTC on Thursday, May 8. Maintenance will begin in our Europe, Asia, and Australia regions. Once it is complete, maintenance will start in our US regions. Each batch of regions will take approximately three to four hours to complete.\n\nDuring this time period, users may experience intermittent connectivity issues when creating new Codespaces or accessing existing ones.\n\nTo avoid disruptions, ensure that any uncommitted changes are committed and pushed before the maintenance starts. Codespaces with uncommitted changes will remain accessible as usual after the maintenance is complete.",
           "incident_id": "hkp6z7kt2qm6",
           "created_at": "2025-05-06T19:29:11.770Z",
-          "updated_at": "2025-05-06T19:29:12.071Z",
+          "updated_at": "2025-05-06T21:57:02.303Z",
           "display_at": "2025-05-06T19:29:11.770Z",
           "affected_components": [
             {
