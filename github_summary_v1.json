@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-05-14T15:20:49.188Z"
+    "updated_at": "2025-05-14T15:30:24.568Z"
   },
   "components": [
     {
@@ -224,7 +224,7 @@
       "name": "Codespaces Scheduled Maintenance",
       "status": "scheduled",
       "created_at": "2025-05-13T19:52:44.238Z",
-      "updated_at": "2025-05-13T19:52:44.623Z",
+      "updated_at": "2025-05-14T15:30:24.563Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -232,6 +232,19 @@
       "started_at": "2025-05-13T19:52:44.233Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "1qgzzfwbyv88",
+          "status": "scheduled",
+          "body": "Maintenance will begin as scheduled in 60 minutes.",
+          "incident_id": "bs901hhxgw33",
+          "created_at": "2025-05-14T15:30:24.254Z",
+          "updated_at": "2025-05-14T15:30:24.559Z",
+          "display_at": "2025-05-14T15:30:24.254Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1922675873284845697
+        },
         {
           "id": "d9mqzwlzw348",
           "status": "scheduled",
