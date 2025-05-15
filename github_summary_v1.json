@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-05-15T10:38:27.099Z"
+    "updated_at": "2025-05-15T12:41:34.007Z"
   },
   "components": [
     {
@@ -173,7 +173,38 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "pzrqw1n5ynw3",
+      "name": "Disruption with Gemini 2.5 Pro",
+      "status": "investigating",
+      "created_at": "2025-05-15T12:41:33.965Z",
+      "updated_at": "2025-05-15T12:41:34.004Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/607c93rbwymq",
+      "started_at": "2025-05-15T12:41:33.959Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "05xfnkp8yrxn",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "pzrqw1n5ynw3",
+          "created_at": "2025-05-15T12:41:34.002Z",
+          "updated_at": "2025-05-15T12:41:34.002Z",
+          "display_at": "2025-05-15T12:41:34.002Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "bs901hhxgw33",
