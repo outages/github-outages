@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-05-16T20:36:07.389Z"
+    "updated_at": "2025-05-16T20:53:45.910Z"
   },
   "components": [
     {
@@ -179,22 +179,22 @@
       "name": "GitHub Enterprise Importer (GEI) is experiencing degraded throughput",
       "status": "investigating",
       "created_at": "2025-05-16T13:46:13.662Z",
-      "updated_at": "2025-05-16T20:36:07.377Z",
+      "updated_at": "2025-05-16T20:53:45.906Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/3yhmyh38q9jl",
-      "started_at": "2025-05-16T13:46:13.653Z",
+      "started_at": "2025-05-16T20:36:07.000Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
         {
           "id": "xb31thl6mvj9",
           "status": "investigating",
-          "body": "We identified and stopped a stuck migration that was repeatedly restarting, contributing to system slowdowns, and are continuing to monitor and evaluate for others stuck migrations so we can fully recover.",
+          "body": "Investigations on the incident impacting GitHub Enterprise Importer continue. An additional contributing cause has been identified, and we are working to ship additional mitigating measures.",
           "incident_id": "71tl7pkqysgw",
           "created_at": "2025-05-16T20:36:07.374Z",
-          "updated_at": "2025-05-16T20:36:07.374Z",
-          "display_at": "2025-05-16T20:36:07.374Z",
+          "updated_at": "2025-05-16T20:53:45.848Z",
+          "display_at": "2025-05-16T20:36:07.000Z",
           "affected_components": null,
           "deliver_notifications": true,
           "custom_tweet": null,
