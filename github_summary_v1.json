@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-05-22T14:40:55.199Z"
+    "updated_at": "2025-05-22T15:26:24.304Z"
   },
   "components": [
     {
@@ -174,7 +174,62 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "67vdd3b7d1zq",
+      "name": "Codespaces Scheduled Maintenance",
+      "status": "scheduled",
+      "created_at": "2025-05-22T15:26:23.906Z",
+      "updated_at": "2025-05-22T15:26:24.295Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/w4zyvrpjpfxj",
+      "started_at": "2025-05-22T15:26:23.900Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "pfzr3jgm2yhz",
+          "status": "scheduled",
+          "body": "Codespaces will be undergoing global maintenance from 16:30 UTC on Wednesday, May 28 to 16:30 UTC on Thursday, May 29. Maintenance will begin in our Europe, Asia, and Australia regions. Once it is complete, maintenance will start in our US regions. Each batch of regions will take approximately three to four hours to complete.\n\nDuring this time period, users may experience intermittent connectivity issues when creating new Codespaces or accessing existing ones.\n\nTo avoid disruptions, ensure that any uncommitted changes are committed and pushed before the maintenance starts. Codespaces with uncommitted changes will remain accessible as usual after the maintenance is complete.",
+          "incident_id": "67vdd3b7d1zq",
+          "created_at": "2025-05-22T15:26:23.961Z",
+          "updated_at": "2025-05-22T15:26:24.288Z",
+          "display_at": "2025-05-22T15:26:23.961Z",
+          "affected_components": [
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1925573968393871642
+        }
+      ],
+      "components": [
+        {
+          "id": "h2ftsgbw7kmk",
+          "name": "Codespaces",
+          "status": "operational",
+          "created_at": "2021-08-11T16:02:09.505Z",
+          "updated_at": "2025-05-15T16:30:21.115Z",
+          "position": 10,
+          "description": "Orchestration and Compute for GitHub Codespaces",
+          "showcase": false,
+          "start_date": "2021-08-11",
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2025-05-28T16:30:00.000Z",
+      "scheduled_until": "2025-05-29T16:30:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
