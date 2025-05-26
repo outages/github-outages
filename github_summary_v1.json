@@ -4,15 +4,15 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-05-26T02:50:53.776Z"
+    "updated_at": "2025-05-26T07:35:39.931Z"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:05:05.370Z",
-      "updated_at": "2025-05-08T16:27:56.354Z",
+      "updated_at": "2025-05-26T07:21:51.274Z",
       "position": 1,
       "description": "Performance of git clones, pulls, pushes, and associated operations",
       "showcase": false,
@@ -55,9 +55,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2025-05-23T18:33:32.636Z",
+      "updated_at": "2025-05-26T07:21:51.307Z",
       "position": 4,
       "description": "Requests for GitHub APIs",
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2025-05-01T23:13:18.181Z",
+      "updated_at": "2025-05-26T07:35:39.874Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": false,
@@ -173,7 +173,129 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "d0nm3xcdc5jw",
+      "name": "We're experiencing errors",
+      "status": "investigating",
+      "created_at": "2025-05-26T07:21:51.216Z",
+      "updated_at": "2025-05-26T07:35:39.922Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/76rvy4nf5wm2",
+      "started_at": "2025-05-26T07:21:51.205Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "b2qtmcc0tt15",
+          "status": "investigating",
+          "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "d0nm3xcdc5jw",
+          "created_at": "2025-05-26T07:35:39.919Z",
+          "updated_at": "2025-05-26T07:35:39.919Z",
+          "display_at": "2025-05-26T07:35:39.919Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "xbwkysx6xs16",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for API Requests and Git Operations",
+          "incident_id": "d0nm3xcdc5jw",
+          "created_at": "2025-05-26T07:21:51.381Z",
+          "updated_at": "2025-05-26T07:21:51.381Z",
+          "display_at": "2025-05-26T07:21:51.381Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "8l4ygp009s5s",
+          "name": "Git Operations",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:05:05.370Z",
+          "updated_at": "2025-05-26T07:21:51.274Z",
+          "position": 1,
+          "description": "Performance of git clones, pulls, pushes, and associated operations",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "brv1bkgrwx7q",
+          "name": "API Requests",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:01:46.621Z",
+          "updated_at": "2025-05-26T07:21:51.307Z",
+          "position": 4,
+          "description": "Requests for GitHub APIs",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "kr09ddfgbfsf",
+          "name": "Issues",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:01:46.638Z",
+          "updated_at": "2025-05-26T07:35:39.874Z",
+          "position": 5,
+          "description": "Requests for Issues on GitHub.com",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "67vdd3b7d1zq",
@@ -231,7 +353,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
