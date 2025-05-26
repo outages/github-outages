@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-05-26T07:53:32.540Z"
+    "updated_at": "2025-05-26T08:39:25.490Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2025-05-22T09:17:56.926Z",
+      "updated_at": "2025-05-26T08:25:10.107Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "Packages",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2025-02-26T17:19:02.400Z",
+      "updated_at": "2025-05-26T08:39:25.441Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -160,9 +160,9 @@
     {
       "id": "pjmpxvq2cmr2",
       "name": "Copilot",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2022-06-21T16:04:33.017Z",
-      "updated_at": "2025-05-20T20:01:53.964Z",
+      "updated_at": "2025-05-26T08:26:06.211Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -179,7 +179,7 @@
       "name": "We're experiencing errors",
       "status": "investigating",
       "created_at": "2025-05-26T07:21:51.216Z",
-      "updated_at": "2025-05-26T07:53:32.531Z",
+      "updated_at": "2025-05-26T08:39:25.481Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,138 @@
       "started_at": "2025-05-26T07:21:51.205Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "566bjn0gxvnx",
+          "status": "investigating",
+          "body": "Packages is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "d0nm3xcdc5jw",
+          "created_at": "2025-05-26T08:39:25.479Z",
+          "updated_at": "2025-05-26T08:39:25.479Z",
+          "display_at": "2025-05-26T08:39:25.479Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "zd2h4h067j2s",
+          "status": "investigating",
+          "body": "Copilot is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "d0nm3xcdc5jw",
+          "created_at": "2025-05-26T08:26:06.270Z",
+          "updated_at": "2025-05-26T08:26:06.270Z",
+          "display_at": "2025-05-26T08:26:06.270Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "tf4zwlwsnnln",
+          "status": "investigating",
+          "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "d0nm3xcdc5jw",
+          "created_at": "2025-05-26T08:25:10.157Z",
+          "updated_at": "2025-05-26T08:25:10.157Z",
+          "display_at": "2025-05-26T08:25:10.157Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "kz0qmgxx9x5m",
           "status": "investigating",
@@ -319,6 +451,51 @@
           "description": "Requests for Issues on GitHub.com",
           "showcase": false,
           "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "br0l2tvcx85d",
+          "name": "Actions",
+          "status": "partial_outage",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2025-05-26T08:25:10.107Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "st3j38cctv9l",
+          "name": "Packages",
+          "status": "partial_outage",
+          "created_at": "2019-11-13T18:02:40.064Z",
+          "updated_at": "2025-05-26T08:39:25.441Z",
+          "position": 8,
+          "description": "API requests and webhook delivery for GitHub Packages",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "pjmpxvq2cmr2",
+          "name": "Copilot",
+          "status": "partial_outage",
+          "created_at": "2022-06-21T16:04:33.017Z",
+          "updated_at": "2025-05-26T08:26:06.211Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": "2022-06-21",
           "group_id": null,
           "page_id": "kctbh9vrtdwd",
           "group": false,
