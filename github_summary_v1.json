@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-05-28T12:41:26.305Z"
+    "updated_at": "2025-05-28T13:42:18.052Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2025-05-28T11:11:15.122Z",
-      "updated_at": "2025-05-28T12:41:26.295Z",
+      "updated_at": "2025-05-28T13:42:18.041Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,26 @@
       "started_at": "2025-05-28T11:11:15.112Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "q3vcr40gqjjp",
+          "status": "investigating",
+          "body": "We are observing indications of recovery with the affected Actions runners.<br /><br />The team will continue monitoring systems to ensure a return to normal service.",
+          "incident_id": "l5jqk83qnfzd",
+          "created_at": "2025-05-28T13:42:18.037Z",
+          "updated_at": "2025-05-28T13:42:18.037Z",
+          "display_at": "2025-05-28T13:42:18.037Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "f9dg8xhttnlv",
           "status": "investigating",
