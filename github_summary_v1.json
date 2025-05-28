@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-05-28T11:50:57.983Z"
+    "updated_at": "2025-05-28T12:41:26.305Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2025-05-28T11:11:15.122Z",
-      "updated_at": "2025-05-28T11:49:59.813Z",
+      "updated_at": "2025-05-28T12:41:26.295Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,26 @@
       "started_at": "2025-05-28T11:11:15.112Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "f9dg8xhttnlv",
+          "status": "investigating",
+          "body": "We're continuing to investigate delays in Actions runners for hosted Ubuntu 24.<br /><br />We will provide further updates as more information becomes available.",
+          "incident_id": "l5jqk83qnfzd",
+          "created_at": "2025-05-28T12:41:26.292Z",
+          "updated_at": "2025-05-28T12:41:26.292Z",
+          "display_at": "2025-05-28T12:41:26.292Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "0f0h3z6hn05d",
           "status": "investigating",
