@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-05-29T20:41:01.765Z"
+    "updated_at": "2025-05-29T21:20:24.551Z"
   },
   "components": [
     {
@@ -176,26 +176,26 @@
   "incidents": [],
   "scheduled_maintenances": [
     {
-      "id": "4bk60dlj4cy2",
+      "id": "nwjwwhj118sf",
       "name": "Codespaces Scheduled Maintenance",
       "status": "scheduled",
-      "created_at": "2025-05-29T20:41:01.705Z",
-      "updated_at": "2025-05-29T20:41:01.762Z",
+      "created_at": "2025-05-29T21:01:34.877Z",
+      "updated_at": "2025-05-29T21:01:34.932Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
-      "shortlink": "https://stspg.io/wdyzvts33r0g",
-      "started_at": "2025-05-29T20:41:01.700Z",
+      "shortlink": "https://stspg.io/p98lyhp53nzj",
+      "started_at": "2025-05-29T21:01:34.872Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
         {
-          "id": "hgwbsvh18c1w",
+          "id": "b0xtrdw7gy7x",
           "status": "scheduled",
           "body": "Codespaces will be undergoing global maintenance from May 29, 2025 21:30 UTC to May 31, 2025 4:30 UTC. Maintenance will begin in our Europe, Asia, and Australia regions. Once it is complete, maintenance will start in our US regions. Each batch of regions will take approximately three to four hours to complete.\n\nDuring this time period, users may experience intermittent connectivity issues when creating new Codespaces or accessing existing ones.\n\nTo avoid disruptions, ensure that any uncommitted changes are committed and pushed before the maintenance starts. Codespaces with uncommitted changes will remain accessible as usual after the maintenance is complete.",
-          "incident_id": "4bk60dlj4cy2",
-          "created_at": "2025-05-29T20:41:01.759Z",
-          "updated_at": "2025-05-29T20:41:01.759Z",
-          "display_at": "2025-05-29T20:41:01.759Z",
+          "incident_id": "nwjwwhj118sf",
+          "created_at": "2025-05-29T21:01:34.929Z",
+          "updated_at": "2025-05-29T21:01:34.929Z",
+          "display_at": "2025-05-29T21:01:34.929Z",
           "affected_components": [
             {
               "code": "h2ftsgbw7kmk",
@@ -227,7 +227,7 @@
         }
       ],
       "scheduled_for": "2025-05-29T21:30:00.000Z",
-      "scheduled_until": "2025-05-30T04:30:00.000Z"
+      "scheduled_until": "2025-05-31T04:30:00.000Z"
     }
   ],
   "status": {
