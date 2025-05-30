@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-05-30T03:50:58.958Z"
+    "updated_at": "2025-05-30T11:20:23.217Z"
   },
   "components": [
     {
@@ -173,7 +173,38 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "p1rf575rlqml",
+      "name": "Disruption with some GitHub services",
+      "status": "investigating",
+      "created_at": "2025-05-30T11:20:16.850Z",
+      "updated_at": "2025-05-30T11:20:16.910Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/qg6l44g5tmzn",
+      "started_at": "2025-05-30T11:20:16.841Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "rjtj2q1wkhvy",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "p1rf575rlqml",
+          "created_at": "2025-05-30T11:20:16.906Z",
+          "updated_at": "2025-05-30T11:20:16.906Z",
+          "display_at": "2025-05-30T11:20:16.906Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "nwjwwhj118sf",
