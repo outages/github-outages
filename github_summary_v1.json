@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-05-31T02:41:33.306Z"
+    "updated_at": "2025-05-31T04:30:21.153Z"
   },
   "components": [
     {
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2025-05-29T21:30:21.401Z",
+      "updated_at": "2025-05-31T04:30:21.103Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -174,84 +174,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "nwjwwhj118sf",
-      "name": "Codespaces Scheduled Maintenance",
-      "status": "in_progress",
-      "created_at": "2025-05-29T21:01:34.877Z",
-      "updated_at": "2025-05-29T21:30:21.449Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/p98lyhp53nzj",
-      "started_at": "2025-05-29T21:01:34.872Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "pqynvqjx8jn1",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "nwjwwhj118sf",
-          "created_at": "2025-05-29T21:30:21.445Z",
-          "updated_at": "2025-05-29T21:30:21.445Z",
-          "display_at": "2025-05-29T21:30:21.445Z",
-          "affected_components": [
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "b0xtrdw7gy7x",
-          "status": "scheduled",
-          "body": "Codespaces will be undergoing global maintenance from May 29, 2025 21:30 UTC to May 31, 2025 4:30 UTC. Maintenance will begin in our Europe, Asia, and Australia regions. Once it is complete, maintenance will start in our US regions. Each batch of regions will take approximately three to four hours to complete.\n\nDuring this time period, users may experience intermittent connectivity issues when creating new Codespaces or accessing existing ones.\n\nTo avoid disruptions, ensure that any uncommitted changes are committed and pushed before the maintenance starts. Codespaces with uncommitted changes will remain accessible as usual after the maintenance is complete.",
-          "incident_id": "nwjwwhj118sf",
-          "created_at": "2025-05-29T21:01:34.929Z",
-          "updated_at": "2025-05-29T21:01:34.929Z",
-          "display_at": "2025-05-29T21:01:34.929Z",
-          "affected_components": [
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "h2ftsgbw7kmk",
-          "name": "Codespaces",
-          "status": "under_maintenance",
-          "created_at": "2021-08-11T16:02:09.505Z",
-          "updated_at": "2025-05-29T21:30:21.401Z",
-          "position": 10,
-          "description": "Orchestration and Compute for GitHub Codespaces",
-          "showcase": false,
-          "start_date": "2021-08-11",
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2025-05-29T21:30:00.000Z",
-      "scheduled_until": "2025-05-31T04:30:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
