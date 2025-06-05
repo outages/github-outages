@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-06-05T18:35:54.744Z"
+    "updated_at": "2025-06-05T19:02:56.729Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Actions",
       "status": "investigating",
       "created_at": "2025-06-05T18:00:30.557Z",
-      "updated_at": "2025-06-05T18:35:54.736Z",
+      "updated_at": "2025-06-05T19:02:56.715Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,32 @@
       "started_at": "2025-06-05T18:00:30.549Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "lb38pxlgkyg8",
+          "status": "investigating",
+          "body": "We have applied a mitigation and we are beginning to see recovery. We are continuing to monitor for recovery.",
+          "incident_id": "ry1gsyjqj4qh",
+          "created_at": "2025-06-05T19:02:56.710Z",
+          "updated_at": "2025-06-05T19:02:56.710Z",
+          "display_at": "2025-06-05T19:02:56.710Z",
+          "affected_components": [
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "nxybhmckmn8j",
           "status": "investigating",
