@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-06-06T10:39:59.426Z"
+    "updated_at": "2025-06-06T11:31:28.851Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Copilot",
       "status": "investigating",
       "created_at": "2025-06-06T09:58:03.472Z",
-      "updated_at": "2025-06-06T10:39:59.417Z",
+      "updated_at": "2025-06-06T11:31:28.839Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2025-06-06T09:58:03.466Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "ppyv00rz9qch",
+          "status": "investigating",
+          "body": "The changes have been reverted and we are seeing signs of recovery. We expect impact to be largely mitigated, but are continuing to monitor and will update further as progress continues.",
+          "incident_id": "wqrqgd9gyvz5",
+          "created_at": "2025-06-06T11:31:28.836Z",
+          "updated_at": "2025-06-06T11:31:28.836Z",
+          "display_at": "2025-06-06T11:31:28.836Z",
+          "affected_components": [
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "5q8q8t4h9p85",
           "status": "investigating",
