@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-06-12T18:20:32.017Z"
+    "updated_at": "2025-06-12T18:50:34.870Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2025-06-05T19:29:07.171Z",
+      "updated_at": "2025-06-12T18:50:34.814Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -175,11 +175,64 @@
   ],
   "incidents": [
     {
+      "id": "d9xd9k1j6sl0",
+      "name": "Incident with Actions",
+      "status": "investigating",
+      "created_at": "2025-06-12T18:50:34.763Z",
+      "updated_at": "2025-06-12T18:50:34.866Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/4vsmrjbwnbtk",
+      "started_at": "2025-06-12T18:50:34.755Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "cg705g1m565p",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Actions",
+          "incident_id": "d9xd9k1j6sl0",
+          "created_at": "2025-06-12T18:50:34.863Z",
+          "updated_at": "2025-06-12T18:50:34.863Z",
+          "display_at": "2025-06-12T18:50:34.863Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "br0l2tvcx85d",
+          "name": "Actions",
+          "status": "partial_outage",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2025-06-12T18:50:34.814Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
       "id": "j46wj670px33",
       "name": "Some Copilot chat models are failing requests",
       "status": "investigating",
       "created_at": "2025-06-12T18:19:49.124Z",
-      "updated_at": "2025-06-12T18:19:49.166Z",
+      "updated_at": "2025-06-12T18:37:23.260Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +240,32 @@
       "started_at": "2025-06-12T18:19:49.117Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "rgc80bz4123b",
+          "status": "investigating",
+          "body": "We redirected requests for Claude 3.7 Sonnet to additional partners and users should see recovery when using that model. We still are experiencing degraded availability for the Gemini (2.5 Pro, 2.0 Flash) and Claude (Sonnet 4, Opus 4) models in Copilot Chat, VS Code and other Copilot products.",
+          "incident_id": "j46wj670px33",
+          "created_at": "2025-06-12T18:37:23.258Z",
+          "updated_at": "2025-06-12T18:37:23.258Z",
+          "display_at": "2025-06-12T18:37:23.258Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "75155zyf66p8",
+          "status": "investigating",
+          "body": "We are experiencing degraded availability for the Gemini (2.5 Pro, 2.0 Flash) and Claude (Sonnet 3.7, Sonnet 4, Opus 4) models in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected.",
+          "incident_id": "j46wj670px33",
+          "created_at": "2025-06-12T18:23:44.277Z",
+          "updated_at": "2025-06-12T18:23:44.277Z",
+          "display_at": "2025-06-12T18:23:44.277Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "f6c1hrjp5xnc",
           "status": "investigating",
@@ -207,7 +286,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
