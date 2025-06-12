@@ -2,9 +2,9 @@
   "page": {
     "id": "kctbh9vrtdwd",
     "name": "GitHub",
-    "url": "https://www.githubstatus.com",
+    "url": "http://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-06-12T19:21:15.744Z"
+    "updated_at": "2025-06-12T20:26:55.295Z"
   },
   "status": {
     "indicator": "minor",
