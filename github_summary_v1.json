@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-06-18T16:46:44.335Z"
+    "updated_at": "2025-06-18T17:22:39.549Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Partial Actions Cache degradation",
       "status": "investigating",
       "created_at": "2025-06-18T16:46:25.922Z",
-      "updated_at": "2025-06-18T16:46:44.326Z",
+      "updated_at": "2025-06-18T17:22:39.539Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,32 @@
       "started_at": "2025-06-18T16:46:25.914Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "67wzmjw5h67r",
+          "status": "investigating",
+          "body": "We are currently deploying a mitigation for this issue and will be rolling it out shortly. We will update our progress as we monitor the deployment.",
+          "incident_id": "9qcwpy3ckdrf",
+          "created_at": "2025-06-18T17:22:39.536Z",
+          "updated_at": "2025-06-18T17:22:39.536Z",
+          "display_at": "2025-06-18T17:22:39.536Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "q13d226x1373",
+          "status": "investigating",
+          "body": "We are actively investigating and working on a mitigation for database instability leading to replication lag in the Actions Cache service. We will continue to post updates on progress towards mitigation.",
+          "incident_id": "9qcwpy3ckdrf",
+          "created_at": "2025-06-18T17:03:17.107Z",
+          "updated_at": "2025-06-18T17:03:17.107Z",
+          "display_at": "2025-06-18T17:03:17.107Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "blk03jzq0y55",
           "status": "investigating",
@@ -222,7 +248,7 @@
       "name": "Partial Degradation in Issues Experience",
       "status": "investigating",
       "created_at": "2025-06-18T16:21:00.833Z",
-      "updated_at": "2025-06-18T16:25:27.236Z",
+      "updated_at": "2025-06-18T17:07:52.020Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -230,6 +256,26 @@
       "started_at": "2025-06-18T16:21:00.827Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "yg5stwcw3wm5",
+          "status": "investigating",
+          "body": "We have confirmed that impact is restricted to failing to display reactions on some issues and searching issues by reaction. Mitigation is in progress to restore these features and should be fully rolled out to all customers in the next few hours.",
+          "incident_id": "7kltzm6r774q",
+          "created_at": "2025-06-18T17:07:52.018Z",
+          "updated_at": "2025-06-18T17:07:52.018Z",
+          "display_at": "2025-06-18T17:07:52.018Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "kmhry9md0tph",
           "status": "investigating",
