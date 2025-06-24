@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-06-23T19:47:57.922Z"
+    "updated_at": "2025-06-24T11:20:24.480Z"
   },
   "components": [
     {
@@ -173,7 +173,51 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "p7mzl65jm7q3",
+      "name": "Repository Navigation Bar Missing in GitHub Enterprise Cloud",
+      "status": "investigating",
+      "created_at": "2025-06-24T10:55:00.135Z",
+      "updated_at": "2025-06-24T11:00:20.219Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/trvryfmxfmwn",
+      "started_at": "2025-06-24T10:55:00.129Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "yyr6lw36y5vn",
+          "status": "investigating",
+          "body": "We have identified that the navigation bar is missing in GitHub Enterprise Cloud with data residency instances for the repositories related pages and are currently attempting a mitigation.",
+          "incident_id": "p7mzl65jm7q3",
+          "created_at": "2025-06-24T11:00:20.216Z",
+          "updated_at": "2025-06-24T11:00:20.216Z",
+          "display_at": "2025-06-24T11:00:20.216Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "8bkhzjxt7jf2",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "p7mzl65jm7q3",
+          "created_at": "2025-06-24T10:55:00.183Z",
+          "updated_at": "2025-06-24T10:55:00.183Z",
+          "display_at": "2025-06-24T10:55:00.183Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
