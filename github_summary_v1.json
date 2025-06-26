@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-06-26T12:59:03.569Z"
+    "updated_at": "2025-06-26T14:43:03.270Z"
   },
   "components": [
     {
@@ -173,7 +173,51 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "hw33b7tc1lv2",
+      "name": "GitHub Enterprise Importer delays",
+      "status": "investigating",
+      "created_at": "2025-06-26T14:42:48.627Z",
+      "updated_at": "2025-06-26T14:43:03.262Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/wgwwb6pzxvxk",
+      "started_at": "2025-06-26T14:42:48.620Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "sbtt03zb7wyj",
+          "status": "investigating",
+          "body": "GitHub Enterprise Importer is experiencing degraded throughput, resulting in significant slowdowns in migration processes and extended wait times for customers.",
+          "incident_id": "hw33b7tc1lv2",
+          "created_at": "2025-06-26T14:43:03.259Z",
+          "updated_at": "2025-06-26T14:43:03.259Z",
+          "display_at": "2025-06-26T14:43:03.259Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "xg8vtw9bhkrn",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "hw33b7tc1lv2",
+          "created_at": "2025-06-26T14:42:48.681Z",
+          "updated_at": "2025-06-26T14:42:48.681Z",
+          "display_at": "2025-06-26T14:42:48.681Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
