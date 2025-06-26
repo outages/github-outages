@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-06-26T22:38:50.635Z"
+    "updated_at": "2025-06-26T23:21:00.939Z"
   },
   "components": [
     {
@@ -173,7 +173,51 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "3l5g70d16ldz",
+      "name": "Disruption with some GitHub services",
+      "status": "investigating",
+      "created_at": "2025-06-26T23:05:16.846Z",
+      "updated_at": "2025-06-26T23:05:52.032Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/5fckpd665lcp",
+      "started_at": "2025-06-26T23:05:16.839Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "vww1l745vvxg",
+          "status": "investigating",
+          "body": "Users may experience errors when creating a repository from a template. The error message may prompt the user to delete the repository, however this deletion attempt will not be successful. We are investigating the cause of these errors.",
+          "incident_id": "3l5g70d16ldz",
+          "created_at": "2025-06-26T23:05:52.028Z",
+          "updated_at": "2025-06-26T23:05:52.028Z",
+          "display_at": "2025-06-26T23:05:52.028Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "xfkcgmq2dnfm",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "3l5g70d16ldz",
+          "created_at": "2025-06-26T23:05:16.883Z",
+          "updated_at": "2025-06-26T23:05:16.883Z",
+          "display_at": "2025-06-26T23:05:16.883Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
