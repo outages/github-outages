@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-06-26T14:43:03.270Z"
+    "updated_at": "2025-06-26T15:20:44.976Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "GitHub Enterprise Importer delays",
       "status": "investigating",
       "created_at": "2025-06-26T14:42:48.627Z",
-      "updated_at": "2025-06-26T14:43:03.262Z",
+      "updated_at": "2025-06-26T15:19:50.067Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2025-06-26T14:42:48.620Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "dzrrr60bcbn8",
+          "status": "investigating",
+          "body": "We're continuing to investigate delays with GitHub Enterprise importer, and are investigating potential delays with infrastructure. <br /><br />Next update in 60 minutes.",
+          "incident_id": "hw33b7tc1lv2",
+          "created_at": "2025-06-26T15:19:50.064Z",
+          "updated_at": "2025-06-26T15:19:50.064Z",
+          "display_at": "2025-06-26T15:19:50.064Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "sbtt03zb7wyj",
           "status": "investigating",
