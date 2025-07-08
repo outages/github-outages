@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-07-07T23:20:23.141Z"
+    "updated_at": "2025-07-08T16:29:01.157Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2025-06-17T20:15:16.540Z",
+      "updated_at": "2025-07-08T16:05:18.520Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -173,10 +173,104 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "k20s3qvr28zw",
+      "name": "Incident with Actions",
+      "status": "investigating",
+      "created_at": "2025-07-08T16:05:18.432Z",
+      "updated_at": "2025-07-08T16:29:01.146Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/xldk35q42vp1",
+      "started_at": "2025-07-08T16:05:18.425Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "fr76p6kghtp0",
+          "status": "investigating",
+          "body": "We have scaled out our capacity and customers will begin to see timely updates.",
+          "incident_id": "k20s3qvr28zw",
+          "created_at": "2025-07-08T16:29:01.143Z",
+          "updated_at": "2025-07-08T16:29:01.143Z",
+          "display_at": "2025-07-08T16:29:01.143Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "bnh56tyjzc9k",
+          "status": "investigating",
+          "body": "Some customers are seeing delays in updates to their runs resulting in missing logs and delayed run status updates. We are investigating the cause of the issue.",
+          "incident_id": "k20s3qvr28zw",
+          "created_at": "2025-07-08T16:10:11.072Z",
+          "updated_at": "2025-07-08T16:10:11.072Z",
+          "display_at": "2025-07-08T16:10:11.072Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "b7l0bhk1qt9w",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Actions",
+          "incident_id": "k20s3qvr28zw",
+          "created_at": "2025-07-08T16:05:18.570Z",
+          "updated_at": "2025-07-08T16:05:18.570Z",
+          "display_at": "2025-07-08T16:05:18.570Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "br0l2tvcx85d",
+          "name": "Actions",
+          "status": "partial_outage",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2025-07-08T16:05:18.520Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
