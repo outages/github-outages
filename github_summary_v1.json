@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-07-21T07:36:26.443Z"
+    "updated_at": "2025-07-21T07:50:51.858Z"
   },
   "components": [
     {
@@ -175,41 +175,11 @@
   ],
   "incidents": [
     {
-      "id": "j3byj17b8m1t",
-      "name": "Some Copilot Models Experiencing Degraded Performance",
-      "status": "investigating",
-      "created_at": "2025-07-21T07:36:26.395Z",
-      "updated_at": "2025-07-21T07:36:26.440Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/wp5d3bw7xscs",
-      "started_at": "2025-07-21T07:36:26.388Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "ngtmwd8zrfx5",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "j3byj17b8m1t",
-          "created_at": "2025-07-21T07:36:26.437Z",
-          "updated_at": "2025-07-21T07:36:26.437Z",
-          "display_at": "2025-07-21T07:36:26.437Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    },
-    {
       "id": "btl2cjm2pzkj",
       "name": "Incident with Issues",
       "status": "investigating",
       "created_at": "2025-07-21T07:15:32.982Z",
-      "updated_at": "2025-07-21T07:25:54.696Z",
+      "updated_at": "2025-07-21T07:46:00.632Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -217,6 +187,56 @@
       "started_at": "2025-07-21T07:15:32.974Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "6s19pftgfnx8",
+          "status": "investigating",
+          "body": "We're continuing to investigate reports of degraded performance and intermitiant timeouts across GitHub.com.",
+          "incident_id": "btl2cjm2pzkj",
+          "created_at": "2025-07-21T07:46:00.629Z",
+          "updated_at": "2025-07-21T07:46:00.629Z",
+          "display_at": "2025-07-21T07:46:00.629Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "mrhh7rz5cch2",
           "status": "investigating",
