@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-07-28T21:41:16.304Z"
+    "updated_at": "2025-07-28T21:50:23.702Z"
   },
   "components": [
     {
@@ -175,41 +175,11 @@
   ],
   "incidents": [
     {
-      "id": "qjbc2h6dfyvc",
-      "name": "GitHub Enterprise Importer migrations are stalled",
-      "status": "investigating",
-      "created_at": "2025-07-28T21:41:16.253Z",
-      "updated_at": "2025-07-28T21:41:16.301Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/bp26233501d2",
-      "started_at": "2025-07-28T21:41:16.246Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "687f3h4j3805",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "qjbc2h6dfyvc",
-          "created_at": "2025-07-28T21:41:16.298Z",
-          "updated_at": "2025-07-28T21:41:16.298Z",
-          "display_at": "2025-07-28T21:41:16.298Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    },
-    {
       "id": "s6d4x8c6cvv5",
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2025-07-28T16:50:53.986Z",
-      "updated_at": "2025-07-28T21:06:35.886Z",
+      "updated_at": "2025-07-28T21:50:23.690Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -217,6 +187,26 @@
       "started_at": "2025-07-28T16:50:53.978Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "p5215vchpq7z",
+          "status": "investigating",
+          "body": "Some customers continue to experience errors when accessing raw files and archives. We are working on a mitigation to address the issue.",
+          "incident_id": "s6d4x8c6cvv5",
+          "created_at": "2025-07-28T21:50:23.687Z",
+          "updated_at": "2025-07-28T21:50:23.687Z",
+          "display_at": "2025-07-28T21:50:23.687Z",
+          "affected_components": [
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "lqzp619527g4",
           "status": "investigating",
@@ -381,6 +371,36 @@
           "only_show_if_degraded": false
         }
       ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "qjbc2h6dfyvc",
+      "name": "GitHub Enterprise Importer migrations are stalled",
+      "status": "investigating",
+      "created_at": "2025-07-28T21:41:16.253Z",
+      "updated_at": "2025-07-28T21:41:16.301Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/bp26233501d2",
+      "started_at": "2025-07-28T21:41:16.246Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "687f3h4j3805",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "qjbc2h6dfyvc",
+          "created_at": "2025-07-28T21:41:16.298Z",
+          "updated_at": "2025-07-28T21:41:16.298Z",
+          "display_at": "2025-07-28T21:41:16.298Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
       "reminder_intervals": null
     }
   ],
