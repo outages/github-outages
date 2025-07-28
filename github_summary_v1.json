@@ -4,15 +4,15 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-07-28T16:50:54.033Z"
+    "updated_at": "2025-07-28T17:36:05.570Z"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:05:05.370Z",
-      "updated_at": "2025-05-26T09:46:21.918Z",
+      "updated_at": "2025-07-28T17:30:04.433Z",
       "position": 1,
       "description": "Performance of git clones, pulls, pushes, and associated operations",
       "showcase": false,
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2025-07-28T16:50:53.986Z",
-      "updated_at": "2025-07-28T16:50:54.030Z",
+      "updated_at": "2025-07-28T17:30:04.481Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,39 @@
       "started_at": "2025-07-28T16:50:53.978Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "6h2bvdgz91dd",
+          "status": "investigating",
+          "body": "Git Operations is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "s6d4x8c6cvv5",
+          "created_at": "2025-07-28T17:30:04.478Z",
+          "updated_at": "2025-07-28T17:30:04.478Z",
+          "display_at": "2025-07-28T17:30:04.478Z",
+          "affected_components": [
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "r7r6t4kwgj5z",
+          "status": "investigating",
+          "body": "We are investigating errors affecting some archive and raw file downloads. Users may experience rate limit warnings or server errors until this is resolved.",
+          "incident_id": "s6d4x8c6cvv5",
+          "created_at": "2025-07-28T17:17:17.649Z",
+          "updated_at": "2025-07-28T17:17:17.649Z",
+          "display_at": "2025-07-28T17:17:17.649Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "cs86p5pr8dw3",
           "status": "investigating",
@@ -201,13 +234,29 @@
           "tweet_id": null
         }
       ],
-      "components": [],
+      "components": [
+        {
+          "id": "8l4ygp009s5s",
+          "name": "Git Operations",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:05:05.370Z",
+          "updated_at": "2025-07-28T17:30:04.433Z",
+          "position": 1,
+          "description": "Performance of git clones, pulls, pushes, and associated operations",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
       "reminder_intervals": null
     }
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
