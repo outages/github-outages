@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-08-01T09:39:16.309Z"
+    "updated_at": "2025-08-01T10:26:41.831Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2025-08-01T09:20:33.899Z",
-      "updated_at": "2025-08-01T09:39:16.300Z",
+      "updated_at": "2025-08-01T10:26:41.823Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2025-08-01T09:20:33.891Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "cy25md70j7sf",
+          "status": "investigating",
+          "body": "We are working on a mitigation to an issue preventing some users from signing up with email and password. Social signup methods remain available.",
+          "incident_id": "j630wwvgw9kb",
+          "created_at": "2025-08-01T10:26:41.820Z",
+          "updated_at": "2025-08-01T10:26:41.820Z",
+          "display_at": "2025-08-01T10:26:41.820Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "chs5wl4r06qm",
           "status": "investigating",
