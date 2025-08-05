@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-08-05T19:20:50.936Z"
+    "updated_at": "2025-08-05T19:46:42.142Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2025-08-05T17:53:22.250Z",
+      "updated_at": "2025-08-05T19:46:39.758Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": false,
@@ -173,144 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "skmqnpynxyqs",
-      "name": "Incident with Pull Requests",
-      "status": "investigating",
-      "created_at": "2025-08-05T17:53:22.219Z",
-      "updated_at": "2025-08-05T19:20:50.926Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/z9fh08ybzbhb",
-      "started_at": "2025-08-05T17:53:22.212Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "wm31x7gkd84g",
-          "status": "investigating",
-          "body": "We continue to investigate issues with PRs. Impact remains limited to less than 2% of users.",
-          "incident_id": "skmqnpynxyqs",
-          "created_at": "2025-08-05T19:20:50.922Z",
-          "updated_at": "2025-08-05T19:20:50.922Z",
-          "display_at": "2025-08-05T19:20:50.922Z",
-          "affected_components": [
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "z5t9w4vwxmc3",
-          "status": "investigating",
-          "body": "We continue to investigate issues with PRs impacting less than 2% of customers.",
-          "incident_id": "skmqnpynxyqs",
-          "created_at": "2025-08-05T18:49:04.132Z",
-          "updated_at": "2025-08-05T18:49:04.132Z",
-          "display_at": "2025-08-05T18:49:04.132Z",
-          "affected_components": [
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "lg5v26f094xh",
-          "status": "investigating",
-          "body": "We continue to investigate issues with PRs impacting less than 2% of customers.",
-          "incident_id": "skmqnpynxyqs",
-          "created_at": "2025-08-05T18:23:07.957Z",
-          "updated_at": "2025-08-05T18:23:07.957Z",
-          "display_at": "2025-08-05T18:23:07.957Z",
-          "affected_components": [
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "1fnzgssmgdx8",
-          "status": "investigating",
-          "body": "We're seeing issues related to PR are investigating. Less than 2% of users are impacted.",
-          "incident_id": "skmqnpynxyqs",
-          "created_at": "2025-08-05T18:07:23.622Z",
-          "updated_at": "2025-08-05T18:07:23.622Z",
-          "display_at": "2025-08-05T18:07:23.622Z",
-          "affected_components": [
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "4cdjtc2bym5g",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Pull Requests",
-          "incident_id": "skmqnpynxyqs",
-          "created_at": "2025-08-05T17:53:22.291Z",
-          "updated_at": "2025-08-05T17:53:22.291Z",
-          "display_at": "2025-08-05T17:53:22.291Z",
-          "affected_components": [
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hhtssxt0f5v2",
-          "name": "Pull Requests",
-          "status": "partial_outage",
-          "created_at": "2020-09-02T15:39:06.329Z",
-          "updated_at": "2025-08-05T17:53:22.250Z",
-          "position": 6,
-          "description": "Requests for Pull Requests on GitHub.com",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
