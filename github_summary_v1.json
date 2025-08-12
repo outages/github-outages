@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-08-12T14:30:14.202Z"
+    "updated_at": "2025-08-12T15:20:18.663Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with search on GitHub we are seeing increased failure rates",
       "status": "investigating",
       "created_at": "2025-08-12T14:12:10.354Z",
-      "updated_at": "2025-08-12T14:30:14.193Z",
+      "updated_at": "2025-08-12T15:20:18.654Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,94 @@
       "started_at": "2025-08-12T14:12:10.345Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "vllz407h34lc",
+          "status": "investigating",
+          "body": "We are experiencing increased latency in our API layers and inconsistently degraded experiences when loading or querying issues, pull requests, labels, packages, releases, workflow runs, projects, and repositories, among others. Investigation is underway.",
+          "incident_id": "9rfydl2xdqqj",
+          "created_at": "2025-08-12T15:20:18.651Z",
+          "updated_at": "2025-08-12T15:20:18.651Z",
+          "display_at": "2025-08-12T15:20:18.651Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "wyp197m0l3kn",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance in services backed by search. The team continues to investigate why requests are failing to reach our search clusters.",
+          "incident_id": "9rfydl2xdqqj",
+          "created_at": "2025-08-12T14:53:43.418Z",
+          "updated_at": "2025-08-12T14:53:43.418Z",
+          "display_at": "2025-08-12T14:53:43.418Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "kghvr5zzpm5n",
           "status": "investigating",
