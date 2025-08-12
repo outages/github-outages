@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-08-12T16:33:42.897Z"
+    "updated_at": "2025-08-12T17:07:42.306Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with search on GitHub we are seeing increased failure rates",
       "status": "investigating",
       "created_at": "2025-08-12T14:12:10.354Z",
-      "updated_at": "2025-08-12T16:33:42.886Z",
+      "updated_at": "2025-08-12T17:07:42.295Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,50 @@
       "started_at": "2025-08-12T14:12:10.345Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "642qs847bvby",
+          "status": "investigating",
+          "body": "Service availability has been mostly restored, but some users will continue to see increased request latency and stale search results. We are still working towards full recovery.",
+          "incident_id": "9rfydl2xdqqj",
+          "created_at": "2025-08-12T17:07:42.292Z",
+          "updated_at": "2025-08-12T17:07:42.292Z",
+          "display_at": "2025-08-12T17:07:42.292Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "vtdzyxz8w7tt",
           "status": "investigating",
