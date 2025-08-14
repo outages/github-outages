@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-08-14T16:30:55.154Z"
+    "updated_at": "2025-08-14T18:37:03.913Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "Packages",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2025-08-12T17:56:13.246Z",
+      "updated_at": "2025-08-14T18:06:35.548Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": false,
@@ -173,10 +173,104 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "fg0pp1nl4bdg",
+      "name": "Incident with Packages",
+      "status": "investigating",
+      "created_at": "2025-08-14T18:06:35.514Z",
+      "updated_at": "2025-08-14T18:37:03.901Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/8jxq0hw9f0nt",
+      "started_at": "2025-08-14T18:06:35.507Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "s9rlgqx4g2z3",
+          "status": "investigating",
+          "body": "The NPM registry has now returned to normal functioning.",
+          "incident_id": "fg0pp1nl4bdg",
+          "created_at": "2025-08-14T18:37:03.898Z",
+          "updated_at": "2025-08-14T18:37:03.898Z",
+          "display_at": "2025-08-14T18:37:03.898Z",
+          "affected_components": [
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "6tjkvhb02gty",
+          "status": "investigating",
+          "body": "The NPM registry service is currently experiencing intermittent availability issues. Other package registries should be unaffected. Investigations are ongoing.",
+          "incident_id": "fg0pp1nl4bdg",
+          "created_at": "2025-08-14T18:11:06.003Z",
+          "updated_at": "2025-08-14T18:11:06.003Z",
+          "display_at": "2025-08-14T18:11:06.003Z",
+          "affected_components": [
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "qz4drjs23p73",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Packages",
+          "incident_id": "fg0pp1nl4bdg",
+          "created_at": "2025-08-14T18:06:35.589Z",
+          "updated_at": "2025-08-14T18:06:35.589Z",
+          "display_at": "2025-08-14T18:06:35.589Z",
+          "affected_components": [
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "st3j38cctv9l",
+          "name": "Packages",
+          "status": "partial_outage",
+          "created_at": "2019-11-13T18:02:40.064Z",
+          "updated_at": "2025-08-14T18:06:35.548Z",
+          "position": 8,
+          "description": "API requests and webhook delivery for GitHub Packages",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
