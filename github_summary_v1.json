@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-08-21T17:21:37.402Z"
+    "updated_at": "2025-08-21T18:13:02.540Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2025-08-21T15:54:34.834Z",
+      "updated_at": "2025-08-21T18:13:02.491Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -173,124 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "c7kq3ctclddp",
-      "name": "Incident with Actions",
-      "status": "investigating",
-      "created_at": "2025-08-21T15:54:34.791Z",
-      "updated_at": "2025-08-21T17:21:37.391Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/w29xpxytjyk5",
-      "started_at": "2025-08-21T15:54:34.783Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "cgcs1w42nw9b",
-          "status": "investigating",
-          "body": "The team continues to investigate issues with some Actions jobs on Hosted Runners being queued for a long time and a percentage of jobs failing. We are increasing runner capacity and will continue providing updates on the progress towards mitigation.",
-          "incident_id": "c7kq3ctclddp",
-          "created_at": "2025-08-21T17:21:37.387Z",
-          "updated_at": "2025-08-21T17:21:37.387Z",
-          "display_at": "2025-08-21T17:21:37.387Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "dwcx88hwsgz6",
-          "status": "investigating",
-          "body": "The team continues to investigate issues with some Actions jobs on Hosted Runners being queued for a long time and a percentage of jobs failing. We will continue providing updates on the progress towards mitigation.",
-          "incident_id": "c7kq3ctclddp",
-          "created_at": "2025-08-21T16:43:49.606Z",
-          "updated_at": "2025-08-21T16:43:49.606Z",
-          "display_at": "2025-08-21T16:43:49.606Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "0vz1vv5rtk6l",
-          "status": "investigating",
-          "body": "We are investigating reports of slow queue times for Hosted Runners, leading to high wait times.",
-          "incident_id": "c7kq3ctclddp",
-          "created_at": "2025-08-21T16:05:31.842Z",
-          "updated_at": "2025-08-21T16:05:31.842Z",
-          "display_at": "2025-08-21T16:05:31.842Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "l60rm14qvp0y",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Actions",
-          "incident_id": "c7kq3ctclddp",
-          "created_at": "2025-08-21T15:54:34.884Z",
-          "updated_at": "2025-08-21T15:54:34.884Z",
-          "display_at": "2025-08-21T15:54:34.884Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "br0l2tvcx85d",
-          "name": "Actions",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2025-08-21T15:54:34.834Z",
-          "position": 7,
-          "description": "Workflows, Compute and Orchestration for GitHub Actions",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
