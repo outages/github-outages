@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-08-27T21:20:27.004Z"
+    "updated_at": "2025-08-27T21:36:28.927Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2025-08-27T20:58:07.249Z",
+      "updated_at": "2025-08-27T21:27:47.839Z",
       "position": 4,
       "description": "Requests for GitHub APIs",
       "showcase": false,
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2025-08-27T20:50:45.779Z",
+      "updated_at": "2025-08-27T21:27:47.854Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": false,
@@ -160,9 +160,9 @@
     {
       "id": "pjmpxvq2cmr2",
       "name": "Copilot",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2022-06-21T16:04:33.017Z",
-      "updated_at": "2025-08-27T21:13:26.677Z",
+      "updated_at": "2025-08-27T21:36:28.924Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -173,217 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "x7gtw6r3x2s1",
-      "name": "Disruption with some GitHub services",
-      "status": "investigating",
-      "created_at": "2025-08-27T20:41:39.400Z",
-      "updated_at": "2025-08-27T21:13:26.717Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/9g5wck418z4k",
-      "started_at": "2025-08-27T20:41:39.393Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "8rn0vz3m2m1h",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "x7gtw6r3x2s1",
-          "created_at": "2025-08-27T21:13:26.714Z",
-          "updated_at": "2025-08-27T21:13:26.714Z",
-          "display_at": "2025-08-27T21:13:26.714Z",
-          "affected_components": [
-            {
-              "code": "brv1bkgrwx7q",
-              "name": "API Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "kr09ddfgbfsf",
-              "name": "Issues",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "pjmpxvq2cmr2",
-              "name": "Copilot",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "ssjmc0061979",
-          "status": "investigating",
-          "body": "API Requests is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "x7gtw6r3x2s1",
-          "created_at": "2025-08-27T20:58:07.282Z",
-          "updated_at": "2025-08-27T20:58:07.282Z",
-          "display_at": "2025-08-27T20:58:07.282Z",
-          "affected_components": [
-            {
-              "code": "brv1bkgrwx7q",
-              "name": "API Requests",
-              "old_status": "major_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "kr09ddfgbfsf",
-              "name": "Issues",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "516fs0t2shsg",
-          "status": "investigating",
-          "body": "The team is aware of the root cause of this issue and is working to mitigate the issue quickly.",
-          "incident_id": "x7gtw6r3x2s1",
-          "created_at": "2025-08-27T20:55:34.518Z",
-          "updated_at": "2025-08-27T20:55:34.518Z",
-          "display_at": "2025-08-27T20:55:34.518Z",
-          "affected_components": [
-            {
-              "code": "brv1bkgrwx7q",
-              "name": "API Requests",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "kr09ddfgbfsf",
-              "name": "Issues",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "01nx5hy35hnw",
-          "status": "investigating",
-          "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "x7gtw6r3x2s1",
-          "created_at": "2025-08-27T20:50:45.819Z",
-          "updated_at": "2025-08-27T20:50:45.819Z",
-          "display_at": "2025-08-27T20:50:45.819Z",
-          "affected_components": [
-            {
-              "code": "brv1bkgrwx7q",
-              "name": "API Requests",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "kr09ddfgbfsf",
-              "name": "Issues",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "z9g8k0nl06dv",
-          "status": "investigating",
-          "body": "API Requests is experiencing degraded availability. We are continuing to investigate.",
-          "incident_id": "x7gtw6r3x2s1",
-          "created_at": "2025-08-27T20:48:58.757Z",
-          "updated_at": "2025-08-27T20:48:58.757Z",
-          "display_at": "2025-08-27T20:48:58.757Z",
-          "affected_components": [
-            {
-              "code": "brv1bkgrwx7q",
-              "name": "API Requests",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "c9j55r3bdqf3",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "x7gtw6r3x2s1",
-          "created_at": "2025-08-27T20:41:39.439Z",
-          "updated_at": "2025-08-27T20:41:39.439Z",
-          "display_at": "2025-08-27T20:41:39.439Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "brv1bkgrwx7q",
-          "name": "API Requests",
-          "status": "partial_outage",
-          "created_at": "2017-01-31T20:01:46.621Z",
-          "updated_at": "2025-08-27T20:58:07.249Z",
-          "position": 4,
-          "description": "Requests for GitHub APIs",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "kr09ddfgbfsf",
-          "name": "Issues",
-          "status": "partial_outage",
-          "created_at": "2017-01-31T20:01:46.638Z",
-          "updated_at": "2025-08-27T20:50:45.779Z",
-          "position": 5,
-          "description": "Requests for Issues on GitHub.com",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "pjmpxvq2cmr2",
-          "name": "Copilot",
-          "status": "partial_outage",
-          "created_at": "2022-06-21T16:04:33.017Z",
-          "updated_at": "2025-08-27T21:13:26.677Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2022-06-21",
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
