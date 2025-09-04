@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-09-04T20:05:57.966Z"
+    "updated_at": "2025-09-04T20:25:47.290Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2025-09-04T18:52:43.359Z",
+      "updated_at": "2025-09-04T20:25:47.243Z",
       "position": 4,
       "description": "Requests for GitHub APIs",
       "showcase": false,
@@ -173,150 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "mdj41rgqwjx5",
-      "name": "Degraded REST API success rates for some customers",
-      "status": "investigating",
-      "created_at": "2025-09-04T18:16:52.513Z",
-      "updated_at": "2025-09-04T20:05:57.956Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/wdpymtwywhy1",
-      "started_at": "2025-09-04T18:16:52.507Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "tyyz3lct1c9k",
-          "status": "investigating",
-          "body": "The deployment has completed and we expect customers who have been impacted to see recovery. We are continuing to monitor.",
-          "incident_id": "mdj41rgqwjx5",
-          "created_at": "2025-09-04T20:05:57.954Z",
-          "updated_at": "2025-09-04T20:05:57.954Z",
-          "display_at": "2025-09-04T20:05:57.954Z",
-          "affected_components": [
-            {
-              "code": "brv1bkgrwx7q",
-              "name": "API Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "ldbw4vh99y4t",
-          "status": "investigating",
-          "body": "We are in the process of deploying the PR to revert the change that was causing timeouts to this endpoint. We will update again once that deployment is complete.",
-          "incident_id": "mdj41rgqwjx5",
-          "created_at": "2025-09-04T19:28:02.502Z",
-          "updated_at": "2025-09-04T19:28:02.502Z",
-          "display_at": "2025-09-04T19:28:02.502Z",
-          "affected_components": [
-            {
-              "code": "brv1bkgrwx7q",
-              "name": "API Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "vnkv3hlbhdlc",
-          "status": "investigating",
-          "body": "We have identified a deployed change that correlates with the increase in 5XX errors to the GitRefs REST API. This is particularly affecting requests for repos with very large numbers of commits. We are working on rolling back this change which we expect will resolve the issue.",
-          "incident_id": "mdj41rgqwjx5",
-          "created_at": "2025-09-04T18:57:07.309Z",
-          "updated_at": "2025-09-04T18:57:07.309Z",
-          "display_at": "2025-09-04T18:57:07.309Z",
-          "affected_components": [
-            {
-              "code": "brv1bkgrwx7q",
-              "name": "API Requests",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "sp50c28s5v3g",
-          "status": "investigating",
-          "body": "API Requests is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "mdj41rgqwjx5",
-          "created_at": "2025-09-04T18:52:43.402Z",
-          "updated_at": "2025-09-04T18:52:43.402Z",
-          "display_at": "2025-09-04T18:52:43.402Z",
-          "affected_components": [
-            {
-              "code": "brv1bkgrwx7q",
-              "name": "API Requests",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "hrqwpqtd7jdj",
-          "status": "investigating",
-          "body": "Customers are experiencing 504 responses for some API requests for regarding repo refs/tags. We are investigating.",
-          "incident_id": "mdj41rgqwjx5",
-          "created_at": "2025-09-04T18:18:22.722Z",
-          "updated_at": "2025-09-04T18:18:22.722Z",
-          "display_at": "2025-09-04T18:18:22.722Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "93573sqw4q9s",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "mdj41rgqwjx5",
-          "created_at": "2025-09-04T18:16:52.550Z",
-          "updated_at": "2025-09-04T18:16:52.550Z",
-          "display_at": "2025-09-04T18:16:52.550Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "brv1bkgrwx7q",
-          "name": "API Requests",
-          "status": "partial_outage",
-          "created_at": "2017-01-31T20:01:46.621Z",
-          "updated_at": "2025-09-04T18:52:43.359Z",
-          "position": 4,
-          "description": "Requests for GitHub APIs",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
