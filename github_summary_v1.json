@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-09-13T20:55:52.382Z"
+    "updated_at": "2025-09-13T22:39:11.192Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Repository search is degraded",
       "status": "investigating",
       "created_at": "2025-09-13T12:44:00.572Z",
-      "updated_at": "2025-09-13T12:49:04.431Z",
+      "updated_at": "2025-09-13T22:39:11.180Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2025-09-13T12:44:00.564Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "tdlv7rgm76qq",
+          "status": "investigating",
+          "body": "Most searchable repositories should again be visible in search results. Up to 1.5% of repositories may still be missing from search results.<br /><br />Many different actions synchronize the repository state with the search index, so we expect natural recovery for repositories that see more frequent user and API-driven interactions. <br /><br />A complete index reconciliation is underway to restore stagnant repositories that were deleted from the index. We will update again once we have a clear timeline of when we expect full recovery for those missing search results.",
+          "incident_id": "n3vgjzqv7d18",
+          "created_at": "2025-09-13T22:39:11.177Z",
+          "updated_at": "2025-09-13T22:39:11.177Z",
+          "display_at": "2025-09-13T22:39:11.177Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "9zty7y3lgd15",
           "status": "investigating",
