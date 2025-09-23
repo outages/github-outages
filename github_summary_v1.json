@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-09-23T17:33:26.051Z"
+    "updated_at": "2025-09-23T17:41:57.920Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2025-09-23T17:28:11.043Z",
+      "updated_at": "2025-09-23T17:41:57.846Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "vg70hn9s2tyj",
       "name": "Pages",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2025-09-23T17:28:11.063Z",
+      "updated_at": "2025-09-23T17:41:57.865Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": false,
@@ -173,154 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "zlzvt6h3ck58",
-      "name": "Incident with Pages and Actions",
-      "status": "investigating",
-      "created_at": "2025-09-23T17:28:11.004Z",
-      "updated_at": "2025-09-23T17:33:26.042Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/k0l0z4vlt8js",
-      "started_at": "2025-09-23T17:28:10.996Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "gd8x7dgl6nj2",
-          "status": "investigating",
-          "body": "We are investigating delays in Actions Workflows.",
-          "incident_id": "zlzvt6h3ck58",
-          "created_at": "2025-09-23T17:33:26.039Z",
-          "updated_at": "2025-09-23T17:33:26.039Z",
-          "display_at": "2025-09-23T17:33:26.039Z",
-          "affected_components": [
-            {
-              "code": "vg70hn9s2tyj",
-              "name": "Pages",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "4syjvsw0ytm9",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Actions and Pages",
-          "incident_id": "zlzvt6h3ck58",
-          "created_at": "2025-09-23T17:28:11.107Z",
-          "updated_at": "2025-09-23T17:28:11.107Z",
-          "display_at": "2025-09-23T17:28:11.107Z",
-          "affected_components": [
-            {
-              "code": "vg70hn9s2tyj",
-              "name": "Pages",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "br0l2tvcx85d",
-          "name": "Actions",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2025-09-23T17:28:11.043Z",
-          "position": 7,
-          "description": "Workflows, Compute and Orchestration for GitHub Actions",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "vg70hn9s2tyj",
-          "name": "Pages",
-          "status": "partial_outage",
-          "created_at": "2017-01-31T20:04:33.923Z",
-          "updated_at": "2025-09-23T17:28:11.063Z",
-          "position": 9,
-          "description": "Frontend application and API servers for Pages builds",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    },
-    {
-      "id": "6kcgrd38691w",
-      "name": "Disruption with some GitHub services",
-      "status": "investigating",
-      "created_at": "2025-09-23T16:46:53.550Z",
-      "updated_at": "2025-09-23T16:50:13.213Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/b74vw8kjdhw4",
-      "started_at": "2025-09-23T16:46:53.543Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "d4lzs9lcsxp9",
-          "status": "investigating",
-          "body": "We're seeing delays related to outbound emails and are investigating.",
-          "incident_id": "6kcgrd38691w",
-          "created_at": "2025-09-23T16:50:13.210Z",
-          "updated_at": "2025-09-23T16:50:13.210Z",
-          "display_at": "2025-09-23T16:50:13.210Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "svc8pkfqsg8d",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "6kcgrd38691w",
-          "created_at": "2025-09-23T16:46:53.591Z",
-          "updated_at": "2025-09-23T16:46:53.591Z",
-          "display_at": "2025-09-23T16:46:53.591Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
