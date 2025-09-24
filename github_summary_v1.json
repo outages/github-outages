@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-09-23T23:20:24.365Z"
+    "updated_at": "2025-09-24T00:26:29.772Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "pjmpxvq2cmr2",
       "name": "Copilot",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2022-06-21T16:04:33.017Z",
-      "updated_at": "2025-09-23T22:22:21.226Z",
+      "updated_at": "2025-09-24T00:26:29.712Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -173,84 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "cm1pvx7g44d5",
-      "name": "Incident with Copilot",
-      "status": "investigating",
-      "created_at": "2025-09-23T22:22:21.194Z",
-      "updated_at": "2025-09-23T22:22:32.612Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/c6q6wz5x4xnz",
-      "started_at": "2025-09-23T22:22:21.188Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "5gt6zc53srg2",
-          "status": "investigating",
-          "body": "We are experiencing degraded availability for the Claude Sonnet 3.7 and Claude Sonnet 4 model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected.",
-          "incident_id": "cm1pvx7g44d5",
-          "created_at": "2025-09-23T22:22:32.609Z",
-          "updated_at": "2025-09-23T22:22:32.609Z",
-          "display_at": "2025-09-23T22:22:32.609Z",
-          "affected_components": [
-            {
-              "code": "pjmpxvq2cmr2",
-              "name": "Copilot",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "8jgrvy2mm3r8",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Copilot",
-          "incident_id": "cm1pvx7g44d5",
-          "created_at": "2025-09-23T22:22:21.264Z",
-          "updated_at": "2025-09-23T22:22:21.264Z",
-          "display_at": "2025-09-23T22:22:21.264Z",
-          "affected_components": [
-            {
-              "code": "pjmpxvq2cmr2",
-              "name": "Copilot",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "pjmpxvq2cmr2",
-          "name": "Copilot",
-          "status": "partial_outage",
-          "created_at": "2022-06-21T16:04:33.017Z",
-          "updated_at": "2025-09-23T22:22:21.226Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2022-06-21",
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
