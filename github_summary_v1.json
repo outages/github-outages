@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-01T23:31:02.413Z"
+    "updated_at": "2025-10-02T02:52:08.146Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Degraded Gemini 2.5 Pro experience in Copilot",
       "status": "investigating",
       "created_at": "2025-10-01T16:43:17.582Z",
-      "updated_at": "2025-10-01T18:16:57.324Z",
+      "updated_at": "2025-10-02T02:52:08.137Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2025-10-01T16:43:17.575Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "dwpjr0j1tt6g",
+          "status": "investigating",
+          "body": "We are continuing to work with our provider to resolve the issue where some Copilot requests using Gemini 2.5 Pro return an error indicating a bad request due to exceeding the input limit size.",
+          "incident_id": "l94jr9wnhs4r",
+          "created_at": "2025-10-02T02:52:08.134Z",
+          "updated_at": "2025-10-02T02:52:08.134Z",
+          "display_at": "2025-10-02T02:52:08.134Z",
+          "affected_components": [
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "3m4dpxvyc7hd",
           "status": "investigating",
