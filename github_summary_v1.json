@@ -4,15 +4,15 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-09T15:51:57.182Z"
+    "updated_at": "2025-10-09T16:27:16.278Z"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:05:05.370Z",
-      "updated_at": "2025-10-09T15:20:35.130Z",
+      "updated_at": "2025-10-09T16:04:20.376Z",
       "position": 1,
       "description": "Performance of git clones, pulls, pushes, and associated operations",
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2025-10-09T15:48:24.759Z",
+      "updated_at": "2025-10-09T16:24:12.261Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "vg70hn9s2tyj",
       "name": "Pages",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2025-10-09T15:09:33.632Z",
+      "updated_at": "2025-10-09T16:08:53.729Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": false,
@@ -179,7 +179,7 @@
       "name": "Incident with Webhooks",
       "status": "investigating",
       "created_at": "2025-10-09T14:45:43.999Z",
-      "updated_at": "2025-10-09T15:51:57.170Z",
+      "updated_at": "2025-10-09T16:27:16.269Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,286 @@
       "started_at": "2025-10-09T14:45:43.992Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "1m1hr0jhbvfp",
+          "status": "investigating",
+          "body": "Actions has fully recovered but Notifications is still experiencing delays. We will continue to update as the system is fully restored to normal operation.",
+          "incident_id": "k7bhmjkblcwp",
+          "created_at": "2025-10-09T16:27:16.267Z",
+          "updated_at": "2025-10-09T16:27:16.267Z",
+          "display_at": "2025-10-09T16:27:16.267Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "4fm1r33m7src",
+          "status": "investigating",
+          "body": "Actions is operating normally.",
+          "incident_id": "k7bhmjkblcwp",
+          "created_at": "2025-10-09T16:24:12.292Z",
+          "updated_at": "2025-10-09T16:24:12.292Z",
+          "display_at": "2025-10-09T16:24:12.292Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "nkq730d7v4by",
+          "status": "investigating",
+          "body": "Pages is operating normally.",
+          "incident_id": "k7bhmjkblcwp",
+          "created_at": "2025-10-09T16:08:53.759Z",
+          "updated_at": "2025-10-09T16:08:53.759Z",
+          "display_at": "2025-10-09T16:08:53.759Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "xgkbpkc9vvk2",
+          "status": "investigating",
+          "body": "Git Operations is operating normally.",
+          "incident_id": "k7bhmjkblcwp",
+          "created_at": "2025-10-09T16:04:20.407Z",
+          "updated_at": "2025-10-09T16:04:20.407Z",
+          "display_at": "2025-10-09T16:04:20.407Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "0nzfz8knlx36",
+          "status": "investigating",
+          "body": "Actions and Notifications are still experiencing delays as we process the backlog. We will continue to update as the system is fully restored to normal operation.",
+          "incident_id": "k7bhmjkblcwp",
+          "created_at": "2025-10-09T16:02:33.749Z",
+          "updated_at": "2025-10-09T16:02:33.749Z",
+          "display_at": "2025-10-09T16:02:33.749Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "0yrwxjl87h7j",
           "status": "investigating",
@@ -1050,9 +1330,9 @@
         {
           "id": "8l4ygp009s5s",
           "name": "Git Operations",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-01-31T20:05:05.370Z",
-          "updated_at": "2025-10-09T15:20:35.130Z",
+          "updated_at": "2025-10-09T16:04:20.376Z",
           "position": 1,
           "description": "Performance of git clones, pulls, pushes, and associated operations",
           "showcase": false,
@@ -1125,9 +1405,9 @@
         {
           "id": "br0l2tvcx85d",
           "name": "Actions",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2025-10-09T15:48:24.759Z",
+          "updated_at": "2025-10-09T16:24:12.261Z",
           "position": 7,
           "description": "Workflows, Compute and Orchestration for GitHub Actions",
           "showcase": false,
@@ -1140,9 +1420,9 @@
         {
           "id": "vg70hn9s2tyj",
           "name": "Pages",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-01-31T20:04:33.923Z",
-          "updated_at": "2025-10-09T15:09:33.632Z",
+          "updated_at": "2025-10-09T16:08:53.729Z",
           "position": 9,
           "description": "Frontend application and API servers for Pages builds",
           "showcase": false,
@@ -1158,7 +1438,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
