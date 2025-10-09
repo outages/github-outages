@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-09T14:20:26.935Z"
+    "updated_at": "2025-10-09T15:00:56.966Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "4230lsnqdsld",
       "name": "Webhooks",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2019-11-13T18:00:24.256Z",
-      "updated_at": "2025-08-05T16:14:01.686Z",
+      "updated_at": "2025-10-09T14:45:44.036Z",
       "position": 2,
       "description": "Real time HTTP callbacks of user-generated and system events",
       "showcase": false,
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2025-10-01T16:55:59.004Z",
+      "updated_at": "2025-10-09T14:50:03.164Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -173,10 +173,105 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "k7bhmjkblcwp",
+      "name": "Incident with Webhooks",
+      "status": "investigating",
+      "created_at": "2025-10-09T14:45:43.999Z",
+      "updated_at": "2025-10-09T14:50:03.208Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/dvs46j5220kk",
+      "started_at": "2025-10-09T14:45:43.992Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "d7r9khcvt23d",
+          "status": "investigating",
+          "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "k7bhmjkblcwp",
+          "created_at": "2025-10-09T14:50:03.205Z",
+          "updated_at": "2025-10-09T14:50:03.205Z",
+          "display_at": "2025-10-09T14:50:03.205Z",
+          "affected_components": [
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "415p98349ljs",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded availability for Webhooks",
+          "incident_id": "k7bhmjkblcwp",
+          "created_at": "2025-10-09T14:45:44.080Z",
+          "updated_at": "2025-10-09T14:45:44.080Z",
+          "display_at": "2025-10-09T14:45:44.080Z",
+          "affected_components": [
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "4230lsnqdsld",
+          "name": "Webhooks",
+          "status": "major_outage",
+          "created_at": "2019-11-13T18:00:24.256Z",
+          "updated_at": "2025-10-09T14:45:44.036Z",
+          "position": 2,
+          "description": "Real time HTTP callbacks of user-generated and system events",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "br0l2tvcx85d",
+          "name": "Actions",
+          "status": "partial_outage",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2025-10-09T14:50:03.164Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
