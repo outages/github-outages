@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-20T10:56:29.516Z"
+    "updated_at": "2025-10-20T11:01:14.607Z"
   },
   "components": [
     {
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2025-10-20T08:56:28.713Z",
+      "updated_at": "2025-10-20T11:01:14.566Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -173,144 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "krd9y2m82fbn",
-      "name": "Codespaces creation failling",
-      "status": "investigating",
-      "created_at": "2025-10-20T08:56:28.663Z",
-      "updated_at": "2025-10-20T10:56:29.505Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/ktsnjj8c32pm",
-      "started_at": "2025-10-20T08:56:28.653Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "vt9lpx0138ch",
-          "status": "investigating",
-          "body": "We are now seeing sustained recovery. As we continue to make our final checks, we hope to resolve this incident in the next 10 minutes.",
-          "incident_id": "krd9y2m82fbn",
-          "created_at": "2025-10-20T10:56:29.503Z",
-          "updated_at": "2025-10-20T10:56:29.503Z",
-          "display_at": "2025-10-20T10:56:29.503Z",
-          "affected_components": [
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "qx1g2x05yxnm",
-          "status": "investigating",
-          "body": "We are seeing early signs of recovery for Codespaces. The team will continue to monitor and keep this incident active as a line of communication until we are confident of full recovery.",
-          "incident_id": "krd9y2m82fbn",
-          "created_at": "2025-10-20T10:15:04.280Z",
-          "updated_at": "2025-10-20T10:15:04.280Z",
-          "display_at": "2025-10-20T10:15:04.280Z",
-          "affected_components": [
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "jgpx05b1jby2",
-          "status": "investigating",
-          "body": "We are continuing to monitor Codespace's error rates and will report further as we have more information.",
-          "incident_id": "krd9y2m82fbn",
-          "created_at": "2025-10-20T09:34:46.594Z",
-          "updated_at": "2025-10-20T09:34:46.594Z",
-          "display_at": "2025-10-20T09:34:46.594Z",
-          "affected_components": [
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "ny8gfsd048t7",
-          "status": "investigating",
-          "body": "We are seeing increased error rates with Codespaces generally. This is due to a third party provider experiencing problems. This impacts both creation of new Codespaces and resumption of existing ones.<br /><br />We continue to monitor and will report with more details as we have them.",
-          "incident_id": "krd9y2m82fbn",
-          "created_at": "2025-10-20T09:01:10.901Z",
-          "updated_at": "2025-10-20T09:01:10.901Z",
-          "display_at": "2025-10-20T09:01:10.901Z",
-          "affected_components": [
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wwkjkfr1bhz3",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded availability for Codespaces",
-          "incident_id": "krd9y2m82fbn",
-          "created_at": "2025-10-20T08:56:28.770Z",
-          "updated_at": "2025-10-20T08:56:28.770Z",
-          "display_at": "2025-10-20T08:56:28.770Z",
-          "affected_components": [
-            {
-              "code": "h2ftsgbw7kmk",
-              "name": "Codespaces",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "h2ftsgbw7kmk",
-          "name": "Codespaces",
-          "status": "major_outage",
-          "created_at": "2021-08-11T16:02:09.505Z",
-          "updated_at": "2025-10-20T08:56:28.713Z",
-          "position": 10,
-          "description": "Orchestration and Compute for GitHub Codespaces",
-          "showcase": false,
-          "start_date": "2021-08-11",
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
