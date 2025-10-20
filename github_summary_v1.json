@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-20T09:34:46.616Z"
+    "updated_at": "2025-10-20T10:15:04.297Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Codespaces creation failling",
       "status": "investigating",
       "created_at": "2025-10-20T08:56:28.663Z",
-      "updated_at": "2025-10-20T09:34:46.598Z",
+      "updated_at": "2025-10-20T10:15:04.284Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,26 @@
       "started_at": "2025-10-20T08:56:28.653Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "qx1g2x05yxnm",
+          "status": "investigating",
+          "body": "We are seeing early signs of recovery for Codespaces. The team will continue to monitor and keep this incident active as a line of communication until we are confident of full recovery.",
+          "incident_id": "krd9y2m82fbn",
+          "created_at": "2025-10-20T10:15:04.280Z",
+          "updated_at": "2025-10-20T10:15:04.280Z",
+          "display_at": "2025-10-20T10:15:04.280Z",
+          "affected_components": [
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "jgpx05b1jby2",
           "status": "investigating",
