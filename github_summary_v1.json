@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-21T09:44:58.190Z"
+    "updated_at": "2025-10-21T09:59:07.635Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Actions",
       "status": "investigating",
       "created_at": "2025-10-21T09:12:50.355Z",
-      "updated_at": "2025-10-21T09:25:38.203Z",
+      "updated_at": "2025-10-21T09:59:07.624Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2025-10-21T09:12:50.348Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "trlnkq46vsvm",
+          "status": "investigating",
+          "body": "We are still seeing delays in starting some Actions runs and are currently investigating. We will provide updates as we have more information.",
+          "incident_id": "qqd6b1xb63tq",
+          "created_at": "2025-10-21T09:59:07.621Z",
+          "updated_at": "2025-10-21T09:59:07.621Z",
+          "display_at": "2025-10-21T09:59:07.621Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "v9vhzh22plyp",
           "status": "investigating",
