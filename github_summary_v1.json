@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-21T15:20:57.842Z"
+    "updated_at": "2025-10-21T16:20:58.918Z"
   },
   "components": [
     {
@@ -173,7 +173,51 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "v61nk2fpysnq",
+      "name": "Disruption with some GitHub services",
+      "status": "investigating",
+      "created_at": "2025-10-21T16:00:54.316Z",
+      "updated_at": "2025-10-21T16:03:06.101Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/z2klktccqx0m",
+      "started_at": "2025-10-21T16:00:54.309Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "23qj6m1sxvxc",
+          "status": "investigating",
+          "body": "We're seeing issues for a small amount of customers with SAML/OIDC authentication for GitHub.com users. We are investigating.",
+          "incident_id": "v61nk2fpysnq",
+          "created_at": "2025-10-21T16:03:06.097Z",
+          "updated_at": "2025-10-21T16:03:06.097Z",
+          "display_at": "2025-10-21T16:03:06.097Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "nqdsqshf20fr",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "v61nk2fpysnq",
+          "created_at": "2025-10-21T16:00:54.353Z",
+          "updated_at": "2025-10-21T16:00:54.353Z",
+          "display_at": "2025-10-21T16:00:54.353Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
