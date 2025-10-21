@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-21T16:20:58.918Z"
+    "updated_at": "2025-10-21T16:33:33.521Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2025-10-21T16:00:54.316Z",
-      "updated_at": "2025-10-21T16:03:06.101Z",
+      "updated_at": "2025-10-21T16:33:33.510Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2025-10-21T16:00:54.309Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "ggxnkftm6wj5",
+          "status": "investigating",
+          "body": "We’ve identified the issue affecting some users with SAML/OIDC authentication and are actively working on mitigation. Some users may not be able to authenticate during this time.",
+          "incident_id": "v61nk2fpysnq",
+          "created_at": "2025-10-21T16:33:33.507Z",
+          "updated_at": "2025-10-21T16:33:33.507Z",
+          "display_at": "2025-10-21T16:33:33.507Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "23qj6m1sxvxc",
           "status": "investigating",
