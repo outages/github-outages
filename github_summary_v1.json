@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-29T12:55:58.085Z"
+    "updated_at": "2025-10-29T16:31:58.995Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2025-10-23T20:25:50.594Z",
+      "updated_at": "2025-10-29T16:17:10.289Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2025-10-20T11:01:14.566Z",
+      "updated_at": "2025-10-29T16:19:19.158Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -173,10 +173,131 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "4jxdz4m769gy",
+      "name": "Experiencing connection issues across Actions, Codespaces, and possibly other services",
+      "status": "investigating",
+      "created_at": "2025-10-29T16:17:10.257Z",
+      "updated_at": "2025-10-29T16:31:58.987Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/8b5xg6zdsm1x",
+      "started_at": "2025-10-29T16:17:10.250Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "5y87djfdrp4x",
+          "status": "investigating",
+          "body": "Actions impact is primarily limited to larger runner jobs at this time. This also impacts enterprise migrations.",
+          "incident_id": "4jxdz4m769gy",
+          "created_at": "2025-10-29T16:31:58.983Z",
+          "updated_at": "2025-10-29T16:31:58.983Z",
+          "display_at": "2025-10-29T16:31:58.983Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "kwdcc0ccvvcy",
+          "status": "investigating",
+          "body": "Codespaces is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "4jxdz4m769gy",
+          "created_at": "2025-10-29T16:19:19.214Z",
+          "updated_at": "2025-10-29T16:19:19.214Z",
+          "display_at": "2025-10-29T16:19:19.214Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "f9llnw0x7cls",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Actions",
+          "incident_id": "4jxdz4m769gy",
+          "created_at": "2025-10-29T16:17:10.329Z",
+          "updated_at": "2025-10-29T16:17:10.329Z",
+          "display_at": "2025-10-29T16:17:10.329Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "br0l2tvcx85d",
+          "name": "Actions",
+          "status": "partial_outage",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2025-10-29T16:17:10.289Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "h2ftsgbw7kmk",
+          "name": "Codespaces",
+          "status": "partial_outage",
+          "created_at": "2021-08-11T16:02:09.505Z",
+          "updated_at": "2025-10-29T16:19:19.158Z",
+          "position": 10,
+          "description": "Orchestration and Compute for GitHub Codespaces",
+          "showcase": false,
+          "start_date": "2021-08-11",
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
