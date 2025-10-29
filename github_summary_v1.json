@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-29T17:11:11.050Z"
+    "updated_at": "2025-10-29T17:40:00.028Z"
   },
   "components": [
     {
@@ -145,9 +145,9 @@
     {
       "id": "h2ftsgbw7kmk",
       "name": "Codespaces",
-      "status": "partial_outage",
+      "status": "major_outage",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2025-10-29T16:19:19.158Z",
+      "updated_at": "2025-10-29T17:39:59.973Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": false,
@@ -179,7 +179,7 @@
       "name": "Experiencing connection issues across Actions, Codespaces, and possibly other services",
       "status": "investigating",
       "created_at": "2025-10-29T16:17:10.257Z",
-      "updated_at": "2025-10-29T17:11:11.039Z",
+      "updated_at": "2025-10-29T17:40:00.018Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,58 @@
       "started_at": "2025-10-29T16:17:10.250Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "08slhb90h69b",
+          "status": "investigating",
+          "body": "Codespaces is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "4jxdz4m769gy",
+          "created_at": "2025-10-29T17:40:00.013Z",
+          "updated_at": "2025-10-29T17:40:00.013Z",
+          "display_at": "2025-10-29T17:40:00.013Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "pdsdnbh4j6fl",
+          "status": "investigating",
+          "body": "Additional impact from this incident:<br /><br />We’re currently investigating an issue causing the Copilot Metrics API report URLs to fail for 28-day and 1-day enterprise and user reports. We are collaborating with Azure teams to restore access as soon as possible.",
+          "incident_id": "4jxdz4m769gy",
+          "created_at": "2025-10-29T17:26:38.002Z",
+          "updated_at": "2025-10-29T17:26:38.002Z",
+          "display_at": "2025-10-29T17:26:38.002Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "bppdytstfnwv",
           "status": "investigating",
@@ -305,9 +357,9 @@
         {
           "id": "h2ftsgbw7kmk",
           "name": "Codespaces",
-          "status": "partial_outage",
+          "status": "major_outage",
           "created_at": "2021-08-11T16:02:09.505Z",
-          "updated_at": "2025-10-29T16:19:19.158Z",
+          "updated_at": "2025-10-29T17:39:59.973Z",
           "position": 10,
           "description": "Orchestration and Compute for GitHub Codespaces",
           "showcase": false,
@@ -323,7 +375,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
