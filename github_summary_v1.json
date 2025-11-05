@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-11-05T23:20:24.546Z"
+    "updated_at": "2025-11-05T23:35:09.419Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "pjmpxvq2cmr2",
       "name": "Copilot",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2022-06-21T16:04:33.017Z",
-      "updated_at": "2025-11-05T22:56:29.365Z",
+      "updated_at": "2025-11-05T23:26:56.284Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -173,84 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "d5c8rxcwt7xw",
-      "name": "Copilot Code Completions partially unavailable",
-      "status": "investigating",
-      "created_at": "2025-11-05T22:56:29.331Z",
-      "updated_at": "2025-11-05T22:57:56.425Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/mz25j863t219",
-      "started_at": "2025-11-05T22:56:29.324Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "w6pxkdvfpfy7",
-          "status": "investigating",
-          "body": "We are investigating increased error rates affecting Copilot Code Completions. Some users may experience delays or partial unavailability. Our engineering team is monitoring the situation and working to identify the cause.",
-          "incident_id": "d5c8rxcwt7xw",
-          "created_at": "2025-11-05T22:57:56.422Z",
-          "updated_at": "2025-11-05T22:57:56.422Z",
-          "display_at": "2025-11-05T22:57:56.422Z",
-          "affected_components": [
-            {
-              "code": "pjmpxvq2cmr2",
-              "name": "Copilot",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "rzzbrk04ptpt",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Copilot",
-          "incident_id": "d5c8rxcwt7xw",
-          "created_at": "2025-11-05T22:56:29.410Z",
-          "updated_at": "2025-11-05T22:56:29.410Z",
-          "display_at": "2025-11-05T22:56:29.410Z",
-          "affected_components": [
-            {
-              "code": "pjmpxvq2cmr2",
-              "name": "Copilot",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "pjmpxvq2cmr2",
-          "name": "Copilot",
-          "status": "partial_outage",
-          "created_at": "2022-06-21T16:04:33.017Z",
-          "updated_at": "2025-11-05T22:56:29.365Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2022-06-21",
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
