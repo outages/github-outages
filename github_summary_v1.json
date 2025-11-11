@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-11-11T18:37:46.555Z"
+    "updated_at": "2025-11-11T19:40:45.183Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Larger hosted runners experiencing delays",
       "status": "investigating",
       "created_at": "2025-11-11T18:02:26.242Z",
-      "updated_at": "2025-11-11T18:37:46.545Z",
+      "updated_at": "2025-11-11T19:40:45.173Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2025-11-11T18:02:26.236Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "d13stpd711cy",
+          "status": "investigating",
+          "body": "The team is continuing to apply the mitigation for Large Hosted Runners. We will provide updates as we progress.",
+          "incident_id": "htcm010tcwjq",
+          "created_at": "2025-11-11T19:40:45.169Z",
+          "updated_at": "2025-11-11T19:40:45.169Z",
+          "display_at": "2025-11-11T19:40:45.169Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "cgf24b7vgg4k",
           "status": "investigating",
