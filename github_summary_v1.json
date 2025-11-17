@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-11-17T18:54:14.486Z"
+    "updated_at": "2025-11-17T19:08:41.686Z"
   },
   "components": [
     {
@@ -173,90 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "3bmqzkljz8s3",
-      "name": "Disruption with some GitHub services",
-      "status": "investigating",
-      "created_at": "2025-11-17T16:52:18.279Z",
-      "updated_at": "2025-11-17T18:54:14.474Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/vwnw4q61sp3m",
-      "started_at": "2025-11-17T16:52:18.272Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "3w03q3znhqhv",
-          "status": "investigating",
-          "body": "We continue to see recovery and dependabot jobs are currently processing as expected.",
-          "incident_id": "3bmqzkljz8s3",
-          "created_at": "2025-11-17T18:54:14.471Z",
-          "updated_at": "2025-11-17T18:54:14.471Z",
-          "display_at": "2025-11-17T18:54:14.471Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "thzmhn86jw9t",
-          "status": "investigating",
-          "body": "We are applying a configuration change and will monitor for recovery.",
-          "incident_id": "3bmqzkljz8s3",
-          "created_at": "2025-11-17T18:18:57.585Z",
-          "updated_at": "2025-11-17T18:18:57.585Z",
-          "display_at": "2025-11-17T18:18:57.585Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "r44bcff23ps3",
-          "status": "investigating",
-          "body": "We are continuing to investigate dependabot failures and a configuration change to mitigate.",
-          "incident_id": "3bmqzkljz8s3",
-          "created_at": "2025-11-17T17:50:41.106Z",
-          "updated_at": "2025-11-17T17:50:41.106Z",
-          "display_at": "2025-11-17T17:50:41.106Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "pdy5p5v9ljr4",
-          "status": "investigating",
-          "body": "We are investigating dependabot job failures affecting approximately 50% of version updates and 25% of security updates.",
-          "incident_id": "3bmqzkljz8s3",
-          "created_at": "2025-11-17T17:15:48.163Z",
-          "updated_at": "2025-11-17T17:15:48.163Z",
-          "display_at": "2025-11-17T17:15:48.163Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "9qlx54ch2s62",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "3bmqzkljz8s3",
-          "created_at": "2025-11-17T16:52:18.318Z",
-          "updated_at": "2025-11-17T16:52:18.318Z",
-          "display_at": "2025-11-17T16:52:18.318Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
