@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-12-08T21:32:57.563Z"
+    "updated_at": "2025-12-08T22:20:23.501Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2025-12-08T21:28:27.408Z",
-      "updated_at": "2025-12-08T21:32:57.554Z",
+      "updated_at": "2025-12-08T22:10:59.492Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,32 @@
       "started_at": "2025-12-08T21:28:27.403Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "qlkzzyzrcdpb",
+          "status": "investigating",
+          "body": "We are beginning to see signs of resolution after applying a mitigation. We expect full resolution within approximately 30 minutes.",
+          "incident_id": "n4fpndtvbmwb",
+          "created_at": "2025-12-08T22:10:59.490Z",
+          "updated_at": "2025-12-08T22:10:59.490Z",
+          "display_at": "2025-12-08T22:10:59.490Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "z3kpht3v0g3g",
+          "status": "investigating",
+          "body": "We're continuing to investigate and mitigate issues with the GPT 4o model for Copilot completions. Users can currently work around this issue by updating their VS Code settings with \"github.copilot.advanced.debug.overrideEngine\": \"gpt-41-copilot\".",
+          "incident_id": "n4fpndtvbmwb",
+          "created_at": "2025-12-08T22:04:47.127Z",
+          "updated_at": "2025-12-08T22:04:47.127Z",
+          "display_at": "2025-12-08T22:04:47.127Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "b5vb3b7wfy6l",
           "status": "investigating",
