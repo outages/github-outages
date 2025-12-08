@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-12-08T20:20:23.848Z"
+    "updated_at": "2025-12-08T21:06:10.677Z"
   },
   "components": [
     {
@@ -173,51 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "r6fc6tyzr430",
-      "name": "Potential disruption with our Agent Control Plane UI Settings",
-      "status": "investigating",
-      "created_at": "2025-12-08T19:51:39.641Z",
-      "updated_at": "2025-12-08T19:52:06.575Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/yy2q3fwcwpy5",
-      "started_at": "2025-12-08T19:51:39.635Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "fry13ymcw793",
-          "status": "investigating",
-          "body": "We are investigating an incident affecting missing Agent Session data on the AI Settings page on Agent Control Plane.",
-          "incident_id": "r6fc6tyzr430",
-          "created_at": "2025-12-08T19:52:06.571Z",
-          "updated_at": "2025-12-08T19:52:06.571Z",
-          "display_at": "2025-12-08T19:52:06.571Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "xhtkf17nb3x3",
-          "status": "investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "incident_id": "r6fc6tyzr430",
-          "created_at": "2025-12-08T19:51:39.679Z",
-          "updated_at": "2025-12-08T19:51:39.679Z",
-          "display_at": "2025-12-08T19:51:39.679Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
