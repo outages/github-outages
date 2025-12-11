@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-12-11T12:51:02.239Z"
+    "updated_at": "2025-12-11T15:47:36.994Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2025-10-09T15:39:04.309Z",
+      "updated_at": "2025-12-11T15:47:36.948Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": false,
@@ -173,10 +173,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "xntfc1fz5rfb",
+      "name": "We are investigating a rise in request failures on several services",
+      "status": "investigating",
+      "created_at": "2025-12-11T15:47:36.917Z",
+      "updated_at": "2025-12-11T15:47:36.991Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/l0cn9kq9p989",
+      "started_at": "2025-12-11T15:47:36.908Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "y5hcndjjxwz8",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Issues",
+          "incident_id": "xntfc1fz5rfb",
+          "created_at": "2025-12-11T15:47:36.989Z",
+          "updated_at": "2025-12-11T15:47:36.989Z",
+          "display_at": "2025-12-11T15:47:36.989Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "kr09ddfgbfsf",
+          "name": "Issues",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:01:46.638Z",
+          "updated_at": "2025-12-11T15:47:36.948Z",
+          "position": 5,
+          "description": "Requests for Issues on GitHub.com",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
