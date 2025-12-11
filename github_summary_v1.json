@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-12-11T18:47:40.616Z"
+    "updated_at": "2025-12-11T19:20:26.257Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruptions in Login and Signup Flows",
       "status": "investigating",
       "created_at": "2025-12-11T18:40:12.140Z",
-      "updated_at": "2025-12-11T18:47:40.607Z",
+      "updated_at": "2025-12-11T19:04:32.594Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2025-12-11T18:40:12.133Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "9jrcnjc4j6m3",
+          "status": "investigating",
+          "body": "We've applied a mitigation to fix intermittent failures in anonymous requests and downloads from GitHub, including Login, Signup, Logout, and some requests from within Actions jobs. We are seeing improvements in telemetry, but we will continue to monitor for full recovery.",
+          "incident_id": "40730vhmg6y8",
+          "created_at": "2025-12-11T19:04:32.591Z",
+          "updated_at": "2025-12-11T19:04:32.591Z",
+          "display_at": "2025-12-11T19:04:32.591Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "53zqbtkjrglb",
           "status": "investigating",
