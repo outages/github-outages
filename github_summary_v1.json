@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-12-15T15:06:33.579Z"
+    "updated_at": "2025-12-15T15:45:52.379Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "pjmpxvq2cmr2",
       "name": "Copilot",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2022-06-21T16:04:33.017Z",
-      "updated_at": "2025-12-15T14:12:49.533Z",
+      "updated_at": "2025-12-15T15:45:52.337Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -173,104 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "jcbsbbfd1x9r",
-      "name": "Incident with Copilot Grok Code Fast 1",
-      "status": "investigating",
-      "created_at": "2025-12-15T14:12:49.505Z",
-      "updated_at": "2025-12-15T15:06:33.570Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/lkndvrndrz2q",
-      "started_at": "2025-12-15T14:12:49.499Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "t4g7wdnnrlhs",
-          "status": "investigating",
-          "body": "We are continuing to work with our provider on resolving the incident with Grok Code Fast 1. Users can expect some requests to intermittently fail until all issues are resolved.",
-          "incident_id": "jcbsbbfd1x9r",
-          "created_at": "2025-12-15T15:06:33.567Z",
-          "updated_at": "2025-12-15T15:06:33.567Z",
-          "display_at": "2025-12-15T15:06:33.567Z",
-          "affected_components": [
-            {
-              "code": "pjmpxvq2cmr2",
-              "name": "Copilot",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "9bsfcf5cnbfc",
-          "status": "investigating",
-          "body": "We are experiencing degraded availability for the Grok Code Fast 1 model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected.",
-          "incident_id": "jcbsbbfd1x9r",
-          "created_at": "2025-12-15T14:13:20.854Z",
-          "updated_at": "2025-12-15T14:13:20.854Z",
-          "display_at": "2025-12-15T14:13:20.854Z",
-          "affected_components": [
-            {
-              "code": "pjmpxvq2cmr2",
-              "name": "Copilot",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "mbgqslv3xw5p",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Copilot",
-          "incident_id": "jcbsbbfd1x9r",
-          "created_at": "2025-12-15T14:12:49.567Z",
-          "updated_at": "2025-12-15T14:12:49.567Z",
-          "display_at": "2025-12-15T14:12:49.567Z",
-          "affected_components": [
-            {
-              "code": "pjmpxvq2cmr2",
-              "name": "Copilot",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "pjmpxvq2cmr2",
-          "name": "Copilot",
-          "status": "partial_outage",
-          "created_at": "2022-06-21T16:04:33.017Z",
-          "updated_at": "2025-12-15T14:12:49.533Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": "2022-06-21",
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
