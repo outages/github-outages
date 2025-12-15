@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-12-15T17:43:43.121Z"
+    "updated_at": "2025-12-15T18:22:12.879Z"
   },
   "components": [
     {
@@ -173,38 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "qkr3gcys0lzx",
-      "name": "Copilot Code Review is degraded, and not returning responses to users",
-      "status": "investigating",
-      "created_at": "2025-12-15T17:43:43.075Z",
-      "updated_at": "2025-12-15T17:43:43.117Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/vnwn9lnwsz3w",
-      "started_at": "2025-12-15T17:43:43.068Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "c4kwpqh2p39d",
-          "status": "investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "incident_id": "qkr3gcys0lzx",
-          "created_at": "2025-12-15T17:43:43.114Z",
-          "updated_at": "2025-12-15T17:43:43.114Z",
-          "display_at": "2025-12-15T17:43:43.114Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
