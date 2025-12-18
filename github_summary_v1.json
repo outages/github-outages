@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-12-18T17:36:15.126Z"
+    "updated_at": "2025-12-18T17:41:41.515Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2025-12-18T16:43:57.481Z",
+      "updated_at": "2025-12-18T17:41:41.465Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -216,104 +216,11 @@
       ],
       "components": [],
       "reminder_intervals": null
-    },
-    {
-      "id": "x696x0g4t85l",
-      "name": "Intermittent networking failures across GitHub-hosted Actions runners",
-      "status": "investigating",
-      "created_at": "2025-12-18T16:43:57.438Z",
-      "updated_at": "2025-12-18T17:29:30.261Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/s5w0sdknlvy1",
-      "started_at": "2025-12-18T16:43:57.429Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "dzzg029bb4jt",
-          "status": "investigating",
-          "body": "We are observing recovery with request from GitHub-hosted Actions runners and will continue to monitor.",
-          "incident_id": "x696x0g4t85l",
-          "created_at": "2025-12-18T17:29:30.257Z",
-          "updated_at": "2025-12-18T17:29:30.257Z",
-          "display_at": "2025-12-18T17:29:30.257Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "vmhlpf8np4lb",
-          "status": "investigating",
-          "body": "Since approximately 8:00 UTC, we have observed intermittent failures on GitHub-hosted actions runners. The failures have been observed both during runner setup, and workflow execution. We are continuing to investigate.<br /><br />Self-hosted runners are not impacted.",
-          "incident_id": "x696x0g4t85l",
-          "created_at": "2025-12-18T16:45:14.244Z",
-          "updated_at": "2025-12-18T16:45:14.244Z",
-          "display_at": "2025-12-18T16:45:14.244Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "dsw1939v1y2c",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Actions",
-          "incident_id": "x696x0g4t85l",
-          "created_at": "2025-12-18T16:43:57.523Z",
-          "updated_at": "2025-12-18T16:43:57.523Z",
-          "display_at": "2025-12-18T16:43:57.523Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "br0l2tvcx85d",
-          "name": "Actions",
-          "status": "partial_outage",
-          "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2025-12-18T16:43:57.481Z",
-          "position": 7,
-          "description": "Workflows, Compute and Orchestration for GitHub Actions",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
     }
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
