@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-12-18T15:16:04.019Z"
+    "updated_at": "2025-12-18T16:32:16.439Z"
   },
   "components": [
     {
@@ -173,7 +173,38 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "vkr22005hg0x",
+      "name": "Intermittent networking issues across hosted runners",
+      "status": "investigating",
+      "created_at": "2025-12-18T16:32:16.395Z",
+      "updated_at": "2025-12-18T16:32:16.437Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/xq33t8wv91m7",
+      "started_at": "2025-12-18T16:32:16.388Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "sc8xrsc9mflb",
+          "status": "investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "incident_id": "vkr22005hg0x",
+          "created_at": "2025-12-18T16:32:16.434Z",
+          "updated_at": "2025-12-18T16:32:16.434Z",
+          "display_at": "2025-12-18T16:32:16.434Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
