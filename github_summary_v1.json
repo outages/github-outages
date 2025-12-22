@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-12-22T22:48:52.034Z"
+    "updated_at": "2025-12-22T22:57:40.934Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2025-12-22T22:31:51.583Z",
-      "updated_at": "2025-12-22T22:48:52.023Z",
+      "updated_at": "2025-12-22T22:57:40.925Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,26 @@
       "started_at": "2025-12-22T22:31:51.575Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "h7858l9sry0j",
+          "status": "investigating",
+          "body": "We are experiencing elevated traffic affecting some GitHub services, primarily impacting logged-out users. We're actively investigating the full scope and working to restore normal service. We'll post another update by 23:45 UTC.",
+          "incident_id": "y2wxzcfbgbn2",
+          "created_at": "2025-12-22T22:57:40.922Z",
+          "updated_at": "2025-12-22T22:57:40.922Z",
+          "display_at": "2025-12-22T22:57:40.922Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "vl1x2z5xk27j",
           "status": "investigating",
