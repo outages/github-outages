@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-12-22T23:32:27.520Z"
+    "updated_at": "2025-12-23T00:17:33.812Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2025-12-22T22:48:51.981Z",
+      "updated_at": "2025-12-23T00:17:33.767Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": false,
@@ -173,117 +173,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "y2wxzcfbgbn2",
-      "name": "Disruption with some GitHub services",
-      "status": "investigating",
-      "created_at": "2025-12-22T22:31:51.583Z",
-      "updated_at": "2025-12-22T23:32:27.513Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/1wdzccrdkn6k",
-      "started_at": "2025-12-22T22:31:51.575Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "ymf6cpz50wr6",
-          "status": "investigating",
-          "body": "We're investigating elevated traffic affecting GitHub services, primarily impacting logged-out users with some increased latency on Issues. We're preparing additional mitigations to prevent further spikes.",
-          "incident_id": "y2wxzcfbgbn2",
-          "created_at": "2025-12-22T23:32:27.510Z",
-          "updated_at": "2025-12-22T23:32:27.510Z",
-          "display_at": "2025-12-22T23:32:27.510Z",
-          "affected_components": [
-            {
-              "code": "kr09ddfgbfsf",
-              "name": "Issues",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "h7858l9sry0j",
-          "status": "investigating",
-          "body": "We are experiencing elevated traffic affecting some GitHub services, primarily impacting logged-out users. We're actively investigating the full scope and working to restore normal service. We'll post another update by 23:45 UTC.",
-          "incident_id": "y2wxzcfbgbn2",
-          "created_at": "2025-12-22T22:57:40.922Z",
-          "updated_at": "2025-12-22T22:57:40.922Z",
-          "display_at": "2025-12-22T22:57:40.922Z",
-          "affected_components": [
-            {
-              "code": "kr09ddfgbfsf",
-              "name": "Issues",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "vl1x2z5xk27j",
-          "status": "investigating",
-          "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "y2wxzcfbgbn2",
-          "created_at": "2025-12-22T22:48:52.019Z",
-          "updated_at": "2025-12-22T22:48:52.019Z",
-          "display_at": "2025-12-22T22:48:52.019Z",
-          "affected_components": [
-            {
-              "code": "kr09ddfgbfsf",
-              "name": "Issues",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "q239ndp62z2k",
-          "status": "investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "incident_id": "y2wxzcfbgbn2",
-          "created_at": "2025-12-22T22:31:51.630Z",
-          "updated_at": "2025-12-22T22:31:51.630Z",
-          "display_at": "2025-12-22T22:31:51.630Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "kr09ddfgbfsf",
-          "name": "Issues",
-          "status": "partial_outage",
-          "created_at": "2017-01-31T20:01:46.638Z",
-          "updated_at": "2025-12-22T22:48:51.981Z",
-          "position": 5,
-          "description": "Requests for Issues on GitHub.com",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
