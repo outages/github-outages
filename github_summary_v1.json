@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-01-09T13:56:05.968Z"
+    "updated_at": "2026-01-09T17:53:59.867Z"
   },
   "components": [
     {
@@ -173,7 +173,38 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "8bcsk6c4prjl",
+      "name": "Disruption with some GitHub services",
+      "status": "investigating",
+      "created_at": "2026-01-09T17:53:59.830Z",
+      "updated_at": "2026-01-09T17:53:59.865Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/ncz4ztj6wzh7",
+      "started_at": "2026-01-09T17:53:59.825Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "3z7njtnbz222",
+          "status": "investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "incident_id": "8bcsk6c4prjl",
+          "created_at": "2026-01-09T17:53:59.862Z",
+          "updated_at": "2026-01-09T17:53:59.862Z",
+          "display_at": "2026-01-09T17:53:59.862Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
