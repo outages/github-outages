@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-01-09T22:21:10.212Z"
+    "updated_at": "2026-01-09T22:41:50.222Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2026-01-09T17:53:59.830Z",
-      "updated_at": "2026-01-09T21:36:21.042Z",
+      "updated_at": "2026-01-09T22:41:50.213Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2026-01-09T17:53:59.825Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "xrhfgcyf6w6g",
+          "status": "investigating",
+          "body": "We are seeing delays processing the AI Session event queue, which is causing sessions to not be displayed on the AI Controls UI. We have deployed a fix to improve the queue processing and are monitoring for effectiveness. We continue to investigate other mitigation paths.",
+          "incident_id": "8bcsk6c4prjl",
+          "created_at": "2026-01-09T22:41:50.210Z",
+          "updated_at": "2026-01-09T22:41:50.210Z",
+          "display_at": "2026-01-09T22:41:50.210Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "1cg0bsykxvsn",
           "status": "investigating",
