@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-01-13T23:36:34.937Z"
+    "updated_at": "2026-01-14T00:41:27.163Z"
   },
   "components": [
     {
@@ -173,64 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "zwlfnp5z0r4s",
-      "name": "Disruption with some GitHub services",
-      "status": "investigating",
-      "created_at": "2026-01-13T22:21:12.669Z",
-      "updated_at": "2026-01-13T23:36:34.928Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/c8v59kfgmn6k",
-      "started_at": "2026-01-13T22:21:12.662Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "xs4ttnv14dj0",
-          "status": "investigating",
-          "body": "We are continuing to investigate increased latency with code search service.",
-          "incident_id": "zwlfnp5z0r4s",
-          "created_at": "2026-01-13T23:36:34.926Z",
-          "updated_at": "2026-01-13T23:36:34.926Z",
-          "display_at": "2026-01-13T23:36:34.926Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "42hd5xjprsq8",
-          "status": "investigating",
-          "body": "We are investigating reports of increased latency with code search. We will continue to keep users updated on progress towards mitigation.",
-          "incident_id": "zwlfnp5z0r4s",
-          "created_at": "2026-01-13T22:53:44.211Z",
-          "updated_at": "2026-01-13T22:53:44.211Z",
-          "display_at": "2026-01-13T22:53:44.211Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "dkmnl5259zdz",
-          "status": "investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "incident_id": "zwlfnp5z0r4s",
-          "created_at": "2026-01-13T22:21:12.717Z",
-          "updated_at": "2026-01-13T22:21:12.717Z",
-          "display_at": "2026-01-13T22:21:12.717Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
