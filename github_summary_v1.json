@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-01-14T11:45:21.401Z"
+    "updated_at": "2026-01-14T12:23:28.589Z"
   },
   "components": [
     {
@@ -173,64 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "4htf8bgy1xlz",
-      "name": "Claude Opus 4.5 model experiencing degraded performance",
-      "status": "investigating",
-      "created_at": "2026-01-14T10:56:17.718Z",
-      "updated_at": "2026-01-14T11:45:21.391Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/lb3p41jsyj37",
-      "started_at": "2026-01-14T10:56:17.711Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "xwngj2m42tgg",
-          "status": "investigating",
-          "body": "We are continuing to investigate issues with Claude Opus 4.5 and are working to restore performance across our model providers.",
-          "incident_id": "4htf8bgy1xlz",
-          "created_at": "2026-01-14T11:45:21.388Z",
-          "updated_at": "2026-01-14T11:45:21.388Z",
-          "display_at": "2026-01-14T11:45:21.388Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "85tbv01d3hmb",
-          "status": "investigating",
-          "body": "We are experiencing issues with our Claude Opus 4.5 providers and are investigating remediation.",
-          "incident_id": "4htf8bgy1xlz",
-          "created_at": "2026-01-14T11:00:15.338Z",
-          "updated_at": "2026-01-14T11:00:15.338Z",
-          "display_at": "2026-01-14T11:00:15.338Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "czp29vs3z6cg",
-          "status": "investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "incident_id": "4htf8bgy1xlz",
-          "created_at": "2026-01-14T10:56:17.756Z",
-          "updated_at": "2026-01-14T10:56:17.756Z",
-          "display_at": "2026-01-14T10:56:17.756Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
