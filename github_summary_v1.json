@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-01-16T23:53:48.651Z"
+    "updated_at": "2026-01-17T01:28:12.698Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2026-01-16T23:53:43.623Z",
-      "updated_at": "2026-01-16T23:53:48.643Z",
+      "updated_at": "2026-01-17T01:28:12.688Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,32 @@
       "started_at": "2026-01-16T23:53:43.616Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "0y384y2xbjmp",
+          "status": "investigating",
+          "body": "Deployment of the fix is in progress. We are still targetting 2:00 AM UTC for full resolution.",
+          "incident_id": "zltcsbhqmvqq",
+          "created_at": "2026-01-17T01:28:12.685Z",
+          "updated_at": "2026-01-17T01:28:12.685Z",
+          "display_at": "2026-01-17T01:28:12.685Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "0x2dtnxq3vbt",
+          "status": "investigating",
+          "body": "Some enterprise Copilot CLI users may encounter an \"You are not authorized to use this Copilot feature\" error. We have identified the root cause and are currently deploying a fix. Expected resolution: within 2 hours.",
+          "incident_id": "zltcsbhqmvqq",
+          "created_at": "2026-01-17T00:08:38.249Z",
+          "updated_at": "2026-01-17T00:08:38.249Z",
+          "display_at": "2026-01-17T00:08:38.249Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "6rg38w12f12w",
           "status": "investigating",
