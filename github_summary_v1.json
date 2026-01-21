@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-01-21T17:51:06.978Z"
+    "updated_at": "2026-01-21T19:31:05.430Z"
   },
   "components": [
     {
@@ -173,7 +173,38 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "6d5kv6l8d8q3",
+      "name": "Policy pages for Copilot are timing out",
+      "status": "investigating",
+      "created_at": "2026-01-21T19:31:05.378Z",
+      "updated_at": "2026-01-21T19:31:05.426Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/p2sbjf6lb6q9",
+      "started_at": "2026-01-21T19:31:05.370Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "73kbqtnwxw74",
+          "status": "investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "incident_id": "6d5kv6l8d8q3",
+          "created_at": "2026-01-21T19:31:05.423Z",
+          "updated_at": "2026-01-21T19:31:05.423Z",
+          "display_at": "2026-01-21T19:31:05.423Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
