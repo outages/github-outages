@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-01-26T20:20:23.690Z"
+    "updated_at": "2026-01-26T21:20:49.682Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Regression in windows runners for public repositories",
       "status": "investigating",
       "created_at": "2026-01-26T19:25:51.846Z",
-      "updated_at": "2026-01-26T20:10:36.753Z",
+      "updated_at": "2026-01-26T21:20:49.672Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2026-01-26T19:25:51.840Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "cvd8ywtvtq28",
+          "status": "investigating",
+          "body": "Rollback has been completed, but we are still seeing failures on about 11% of GitHub Actions runs on 4 Core Windows runners in public repositories.<br /><br />If your workflow fails to start, try re-running and it is likely to work a second time.",
+          "incident_id": "90hj03y5tj3c",
+          "created_at": "2026-01-26T21:20:49.670Z",
+          "updated_at": "2026-01-26T21:20:49.670Z",
+          "display_at": "2026-01-26T21:20:49.670Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "91cjcgt65y16",
           "status": "investigating",
