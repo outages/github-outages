@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-01-26T19:32:07.914Z"
+    "updated_at": "2026-01-26T20:20:23.690Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Regression in windows runners for public repositories",
       "status": "investigating",
       "created_at": "2026-01-26T19:25:51.846Z",
-      "updated_at": "2026-01-26T19:32:07.901Z",
+      "updated_at": "2026-01-26T20:10:36.753Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2026-01-26T19:25:51.840Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "91cjcgt65y16",
+          "status": "investigating",
+          "body": "Mitigation for failing GitHub Actions jobs on 4-Core Windows runners is still being mitigated. You should start to see more runs succeeding.<br />If you do see failing runs, please retry and they might succeed.",
+          "incident_id": "90hj03y5tj3c",
+          "created_at": "2026-01-26T20:10:36.750Z",
+          "updated_at": "2026-01-26T20:10:36.750Z",
+          "display_at": "2026-01-26T20:10:36.750Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "twsb78kc71dt",
           "status": "investigating",
