@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-02-03T16:51:14.527Z"
+    "updated_at": "2026-02-03T18:06:03.430Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Delays in UI updates for Actions Runs",
       "status": "investigating",
       "created_at": "2026-02-03T16:10:32.394Z",
-      "updated_at": "2026-02-03T16:51:14.518Z",
+      "updated_at": "2026-02-03T18:06:03.413Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2026-02-03T16:10:32.386Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "vp63bxx4st9w",
+          "status": "investigating",
+          "body": "Our telemetry shows improvement on latency in job status updates. We will continue monitoring until full recovery.",
+          "incident_id": "f314nlctbfs5",
+          "created_at": "2026-02-03T18:06:03.408Z",
+          "updated_at": "2026-02-03T18:06:03.408Z",
+          "display_at": "2026-02-03T18:06:03.408Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "xwk1sdxptfm0",
           "status": "investigating",
