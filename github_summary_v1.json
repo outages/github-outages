@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-02-09T13:48:39.753Z"
+    "updated_at": "2026-02-09T14:54:49.811Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2026-02-09T11:26:29.790Z",
+      "updated_at": "2026-02-09T14:17:02.082Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": false,
@@ -173,10 +173,104 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "tkz0ptx49rl0",
+      "name": "Incident with Actions",
+      "status": "investigating",
+      "created_at": "2026-02-09T14:17:02.051Z",
+      "updated_at": "2026-02-09T14:54:49.801Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/smhn681gk34y",
+      "started_at": "2026-02-09T14:17:02.045Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "q2jl7txcq4ry",
+          "status": "investigating",
+          "body": "We continue to investigate an issue causing Actions run start delays, impacting approximately 4% of users.",
+          "incident_id": "tkz0ptx49rl0",
+          "created_at": "2026-02-09T14:54:49.798Z",
+          "updated_at": "2026-02-09T14:54:49.798Z",
+          "display_at": "2026-02-09T14:54:49.798Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "z7wjngym15ks",
+          "status": "investigating",
+          "body": "We are investigating an issue with Actions run start delays, impacting approximately 4% of users.",
+          "incident_id": "tkz0ptx49rl0",
+          "created_at": "2026-02-09T14:17:12.956Z",
+          "updated_at": "2026-02-09T14:17:12.956Z",
+          "display_at": "2026-02-09T14:17:12.956Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "kz47x3yyvpcd",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Actions",
+          "incident_id": "tkz0ptx49rl0",
+          "created_at": "2026-02-09T14:17:02.119Z",
+          "updated_at": "2026-02-09T14:17:02.119Z",
+          "display_at": "2026-02-09T14:17:02.119Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "br0l2tvcx85d",
+          "name": "Actions",
+          "status": "partial_outage",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2026-02-09T14:17:02.082Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
