@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-02-09T20:39:01.385Z"
+    "updated_at": "2026-02-09T22:09:59.220Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Copilot Policy Propagation Delays",
       "status": "investigating",
       "created_at": "2026-02-09T16:29:41.378Z",
-      "updated_at": "2026-02-09T20:39:01.375Z",
+      "updated_at": "2026-02-09T22:09:59.208Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2026-02-09T16:29:41.371Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "qhvkfqnkl91j",
+          "status": "investigating",
+          "body": "We're continuing to investigate an issue where Copilot policy updates are not propagating correctly for a subset of enterprise users.<br /><br />This may prevent newly enabled models from appearing when users try to access them.<br /><br />Next update in two hours.",
+          "incident_id": "t5qmhtg29933",
+          "created_at": "2026-02-09T22:09:59.204Z",
+          "updated_at": "2026-02-09T22:09:59.204Z",
+          "display_at": "2026-02-09T22:09:59.204Z",
+          "affected_components": [
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "0vls62h33n5p",
           "status": "investigating",
