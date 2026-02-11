@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-02-11T13:48:49.981Z"
+    "updated_at": "2026-02-11T15:27:22.408Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2026-01-15T17:51:52.535Z",
+      "updated_at": "2026-02-11T15:26:53.530Z",
       "position": 4,
       "description": "Requests for GitHub APIs",
       "showcase": false,
@@ -160,9 +160,9 @@
     {
       "id": "pjmpxvq2cmr2",
       "name": "Copilot",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2022-06-21T16:04:33.017Z",
-      "updated_at": "2026-02-10T00:51:52.504Z",
+      "updated_at": "2026-02-11T15:26:49.334Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -173,10 +173,157 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "frlwqbqgz113",
+      "name": "Incident with API Requests",
+      "status": "investigating",
+      "created_at": "2026-02-11T15:26:53.487Z",
+      "updated_at": "2026-02-11T15:27:22.400Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/205xtprvt8vw",
+      "started_at": "2026-02-11T15:26:53.478Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "d9b17vzx03zd",
+          "status": "investigating",
+          "body": "We're investigating increased latency for GraphQL traffic.",
+          "incident_id": "frlwqbqgz113",
+          "created_at": "2026-02-11T15:27:22.397Z",
+          "updated_at": "2026-02-11T15:27:22.397Z",
+          "display_at": "2026-02-11T15:27:22.397Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "t4gb9fylz5vn",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for API Requests",
+          "incident_id": "frlwqbqgz113",
+          "created_at": "2026-02-11T15:26:53.586Z",
+          "updated_at": "2026-02-11T15:26:53.586Z",
+          "display_at": "2026-02-11T15:26:53.586Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "brv1bkgrwx7q",
+          "name": "API Requests",
+          "status": "partial_outage",
+          "created_at": "2017-01-31T20:01:46.621Z",
+          "updated_at": "2026-02-11T15:26:53.530Z",
+          "position": 4,
+          "description": "Requests for GitHub APIs",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "531k65vmv284",
+      "name": "Incident with Copilot",
+      "status": "investigating",
+      "created_at": "2026-02-11T15:26:49.303Z",
+      "updated_at": "2026-02-11T15:27:00.301Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/0yj91sbr5qtp",
+      "started_at": "2026-02-11T15:26:49.297Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "b5f12nxqltf8",
+          "status": "investigating",
+          "body": "We are experiencing degraded availability for the Claude Haiku 4.5 model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br />Other models are available and working as expected.",
+          "incident_id": "531k65vmv284",
+          "created_at": "2026-02-11T15:27:00.298Z",
+          "updated_at": "2026-02-11T15:27:00.298Z",
+          "display_at": "2026-02-11T15:27:00.298Z",
+          "affected_components": [
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "vf7chgzh5p41",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Copilot",
+          "incident_id": "531k65vmv284",
+          "created_at": "2026-02-11T15:26:49.379Z",
+          "updated_at": "2026-02-11T15:26:49.379Z",
+          "display_at": "2026-02-11T15:26:49.379Z",
+          "affected_components": [
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "pjmpxvq2cmr2",
+          "name": "Copilot",
+          "status": "partial_outage",
+          "created_at": "2022-06-21T16:04:33.017Z",
+          "updated_at": "2026-02-11T15:26:49.334Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": "2022-06-21",
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
