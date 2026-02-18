@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-02-18T13:38:50.714Z"
+    "updated_at": "2026-02-18T18:27:00.695Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2026-02-14T00:16:53.312Z",
+      "updated_at": "2026-02-18T18:26:02.780Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": true,
@@ -173,10 +173,97 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "p1ymhg64hdfq",
+      "name": "Degraded performance in merge queue",
+      "status": "investigating",
+      "created_at": "2026-02-18T18:25:38.234Z",
+      "updated_at": "2026-02-18T18:27:00.685Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/kv62hwwldqd6",
+      "started_at": "2026-02-18T18:25:38.228Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "qpyy5hjcw0y0",
+          "status": "investigating",
+          "body": "We are investigating reports of issues with merge queue. We will continue to keep users updated on progress towards mitigation.",
+          "incident_id": "p1ymhg64hdfq",
+          "created_at": "2026-02-18T18:27:00.682Z",
+          "updated_at": "2026-02-18T18:27:00.682Z",
+          "display_at": "2026-02-18T18:27:00.682Z",
+          "affected_components": [
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "4wh1jssyyqdk",
+          "status": "investigating",
+          "body": "Pull Requests is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "p1ymhg64hdfq",
+          "created_at": "2026-02-18T18:26:02.822Z",
+          "updated_at": "2026-02-18T18:26:02.822Z",
+          "display_at": "2026-02-18T18:26:02.822Z",
+          "affected_components": [
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "03hmn6t069q9",
+          "status": "investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "incident_id": "p1ymhg64hdfq",
+          "created_at": "2026-02-18T18:25:38.272Z",
+          "updated_at": "2026-02-18T18:25:38.272Z",
+          "display_at": "2026-02-18T18:25:38.272Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hhtssxt0f5v2",
+          "name": "Pull Requests",
+          "status": "partial_outage",
+          "created_at": "2020-09-02T15:39:06.329Z",
+          "updated_at": "2026-02-18T18:26:02.780Z",
+          "position": 6,
+          "description": "Requests for Pull Requests on GitHub.com",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
