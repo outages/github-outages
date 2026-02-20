@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-02-20T10:36:21.129Z"
+    "updated_at": "2026-02-20T11:19:32.299Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Copilot GPT-5.1-Codex",
       "status": "investigating",
       "created_at": "2026-02-20T10:02:19.243Z",
-      "updated_at": "2026-02-20T10:36:21.118Z",
+      "updated_at": "2026-02-20T11:19:32.288Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2026-02-20T10:02:19.236Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "7fl3syrvk5cp",
+          "status": "investigating",
+          "body": "The issues with our upstream model provider have been resolved, and GPT 5.1 Codex is once again available in Copilot Chat and across IDE integrations [VSCode, Visual Studio, JetBrains].<br />We will continue monitoring to ensure stability, but mitigation is complete.",
+          "incident_id": "8qvx6hqk3nz0",
+          "created_at": "2026-02-20T11:19:32.285Z",
+          "updated_at": "2026-02-20T11:19:32.285Z",
+          "display_at": "2026-02-20T11:19:32.285Z",
+          "affected_components": [
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "kqhk3c77jtz1",
           "status": "investigating",
