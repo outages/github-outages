@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-02-23T11:38:43.425Z"
+    "updated_at": "2026-02-23T15:20:26.758Z"
   },
   "components": [
     {
@@ -160,9 +160,9 @@
     {
       "id": "pjmpxvq2cmr2",
       "name": "Copilot",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2022-06-21T16:04:33.017Z",
-      "updated_at": "2026-02-20T11:41:39.457Z",
+      "updated_at": "2026-02-23T14:56:09.393Z",
       "position": 11,
       "description": null,
       "showcase": true,
@@ -173,10 +173,104 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "h8z3w9ycj0pm",
+      "name": "Incident with Copilot",
+      "status": "investigating",
+      "created_at": "2026-02-23T14:56:09.362Z",
+      "updated_at": "2026-02-23T15:13:14.238Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/crkynbn1mbtt",
+      "started_at": "2026-02-23T14:56:09.356Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "vrrc44m22fsq",
+          "status": "investigating",
+          "body": "Our provider has recovered and we are not seeing errors but we are awaiting a signal from them that the issue will not regress before we go green.",
+          "incident_id": "h8z3w9ycj0pm",
+          "created_at": "2026-02-23T15:13:14.234Z",
+          "updated_at": "2026-02-23T15:13:14.234Z",
+          "display_at": "2026-02-23T15:13:14.234Z",
+          "affected_components": [
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "2xztb9n39sbr",
+          "status": "investigating",
+          "body": "We are experiencing degraded availability for the Haiku 4.5 model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected.",
+          "incident_id": "h8z3w9ycj0pm",
+          "created_at": "2026-02-23T14:56:37.658Z",
+          "updated_at": "2026-02-23T14:56:37.658Z",
+          "display_at": "2026-02-23T14:56:37.658Z",
+          "affected_components": [
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "q03nmsq23gf1",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Copilot",
+          "incident_id": "h8z3w9ycj0pm",
+          "created_at": "2026-02-23T14:56:09.432Z",
+          "updated_at": "2026-02-23T14:56:09.432Z",
+          "display_at": "2026-02-23T14:56:09.432Z",
+          "affected_components": [
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "pjmpxvq2cmr2",
+          "name": "Copilot",
+          "status": "partial_outage",
+          "created_at": "2022-06-21T16:04:33.017Z",
+          "updated_at": "2026-02-23T14:56:09.393Z",
+          "position": 11,
+          "description": null,
+          "showcase": true,
+          "start_date": "2022-06-21",
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
