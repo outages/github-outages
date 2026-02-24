@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-02-23T23:25:53.472Z"
+    "updated_at": "2026-02-24T01:48:48.672Z"
   },
   "components": [
     {
@@ -173,90 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "jn8kcmg5ydch",
-      "name": "Code search experiencing degraded performance",
-      "status": "investigating",
-      "created_at": "2026-02-23T19:59:55.629Z",
-      "updated_at": "2026-02-23T23:10:02.848Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/vlsdcsk5grvk",
-      "started_at": "2026-02-23T19:59:55.624Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "gs5dg51tq4l0",
-          "status": "investigating",
-          "body": "Customers using code search continue to see increased latency and timeout errors. We are working to mitigate issues on the affected shard.",
-          "incident_id": "jn8kcmg5ydch",
-          "created_at": "2026-02-23T23:10:02.845Z",
-          "updated_at": "2026-02-23T23:10:02.845Z",
-          "display_at": "2026-02-23T23:10:02.845Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "7htl33kwnc1f",
-          "status": "investigating",
-          "body": "Elevated latency and timeouts for code search is isolated to a single shard experiencing elevated CPU. We are taking steps to isolate and mitigate the affected shard.",
-          "incident_id": "jn8kcmg5ydch",
-          "created_at": "2026-02-23T22:22:56.579Z",
-          "updated_at": "2026-02-23T22:22:56.579Z",
-          "display_at": "2026-02-23T22:22:56.579Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "b68lplggnqjx",
-          "status": "investigating",
-          "body": "Elevated latency and timeouts for code search is isolated to a single shard experiencing elevated CPU. We are continuing to investigate the cause and steps to mitigate.",
-          "incident_id": "jn8kcmg5ydch",
-          "created_at": "2026-02-23T21:18:05.820Z",
-          "updated_at": "2026-02-23T21:18:05.820Z",
-          "display_at": "2026-02-23T21:18:05.820Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "zvz0dssn8h1d",
-          "status": "investigating",
-          "body": "We are continuing to investigate elevated latency and timeouts for code search.",
-          "incident_id": "jn8kcmg5ydch",
-          "created_at": "2026-02-23T20:33:22.786Z",
-          "updated_at": "2026-02-23T20:33:22.786Z",
-          "display_at": "2026-02-23T20:33:22.786Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "6fydzvhdt4rz",
-          "status": "investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "incident_id": "jn8kcmg5ydch",
-          "created_at": "2026-02-23T19:59:55.666Z",
-          "updated_at": "2026-02-23T19:59:55.666Z",
-          "display_at": "2026-02-23T19:59:55.666Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
