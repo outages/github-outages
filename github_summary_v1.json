@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-03-03T02:27:21.032Z"
+    "updated_at": "2026-03-03T04:36:47.593Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Delayed visibility of newly added issues on project boards",
       "status": "investigating",
       "created_at": "2026-03-02T23:10:28.140Z",
-      "updated_at": "2026-03-03T02:27:21.020Z",
+      "updated_at": "2026-03-03T04:36:47.581Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,66 @@
       "started_at": "2026-03-02T23:10:28.133Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "r6db0g3zqc2n",
+          "status": "investigating",
+          "body": "The backlog of delayed updates is expected to fully clear within approximately 1 hour, after which project board updates will return to near-real-time.",
+          "incident_id": "0yjbtp1d2cpc",
+          "created_at": "2026-03-03T04:36:47.578Z",
+          "updated_at": "2026-03-03T04:36:47.578Z",
+          "display_at": "2026-03-03T04:36:47.578Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "nlnf6yk90kms",
+          "status": "investigating",
+          "body": "The fix has been deployed and processing speeds have returned to normal. There is a backlog of delayed updates that will continue to be worked through — we're estimating how long that will take and will provide an update in the next 60 minutes.",
+          "incident_id": "0yjbtp1d2cpc",
+          "created_at": "2026-03-03T04:17:15.441Z",
+          "updated_at": "2026-03-03T04:17:15.441Z",
+          "display_at": "2026-03-03T04:17:15.441Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "stq5lj094dct",
+          "status": "investigating",
+          "body": "The fix is still building and is expected to deploy within 60 minutes. The current delay for GitHub Projects updates has increased to up to 5 hours.",
+          "incident_id": "0yjbtp1d2cpc",
+          "created_at": "2026-03-03T03:22:49.016Z",
+          "updated_at": "2026-03-03T03:22:49.016Z",
+          "display_at": "2026-03-03T03:22:49.016Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "c8lm7qfyn0bs",
           "status": "investigating",
