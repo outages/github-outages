@@ -4,15 +4,15 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-03-03T19:04:24.901Z"
+    "updated_at": "2026-03-03T19:36:42.017Z"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2017-01-31T20:05:05.370Z",
-      "updated_at": "2026-02-17T19:06:24.513Z",
+      "updated_at": "2026-03-03T19:36:41.967Z",
       "position": 1,
       "description": "Performance of git clones, pulls, pushes, and associated operations",
       "showcase": true,
@@ -25,9 +25,9 @@
     {
       "id": "4230lsnqdsld",
       "name": "Webhooks",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:00:24.256Z",
-      "updated_at": "2026-03-03T19:04:24.852Z",
+      "updated_at": "2026-03-03T19:25:21.587Z",
       "position": 2,
       "description": "Real time HTTP callbacks of user-generated and system events",
       "showcase": true,
@@ -55,9 +55,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2026-03-03T19:00:20.520Z",
+      "updated_at": "2026-03-03T19:15:25.049Z",
       "position": 4,
       "description": "Requests for GitHub APIs",
       "showcase": true,
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2026-03-03T18:59:49.482Z",
+      "updated_at": "2026-03-03T19:27:22.966Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": true,
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2026-03-03T19:00:27.191Z",
+      "updated_at": "2026-03-03T19:31:41.878Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": true,
@@ -147,7 +147,7 @@
       "name": "Codespaces",
       "status": "operational",
       "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2026-02-14T00:17:50.987Z",
+      "updated_at": "2026-03-03T19:25:05.124Z",
       "position": 10,
       "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": true,
@@ -160,9 +160,9 @@
     {
       "id": "pjmpxvq2cmr2",
       "name": "Copilot",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2022-06-21T16:04:33.017Z",
-      "updated_at": "2026-03-03T18:59:49.512Z",
+      "updated_at": "2026-03-03T19:31:50.802Z",
       "position": 11,
       "description": null,
       "showcase": true,
@@ -179,7 +179,7 @@
       "name": "Incident with Copilot and Actions",
       "status": "investigating",
       "created_at": "2026-03-03T18:59:49.439Z",
-      "updated_at": "2026-03-03T19:04:24.892Z",
+      "updated_at": "2026-03-03T19:36:42.007Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,846 @@
       "started_at": "2026-03-03T18:59:49.431Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "k5fksds2wxyv",
+          "status": "investigating",
+          "body": "Git Operations is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "n07yy1bk6kc4",
+          "created_at": "2026-03-03T19:36:42.004Z",
+          "updated_at": "2026-03-03T19:36:42.004Z",
+          "display_at": "2026-03-03T19:36:42.004Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "rfhdkjm359g0",
+          "status": "investigating",
+          "body": "We are seeing recovery across multiple services. Impact is mostly isolated to git operations at this point, we continue to investigate",
+          "incident_id": "n07yy1bk6kc4",
+          "created_at": "2026-03-03T19:33:38.790Z",
+          "updated_at": "2026-03-03T19:33:38.790Z",
+          "display_at": "2026-03-03T19:33:38.790Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "1cpfxssvswr3",
+          "status": "investigating",
+          "body": "Copilot is operating normally.",
+          "incident_id": "n07yy1bk6kc4",
+          "created_at": "2026-03-03T19:31:50.837Z",
+          "updated_at": "2026-03-03T19:31:50.837Z",
+          "display_at": "2026-03-03T19:31:50.837Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "cln8pw31v73v",
+          "status": "investigating",
+          "body": "Pull Requests is operating normally.",
+          "incident_id": "n07yy1bk6kc4",
+          "created_at": "2026-03-03T19:31:41.910Z",
+          "updated_at": "2026-03-03T19:31:41.910Z",
+          "display_at": "2026-03-03T19:31:41.910Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "t67p9rp7q7tw",
+          "status": "investigating",
+          "body": "Pull Requests is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "n07yy1bk6kc4",
+          "created_at": "2026-03-03T19:28:50.170Z",
+          "updated_at": "2026-03-03T19:28:50.170Z",
+          "display_at": "2026-03-03T19:28:50.170Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "v8xrt7cbryxp",
+          "status": "investigating",
+          "body": "Issues is operating normally.",
+          "incident_id": "n07yy1bk6kc4",
+          "created_at": "2026-03-03T19:27:23.000Z",
+          "updated_at": "2026-03-03T19:27:23.000Z",
+          "display_at": "2026-03-03T19:27:23.000Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "ks689j9knv9j",
+          "status": "investigating",
+          "body": "Webhooks is operating normally.",
+          "incident_id": "n07yy1bk6kc4",
+          "created_at": "2026-03-03T19:25:21.615Z",
+          "updated_at": "2026-03-03T19:25:21.615Z",
+          "display_at": "2026-03-03T19:25:21.615Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "gyqsqy7vv3t9",
+          "status": "investigating",
+          "body": "Codespaces is operating normally.",
+          "incident_id": "n07yy1bk6kc4",
+          "created_at": "2026-03-03T19:25:05.162Z",
+          "updated_at": "2026-03-03T19:25:05.162Z",
+          "display_at": "2026-03-03T19:25:05.162Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "cc8fsw3l6fwh",
+          "status": "investigating",
+          "body": "Webhooks is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "n07yy1bk6kc4",
+          "created_at": "2026-03-03T19:24:23.829Z",
+          "updated_at": "2026-03-03T19:24:23.829Z",
+          "display_at": "2026-03-03T19:24:23.829Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "major_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "m7zhlrx14575",
+          "status": "investigating",
+          "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "n07yy1bk6kc4",
+          "created_at": "2026-03-03T19:23:47.732Z",
+          "updated_at": "2026-03-03T19:23:47.732Z",
+          "display_at": "2026-03-03T19:23:47.732Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "major_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "phdqr6wg10tf",
+          "status": "investigating",
+          "body": "We've identified the issue and have applied a mitigation. We're seeing recovery of services. We continue to montitor for full recovery.",
+          "incident_id": "n07yy1bk6kc4",
+          "created_at": "2026-03-03T19:17:16.700Z",
+          "updated_at": "2026-03-03T19:17:16.700Z",
+          "display_at": "2026-03-03T19:17:16.700Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "1z5rc5sw3kbp",
+          "status": "investigating",
+          "body": "API Requests is operating normally.",
+          "incident_id": "n07yy1bk6kc4",
+          "created_at": "2026-03-03T19:15:25.081Z",
+          "updated_at": "2026-03-03T19:15:25.081Z",
+          "display_at": "2026-03-03T19:15:25.081Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "rj4tk2bnx8d4",
+          "status": "investigating",
+          "body": "API Requests is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "n07yy1bk6kc4",
+          "created_at": "2026-03-03T19:14:29.433Z",
+          "updated_at": "2026-03-03T19:14:29.433Z",
+          "display_at": "2026-03-03T19:14:29.433Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "major_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "0djj61v6wzdf",
+          "status": "investigating",
+          "body": "Codespaces is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "n07yy1bk6kc4",
+          "created_at": "2026-03-03T19:11:53.698Z",
+          "updated_at": "2026-03-03T19:11:53.698Z",
+          "display_at": "2026-03-03T19:11:53.698Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "h68vx1d0y07m",
+          "status": "investigating",
+          "body": "Pull Requests is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "n07yy1bk6kc4",
+          "created_at": "2026-03-03T19:05:51.397Z",
+          "updated_at": "2026-03-03T19:05:51.397Z",
+          "display_at": "2026-03-03T19:05:51.397Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "jq5px4fgpvk8",
           "status": "investigating",
@@ -454,11 +1294,26 @@
       ],
       "components": [
         {
+          "id": "8l4ygp009s5s",
+          "name": "Git Operations",
+          "status": "major_outage",
+          "created_at": "2017-01-31T20:05:05.370Z",
+          "updated_at": "2026-03-03T19:36:41.967Z",
+          "position": 1,
+          "description": "Performance of git clones, pulls, pushes, and associated operations",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
           "id": "4230lsnqdsld",
           "name": "Webhooks",
-          "status": "major_outage",
+          "status": "operational",
           "created_at": "2019-11-13T18:00:24.256Z",
-          "updated_at": "2026-03-03T19:04:24.852Z",
+          "updated_at": "2026-03-03T19:25:21.587Z",
           "position": 2,
           "description": "Real time HTTP callbacks of user-generated and system events",
           "showcase": true,
@@ -471,9 +1326,9 @@
         {
           "id": "brv1bkgrwx7q",
           "name": "API Requests",
-          "status": "major_outage",
+          "status": "operational",
           "created_at": "2017-01-31T20:01:46.621Z",
-          "updated_at": "2026-03-03T19:00:20.520Z",
+          "updated_at": "2026-03-03T19:15:25.049Z",
           "position": 4,
           "description": "Requests for GitHub APIs",
           "showcase": true,
@@ -486,9 +1341,9 @@
         {
           "id": "kr09ddfgbfsf",
           "name": "Issues",
-          "status": "major_outage",
+          "status": "operational",
           "created_at": "2017-01-31T20:01:46.638Z",
-          "updated_at": "2026-03-03T18:59:49.482Z",
+          "updated_at": "2026-03-03T19:27:22.966Z",
           "position": 5,
           "description": "Requests for Issues on GitHub.com",
           "showcase": true,
@@ -501,9 +1356,9 @@
         {
           "id": "hhtssxt0f5v2",
           "name": "Pull Requests",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-09-02T15:39:06.329Z",
-          "updated_at": "2026-03-03T19:00:27.191Z",
+          "updated_at": "2026-03-03T19:31:41.878Z",
           "position": 6,
           "description": "Requests for Pull Requests on GitHub.com",
           "showcase": true,
@@ -529,11 +1384,26 @@
           "only_show_if_degraded": false
         },
         {
+          "id": "h2ftsgbw7kmk",
+          "name": "Codespaces",
+          "status": "operational",
+          "created_at": "2021-08-11T16:02:09.505Z",
+          "updated_at": "2026-03-03T19:25:05.124Z",
+          "position": 10,
+          "description": "Orchestration and Compute for GitHub Codespaces",
+          "showcase": true,
+          "start_date": "2021-08-11",
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
           "id": "pjmpxvq2cmr2",
           "name": "Copilot",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2022-06-21T16:04:33.017Z",
-          "updated_at": "2026-03-03T18:59:49.512Z",
+          "updated_at": "2026-03-03T19:31:50.802Z",
           "position": 11,
           "description": null,
           "showcase": true,
