@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-03-06T16:23:42.692Z"
+    "updated_at": "2026-03-06T17:21:03.007Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "4230lsnqdsld",
       "name": "Webhooks",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:00:24.256Z",
-      "updated_at": "2026-03-05T19:17:48.066Z",
+      "updated_at": "2026-03-06T16:58:10.934Z",
       "position": 2,
       "description": "Real time HTTP callbacks of user-generated and system events",
       "showcase": true,
@@ -173,10 +173,104 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "tqyg889tl8qz",
+      "name": "Incident with Webhooks",
+      "status": "investigating",
+      "created_at": "2026-03-06T16:58:10.899Z",
+      "updated_at": "2026-03-06T17:19:48.408Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/0ghhcmrrl5rn",
+      "started_at": "2026-03-06T16:58:10.892Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "rdr8csjt2rzb",
+          "status": "investigating",
+          "body": "This problem is impacting less than 1% of UI and webhook API calls.",
+          "incident_id": "tqyg889tl8qz",
+          "created_at": "2026-03-06T17:19:48.405Z",
+          "updated_at": "2026-03-06T17:19:48.405Z",
+          "display_at": "2026-03-06T17:19:48.405Z",
+          "affected_components": [
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "jd8bzvkc7r2q",
+          "status": "investigating",
+          "body": "We are investigating an issue affecting a subset of customers experiencing errors when viewing webhook delivery histories and retrying webhook deliveries. UI and webhook API is impacted. Engineers have identified the cause and are actively working on mitigation.",
+          "incident_id": "tqyg889tl8qz",
+          "created_at": "2026-03-06T17:12:40.002Z",
+          "updated_at": "2026-03-06T17:12:40.002Z",
+          "display_at": "2026-03-06T17:12:40.002Z",
+          "affected_components": [
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "98hlbv2wwt3f",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Webhooks",
+          "incident_id": "tqyg889tl8qz",
+          "created_at": "2026-03-06T16:58:10.975Z",
+          "updated_at": "2026-03-06T16:58:10.975Z",
+          "display_at": "2026-03-06T16:58:10.975Z",
+          "affected_components": [
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "4230lsnqdsld",
+          "name": "Webhooks",
+          "status": "partial_outage",
+          "created_at": "2019-11-13T18:00:24.256Z",
+          "updated_at": "2026-03-06T16:58:10.934Z",
+          "position": 2,
+          "description": "Real time HTTP callbacks of user-generated and system events",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
