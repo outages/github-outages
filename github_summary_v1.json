@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-03-12T13:20:32.456Z"
+    "updated_at": "2026-03-12T13:50:06.521Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Degraded Codespaces experience",
       "status": "investigating",
       "created_at": "2026-03-12T13:06:54.989Z",
-      "updated_at": "2026-03-12T13:07:45.297Z",
+      "updated_at": "2026-03-12T13:50:06.510Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2026-03-12T13:06:54.982Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "cwqndh33r1th",
+          "status": "investigating",
+          "body": "We are continuing to investigate an issue where extensions fail to install in newly created Codespaces. Users can create and access Codespaces, but extensions will not be operational, resulting in a degraded experience. The team is working on a fix. All newly created Codespaces are affected. We'll post another update by 15:00 UTC.",
+          "incident_id": "0s7ppykbyvqz",
+          "created_at": "2026-03-12T13:50:06.507Z",
+          "updated_at": "2026-03-12T13:50:06.507Z",
+          "display_at": "2026-03-12T13:50:06.507Z",
+          "affected_components": [
+            {
+              "code": "h2ftsgbw7kmk",
+              "name": "Codespaces",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "r4fv48sgn4pt",
           "status": "investigating",
