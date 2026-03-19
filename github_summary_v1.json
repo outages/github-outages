@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-03-19T16:25:04.777Z"
+    "updated_at": "2026-03-19T17:23:44.245Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Git operations for users in the west coast are experiencing an increase in latency",
       "status": "investigating",
       "created_at": "2026-03-19T16:25:04.692Z",
-      "updated_at": "2026-03-19T16:25:04.774Z",
+      "updated_at": "2026-03-19T17:01:25.422Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2026-03-19T16:25:04.684Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "06yh5mbt0h6x",
+          "status": "investigating",
+          "body": "We are redirecting traffic back to our Seattle region and customers should see a decrease in latency for Git operations",
+          "incident_id": "p08cncy05m4k",
+          "created_at": "2026-03-19T17:01:25.420Z",
+          "updated_at": "2026-03-19T17:01:25.420Z",
+          "display_at": "2026-03-19T17:01:25.420Z",
+          "affected_components": [
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "54wd0tgt9d1j",
           "status": "investigating",
