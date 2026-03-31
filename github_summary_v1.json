@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-03-31T15:06:48.023Z"
+    "updated_at": "2026-03-31T15:39:48.646Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Incident with Pull Requests: High percentage of 500s",
       "status": "investigating",
       "created_at": "2026-03-31T15:05:39.330Z",
-      "updated_at": "2026-03-31T15:06:48.015Z",
+      "updated_at": "2026-03-31T15:39:48.635Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,26 @@
       "started_at": "2026-03-31T15:05:39.322Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "clw0hk60c7xq",
+          "status": "investigating",
+          "body": "We are investigating increased 500 errors affecting GitHub services. You may experience intermittent failures when using Pull Requests and other features. We are actively working to identify and resolve the underlying cause.",
+          "incident_id": "ml7wplmxbt5l",
+          "created_at": "2026-03-31T15:39:48.631Z",
+          "updated_at": "2026-03-31T15:39:48.631Z",
+          "display_at": "2026-03-31T15:39:48.631Z",
+          "affected_components": [
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "rdd0q45c16sc",
           "status": "investigating",
@@ -245,101 +265,6 @@
           "only_show_if_degraded": false
         }
       ],
-      "reminder_intervals": null
-    },
-    {
-      "id": "2yb2tvwny50l",
-      "name": "Issues with metered billing report generation",
-      "status": "monitoring",
-      "created_at": "2026-03-31T13:47:46.091Z",
-      "updated_at": "2026-03-31T15:01:43.947Z",
-      "monitoring_at": "2026-03-31T15:01:43.931Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/4pyzfm2phb3b",
-      "started_at": "2026-03-31T13:47:46.083Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "y1q1ymgy8bz1",
-          "status": "monitoring",
-          "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
-          "incident_id": "2yb2tvwny50l",
-          "created_at": "2026-03-31T15:01:43.931Z",
-          "updated_at": "2026-03-31T15:01:43.931Z",
-          "display_at": "2026-03-31T15:01:43.931Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "n2s72jfgjhz7",
-          "status": "investigating",
-          "body": "We have applied mitigations to a data store related to billing reports, and are seeing partial recovery to billing report generation. We continue to monitor for full recovery.",
-          "incident_id": "2yb2tvwny50l",
-          "created_at": "2026-03-31T14:59:06.066Z",
-          "updated_at": "2026-03-31T14:59:06.066Z",
-          "display_at": "2026-03-31T14:59:06.066Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "6k1qx136hdrd",
-          "status": "investigating",
-          "body": "We are seeing a high number of 500s due to timeouts across GitHub services. We are redeploying some of our core services and we expect that this allow us to recover.",
-          "incident_id": "2yb2tvwny50l",
-          "created_at": "2026-03-31T14:56:22.695Z",
-          "updated_at": "2026-03-31T14:56:22.695Z",
-          "display_at": "2026-03-31T14:56:22.695Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "z8938n1xwg41",
-          "status": "investigating",
-          "body": "We're continuing to see high failure rates on billing report generation, and are working on mitigations for a data store related to billing reports.",
-          "incident_id": "2yb2tvwny50l",
-          "created_at": "2026-03-31T14:39:15.197Z",
-          "updated_at": "2026-03-31T14:39:15.197Z",
-          "display_at": "2026-03-31T14:39:15.197Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "d46hydhg38qc",
-          "status": "investigating",
-          "body": "We're seeing issues related to metered billing reports, intermittently affecting metered usage graphs and reports on the billing page. We have identified an issue with a data store, and are working on mitigations.",
-          "incident_id": "2yb2tvwny50l",
-          "created_at": "2026-03-31T13:56:41.715Z",
-          "updated_at": "2026-03-31T13:56:41.715Z",
-          "display_at": "2026-03-31T13:56:41.715Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "5cywdg5ng2fs",
-          "status": "investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "incident_id": "2yb2tvwny50l",
-          "created_at": "2026-03-31T13:47:46.135Z",
-          "updated_at": "2026-03-31T13:47:46.135Z",
-          "display_at": "2026-03-31T13:47:46.135Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
       "reminder_intervals": null
     }
   ],
