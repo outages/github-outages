@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-01T15:20:50.129Z"
+    "updated_at": "2026-04-01T16:23:42.288Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with GitHub's code search",
       "status": "investigating",
       "created_at": "2026-04-01T15:02:54.256Z",
-      "updated_at": "2026-04-01T15:02:54.304Z",
+      "updated_at": "2026-04-01T16:00:31.115Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -187,6 +187,19 @@
       "started_at": "2026-04-01T15:02:54.247Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "cqmtd386yjvc",
+          "status": "investigating",
+          "body": "We identified an issue in our ingestion pipeline that degraded the freshness of Code Search results. While fixing the issue with the ingestion pipeline, a deployment caused a loss of dynamic configuration which is causing most requests for Code Search results to fail. We are working to restore the service and to re-ingest the misaligned data.",
+          "incident_id": "xs2p9z3b73r3",
+          "created_at": "2026-04-01T16:00:31.111Z",
+          "updated_at": "2026-04-01T16:00:31.111Z",
+          "display_at": "2026-04-01T16:00:31.111Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "y3gmjyzzgh8w",
           "status": "investigating",
