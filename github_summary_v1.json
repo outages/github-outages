@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-02T17:59:23.196Z"
+    "updated_at": "2026-04-02T18:38:50.045Z"
   },
   "components": [
     {
@@ -179,7 +179,7 @@
       "name": "Disruption with some GitHub services",
       "status": "investigating",
       "created_at": "2026-04-02T17:49:36.922Z",
-      "updated_at": "2026-04-02T17:59:23.186Z",
+      "updated_at": "2026-04-02T18:25:50.680Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -187,6 +187,19 @@
       "started_at": "2026-04-02T17:49:36.914Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "2fl1p3hqzyxp",
+          "status": "investigating",
+          "body": "We are once again seeing recovery with Copilot Cloud Agent job starts. <br /><br />We are keeping this open while we verify this won't recur.",
+          "incident_id": "d96l71t3h63k",
+          "created_at": "2026-04-02T18:25:50.677Z",
+          "updated_at": "2026-04-02T18:25:50.677Z",
+          "display_at": "2026-04-02T18:25:50.677Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "v6z2j3ckwfvz",
           "status": "investigating",
