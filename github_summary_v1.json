@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-02T20:35:53.869Z"
+    "updated_at": "2026-04-02T21:56:56.348Z"
   },
   "components": [
     {
@@ -173,90 +173,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "d96l71t3h63k",
-      "name": "Disruption with some GitHub services",
-      "status": "investigating",
-      "created_at": "2026-04-02T17:49:36.922Z",
-      "updated_at": "2026-04-02T20:35:53.859Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/5b7098zw5zw7",
-      "started_at": "2026-04-02T17:49:36.914Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "gyzj3nyb3985",
-          "status": "investigating",
-          "body": "Although we are observing recovery once again, we expect continued periods of degradation. <br /><br />Work that is queued during times of degradation does eventually get processed. <br /><br />We continue to investigate and find a mitigation, and will update again within 2 hours.",
-          "incident_id": "d96l71t3h63k",
-          "created_at": "2026-04-02T20:35:53.857Z",
-          "updated_at": "2026-04-02T20:35:53.857Z",
-          "display_at": "2026-04-02T20:35:53.857Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "666k93jk54t4",
-          "status": "investigating",
-          "body": "This issue has recurred. Customers will once again experience false job starts when assigning tasks to Copilot Cloud Agent. <br /><br />We are still investigating and trying to understand the pattern of degradation.",
-          "incident_id": "d96l71t3h63k",
-          "created_at": "2026-04-02T19:28:43.919Z",
-          "updated_at": "2026-04-02T19:28:43.919Z",
-          "display_at": "2026-04-02T19:28:43.919Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "2fl1p3hqzyxp",
-          "status": "investigating",
-          "body": "We are once again seeing recovery with Copilot Cloud Agent job starts. <br /><br />We are keeping this open while we verify this won't recur.",
-          "incident_id": "d96l71t3h63k",
-          "created_at": "2026-04-02T18:25:50.677Z",
-          "updated_at": "2026-04-02T18:25:50.677Z",
-          "display_at": "2026-04-02T18:25:50.677Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "v6z2j3ckwfvz",
-          "status": "investigating",
-          "body": "When assigning tasks to Copilot Cloud Agent, the task will appear to be working, but may not actually be running.<br /><br />We are investigating.",
-          "incident_id": "d96l71t3h63k",
-          "created_at": "2026-04-02T17:59:23.184Z",
-          "updated_at": "2026-04-02T17:59:23.184Z",
-          "display_at": "2026-04-02T17:59:23.184Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "k7p8k13kp8j1",
-          "status": "investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "incident_id": "d96l71t3h63k",
-          "created_at": "2026-04-02T17:49:36.979Z",
-          "updated_at": "2026-04-02T17:49:36.979Z",
-          "display_at": "2026-04-02T17:49:36.979Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
