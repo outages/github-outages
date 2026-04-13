@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-13T14:03:42.397Z"
+    "updated_at": "2026-04-13T16:59:20.319Z"
   },
   "components": [
     {
@@ -173,7 +173,51 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "1ghdqdbyyjmt",
+      "name": "Disruption with some GitHub services",
+      "status": "investigating",
+      "created_at": "2026-04-13T16:41:27.425Z",
+      "updated_at": "2026-04-13T16:59:20.311Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/qg4svxjjz3hm",
+      "started_at": "2026-04-13T16:41:27.419Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "p42l2w94rnw7",
+          "status": "investigating",
+          "body": "We have identified the root cause and are rolling out a fix for Copilot. The services should now be in recovery, with expected full recovery in 5 to 10 minutes.",
+          "incident_id": "1ghdqdbyyjmt",
+          "created_at": "2026-04-13T16:59:20.309Z",
+          "updated_at": "2026-04-13T16:59:20.309Z",
+          "display_at": "2026-04-13T16:59:20.309Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "3zzfz0n15vpm",
+          "status": "investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "incident_id": "1ghdqdbyyjmt",
+          "created_at": "2026-04-13T16:41:27.467Z",
+          "updated_at": "2026-04-13T16:41:27.467Z",
+          "display_at": "2026-04-13T16:41:27.467Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
