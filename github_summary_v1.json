@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-17T09:53:41.309Z"
+    "updated_at": "2026-04-17T12:33:08.830Z"
   },
   "components": [
     {
@@ -167,6 +167,21 @@
       "description": null,
       "showcase": true,
       "start_date": "2022-06-21",
+      "group_id": null,
+      "page_id": "kctbh9vrtdwd",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "cnnb39dkkk82",
+      "name": "Copilot AI Model Providers",
+      "status": "operational",
+      "created_at": "2026-04-17T12:33:08.827Z",
+      "updated_at": "2026-04-17T12:33:08.827Z",
+      "position": 12,
+      "description": null,
+      "showcase": true,
+      "start_date": "2026-04-17",
       "group_id": null,
       "page_id": "kctbh9vrtdwd",
       "group": false,
