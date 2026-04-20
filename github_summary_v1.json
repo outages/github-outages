@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-20T18:21:15.375Z"
+    "updated_at": "2026-04-20T20:20:14.794Z"
   },
   "components": [
     {
@@ -143,30 +143,30 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "h2ftsgbw7kmk",
-      "name": "Codespaces",
+      "id": "pjmpxvq2cmr2",
+      "name": "Copilot",
       "status": "operational",
-      "created_at": "2021-08-11T16:02:09.505Z",
-      "updated_at": "2026-04-16T18:22:24.573Z",
+      "created_at": "2022-06-21T16:04:33.017Z",
+      "updated_at": "2026-04-20T20:20:14.784Z",
       "position": 10,
-      "description": "Orchestration and Compute for GitHub Codespaces",
+      "description": null,
       "showcase": true,
-      "start_date": "2021-08-11",
+      "start_date": "2022-06-21",
       "group_id": null,
       "page_id": "kctbh9vrtdwd",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "pjmpxvq2cmr2",
-      "name": "Copilot",
+      "id": "h2ftsgbw7kmk",
+      "name": "Codespaces",
       "status": "operational",
-      "created_at": "2022-06-21T16:04:33.017Z",
-      "updated_at": "2026-04-01T10:56:30.467Z",
+      "created_at": "2021-08-11T16:02:09.505Z",
+      "updated_at": "2026-04-20T20:20:14.792Z",
       "position": 11,
-      "description": null,
+      "description": "Orchestration and Compute for GitHub Codespaces",
       "showcase": true,
-      "start_date": "2022-06-21",
+      "start_date": "2021-08-11",
       "group_id": null,
       "page_id": "kctbh9vrtdwd",
       "group": false,
