@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-20T17:32:37.169Z"
+    "updated_at": "2026-04-20T18:21:15.375Z"
   },
   "components": [
     {
@@ -192,16 +192,68 @@
     {
       "id": "m7pgzw1wlfq7",
       "name": "Partial degradation for code scanning default setup and for code quality",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2026-04-20T13:28:48.571Z",
-      "updated_at": "2026-04-20T17:32:37.161Z",
-      "monitoring_at": null,
+      "updated_at": "2026-04-20T18:21:15.365Z",
+      "monitoring_at": "2026-04-20T18:20:38.322Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/qxk1qwhj9xdd",
       "started_at": "2026-04-20T13:28:48.564Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "7flyfltgrn38",
+          "status": "monitoring",
+          "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
+          "incident_id": "m7pgzw1wlfq7",
+          "created_at": "2026-04-20T18:21:15.361Z",
+          "updated_at": "2026-04-20T18:21:15.361Z",
+          "display_at": "2026-04-20T18:21:15.361Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "bb4qc8cj7c17",
+          "status": "monitoring",
+          "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
+          "incident_id": "m7pgzw1wlfq7",
+          "created_at": "2026-04-20T18:20:38.322Z",
+          "updated_at": "2026-04-20T18:20:38.322Z",
+          "display_at": "2026-04-20T18:20:38.322Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "m4ml137bb39p",
+          "status": "investigating",
+          "body": "The issue has been mitigated. Newly created issues linked to projects should now function as expected. Issues that were linked to projects during the incident may take approximately five hours to render correctly while we complete a re-index.",
+          "incident_id": "m7pgzw1wlfq7",
+          "created_at": "2026-04-20T18:20:26.422Z",
+          "updated_at": "2026-04-20T18:20:26.422Z",
+          "display_at": "2026-04-20T18:20:26.422Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "gvhhxjlk296r",
+          "status": "investigating",
+          "body": "A deployment to fix this issue of new issues not showing up in projects is underway.",
+          "incident_id": "m7pgzw1wlfq7",
+          "created_at": "2026-04-20T18:08:33.678Z",
+          "updated_at": "2026-04-20T18:08:33.678Z",
+          "display_at": "2026-04-20T18:08:33.678Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "wvjpb5pqgvzb",
           "status": "investigating",
