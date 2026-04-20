@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-20T15:20:46.779Z"
+    "updated_at": "2026-04-20T16:16:24.971Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Partial degradation for code scanning default setup and for code quality",
       "status": "investigating",
       "created_at": "2026-04-20T13:28:48.571Z",
-      "updated_at": "2026-04-20T15:20:46.769Z",
+      "updated_at": "2026-04-20T16:16:24.960Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -202,6 +202,19 @@
       "started_at": "2026-04-20T13:28:48.564Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "q0x4hc3qd1q9",
+          "status": "investigating",
+          "body": "Code scanning default setup and Code Quality triggers are back up and running. PRs not processed before or during this incident will require a new push to trigger code scanning or code quality analysis.<br /><br />We are seeing problems with new issues not showing on project boards and are working on mitigation.",
+          "incident_id": "m7pgzw1wlfq7",
+          "created_at": "2026-04-20T16:16:24.957Z",
+          "updated_at": "2026-04-20T16:16:24.957Z",
+          "display_at": "2026-04-20T16:16:24.957Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "z6bqg33rdx9z",
           "status": "investigating",
