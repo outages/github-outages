@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-20T01:33:49.474Z"
+    "updated_at": "2026-04-20T13:57:43.206Z"
   },
   "components": [
     {
@@ -188,7 +188,51 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "m7pgzw1wlfq7",
+      "name": "Partial degradation for code scanning default setup and for code quality",
+      "status": "investigating",
+      "created_at": "2026-04-20T13:28:48.571Z",
+      "updated_at": "2026-04-20T13:57:43.198Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/qxk1qwhj9xdd",
+      "started_at": "2026-04-20T13:28:48.564Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "5z07zwvk2wf4",
+          "status": "investigating",
+          "body": "We are actively working to mitigate an issue affecting code scanning default setup and code quality features on pull requests. Users may experience pull request code scanning and code quality analyses not being triggered on new pull requests. Our engineering team has identified the root cause and working on mitigating the issue.",
+          "incident_id": "m7pgzw1wlfq7",
+          "created_at": "2026-04-20T13:57:43.196Z",
+          "updated_at": "2026-04-20T13:57:43.196Z",
+          "display_at": "2026-04-20T13:57:43.196Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "7523x859r9yc",
+          "status": "investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "incident_id": "m7pgzw1wlfq7",
+          "created_at": "2026-04-20T13:28:48.613Z",
+          "updated_at": "2026-04-20T13:28:48.613Z",
+          "display_at": "2026-04-20T13:28:48.613Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
