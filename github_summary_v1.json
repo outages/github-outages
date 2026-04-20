@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-20T13:57:43.206Z"
+    "updated_at": "2026-04-20T15:20:46.779Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Partial degradation for code scanning default setup and for code quality",
       "status": "investigating",
       "created_at": "2026-04-20T13:28:48.571Z",
-      "updated_at": "2026-04-20T13:57:43.198Z",
+      "updated_at": "2026-04-20T15:20:46.769Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -202,6 +202,32 @@
       "started_at": "2026-04-20T13:28:48.564Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "z6bqg33rdx9z",
+          "status": "investigating",
+          "body": "We are continuing to work on a mitigation to unblock code scanning default setup and code quality features on pull requests.",
+          "incident_id": "m7pgzw1wlfq7",
+          "created_at": "2026-04-20T15:20:46.766Z",
+          "updated_at": "2026-04-20T15:20:46.766Z",
+          "display_at": "2026-04-20T15:20:46.766Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "vxj0gds24xw2",
+          "status": "investigating",
+          "body": "We are currently deploying mitigations that should unblock code scanning default setup and code quality features on pull requests.",
+          "incident_id": "m7pgzw1wlfq7",
+          "created_at": "2026-04-20T14:38:51.903Z",
+          "updated_at": "2026-04-20T14:38:51.903Z",
+          "display_at": "2026-04-20T14:38:51.903Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "5z07zwvk2wf4",
           "status": "investigating",
