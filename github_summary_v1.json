@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-21T16:18:24.219Z"
+    "updated_at": "2026-04-21T17:21:33.109Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Disruption with projects service",
       "status": "investigating",
       "created_at": "2026-04-21T15:03:21.160Z",
-      "updated_at": "2026-04-21T16:18:24.210Z",
+      "updated_at": "2026-04-21T17:21:33.100Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -202,6 +202,32 @@
       "started_at": "2026-04-21T15:03:21.155Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "r5t4s0gxz3sj",
+          "status": "investigating",
+          "body": "The queues are continuing to decrease and we are working to accelerate the rate of processing through the queues.",
+          "incident_id": "b4235qyfzx2z",
+          "created_at": "2026-04-21T17:21:33.098Z",
+          "updated_at": "2026-04-21T17:21:33.098Z",
+          "display_at": "2026-04-21T17:21:33.098Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "7l78ht3j40kz",
+          "status": "investigating",
+          "body": "The mitigation is deployed and we are seeing recorvery in the queues and will provide an update as to when full recovery will be realized.",
+          "incident_id": "b4235qyfzx2z",
+          "created_at": "2026-04-21T16:45:22.676Z",
+          "updated_at": "2026-04-21T16:45:22.676Z",
+          "display_at": "2026-04-21T16:45:22.676Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "43b5p6jnyth5",
           "status": "investigating",
