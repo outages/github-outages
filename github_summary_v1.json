@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-21T15:07:30.733Z"
+    "updated_at": "2026-04-21T16:18:24.219Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Disruption with projects service",
       "status": "investigating",
       "created_at": "2026-04-21T15:03:21.160Z",
-      "updated_at": "2026-04-21T15:07:30.721Z",
+      "updated_at": "2026-04-21T16:18:24.210Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -202,6 +202,32 @@
       "started_at": "2026-04-21T15:03:21.155Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "43b5p6jnyth5",
+          "status": "investigating",
+          "body": "We are deploying a fix to relieve the queue of delayed data. Some users may still experience delays with GitHub Projects where changes are not reflected immediately as remaining backlogs are processed.",
+          "incident_id": "b4235qyfzx2z",
+          "created_at": "2026-04-21T16:18:24.208Z",
+          "updated_at": "2026-04-21T16:18:24.208Z",
+          "display_at": "2026-04-21T16:18:24.208Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "0nh611nb7x4w",
+          "status": "investigating",
+          "body": "We continue to investigate delays with GitHub Projects where changes may not be reflected immediately. Our team has identified the cause and applied mitigations to address the issue. We are seeing initial signs of recovery, though some delays may persist as the system works through a backlog of pending updates.",
+          "incident_id": "b4235qyfzx2z",
+          "created_at": "2026-04-21T15:42:20.758Z",
+          "updated_at": "2026-04-21T15:42:20.758Z",
+          "display_at": "2026-04-21T15:42:20.758Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "n0g2lcs5dxw1",
           "status": "investigating",
