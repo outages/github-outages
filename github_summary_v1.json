@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-21T22:49:52.613Z"
+    "updated_at": "2026-04-22T00:00:49.891Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Disruption with projects service",
       "status": "monitoring",
       "created_at": "2026-04-21T15:03:21.160Z",
-      "updated_at": "2026-04-21T22:49:52.603Z",
+      "updated_at": "2026-04-22T00:00:49.880Z",
       "monitoring_at": "2026-04-21T21:15:06.169Z",
       "resolved_at": null,
       "impact": "minor",
@@ -202,6 +202,19 @@
       "started_at": "2026-04-21T15:03:21.155Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "1k4y3wznwvwq",
+          "status": "monitoring",
+          "body": "The issue remains mitigated. Users may still experience small delays in changes to projects while we process the backlog of events. We expect a full recovery in approximately two hours.",
+          "incident_id": "b4235qyfzx2z",
+          "created_at": "2026-04-22T00:00:49.877Z",
+          "updated_at": "2026-04-22T00:00:49.877Z",
+          "display_at": "2026-04-22T00:00:49.877Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "74vhjxw0rgz0",
           "status": "monitoring",
