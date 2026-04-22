@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-22T21:33:45.467Z"
+    "updated_at": "2026-04-22T23:03:32.924Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2026-04-22T19:55:47.803Z",
+      "updated_at": "2026-04-22T22:43:59.069Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": true,
@@ -188,117 +188,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "c53mty24vwg8",
-      "name": "Disruption with some GitHub services",
-      "status": "investigating",
-      "created_at": "2026-04-22T19:53:49.917Z",
-      "updated_at": "2026-04-22T20:37:21.963Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/xmhs8h2d6zlj",
-      "started_at": "2026-04-22T19:53:49.911Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "xy8r4sd0bg4l",
-          "status": "investigating",
-          "body": "We have identified the root cause of the disruption affecting Copilot Coding Agent and Issues. Copilot @-mentions on pull requests are not being processed, and some issue-related functionality may be degraded. A fix has been developed and is being applied. <br />",
-          "incident_id": "c53mty24vwg8",
-          "created_at": "2026-04-22T20:37:21.959Z",
-          "updated_at": "2026-04-22T20:37:21.959Z",
-          "display_at": "2026-04-22T20:37:21.959Z",
-          "affected_components": [
-            {
-              "code": "kr09ddfgbfsf",
-              "name": "Issues",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "ychyl0ylyyl5",
-          "status": "investigating",
-          "body": "Copilot @-mentions on pull requests are currently not being processed by Copilot Cloud Agent. We have found the issue and are investigating remediations.",
-          "incident_id": "c53mty24vwg8",
-          "created_at": "2026-04-22T20:02:21.774Z",
-          "updated_at": "2026-04-22T20:02:21.774Z",
-          "display_at": "2026-04-22T20:02:21.774Z",
-          "affected_components": [
-            {
-              "code": "kr09ddfgbfsf",
-              "name": "Issues",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "cjkpn2j5mfk7",
-          "status": "investigating",
-          "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
-          "incident_id": "c53mty24vwg8",
-          "created_at": "2026-04-22T19:55:47.835Z",
-          "updated_at": "2026-04-22T19:55:47.835Z",
-          "display_at": "2026-04-22T19:55:47.835Z",
-          "affected_components": [
-            {
-              "code": "kr09ddfgbfsf",
-              "name": "Issues",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "vpfxqqnch2xy",
-          "status": "investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "incident_id": "c53mty24vwg8",
-          "created_at": "2026-04-22T19:53:49.957Z",
-          "updated_at": "2026-04-22T19:53:49.957Z",
-          "display_at": "2026-04-22T19:53:49.957Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "kr09ddfgbfsf",
-          "name": "Issues",
-          "status": "degraded_performance",
-          "created_at": "2017-01-31T20:01:46.638Z",
-          "updated_at": "2026-04-22T19:55:47.803Z",
-          "position": 5,
-          "description": "Requests for Issues on GitHub.com",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
