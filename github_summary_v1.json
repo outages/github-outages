@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-22T16:24:52.320Z"
+    "updated_at": "2026-04-22T17:40:07.521Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Disruption with Copilot chat and Copilot Coding Agent",
       "status": "investigating",
       "created_at": "2026-04-22T15:35:45.298Z",
-      "updated_at": "2026-04-22T16:24:52.311Z",
+      "updated_at": "2026-04-22T17:40:07.511Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -202,6 +202,32 @@
       "started_at": "2026-04-22T15:35:45.288Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "w25zwh8blmfp",
+          "status": "investigating",
+          "body": "Mitigation is progressing for Copilot chat and cloud agent recovery.",
+          "incident_id": "8790jgb3ky6t",
+          "created_at": "2026-04-22T17:40:07.509Z",
+          "updated_at": "2026-04-22T17:40:07.509Z",
+          "display_at": "2026-04-22T17:40:07.509Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "hns942sc3gx0",
+          "status": "investigating",
+          "body": "Mitigation is progressing for Copilot chat and cloud agent.",
+          "incident_id": "8790jgb3ky6t",
+          "created_at": "2026-04-22T16:58:36.975Z",
+          "updated_at": "2026-04-22T16:58:36.975Z",
+          "display_at": "2026-04-22T16:58:36.975Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "k6l5vww51drc",
           "status": "investigating",
