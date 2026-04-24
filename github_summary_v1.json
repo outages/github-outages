@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-24T10:01:48.129Z"
+    "updated_at": "2026-04-24T19:02:39.108Z"
   },
   "components": [
     {
@@ -188,7 +188,38 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "3dqg0nhwnxs2",
+      "name": "Delays with Actions Jobs for Larger Runners using VNet Injection in the East US region",
+      "status": "investigating",
+      "created_at": "2026-04-24T19:02:39.061Z",
+      "updated_at": "2026-04-24T19:02:39.105Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/mcrpvdrwjzf3",
+      "started_at": "2026-04-24T19:02:39.054Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "rdtptlys3mx4",
+          "status": "investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "incident_id": "3dqg0nhwnxs2",
+          "created_at": "2026-04-24T19:02:39.102Z",
+          "updated_at": "2026-04-24T19:02:39.102Z",
+          "display_at": "2026-04-24T19:02:39.102Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
