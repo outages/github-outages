@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-27T18:19:33.654Z"
+    "updated_at": "2026-04-27T19:50:03.898Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "GitHub search is degraded",
       "status": "investigating",
       "created_at": "2026-04-27T16:31:07.245Z",
-      "updated_at": "2026-04-27T18:19:33.647Z",
+      "updated_at": "2026-04-27T19:50:03.887Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -202,6 +202,44 @@
       "started_at": "2026-04-27T16:31:07.236Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "v1z8m9r26sll",
+          "status": "investigating",
+          "body": "We have identified the source of the additional load causing stress on our ElasticSearch clusters. We have disabled the source of that load and are seeing signs of recovery",
+          "incident_id": "ql942tw29yl6",
+          "created_at": "2026-04-27T19:50:03.884Z",
+          "updated_at": "2026-04-27T19:50:03.884Z",
+          "display_at": "2026-04-27T19:50:03.884Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "78cnm8r63bz2",
           "status": "investigating",
@@ -515,62 +553,6 @@
           "only_show_if_degraded": false
         }
       ],
-      "reminder_intervals": null
-    },
-    {
-      "id": "vq183jvj6vrw",
-      "name": "Disruption with some GitHub services",
-      "status": "investigating",
-      "created_at": "2026-04-27T16:48:18.031Z",
-      "updated_at": "2026-04-27T17:26:59.301Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/sqvl4sp1cfgz",
-      "started_at": "2026-04-27T16:48:18.023Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "h4lgtqk4lz12",
-          "status": "investigating",
-          "body": "We've found the issue and are working on deploying a solution to get Codex agent runs working again.",
-          "incident_id": "vq183jvj6vrw",
-          "created_at": "2026-04-27T17:26:59.299Z",
-          "updated_at": "2026-04-27T17:26:59.299Z",
-          "display_at": "2026-04-27T17:26:59.299Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "gqz10fd12m95",
-          "status": "investigating",
-          "body": "Copilot Cloud Agent (CCA) jobs using the Codex agent are failing after starting. To avoid this issue, please choose a different agent. We are investigating the cause and working towards remediation",
-          "incident_id": "vq183jvj6vrw",
-          "created_at": "2026-04-27T17:01:56.904Z",
-          "updated_at": "2026-04-27T17:01:56.904Z",
-          "display_at": "2026-04-27T17:01:56.904Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "31wwrf034cwk",
-          "status": "investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "incident_id": "vq183jvj6vrw",
-          "created_at": "2026-04-27T16:48:18.075Z",
-          "updated_at": "2026-04-27T16:48:18.075Z",
-          "display_at": "2026-04-27T16:48:18.075Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
       "reminder_intervals": null
     }
   ],
