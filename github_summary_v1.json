@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-27T12:08:41.874Z"
+    "updated_at": "2026-04-27T17:01:56.917Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2026-04-22T22:43:59.069Z",
+      "updated_at": "2026-04-27T16:36:39.122Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": true,
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2026-04-23T20:47:01.171Z",
+      "updated_at": "2026-04-27T16:53:22.560Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": true,
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2026-04-23T17:03:00.886Z",
+      "updated_at": "2026-04-27T16:27:46.931Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": true,
@@ -115,9 +115,9 @@
     {
       "id": "st3j38cctv9l",
       "name": "Packages",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-11-13T18:02:40.064Z",
-      "updated_at": "2026-04-23T15:02:29.411Z",
+      "updated_at": "2026-04-27T16:39:04.662Z",
       "position": 8,
       "description": "API requests and webhook delivery for GitHub Packages",
       "showcase": true,
@@ -188,10 +188,268 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "vq183jvj6vrw",
+      "name": "Disruption with some GitHub services",
+      "status": "investigating",
+      "created_at": "2026-04-27T16:48:18.031Z",
+      "updated_at": "2026-04-27T17:01:56.907Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/sqvl4sp1cfgz",
+      "started_at": "2026-04-27T16:48:18.023Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "gqz10fd12m95",
+          "status": "investigating",
+          "body": "Copilot Cloud Agent (CCA) jobs using the Codex agent are failing after starting. To avoid this issue, please choose a different agent. We are investigating the cause and working towards remediation",
+          "incident_id": "vq183jvj6vrw",
+          "created_at": "2026-04-27T17:01:56.904Z",
+          "updated_at": "2026-04-27T17:01:56.904Z",
+          "display_at": "2026-04-27T17:01:56.904Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "31wwrf034cwk",
+          "status": "investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "incident_id": "vq183jvj6vrw",
+          "created_at": "2026-04-27T16:48:18.075Z",
+          "updated_at": "2026-04-27T16:48:18.075Z",
+          "display_at": "2026-04-27T16:48:18.075Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    },
+    {
+      "id": "ql942tw29yl6",
+      "name": "GitHub search is degraded",
+      "status": "investigating",
+      "created_at": "2026-04-27T16:31:07.245Z",
+      "updated_at": "2026-04-27T16:53:22.590Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/x5cnngb211t7",
+      "started_at": "2026-04-27T16:31:07.236Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "vn1g77xczh7h",
+          "status": "investigating",
+          "body": "Pull Requests is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "ql942tw29yl6",
+          "created_at": "2026-04-27T16:53:22.587Z",
+          "updated_at": "2026-04-27T16:53:22.587Z",
+          "display_at": "2026-04-27T16:53:22.587Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "fx6y0c206kf3",
+          "status": "investigating",
+          "body": "Packages is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "ql942tw29yl6",
+          "created_at": "2026-04-27T16:39:04.698Z",
+          "updated_at": "2026-04-27T16:39:04.698Z",
+          "display_at": "2026-04-27T16:39:04.698Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "st3j38cctv9l",
+              "name": "Packages",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "n3skwgqx1084",
+          "status": "investigating",
+          "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
+          "incident_id": "ql942tw29yl6",
+          "created_at": "2026-04-27T16:36:39.150Z",
+          "updated_at": "2026-04-27T16:36:39.150Z",
+          "display_at": "2026-04-27T16:36:39.150Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "l78r0dx72c5s",
+          "status": "investigating",
+          "body": "Customers across GitHub are experiencing failures with searches. Examples include: workflow run failures, projects failing to load, and timed out search requests. This is due to an ongoing infrastructure issue that we have been investigating.",
+          "incident_id": "ql942tw29yl6",
+          "created_at": "2026-04-27T16:33:05.168Z",
+          "updated_at": "2026-04-27T16:33:05.168Z",
+          "display_at": "2026-04-27T16:33:05.168Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "t0xbm41f3r6p",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Actions",
+          "incident_id": "ql942tw29yl6",
+          "created_at": "2026-04-27T16:31:07.302Z",
+          "updated_at": "2026-04-27T16:31:07.302Z",
+          "display_at": "2026-04-27T16:31:07.302Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "kr09ddfgbfsf",
+          "name": "Issues",
+          "status": "degraded_performance",
+          "created_at": "2017-01-31T20:01:46.638Z",
+          "updated_at": "2026-04-27T16:36:39.122Z",
+          "position": 5,
+          "description": "Requests for Issues on GitHub.com",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "hhtssxt0f5v2",
+          "name": "Pull Requests",
+          "status": "degraded_performance",
+          "created_at": "2020-09-02T15:39:06.329Z",
+          "updated_at": "2026-04-27T16:53:22.560Z",
+          "position": 6,
+          "description": "Requests for Pull Requests on GitHub.com",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "br0l2tvcx85d",
+          "name": "Actions",
+          "status": "degraded_performance",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2026-04-27T16:27:46.931Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "st3j38cctv9l",
+          "name": "Packages",
+          "status": "degraded_performance",
+          "created_at": "2019-11-13T18:02:40.064Z",
+          "updated_at": "2026-04-27T16:39:04.662Z",
+          "position": 8,
+          "description": "API requests and webhook delivery for GitHub Packages",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
