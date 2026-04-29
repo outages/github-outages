@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-28T22:46:59.020Z"
+    "updated_at": "2026-04-29T00:40:41.836Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Incomplete pull request results in repositories",
       "status": "investigating",
       "created_at": "2026-04-28T14:17:34.682Z",
-      "updated_at": "2026-04-28T22:46:59.009Z",
+      "updated_at": "2026-04-29T00:40:41.826Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -202,6 +202,26 @@
       "started_at": "2026-04-28T14:17:34.674Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "bklk5m37h77k",
+          "status": "investigating",
+          "body": "Mitigation is in progress, with full recovery of impacted pull request listings expected within approximately 24 hours.",
+          "incident_id": "x69zbgdyfzg0",
+          "created_at": "2026-04-29T00:40:41.822Z",
+          "updated_at": "2026-04-29T00:40:41.822Z",
+          "display_at": "2026-04-29T00:40:41.822Z",
+          "affected_components": [
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "t0599c1h223b",
           "status": "investigating",
