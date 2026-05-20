@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-05-20T18:17:16.111Z"
+    "updated_at": "2026-05-20T20:14:16.613Z"
   },
   "components": [
     {
@@ -188,121 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "g6ffrm0rfvz9",
-      "name": "Incident with Actions",
-      "status": "monitoring",
-      "created_at": "2026-05-20T16:58:52.281Z",
-      "updated_at": "2026-05-20T18:17:16.101Z",
-      "monitoring_at": "2026-05-20T17:52:28.645Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/w64c15qfl7pz",
-      "started_at": "2026-05-20T16:58:52.272Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "pjlv2ky2hpqs",
-          "status": "monitoring",
-          "body": "We've applied a mitigation to fix the issues with queuing and running Actions jobs. We are seeing improvements in telemetry and are monitoring for full recovery.",
-          "incident_id": "g6ffrm0rfvz9",
-          "created_at": "2026-05-20T18:17:16.098Z",
-          "updated_at": "2026-05-20T18:17:16.098Z",
-          "display_at": "2026-05-20T18:17:16.098Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "qcflfzkqhg2d",
-          "status": "monitoring",
-          "body": "The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.",
-          "incident_id": "g6ffrm0rfvz9",
-          "created_at": "2026-05-20T17:52:28.645Z",
-          "updated_at": "2026-05-20T17:52:28.645Z",
-          "display_at": "2026-05-20T17:52:28.645Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "m8y2563pgpcs",
-          "status": "investigating",
-          "body": "A subset of runners are taking longer than expected to connect, which may delay some jobs from beginning execution. We are actively working to mitigate the issue.",
-          "incident_id": "g6ffrm0rfvz9",
-          "created_at": "2026-05-20T17:46:07.766Z",
-          "updated_at": "2026-05-20T17:46:07.766Z",
-          "display_at": "2026-05-20T17:46:07.766Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "5fzh5ky6g71n",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Actions",
-          "incident_id": "g6ffrm0rfvz9",
-          "created_at": "2026-05-20T16:58:52.362Z",
-          "updated_at": "2026-05-20T16:58:52.362Z",
-          "display_at": "2026-05-20T16:58:52.362Z",
-          "affected_components": [
-            {
-              "code": "br0l2tvcx85d",
-              "name": "Actions",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "br0l2tvcx85d",
-          "name": "Actions",
-          "status": "operational",
-          "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2026-05-20T17:52:28.617Z",
-          "position": 7,
-          "description": "Workflows, Compute and Orchestration for GitHub Actions",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
