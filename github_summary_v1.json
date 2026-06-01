@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-06-01T09:24:08.735Z"
+    "updated_at": "2026-06-01T15:49:09.534Z"
   },
   "components": [
     {
@@ -188,7 +188,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "5wdgxw2rvbt3",
+      "name": "Delays with Code Scanning and Billing",
+      "status": "investigating",
+      "created_at": "2026-06-01T15:17:09.709Z",
+      "updated_at": "2026-06-01T15:43:07.505Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/ct11xsjs29k7",
+      "started_at": "2026-06-01T15:17:09.698Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "v3p4z53244qx",
+          "status": "investigating",
+          "body": "We are investigating reports of delayed code scanning runs, billing updates, email and mobile push notifications. We are investigating delays in our job processing architecture. We will continue to keep users updated on progress towards mitigation.",
+          "incident_id": "5wdgxw2rvbt3",
+          "created_at": "2026-06-01T15:43:07.499Z",
+          "updated_at": "2026-06-01T15:43:07.499Z",
+          "display_at": "2026-06-01T15:43:07.499Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "qhkdbjgw4n21",
+          "status": "investigating",
+          "body": "We are investigating reports of delayed code scanning runs and delayed billing updates.  We will continue to keep users updated on progress towards mitigation.",
+          "incident_id": "5wdgxw2rvbt3",
+          "created_at": "2026-06-01T15:17:27.994Z",
+          "updated_at": "2026-06-01T15:17:27.994Z",
+          "display_at": "2026-06-01T15:17:27.994Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "9cqjry0g0m7k",
+          "status": "investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "incident_id": "5wdgxw2rvbt3",
+          "created_at": "2026-06-01T15:17:09.775Z",
+          "updated_at": "2026-06-01T15:17:09.775Z",
+          "display_at": "2026-06-01T15:17:09.775Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
