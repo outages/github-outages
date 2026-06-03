@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-06-02T23:28:55.426Z"
+    "updated_at": "2026-06-03T03:48:21.485Z"
   },
   "components": [
     {
@@ -188,7 +188,51 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "j240y90h4g0r",
+      "name": "Disruption with some GitHub services",
+      "status": "investigating",
+      "created_at": "2026-06-03T03:13:28.911Z",
+      "updated_at": "2026-06-03T03:48:21.471Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/mp1r6nlnzs0s",
+      "started_at": "2026-06-03T03:13:28.901Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "bmz83sd4f4km",
+          "status": "investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.<br /><br />---<br />Relevant stamps: dotcom",
+          "incident_id": "j240y90h4g0r",
+          "created_at": "2026-06-03T03:45:54.486Z",
+          "updated_at": "2026-06-03T03:48:21.465Z",
+          "display_at": "2026-06-03T03:45:54.486Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "8q4k92m6cr5t",
+          "status": "investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "incident_id": "j240y90h4g0r",
+          "created_at": "2026-06-03T03:13:28.968Z",
+          "updated_at": "2026-06-03T03:13:28.968Z",
+          "display_at": "2026-06-03T03:13:28.968Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
