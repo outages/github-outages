@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-06-04T15:58:07.379Z"
+    "updated_at": "2026-06-04T18:22:27.167Z"
   },
   "components": [
     {
@@ -188,7 +188,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "5h5lmbffp07c",
+      "name": "Copilot Code Review Failing",
+      "status": "investigating",
+      "created_at": "2026-06-04T18:02:54.000Z",
+      "updated_at": "2026-06-04T18:22:27.138Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "critical",
+      "shortlink": "https://stspg.io/jssh5k7mdbtp",
+      "started_at": "2026-06-04T18:02:53.983Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "n5rf0qmt6dnd",
+          "status": "investigating",
+          "body": "We have identified that Copilot Code Review users may see \"Copilot ran into an error\" on Pull Requests that requested Copilot Code Review.<br /><br />A mitigation is in progress, we expect mitigation in approximately 30m.<br /><br />GitHub Enterprise Cloud with Data Residency is not impacted.",
+          "incident_id": "5h5lmbffp07c",
+          "created_at": "2026-06-04T18:22:27.134Z",
+          "updated_at": "2026-06-04T18:22:27.134Z",
+          "display_at": "2026-06-04T18:22:27.134Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "jtn6cgtvpj9n",
+          "status": "investigating",
+          "body": "We have identified that Copilot Code Review.  Users may see \"Copilot ran into an error\" on Pull Requests that requested Copilot Code Review.<br /><br />A mitigation is in progress.",
+          "incident_id": "5h5lmbffp07c",
+          "created_at": "2026-06-04T18:03:24.198Z",
+          "updated_at": "2026-06-04T18:03:24.198Z",
+          "display_at": "2026-06-04T18:03:24.198Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "htdkwg7g4s27",
+          "status": "investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "incident_id": "5h5lmbffp07c",
+          "created_at": "2026-06-04T18:02:54.096Z",
+          "updated_at": "2026-06-04T18:02:54.096Z",
+          "display_at": "2026-06-04T18:02:54.096Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
