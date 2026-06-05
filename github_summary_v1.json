@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-06-05T18:21:08.937Z"
+    "updated_at": "2026-06-05T20:06:23.480Z"
   },
   "components": [
     {
@@ -191,10 +191,10 @@
   "incidents": [
     {
       "id": "2nmfnbknhlnv",
-      "name": "Disruption with some GitHub services",
+      "name": "Auth issue resulting in API impacts, including some Slack and Teams channel subscriptions",
       "status": "monitoring",
       "created_at": "2026-06-05T17:20:31.897Z",
-      "updated_at": "2026-06-05T18:05:00.078Z",
+      "updated_at": "2026-06-05T20:06:23.475Z",
       "monitoring_at": "2026-06-05T18:05:00.048Z",
       "resolved_at": null,
       "impact": "minor",
@@ -202,6 +202,19 @@
       "started_at": "2026-06-05T17:20:31.884Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "bl8p8846dx8d",
+          "status": "monitoring",
+          "body": "We are still exploring options to restore the deleted subscriptions, and we will provide another update soon. In the meantime, customers can manually re-subscribe their Slack and Teams channels to repositories.",
+          "incident_id": "2nmfnbknhlnv",
+          "created_at": "2026-06-05T18:43:49.501Z",
+          "updated_at": "2026-06-05T18:43:49.501Z",
+          "display_at": "2026-06-05T18:43:49.501Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "v8xkfb4rvlp2",
           "status": "monitoring",
