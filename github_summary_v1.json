@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-06-05T14:59:02.430Z"
+    "updated_at": "2026-06-05T18:21:08.937Z"
   },
   "components": [
     {
@@ -188,7 +188,77 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "2nmfnbknhlnv",
+      "name": "Disruption with some GitHub services",
+      "status": "monitoring",
+      "created_at": "2026-06-05T17:20:31.897Z",
+      "updated_at": "2026-06-05T18:05:00.078Z",
+      "monitoring_at": "2026-06-05T18:05:00.048Z",
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/qzt7bjn4vt07",
+      "started_at": "2026-06-05T17:20:31.884Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "v8xkfb4rvlp2",
+          "status": "monitoring",
+          "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
+          "incident_id": "2nmfnbknhlnv",
+          "created_at": "2026-06-05T18:05:00.048Z",
+          "updated_at": "2026-06-05T18:05:00.048Z",
+          "display_at": "2026-06-05T18:05:00.048Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "4bmn0f27v79r",
+          "status": "investigating",
+          "body": "During 14:49 UTC to 16:45 UTC, customers may have experienced authorization failures for legitimate requests. This was caused by a recently enabled feature flag, which has now been turned off as a mitigation. Customers should now see normal authorization behavior. This is also the cause of the chat integration issue, and we are exploring options to restore it. In the meantime, customers can manually re-subscribe their repo.",
+          "incident_id": "2nmfnbknhlnv",
+          "created_at": "2026-06-05T18:04:43.687Z",
+          "updated_at": "2026-06-05T18:04:43.687Z",
+          "display_at": "2026-06-05T18:04:43.687Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "r9gbp0bg7pfx",
+          "status": "investigating",
+          "body": "Customers may see unexpected repo unsubscription events in their Slack or Teams channels.",
+          "incident_id": "2nmfnbknhlnv",
+          "created_at": "2026-06-05T17:25:44.973Z",
+          "updated_at": "2026-06-05T17:25:44.973Z",
+          "display_at": "2026-06-05T17:25:44.973Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "r9ycq9kz6dyp",
+          "status": "investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "incident_id": "2nmfnbknhlnv",
+          "created_at": "2026-06-05T17:20:31.989Z",
+          "updated_at": "2026-06-05T17:20:31.989Z",
+          "display_at": "2026-06-05T17:20:31.989Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
