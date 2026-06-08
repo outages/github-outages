@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-06-08T09:53:59.803Z"
+    "updated_at": "2026-06-08T14:04:03.474Z"
   },
   "components": [
     {
@@ -12,7 +12,7 @@
       "name": "Git Operations",
       "status": "operational",
       "created_at": "2017-01-31T20:05:05.370Z",
-      "updated_at": "2026-05-27T13:16:53.905Z",
+      "updated_at": "2026-06-08T13:57:38.923Z",
       "position": 1,
       "description": "Performance of git clones, pulls, pushes, and associated operations",
       "showcase": true,
@@ -175,9 +175,9 @@
     {
       "id": "cnnb39dkkk82",
       "name": "Copilot AI Model Providers",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-04-17T12:33:08.827Z",
-      "updated_at": "2026-06-08T09:05:44.411Z",
+      "updated_at": "2026-06-08T10:03:32.596Z",
       "position": 12,
       "description": null,
       "showcase": true,
@@ -188,104 +188,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "71hv2q6tk693",
-      "name": "Disruption with Claude Opus 4.7",
-      "status": "investigating",
-      "created_at": "2026-06-08T09:05:44.338Z",
-      "updated_at": "2026-06-08T09:49:32.480Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/6g6hjsmx2f2w",
-      "started_at": "2026-06-08T09:05:44.322Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "ngbxsj7qhm8n",
-          "status": "investigating",
-          "body": "We are experiencing degraded availability for the Claude Opus 4.7 model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue, and starting to see recovery.<br />",
-          "incident_id": "71hv2q6tk693",
-          "created_at": "2026-06-08T09:49:32.476Z",
-          "updated_at": "2026-06-08T09:49:32.476Z",
-          "display_at": "2026-06-08T09:49:32.476Z",
-          "affected_components": [
-            {
-              "code": "cnnb39dkkk82",
-              "name": "Copilot AI Model Providers",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "r0fv7w022g35",
-          "status": "investigating",
-          "body": "We are experiencing degraded availability for the Claude Opus 4.7 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.",
-          "incident_id": "71hv2q6tk693",
-          "created_at": "2026-06-08T09:08:58.648Z",
-          "updated_at": "2026-06-08T09:08:58.648Z",
-          "display_at": "2026-06-08T09:08:58.648Z",
-          "affected_components": [
-            {
-              "code": "cnnb39dkkk82",
-              "name": "Copilot AI Model Providers",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "tf8yjhpmh896",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Copilot AI Model Providers",
-          "incident_id": "71hv2q6tk693",
-          "created_at": "2026-06-08T09:05:44.475Z",
-          "updated_at": "2026-06-08T09:05:44.475Z",
-          "display_at": "2026-06-08T09:05:44.475Z",
-          "affected_components": [
-            {
-              "code": "cnnb39dkkk82",
-              "name": "Copilot AI Model Providers",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "cnnb39dkkk82",
-          "name": "Copilot AI Model Providers",
-          "status": "degraded_performance",
-          "created_at": "2026-04-17T12:33:08.827Z",
-          "updated_at": "2026-06-08T09:05:44.411Z",
-          "position": 12,
-          "description": null,
-          "showcase": true,
-          "start_date": "2026-04-17",
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
