@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-07-19T21:24:21.199Z"
+    "updated_at": "2026-07-19T23:37:51.894Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2026-07-13T13:39:27.172Z",
+      "updated_at": "2026-07-19T23:34:03.488Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": true,
@@ -188,10 +188,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "8vfyvq16hzh9",
+      "name": "Incident with GitHub Actions",
+      "status": "investigating",
+      "created_at": "2026-07-19T23:34:03.457Z",
+      "updated_at": "2026-07-19T23:37:51.884Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/w8d77c7t94zf",
+      "started_at": "2026-07-19T23:34:03.450Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "xyqlmmgrnycw",
+          "status": "investigating",
+          "body": "We are investigating degraded availability for GitHub Actions on github.com and in GHEC DR stamps. New workflows may delay or fail to start, and ongoing runs may fail. We will provide more information as soon as we can.",
+          "incident_id": "8vfyvq16hzh9",
+          "created_at": "2026-07-19T23:37:51.881Z",
+          "updated_at": "2026-07-19T23:37:51.881Z",
+          "display_at": "2026-07-19T23:37:51.881Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "974bbl8pthmp",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Actions",
+          "incident_id": "8vfyvq16hzh9",
+          "created_at": "2026-07-19T23:34:03.512Z",
+          "updated_at": "2026-07-19T23:34:03.512Z",
+          "display_at": "2026-07-19T23:34:03.512Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "br0l2tvcx85d",
+          "name": "Actions",
+          "status": "degraded_performance",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2026-07-19T23:34:03.488Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
