@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-07-20T16:39:46.805Z"
+    "updated_at": "2026-07-20T18:37:08.038Z"
   },
   "components": [
     {
@@ -175,9 +175,9 @@
     {
       "id": "cnnb39dkkk82",
       "name": "Copilot AI Model Providers",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-04-17T12:33:08.827Z",
-      "updated_at": "2026-07-20T16:03:51.230Z",
+      "updated_at": "2026-07-20T18:37:07.995Z",
       "position": 12,
       "description": null,
       "showcase": true,
@@ -188,104 +188,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "fd7j2mw8xw94",
-      "name": "Disruption with GPT 5.3 Codex",
-      "status": "investigating",
-      "created_at": "2026-07-20T16:03:51.187Z",
-      "updated_at": "2026-07-20T16:39:46.796Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/7ls47qxt8lpq",
-      "started_at": "2026-07-20T16:03:51.177Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "yc012530pl6v",
-          "status": "investigating",
-          "body": "We identified that an upstream provider is returning errors for GPT 5.3 Codex requests, causing some users to experience failed or interrupted responses. Traffic is being automatically rerouted to mitigate impact. We are working with the upstream provider to resolve the underlying issue. We recommend using a different model at this time while we resolve the problem.",
-          "incident_id": "fd7j2mw8xw94",
-          "created_at": "2026-07-20T16:39:46.794Z",
-          "updated_at": "2026-07-20T16:39:46.794Z",
-          "display_at": "2026-07-20T16:39:46.794Z",
-          "affected_components": [
-            {
-              "code": "cnnb39dkkk82",
-              "name": "Copilot AI Model Providers",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "0c63ygxm7kkx",
-          "status": "investigating",
-          "body": "We are investigating GPT Codex 5.3 performance.",
-          "incident_id": "fd7j2mw8xw94",
-          "created_at": "2026-07-20T16:04:26.517Z",
-          "updated_at": "2026-07-20T16:04:26.517Z",
-          "display_at": "2026-07-20T16:04:26.517Z",
-          "affected_components": [
-            {
-              "code": "cnnb39dkkk82",
-              "name": "Copilot AI Model Providers",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "y9r7c45nqpgz",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Copilot AI Model Providers",
-          "incident_id": "fd7j2mw8xw94",
-          "created_at": "2026-07-20T16:03:51.272Z",
-          "updated_at": "2026-07-20T16:03:51.272Z",
-          "display_at": "2026-07-20T16:03:51.272Z",
-          "affected_components": [
-            {
-              "code": "cnnb39dkkk82",
-              "name": "Copilot AI Model Providers",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "cnnb39dkkk82",
-          "name": "Copilot AI Model Providers",
-          "status": "degraded_performance",
-          "created_at": "2026-04-17T12:33:08.827Z",
-          "updated_at": "2026-07-20T16:03:51.230Z",
-          "position": 12,
-          "description": null,
-          "showcase": true,
-          "start_date": "2026-04-17",
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
