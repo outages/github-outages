@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-07-22T19:01:54.676Z"
+    "updated_at": "2026-07-22T20:47:02.389Z"
   },
   "components": [
     {
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2026-07-20T03:34:48.498Z",
+      "updated_at": "2026-07-22T20:43:43.837Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": true,
@@ -188,10 +188,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "20frdtvv3yg6",
+      "name": "Disruption with actions hosted runners",
+      "status": "investigating",
+      "created_at": "2026-07-22T20:43:43.797Z",
+      "updated_at": "2026-07-22T20:47:02.379Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/hccgdw2k2b1q",
+      "started_at": "2026-07-22T20:43:43.789Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "70q12wmx3ckx",
+          "status": "investigating",
+          "body": "Approximately 3% of GitHub Actions runs on GitHub-hosted runners are experiencing run start delays exceeding 5 minutes. A small portion of these runs may fail after extended delays. We have identified the cause and are working on a mitigation.",
+          "incident_id": "20frdtvv3yg6",
+          "created_at": "2026-07-22T20:47:02.375Z",
+          "updated_at": "2026-07-22T20:47:02.375Z",
+          "display_at": "2026-07-22T20:47:02.375Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "0nkb28qlrqrw",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Actions",
+          "incident_id": "20frdtvv3yg6",
+          "created_at": "2026-07-22T20:43:43.871Z",
+          "updated_at": "2026-07-22T20:43:43.871Z",
+          "display_at": "2026-07-22T20:43:43.871Z",
+          "affected_components": [
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "br0l2tvcx85d",
+          "name": "Actions",
+          "status": "degraded_performance",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2026-07-22T20:43:43.837Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
