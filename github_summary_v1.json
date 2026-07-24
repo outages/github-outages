@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-07-24T20:20:53.192Z"
+    "updated_at": "2026-07-24T20:23:10.338Z"
   },
   "components": [
     {
@@ -188,141 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "jxd617hfwfq8",
-      "name": "Incident with Pull Requests",
-      "status": "monitoring",
-      "created_at": "2026-07-24T19:37:28.079Z",
-      "updated_at": "2026-07-24T20:02:39.256Z",
-      "monitoring_at": "2026-07-24T20:02:39.236Z",
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/sm1tp7kfm4vj",
-      "started_at": "2026-07-24T19:37:28.071Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "2g4t08c40dbr",
-          "status": "monitoring",
-          "body": "The degradation affecting Pull Requests has been mitigated. We are monitoring to ensure stability.",
-          "incident_id": "jxd617hfwfq8",
-          "created_at": "2026-07-24T20:02:39.236Z",
-          "updated_at": "2026-07-24T20:02:39.236Z",
-          "display_at": "2026-07-24T20:02:39.236Z",
-          "affected_components": [
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "major_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "sjf31xcqv9zn",
-          "status": "investigating",
-          "body": "We have applied a mitigation and are monitoring for recovery",
-          "incident_id": "jxd617hfwfq8",
-          "created_at": "2026-07-24T19:59:57.275Z",
-          "updated_at": "2026-07-24T19:59:57.275Z",
-          "display_at": "2026-07-24T19:59:57.275Z",
-          "affected_components": [
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "2zmhwpgd2kyc",
-          "status": "investigating",
-          "body": "Pull Requests is experiencing degraded availability. We are continuing to investigate.",
-          "incident_id": "jxd617hfwfq8",
-          "created_at": "2026-07-24T19:43:40.031Z",
-          "updated_at": "2026-07-24T19:43:40.031Z",
-          "display_at": "2026-07-24T19:43:40.031Z",
-          "affected_components": [
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "degraded_performance",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "d2g87ttcmj6n",
-          "status": "investigating",
-          "body": "We are investigating errors creating pull requests",
-          "incident_id": "jxd617hfwfq8",
-          "created_at": "2026-07-24T19:40:45.691Z",
-          "updated_at": "2026-07-24T19:40:45.691Z",
-          "display_at": "2026-07-24T19:40:45.691Z",
-          "affected_components": [
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "x8wzbkbbfblq",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Pull Requests",
-          "incident_id": "jxd617hfwfq8",
-          "created_at": "2026-07-24T19:37:28.159Z",
-          "updated_at": "2026-07-24T19:37:28.159Z",
-          "display_at": "2026-07-24T19:37:28.159Z",
-          "affected_components": [
-            {
-              "code": "hhtssxt0f5v2",
-              "name": "Pull Requests",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "hhtssxt0f5v2",
-          "name": "Pull Requests",
-          "status": "operational",
-          "created_at": "2020-09-02T15:39:06.329Z",
-          "updated_at": "2026-07-24T20:02:39.202Z",
-          "position": 6,
-          "description": "Requests for Pull Requests on GitHub.com",
-          "showcase": true,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
