@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-07-29T20:21:22.920Z"
+    "updated_at": "2026-07-29T21:08:31.632Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Incident with Copilot AI Model Providers",
       "status": "investigating",
       "created_at": "2026-07-29T20:07:07.951Z",
-      "updated_at": "2026-07-29T20:18:18.932Z",
+      "updated_at": "2026-07-29T21:08:31.624Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -202,6 +202,46 @@
       "started_at": "2026-07-29T20:07:07.943Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "4d8b5fkkvlz6",
+          "status": "investigating",
+          "body": "The external AI model provider is continuing to investigate.",
+          "incident_id": "dsrfymph7my0",
+          "created_at": "2026-07-29T21:08:31.620Z",
+          "updated_at": "2026-07-29T21:08:31.620Z",
+          "display_at": "2026-07-29T21:08:31.620Z",
+          "affected_components": [
+            {
+              "code": "cnnb39dkkk82",
+              "name": "Copilot AI Model Providers",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "vlcfp0ghjf0w",
+          "status": "investigating",
+          "body": "The external AI model provider has identified the issue and is working to resolve.",
+          "incident_id": "dsrfymph7my0",
+          "created_at": "2026-07-29T20:38:32.363Z",
+          "updated_at": "2026-07-29T20:38:32.363Z",
+          "display_at": "2026-07-29T20:38:32.363Z",
+          "affected_components": [
+            {
+              "code": "cnnb39dkkk82",
+              "name": "Copilot AI Model Providers",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "bq6y57pgphv2",
           "status": "investigating",
