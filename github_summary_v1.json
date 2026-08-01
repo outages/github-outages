@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-08-01T15:24:02.153Z"
+    "updated_at": "2026-08-01T18:23:40.031Z"
   },
   "components": [
     {
@@ -177,7 +177,7 @@
       "name": "Copilot AI Model Providers",
       "status": "operational",
       "created_at": "2026-04-17T12:33:08.827Z",
-      "updated_at": "2026-08-01T12:30:21.744Z",
+      "updated_at": "2026-08-01T18:20:48.917Z",
       "position": 12,
       "description": null,
       "showcase": true,
@@ -188,7 +188,141 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "sj1tzyrx599x",
+      "name": "Incident with Copilot AI Model Providers",
+      "status": "monitoring",
+      "created_at": "2026-08-01T18:03:05.539Z",
+      "updated_at": "2026-08-01T18:23:40.023Z",
+      "monitoring_at": "2026-08-01T18:20:48.941Z",
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/z58g1g529hzz",
+      "started_at": "2026-08-01T18:03:05.531Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "qh1zlp9xz3fm",
+          "status": "monitoring",
+          "body": "The issues with our upstream model provider have been resolved, and Fable 5 is once again available in Copilot products and IDE surfaces.<br /><br />We will continue monitoring to ensure stability, but mitigation is complete.",
+          "incident_id": "sj1tzyrx599x",
+          "created_at": "2026-08-01T18:23:40.021Z",
+          "updated_at": "2026-08-01T18:23:40.021Z",
+          "display_at": "2026-08-01T18:23:40.021Z",
+          "affected_components": [
+            {
+              "code": "cnnb39dkkk82",
+              "name": "Copilot AI Model Providers",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "q1v2bhz3pc36",
+          "status": "monitoring",
+          "body": "The degradation affecting Copilot AI Model Providers has been mitigated. We are monitoring to ensure stability.",
+          "incident_id": "sj1tzyrx599x",
+          "created_at": "2026-08-01T18:20:48.941Z",
+          "updated_at": "2026-08-01T18:20:48.941Z",
+          "display_at": "2026-08-01T18:20:48.941Z",
+          "affected_components": [
+            {
+              "code": "cnnb39dkkk82",
+              "name": "Copilot AI Model Providers",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "gh4nm8yh653k",
+          "status": "investigating",
+          "body": "We are experiencing degraded availability for the Fable 5 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.",
+          "incident_id": "sj1tzyrx599x",
+          "created_at": "2026-08-01T18:20:20.807Z",
+          "updated_at": "2026-08-01T18:20:20.807Z",
+          "display_at": "2026-08-01T18:20:20.807Z",
+          "affected_components": [
+            {
+              "code": "cnnb39dkkk82",
+              "name": "Copilot AI Model Providers",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "38y461sny38x",
+          "status": "investigating",
+          "body": "We are seeing increased error rates from specific upstream AI Model Providers",
+          "incident_id": "sj1tzyrx599x",
+          "created_at": "2026-08-01T18:03:15.483Z",
+          "updated_at": "2026-08-01T18:03:15.483Z",
+          "display_at": "2026-08-01T18:03:15.483Z",
+          "affected_components": [
+            {
+              "code": "cnnb39dkkk82",
+              "name": "Copilot AI Model Providers",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "whdtrmj4k5y1",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Copilot AI Model Providers",
+          "incident_id": "sj1tzyrx599x",
+          "created_at": "2026-08-01T18:03:05.616Z",
+          "updated_at": "2026-08-01T18:03:05.616Z",
+          "display_at": "2026-08-01T18:03:05.616Z",
+          "affected_components": [
+            {
+              "code": "cnnb39dkkk82",
+              "name": "Copilot AI Model Providers",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "cnnb39dkkk82",
+          "name": "Copilot AI Model Providers",
+          "status": "operational",
+          "created_at": "2026-04-17T12:33:08.827Z",
+          "updated_at": "2026-08-01T18:20:48.917Z",
+          "position": 12,
+          "description": null,
+          "showcase": true,
+          "start_date": "2026-04-17",
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
