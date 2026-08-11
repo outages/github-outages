@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-08-11T16:34:38.817Z"
+    "updated_at": "2026-08-11T17:24:00.373Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2026-08-11T14:50:40.270Z",
+      "updated_at": "2026-08-11T16:49:34.068Z",
       "position": 4,
       "description": "Requests for GitHub APIs",
       "showcase": true,
@@ -192,16 +192,56 @@
     {
       "id": "vm1w8zq95wkt",
       "name": "Incident with GraphQL API Requests",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2026-08-11T14:50:40.228Z",
-      "updated_at": "2026-08-11T15:28:44.397Z",
-      "monitoring_at": null,
+      "updated_at": "2026-08-11T16:49:34.126Z",
+      "monitoring_at": "2026-08-11T16:49:34.107Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/3xn46bst0bjh",
       "started_at": "2026-08-11T14:50:40.219Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "j6wkk9nn3gn9",
+          "status": "monitoring",
+          "body": "The degradation affecting API Requests has been mitigated. We are monitoring to ensure stability.",
+          "incident_id": "vm1w8zq95wkt",
+          "created_at": "2026-08-11T16:49:34.107Z",
+          "updated_at": "2026-08-11T16:49:34.107Z",
+          "display_at": "2026-08-11T16:49:34.107Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "134v8n0xlvtj",
+          "status": "investigating",
+          "body": "We have returned to a healthy baseline on GraphQL API requests. We will continue to work on investigations into the errors seen during this incident.",
+          "incident_id": "vm1w8zq95wkt",
+          "created_at": "2026-08-11T16:49:24.503Z",
+          "updated_at": "2026-08-11T16:49:24.503Z",
+          "display_at": "2026-08-11T16:49:24.503Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "1fp6txbb1vt8",
           "status": "investigating",
@@ -247,9 +287,9 @@
         {
           "id": "brv1bkgrwx7q",
           "name": "API Requests",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-01-31T20:01:46.621Z",
-          "updated_at": "2026-08-11T14:50:40.270Z",
+          "updated_at": "2026-08-11T16:49:34.068Z",
           "position": 4,
           "description": "Requests for GitHub APIs",
           "showcase": true,
@@ -265,7 +305,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
