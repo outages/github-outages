@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-08-12T22:22:11.457Z"
+    "updated_at": "2026-08-12T23:09:15.156Z"
   },
   "components": [
     {
@@ -188,64 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "lsvy8xsf0gxv",
-      "name": "Disruption with Login and Release Asset downloads",
-      "status": "investigating",
-      "created_at": "2026-08-12T21:39:05.231Z",
-      "updated_at": "2026-08-12T22:22:11.447Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/xp36nwz4rrh1",
-      "started_at": "2026-08-12T21:39:05.221Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "shcljc37cjb4",
-          "status": "investigating",
-          "body": "We have identified the root cause and are working on mitigation. Errors on the login page and downloading release assets have decreased, but we are not fully mitigated. We will continue to provide updates.",
-          "incident_id": "lsvy8xsf0gxv",
-          "created_at": "2026-08-12T22:22:11.444Z",
-          "updated_at": "2026-08-12T22:22:11.444Z",
-          "display_at": "2026-08-12T22:22:11.444Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "mshsyxg66hb9",
-          "status": "investigating",
-          "body": "We are investigating issues with Login and when downloading Release Assets. We will continue to keep users updated on progress towards mitigation.",
-          "incident_id": "lsvy8xsf0gxv",
-          "created_at": "2026-08-12T21:43:25.632Z",
-          "updated_at": "2026-08-12T21:43:25.632Z",
-          "display_at": "2026-08-12T21:43:25.632Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "h1rhpx3rnp9q",
-          "status": "investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "incident_id": "lsvy8xsf0gxv",
-          "created_at": "2026-08-12T21:39:05.267Z",
-          "updated_at": "2026-08-12T21:39:05.267Z",
-          "display_at": "2026-08-12T21:39:05.267Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
