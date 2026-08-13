@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-08-13T15:39:07.823Z"
+    "updated_at": "2026-08-13T16:21:51.876Z"
   },
   "components": [
     {
@@ -175,9 +175,9 @@
     {
       "id": "cnnb39dkkk82",
       "name": "Copilot AI Model Providers",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-04-17T12:33:08.827Z",
-      "updated_at": "2026-08-13T14:43:25.262Z",
+      "updated_at": "2026-08-13T15:47:22.352Z",
       "position": 12,
       "description": null,
       "showcase": true,
@@ -190,102 +190,52 @@
   ],
   "incidents": [
     {
-      "id": "24t8gsgqx2qb",
-      "name": "Errors with the Fable 5 Model in Copilot",
+      "id": "pf25whpq58hh",
+      "name": "Disruption with GHEC Team Sync",
       "status": "investigating",
-      "created_at": "2026-08-13T14:43:25.203Z",
-      "updated_at": "2026-08-13T15:23:39.381Z",
+      "created_at": "2026-08-13T16:21:33.104Z",
+      "updated_at": "2026-08-13T16:21:51.863Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
-      "shortlink": "https://stspg.io/8htrnxk0q09v",
-      "started_at": "2026-08-13T14:43:25.196Z",
+      "shortlink": "https://stspg.io/l6tmhqw07cmj",
+      "started_at": "2026-08-13T16:21:33.096Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
         {
-          "id": "mnpr6hw95wf1",
+          "id": "n08n9543y09f",
           "status": "investigating",
-          "body": "We are seeing modest recovery, but are still experiencing degraded availability for the Fable 5 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.",
-          "incident_id": "24t8gsgqx2qb",
-          "created_at": "2026-08-13T15:23:39.378Z",
-          "updated_at": "2026-08-13T15:23:39.378Z",
-          "display_at": "2026-08-13T15:23:39.378Z",
-          "affected_components": [
-            {
-              "code": "cnnb39dkkk82",
-              "name": "Copilot AI Model Providers",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
+          "body": "GHEC Team Sync is currently degraded for enterprises with personal accounts, causing delays when syncing teams to IdP groups. We have identified the cause of the delays and are working on a mitigation. We will provide an update on our progress at 20:00 UTC.",
+          "incident_id": "pf25whpq58hh",
+          "created_at": "2026-08-13T16:21:51.860Z",
+          "updated_at": "2026-08-13T16:21:51.860Z",
+          "display_at": "2026-08-13T16:21:51.860Z",
+          "affected_components": null,
           "deliver_notifications": true,
           "custom_tweet": null,
           "tweet_id": null
         },
         {
-          "id": "n88by2bcx3wg",
+          "id": "gsnrtly5n4dy",
           "status": "investigating",
-          "body": "We are experiencing degraded availability for the Fable 5 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.",
-          "incident_id": "24t8gsgqx2qb",
-          "created_at": "2026-08-13T14:50:10.040Z",
-          "updated_at": "2026-08-13T14:50:10.040Z",
-          "display_at": "2026-08-13T14:50:10.040Z",
-          "affected_components": [
-            {
-              "code": "cnnb39dkkk82",
-              "name": "Copilot AI Model Providers",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "b2whhtnz65dz",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance for Copilot AI Model Providers",
-          "incident_id": "24t8gsgqx2qb",
-          "created_at": "2026-08-13T14:43:25.299Z",
-          "updated_at": "2026-08-13T14:43:25.299Z",
-          "display_at": "2026-08-13T14:43:25.299Z",
-          "affected_components": [
-            {
-              "code": "cnnb39dkkk82",
-              "name": "Copilot AI Model Providers",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "incident_id": "pf25whpq58hh",
+          "created_at": "2026-08-13T16:21:33.148Z",
+          "updated_at": "2026-08-13T16:21:33.148Z",
+          "display_at": "2026-08-13T16:21:33.148Z",
+          "affected_components": null,
           "deliver_notifications": true,
           "custom_tweet": null,
           "tweet_id": null
         }
       ],
-      "components": [
-        {
-          "id": "cnnb39dkkk82",
-          "name": "Copilot AI Model Providers",
-          "status": "degraded_performance",
-          "created_at": "2026-04-17T12:33:08.827Z",
-          "updated_at": "2026-08-13T14:43:25.262Z",
-          "position": 12,
-          "description": null,
-          "showcase": true,
-          "start_date": "2026-04-17",
-          "group_id": null,
-          "page_id": "kctbh9vrtdwd",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
+      "components": [],
       "reminder_intervals": null
     }
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
