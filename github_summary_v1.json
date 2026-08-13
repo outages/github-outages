@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-08-13T13:33:59.911Z"
+    "updated_at": "2026-08-13T14:43:25.304Z"
   },
   "components": [
     {
@@ -175,9 +175,9 @@
     {
       "id": "cnnb39dkkk82",
       "name": "Copilot AI Model Providers",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2026-04-17T12:33:08.827Z",
-      "updated_at": "2026-08-01T18:20:48.917Z",
+      "updated_at": "2026-08-13T14:43:25.262Z",
       "position": 12,
       "description": null,
       "showcase": true,
@@ -188,10 +188,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "24t8gsgqx2qb",
+      "name": "Errors with the Fable 5 Model in Copilot",
+      "status": "investigating",
+      "created_at": "2026-08-13T14:43:25.203Z",
+      "updated_at": "2026-08-13T14:43:25.301Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/8htrnxk0q09v",
+      "started_at": "2026-08-13T14:43:25.196Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "b2whhtnz65dz",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Copilot AI Model Providers",
+          "incident_id": "24t8gsgqx2qb",
+          "created_at": "2026-08-13T14:43:25.299Z",
+          "updated_at": "2026-08-13T14:43:25.299Z",
+          "display_at": "2026-08-13T14:43:25.299Z",
+          "affected_components": [
+            {
+              "code": "cnnb39dkkk82",
+              "name": "Copilot AI Model Providers",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "cnnb39dkkk82",
+          "name": "Copilot AI Model Providers",
+          "status": "degraded_performance",
+          "created_at": "2026-04-17T12:33:08.827Z",
+          "updated_at": "2026-08-13T14:43:25.262Z",
+          "position": 12,
+          "description": null,
+          "showcase": true,
+          "start_date": "2026-04-17",
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
