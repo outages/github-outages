@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-08-13T17:21:24.248Z"
+    "updated_at": "2026-08-13T18:27:54.676Z"
   },
   "components": [
     {
@@ -188,51 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "pf25whpq58hh",
-      "name": "Disruption with GHEC Team Sync",
-      "status": "investigating",
-      "created_at": "2026-08-13T16:21:33.104Z",
-      "updated_at": "2026-08-13T16:21:51.863Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/l6tmhqw07cmj",
-      "started_at": "2026-08-13T16:21:33.096Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "n08n9543y09f",
-          "status": "investigating",
-          "body": "GHEC Team Sync is currently degraded for enterprises with personal accounts, causing delays when syncing teams to IdP groups. We have identified the cause of the delays and are working on a mitigation. We will provide an update on our progress at 20:00 UTC.",
-          "incident_id": "pf25whpq58hh",
-          "created_at": "2026-08-13T16:21:51.860Z",
-          "updated_at": "2026-08-13T16:21:51.860Z",
-          "display_at": "2026-08-13T16:21:51.860Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "gsnrtly5n4dy",
-          "status": "investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "incident_id": "pf25whpq58hh",
-          "created_at": "2026-08-13T16:21:33.148Z",
-          "updated_at": "2026-08-13T16:21:33.148Z",
-          "display_at": "2026-08-13T16:21:33.148Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
