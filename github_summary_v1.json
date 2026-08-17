@@ -4,15 +4,15 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-08-17T16:36:25.048Z"
+    "updated_at": "2026-08-17T16:59:38.140Z"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-01-31T20:05:05.370Z",
-      "updated_at": "2026-08-17T15:21:36.374Z",
+      "updated_at": "2026-08-17T16:59:37.999Z",
       "position": 1,
       "description": "Performance of git clones, pulls, pushes, and associated operations",
       "showcase": true,
@@ -25,9 +25,9 @@
     {
       "id": "4230lsnqdsld",
       "name": "Webhooks",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-11-13T18:00:24.256Z",
-      "updated_at": "2026-08-17T15:40:44.743Z",
+      "updated_at": "2026-08-17T16:59:38.017Z",
       "position": 2,
       "description": "Real time HTTP callbacks of user-generated and system events",
       "showcase": true,
@@ -55,9 +55,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2026-08-17T15:01:40.056Z",
+      "updated_at": "2026-08-17T16:59:38.034Z",
       "position": 4,
       "description": "Requests for GitHub APIs",
       "showcase": true,
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2026-08-17T14:49:24.296Z",
+      "updated_at": "2026-08-17T16:59:38.050Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": true,
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2026-08-17T14:54:14.242Z",
+      "updated_at": "2026-08-17T16:59:38.066Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": true,
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2026-08-17T14:58:09.026Z",
+      "updated_at": "2026-08-17T16:59:38.083Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": true,
@@ -130,9 +130,9 @@
     {
       "id": "vg70hn9s2tyj",
       "name": "Pages",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2026-08-17T15:10:00.110Z",
+      "updated_at": "2026-08-17T16:59:38.098Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": true,
@@ -194,7 +194,7 @@
       "name": "Incident with GitHub.com",
       "status": "investigating",
       "created_at": "2026-08-17T13:40:03.629Z",
-      "updated_at": "2026-08-17T16:36:25.039Z",
+      "updated_at": "2026-08-17T16:59:38.130Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -202,6 +202,68 @@
       "started_at": "2026-08-17T13:40:03.620Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "dxvfkgh0yqyh",
+          "status": "investigating",
+          "body": "The degradation affecting API Requests, Actions, Git Operations, Issues, Pages, Pull Requests and Webhooks has been mitigated. We are monitoring to ensure stability.",
+          "incident_id": "zkxwbgr0cnmx",
+          "created_at": "2026-08-17T16:59:38.127Z",
+          "updated_at": "2026-08-17T16:59:38.127Z",
+          "display_at": "2026-08-17T16:59:38.127Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "dxj6ngprk5ly",
           "status": "investigating",
@@ -1266,9 +1328,9 @@
         {
           "id": "8l4ygp009s5s",
           "name": "Git Operations",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-01-31T20:05:05.370Z",
-          "updated_at": "2026-08-17T15:21:36.374Z",
+          "updated_at": "2026-08-17T16:59:37.999Z",
           "position": 1,
           "description": "Performance of git clones, pulls, pushes, and associated operations",
           "showcase": true,
@@ -1281,9 +1343,9 @@
         {
           "id": "4230lsnqdsld",
           "name": "Webhooks",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2019-11-13T18:00:24.256Z",
-          "updated_at": "2026-08-17T15:40:44.743Z",
+          "updated_at": "2026-08-17T16:59:38.017Z",
           "position": 2,
           "description": "Real time HTTP callbacks of user-generated and system events",
           "showcase": true,
@@ -1296,9 +1358,9 @@
         {
           "id": "brv1bkgrwx7q",
           "name": "API Requests",
-          "status": "major_outage",
+          "status": "operational",
           "created_at": "2017-01-31T20:01:46.621Z",
-          "updated_at": "2026-08-17T15:01:40.056Z",
+          "updated_at": "2026-08-17T16:59:38.034Z",
           "position": 4,
           "description": "Requests for GitHub APIs",
           "showcase": true,
@@ -1311,9 +1373,9 @@
         {
           "id": "kr09ddfgbfsf",
           "name": "Issues",
-          "status": "major_outage",
+          "status": "operational",
           "created_at": "2017-01-31T20:01:46.638Z",
-          "updated_at": "2026-08-17T14:49:24.296Z",
+          "updated_at": "2026-08-17T16:59:38.050Z",
           "position": 5,
           "description": "Requests for Issues on GitHub.com",
           "showcase": true,
@@ -1326,9 +1388,9 @@
         {
           "id": "hhtssxt0f5v2",
           "name": "Pull Requests",
-          "status": "major_outage",
+          "status": "operational",
           "created_at": "2020-09-02T15:39:06.329Z",
-          "updated_at": "2026-08-17T14:54:14.242Z",
+          "updated_at": "2026-08-17T16:59:38.066Z",
           "position": 6,
           "description": "Requests for Pull Requests on GitHub.com",
           "showcase": true,
@@ -1341,9 +1403,9 @@
         {
           "id": "br0l2tvcx85d",
           "name": "Actions",
-          "status": "major_outage",
+          "status": "operational",
           "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2026-08-17T14:58:09.026Z",
+          "updated_at": "2026-08-17T16:59:38.083Z",
           "position": 7,
           "description": "Workflows, Compute and Orchestration for GitHub Actions",
           "showcase": true,
@@ -1356,9 +1418,9 @@
         {
           "id": "vg70hn9s2tyj",
           "name": "Pages",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-01-31T20:04:33.923Z",
-          "updated_at": "2026-08-17T15:10:00.110Z",
+          "updated_at": "2026-08-17T16:59:38.098Z",
           "position": 9,
           "description": "Frontend application and API servers for Pages builds",
           "showcase": true,
