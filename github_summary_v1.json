@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-08-17T20:22:28.806Z"
+    "updated_at": "2026-08-17T21:04:04.867Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Incident with GitHub.com",
       "status": "investigating",
       "created_at": "2026-08-17T13:40:03.629Z",
-      "updated_at": "2026-08-17T20:22:28.798Z",
+      "updated_at": "2026-08-17T20:45:28.860Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -202,6 +202,68 @@
       "started_at": "2026-08-17T13:40:03.620Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "35jkt3szsgj5",
+          "status": "investigating",
+          "body": "We are continuing to apply mitigations to address sporadic Copilot authentication failures in some applications. We expect full recovery within the next 30 minutes. Copilot usage via the GitHub CLI and GitHub App are unaffected.",
+          "incident_id": "zkxwbgr0cnmx",
+          "created_at": "2026-08-17T20:45:28.856Z",
+          "updated_at": "2026-08-17T20:45:28.856Z",
+          "display_at": "2026-08-17T20:45:28.856Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "d3yfh2k5t3b3",
           "status": "investigating",
