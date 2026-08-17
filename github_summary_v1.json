@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-08-17T18:48:19.585Z"
+    "updated_at": "2026-08-17T19:28:57.721Z"
   },
   "components": [
     {
@@ -55,9 +55,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2026-08-17T18:48:19.539Z",
+      "updated_at": "2026-08-17T19:01:45.543Z",
       "position": 4,
       "description": "Requests for GitHub APIs",
       "showcase": true,
@@ -194,7 +194,7 @@
       "name": "Incident with GitHub.com",
       "status": "investigating",
       "created_at": "2026-08-17T13:40:03.629Z",
-      "updated_at": "2026-08-17T18:48:19.576Z",
+      "updated_at": "2026-08-17T19:13:20.655Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -202,6 +202,130 @@
       "started_at": "2026-08-17T13:40:03.620Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "n98tdc27r1w7",
+          "status": "investigating",
+          "body": "We are continuing to investigate sporadic authentication failures. We have partially disabled authentication token retries and have seen improvement, and we are monitoring impact before fully applying this mitigation.",
+          "incident_id": "zkxwbgr0cnmx",
+          "created_at": "2026-08-17T19:13:20.651Z",
+          "updated_at": "2026-08-17T19:13:20.651Z",
+          "display_at": "2026-08-17T19:13:20.651Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "1jfxvr41m6dx",
+          "status": "investigating",
+          "body": "API Requests is operating normally.",
+          "incident_id": "zkxwbgr0cnmx",
+          "created_at": "2026-08-17T19:01:45.578Z",
+          "updated_at": "2026-08-17T19:01:45.578Z",
+          "display_at": "2026-08-17T19:01:45.578Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "8l4ygp009s5s",
+              "name": "Git Operations",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "vtg8lf0ytdmn",
           "status": "investigating",
@@ -1730,9 +1854,9 @@
         {
           "id": "brv1bkgrwx7q",
           "name": "API Requests",
-          "status": "major_outage",
+          "status": "operational",
           "created_at": "2017-01-31T20:01:46.621Z",
-          "updated_at": "2026-08-17T18:48:19.539Z",
+          "updated_at": "2026-08-17T19:01:45.543Z",
           "position": 4,
           "description": "Requests for GitHub APIs",
           "showcase": true,
