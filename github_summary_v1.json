@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-08-17T14:31:25.502Z"
+    "updated_at": "2026-08-17T15:01:40.119Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "4230lsnqdsld",
       "name": "Webhooks",
-      "status": "degraded_performance",
+      "status": "partial_outage",
       "created_at": "2019-11-13T18:00:24.256Z",
-      "updated_at": "2026-08-17T13:44:02.586Z",
+      "updated_at": "2026-08-17T14:58:17.459Z",
       "position": 2,
       "description": "Real time HTTP callbacks of user-generated and system events",
       "showcase": true,
@@ -55,9 +55,9 @@
     {
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
-      "status": "degraded_performance",
+      "status": "major_outage",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2026-08-17T13:41:47.256Z",
+      "updated_at": "2026-08-17T15:01:40.056Z",
       "position": 4,
       "description": "Requests for GitHub APIs",
       "showcase": true,
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "degraded_performance",
+      "status": "major_outage",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2026-08-17T13:46:37.783Z",
+      "updated_at": "2026-08-17T14:49:24.296Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": true,
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "degraded_performance",
+      "status": "major_outage",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2026-08-17T13:58:14.308Z",
+      "updated_at": "2026-08-17T14:54:14.242Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": true,
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "degraded_performance",
+      "status": "major_outage",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2026-08-17T13:42:42.804Z",
+      "updated_at": "2026-08-17T14:58:09.026Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": true,
@@ -194,7 +194,7 @@
       "name": "Incident with GitHub.com",
       "status": "investigating",
       "created_at": "2026-08-17T13:40:03.629Z",
-      "updated_at": "2026-08-17T14:31:25.493Z",
+      "updated_at": "2026-08-17T15:01:40.106Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -202,6 +202,356 @@
       "started_at": "2026-08-17T13:40:03.620Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "7j20yz1r6767",
+          "status": "investigating",
+          "body": "API Requests is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "zkxwbgr0cnmx",
+          "created_at": "2026-08-17T15:01:40.102Z",
+          "updated_at": "2026-08-17T15:01:40.102Z",
+          "display_at": "2026-08-17T15:01:40.102Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "degraded_performance",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "6616xzgj82cx",
+          "status": "investigating",
+          "body": "Webhooks is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "zkxwbgr0cnmx",
+          "created_at": "2026-08-17T14:58:17.503Z",
+          "updated_at": "2026-08-17T14:58:17.503Z",
+          "display_at": "2026-08-17T14:58:17.503Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "degraded_performance",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "w564dt57wvxz",
+          "status": "investigating",
+          "body": "We are experiencing high error rates around 20% for web experiences and api traffic. Archive downloads and raw repository content downloads are experiencing an approximate 50% error rate. SAML and OIDC authentication, SCIM, and Team Sync are also impacted. We are currently performing mitigations based on our investigation thus far and are monitoring for improvement.",
+          "incident_id": "zkxwbgr0cnmx",
+          "created_at": "2026-08-17T14:58:12.889Z",
+          "updated_at": "2026-08-17T14:58:12.889Z",
+          "display_at": "2026-08-17T14:58:12.889Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "w80fl37h22fh",
+          "status": "investigating",
+          "body": "Actions is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "zkxwbgr0cnmx",
+          "created_at": "2026-08-17T14:58:09.061Z",
+          "updated_at": "2026-08-17T14:58:09.061Z",
+          "display_at": "2026-08-17T14:58:09.061Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "degraded_performance",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "mjvffcxt493b",
+          "status": "investigating",
+          "body": "Pull Requests is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "zkxwbgr0cnmx",
+          "created_at": "2026-08-17T14:54:14.293Z",
+          "updated_at": "2026-08-17T14:54:14.293Z",
+          "display_at": "2026-08-17T14:54:14.293Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "d52d94cmp1m0",
+          "status": "investigating",
+          "body": "Issues is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "zkxwbgr0cnmx",
+          "created_at": "2026-08-17T14:49:24.334Z",
+          "updated_at": "2026-08-17T14:49:24.334Z",
+          "display_at": "2026-08-17T14:49:24.334Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "degraded_performance",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "y0bc6n0kl399",
+          "status": "investigating",
+          "body": "Pull Requests is experiencing degraded availability. We are continuing to investigate.",
+          "incident_id": "zkxwbgr0cnmx",
+          "created_at": "2026-08-17T14:45:53.507Z",
+          "updated_at": "2026-08-17T14:45:53.507Z",
+          "display_at": "2026-08-17T14:45:53.507Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "4230lsnqdsld",
+              "name": "Webhooks",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "degraded_performance",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "pjmpxvq2cmr2",
+              "name": "Copilot",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "1hh9ps9dj207",
           "status": "investigating",
@@ -550,9 +900,9 @@
         {
           "id": "4230lsnqdsld",
           "name": "Webhooks",
-          "status": "degraded_performance",
+          "status": "partial_outage",
           "created_at": "2019-11-13T18:00:24.256Z",
-          "updated_at": "2026-08-17T13:44:02.586Z",
+          "updated_at": "2026-08-17T14:58:17.459Z",
           "position": 2,
           "description": "Real time HTTP callbacks of user-generated and system events",
           "showcase": true,
@@ -565,9 +915,9 @@
         {
           "id": "brv1bkgrwx7q",
           "name": "API Requests",
-          "status": "degraded_performance",
+          "status": "major_outage",
           "created_at": "2017-01-31T20:01:46.621Z",
-          "updated_at": "2026-08-17T13:41:47.256Z",
+          "updated_at": "2026-08-17T15:01:40.056Z",
           "position": 4,
           "description": "Requests for GitHub APIs",
           "showcase": true,
@@ -580,9 +930,9 @@
         {
           "id": "kr09ddfgbfsf",
           "name": "Issues",
-          "status": "degraded_performance",
+          "status": "major_outage",
           "created_at": "2017-01-31T20:01:46.638Z",
-          "updated_at": "2026-08-17T13:46:37.783Z",
+          "updated_at": "2026-08-17T14:49:24.296Z",
           "position": 5,
           "description": "Requests for Issues on GitHub.com",
           "showcase": true,
@@ -595,9 +945,9 @@
         {
           "id": "hhtssxt0f5v2",
           "name": "Pull Requests",
-          "status": "degraded_performance",
+          "status": "major_outage",
           "created_at": "2020-09-02T15:39:06.329Z",
-          "updated_at": "2026-08-17T13:58:14.308Z",
+          "updated_at": "2026-08-17T14:54:14.242Z",
           "position": 6,
           "description": "Requests for Pull Requests on GitHub.com",
           "showcase": true,
@@ -610,9 +960,9 @@
         {
           "id": "br0l2tvcx85d",
           "name": "Actions",
-          "status": "degraded_performance",
+          "status": "major_outage",
           "created_at": "2019-11-13T18:02:19.432Z",
-          "updated_at": "2026-08-17T13:42:42.804Z",
+          "updated_at": "2026-08-17T14:58:09.026Z",
           "position": 7,
           "description": "Workflows, Compute and Orchestration for GitHub Actions",
           "showcase": true,
