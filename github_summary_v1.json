@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-08-20T16:14:46.266Z"
+    "updated_at": "2026-08-20T17:33:55.896Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Intermittent failures creating agent tasks",
       "status": "investigating",
       "created_at": "2026-08-20T14:43:01.531Z",
-      "updated_at": "2026-08-20T16:14:46.254Z",
+      "updated_at": "2026-08-20T17:33:55.889Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -202,6 +202,32 @@
       "started_at": "2026-08-20T14:43:01.526Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "31xcm0tjpzd9",
+          "status": "investigating",
+          "body": "We are observing gradual recovery for Copilot Cloud Agent task status visibility, with session output delayed approximately 1 hour. We have taken additional steps to accelerate the recovery and are continuing to monitor the impact.",
+          "incident_id": "bhbcjn4n3jzp",
+          "created_at": "2026-08-20T17:32:39.883Z",
+          "updated_at": "2026-08-20T17:33:55.884Z",
+          "display_at": "2026-08-20T17:32:39.883Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "3n5w980ty78x",
+          "status": "investigating",
+          "body": "We are seeing signs of recovery for Copilot Cloud Agent task status visibility, but this recovery is slower than anticipated. We are pursuing additional mitigating measures to accelerate recovery.",
+          "incident_id": "bhbcjn4n3jzp",
+          "created_at": "2026-08-20T17:05:20.047Z",
+          "updated_at": "2026-08-20T17:05:20.047Z",
+          "display_at": "2026-08-20T17:05:20.047Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "fk7nnkb11k57",
           "status": "investigating",
