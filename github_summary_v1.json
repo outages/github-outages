@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-08-20T17:33:55.896Z"
+    "updated_at": "2026-08-20T18:45:23.441Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Intermittent failures creating agent tasks",
       "status": "investigating",
       "created_at": "2026-08-20T14:43:01.531Z",
-      "updated_at": "2026-08-20T17:33:55.889Z",
+      "updated_at": "2026-08-20T18:45:23.430Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -202,6 +202,32 @@
       "started_at": "2026-08-20T14:43:01.526Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "skmp4pbyz2kc",
+          "status": "investigating",
+          "body": "We are continuing to observe gradual recovery for Copilot Cloud Agent task status visibility, with session output delayed by approximately 1 hour. We have taken additional steps to accelerate the recovery and expect this to take effect within the next hour.",
+          "incident_id": "bhbcjn4n3jzp",
+          "created_at": "2026-08-20T18:45:23.427Z",
+          "updated_at": "2026-08-20T18:45:23.427Z",
+          "display_at": "2026-08-20T18:45:23.427Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "p800xnyplrm2",
+          "status": "investigating",
+          "body": "We are continuing to observe gradual recovery for Copilot Cloud Agent task status visibility, with session output delayed by approximately 1 hour. We have taken additional steps to accelerate the recovery and are continuing to monitor the impact.",
+          "incident_id": "bhbcjn4n3jzp",
+          "created_at": "2026-08-20T18:04:55.838Z",
+          "updated_at": "2026-08-20T18:04:55.838Z",
+          "display_at": "2026-08-20T18:04:55.838Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "31xcm0tjpzd9",
           "status": "investigating",
