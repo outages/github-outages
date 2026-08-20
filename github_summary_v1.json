@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-08-20T16:04:00.140Z"
+    "updated_at": "2026-08-20T16:14:46.266Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Intermittent failures creating agent tasks",
       "status": "investigating",
       "created_at": "2026-08-20T14:43:01.531Z",
-      "updated_at": "2026-08-20T15:41:11.773Z",
+      "updated_at": "2026-08-20T16:14:46.254Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -202,6 +202,19 @@
       "started_at": "2026-08-20T14:43:01.526Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "fk7nnkb11k57",
+          "status": "investigating",
+          "body": "Users are experiencing delays when starting tasks using Copilot Cloud Agent and are not be able to see the status of these tasks. Copilot Cloud Agent tasks are still being completed. We have identified the cause of the issue and are putting mitigations in place to return service to normal levels. We will provide another update about the expected recovery time shortly.",
+          "incident_id": "bhbcjn4n3jzp",
+          "created_at": "2026-08-20T16:14:46.251Z",
+          "updated_at": "2026-08-20T16:14:46.251Z",
+          "display_at": "2026-08-20T16:14:46.251Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "vffbd4c3szqn",
           "status": "investigating",
