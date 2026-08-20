@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-08-20T18:45:23.441Z"
+    "updated_at": "2026-08-20T19:35:31.276Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Intermittent failures creating agent tasks",
       "status": "investigating",
       "created_at": "2026-08-20T14:43:01.531Z",
-      "updated_at": "2026-08-20T18:45:23.430Z",
+      "updated_at": "2026-08-20T19:35:31.266Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -202,6 +202,19 @@
       "started_at": "2026-08-20T14:43:01.526Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "stq3nb0t0kcd",
+          "status": "investigating",
+          "body": "We are continuing to observe gradual recovery for Copilot Cloud Agent task status visibility. Session output continues to be delayed by approximately 1 hour as our remediation steps take effect.",
+          "incident_id": "bhbcjn4n3jzp",
+          "created_at": "2026-08-20T19:35:31.262Z",
+          "updated_at": "2026-08-20T19:35:31.262Z",
+          "display_at": "2026-08-20T19:35:31.262Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "skmp4pbyz2kc",
           "status": "investigating",
