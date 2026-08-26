@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-08-26T15:48:07.396Z"
+    "updated_at": "2026-08-26T16:50:28.441Z"
   },
   "components": [
     {
@@ -130,9 +130,9 @@
     {
       "id": "vg70hn9s2tyj",
       "name": "Pages",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2026-08-26T15:12:21.271Z",
+      "updated_at": "2026-08-26T16:49:07.311Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": true,
@@ -194,7 +194,7 @@
       "name": "Incident with Actions",
       "status": "investigating",
       "created_at": "2026-08-26T15:11:58.254Z",
-      "updated_at": "2026-08-26T15:48:07.388Z",
+      "updated_at": "2026-08-26T16:50:28.432Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -202,6 +202,84 @@
       "started_at": "2026-08-26T15:11:58.248Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "ynrl28fq82hm",
+          "status": "investigating",
+          "body": "We are continuing to observe recovery and delayed queues are burning down. Some customers will continue to see increased delays until all throttled work has been completed - we expect this within the next hour.",
+          "incident_id": "y1t7p9fzrlj2",
+          "created_at": "2026-08-26T16:50:28.428Z",
+          "updated_at": "2026-08-26T16:50:28.428Z",
+          "display_at": "2026-08-26T16:50:28.428Z",
+          "affected_components": [
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "lb8109ht84gj",
+          "status": "investigating",
+          "body": "Pages is operating normally.",
+          "incident_id": "y1t7p9fzrlj2",
+          "created_at": "2026-08-26T16:49:07.342Z",
+          "updated_at": "2026-08-26T16:49:07.342Z",
+          "display_at": "2026-08-26T16:49:07.342Z",
+          "affected_components": [
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "ysnv72wfctll",
+          "status": "investigating",
+          "body": "We believe we've identified and addressed the issue and are ramping traffic back up slowly to ensure it doesn't recur. Some customers will continue to see delays as we ramp up.",
+          "incident_id": "y1t7p9fzrlj2",
+          "created_at": "2026-08-26T16:14:16.981Z",
+          "updated_at": "2026-08-26T16:14:16.981Z",
+          "display_at": "2026-08-26T16:14:16.981Z",
+          "affected_components": [
+            {
+              "code": "vg70hn9s2tyj",
+              "name": "Pages",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "0xrldz0ft6f3",
           "status": "investigating",
@@ -320,9 +398,9 @@
         {
           "id": "vg70hn9s2tyj",
           "name": "Pages",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-01-31T20:04:33.923Z",
-          "updated_at": "2026-08-26T15:12:21.271Z",
+          "updated_at": "2026-08-26T16:49:07.311Z",
           "position": 9,
           "description": "Frontend application and API servers for Pages builds",
           "showcase": true,
@@ -333,36 +411,6 @@
           "only_show_if_degraded": false
         }
       ],
-      "reminder_intervals": null
-    },
-    {
-      "id": "hcbtzksccj2f",
-      "name": "Disruption with some GitHub services",
-      "status": "investigating",
-      "created_at": "2026-08-26T15:09:03.575Z",
-      "updated_at": "2026-08-26T15:09:03.609Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/4s4bvnc0frrj",
-      "started_at": "2026-08-26T15:09:03.568Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "m4xdz5vvj8f6",
-          "status": "investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "incident_id": "hcbtzksccj2f",
-          "created_at": "2026-08-26T15:09:03.607Z",
-          "updated_at": "2026-08-26T15:09:03.607Z",
-          "display_at": "2026-08-26T15:09:03.607Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
       "reminder_intervals": null
     }
   ],
