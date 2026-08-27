@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-08-26T20:54:26.812Z"
+    "updated_at": "2026-08-27T02:24:56.464Z"
   },
   "components": [
     {
@@ -87,7 +87,7 @@
       "name": "Pull Requests",
       "status": "operational",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2026-08-17T16:59:38.066Z",
+      "updated_at": "2026-08-27T00:26:05.938Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": true,
@@ -102,7 +102,7 @@
       "name": "Actions",
       "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2026-08-26T17:54:33.424Z",
+      "updated_at": "2026-08-27T00:26:05.957Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": true,
@@ -188,7 +188,77 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "5bn0vk444m1w",
+      "name": "Disruption with GitHub Billing",
+      "status": "investigating",
+      "created_at": "2026-08-26T23:37:20.579Z",
+      "updated_at": "2026-08-27T01:37:58.099Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/cpgst4hly3mh",
+      "started_at": "2026-08-26T23:37:20.570Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "csl572t1jr99",
+          "status": "investigating",
+          "body": "We are continuing to monitor the mitigation that we have applied for the billing page disruption.",
+          "incident_id": "5bn0vk444m1w",
+          "created_at": "2026-08-27T01:35:35.233Z",
+          "updated_at": "2026-08-27T01:37:58.095Z",
+          "display_at": "2026-08-27T01:35:35.233Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "qlzv4w3fqqpw",
+          "status": "investigating",
+          "body": "We've applied a mitigation to unblock Copilot usage and have observed recovery for this particular impact. We're continuing to investigate and apply mitigations for the billing page disruption while monitoring to ensure Copilot remains recovered.",
+          "incident_id": "5bn0vk444m1w",
+          "created_at": "2026-08-27T00:31:22.335Z",
+          "updated_at": "2026-08-27T00:31:22.335Z",
+          "display_at": "2026-08-27T00:31:22.335Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "4ll1wsmnq927",
+          "status": "investigating",
+          "body": "We are currently investigating increased errors with billing services. Customers may observe failed billing budget page loads, and users of the Copilot CLI may observe failures starting or continuing sessions.",
+          "incident_id": "5bn0vk444m1w",
+          "created_at": "2026-08-26T23:42:06.271Z",
+          "updated_at": "2026-08-26T23:42:06.271Z",
+          "display_at": "2026-08-26T23:42:06.271Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "cs3vzm61hc8l",
+          "status": "investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "incident_id": "5bn0vk444m1w",
+          "created_at": "2026-08-26T23:37:20.628Z",
+          "updated_at": "2026-08-26T23:37:20.628Z",
+          "display_at": "2026-08-26T23:37:20.628Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
