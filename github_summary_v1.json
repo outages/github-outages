@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-09-15T09:48:04.122Z"
+    "updated_at": "2026-09-15T14:24:28.440Z"
   },
   "components": [
     {
@@ -177,7 +177,7 @@
       "name": "Copilot AI Model Providers",
       "status": "operational",
       "created_at": "2026-04-17T12:33:08.827Z",
-      "updated_at": "2026-09-03T17:11:47.826Z",
+      "updated_at": "2026-09-15T11:17:22.009Z",
       "position": 12,
       "description": null,
       "showcase": true,
@@ -188,51 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "qwdwmtqghpk5",
-      "name": "Disruption with some GitHub services",
-      "status": "monitoring",
-      "created_at": "2026-09-15T09:47:15.093Z",
-      "updated_at": "2026-09-15T09:48:04.118Z",
-      "monitoring_at": "2026-09-15T09:48:04.095Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/6pn81yd1x4hz",
-      "started_at": "2026-09-15T09:47:15.085Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "c65zjqf1bs09",
-          "status": "monitoring",
-          "body": "We are investigating degraded availability for Claude Fable 5.1, affecting some Copilot products and integrated development environments. The issue is caused by a problem with our upstream model provider. Customers can use another model or select Auto while we investigate.",
-          "incident_id": "qwdwmtqghpk5",
-          "created_at": "2026-09-15T09:48:04.095Z",
-          "updated_at": "2026-09-15T09:48:04.095Z",
-          "display_at": "2026-09-15T09:48:04.095Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "hyzqgb6b88xj",
-          "status": "investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "incident_id": "qwdwmtqghpk5",
-          "created_at": "2026-09-15T09:47:15.162Z",
-          "updated_at": "2026-09-15T09:47:15.162Z",
-          "display_at": "2026-09-15T09:47:15.162Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
