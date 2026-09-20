@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-09-20T20:19:05.599Z"
+    "updated_at": "2026-09-20T23:22:16.728Z"
   },
   "components": [
     {
@@ -87,7 +87,7 @@
       "name": "Pull Requests",
       "status": "operational",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2026-09-13T10:44:54.952Z",
+      "updated_at": "2026-09-20T22:27:28.738Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": true,
