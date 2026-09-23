@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-09-23T06:14:07.314Z"
+    "updated_at": "2026-09-23T12:04:18.876Z"
   },
   "components": [
     {
@@ -57,7 +57,7 @@
       "name": "API Requests",
       "status": "operational",
       "created_at": "2017-01-31T20:01:46.621Z",
-      "updated_at": "2026-09-13T10:44:54.920Z",
+      "updated_at": "2026-09-23T10:58:27.066Z",
       "position": 4,
       "description": "Requests for GitHub APIs",
       "showcase": true,
@@ -188,7 +188,141 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "8zc63m64hy36",
+      "name": "Incident with API Requests and Projects",
+      "status": "investigating",
+      "created_at": "2026-09-23T10:11:12.845Z",
+      "updated_at": "2026-09-23T11:38:30.055Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/m1ps7yrhp4n8",
+      "started_at": "2026-09-23T10:11:12.836Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "twss7bj15qyr",
+          "status": "investigating",
+          "body": "We are seeing recovery for Projects. Users may experience stale search results for Projects while indexing catches up.",
+          "incident_id": "8zc63m64hy36",
+          "created_at": "2026-09-23T11:38:30.053Z",
+          "updated_at": "2026-09-23T11:38:30.053Z",
+          "display_at": "2026-09-23T11:38:30.053Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "tkm705cgt7fx",
+          "status": "investigating",
+          "body": "The degradation affecting API Requests has been mitigated. We are monitoring to ensure stability.",
+          "incident_id": "8zc63m64hy36",
+          "created_at": "2026-09-23T10:58:27.097Z",
+          "updated_at": "2026-09-23T10:58:27.097Z",
+          "display_at": "2026-09-23T10:58:27.097Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "8z5fl9yqbrkg",
+          "status": "investigating",
+          "body": "Database replicas have been restored. Org creation and the GitHub API are no longer degraded.",
+          "incident_id": "8zc63m64hy36",
+          "created_at": "2026-09-23T10:57:57.451Z",
+          "updated_at": "2026-09-23T10:57:57.451Z",
+          "display_at": "2026-09-23T10:57:57.451Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "y4vv2mnhgd2q",
+          "status": "investigating",
+          "body": "Database replicas have detached. We're working to restore the database replicas. Users may experience issues beyond creating organizations and a degraded experience with the GitHub API and Projects.",
+          "incident_id": "8zc63m64hy36",
+          "created_at": "2026-09-23T10:20:06.970Z",
+          "updated_at": "2026-09-23T10:20:06.970Z",
+          "display_at": "2026-09-23T10:20:06.970Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "yf987m8r2vtj",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for API Requests",
+          "incident_id": "8zc63m64hy36",
+          "created_at": "2026-09-23T10:11:12.927Z",
+          "updated_at": "2026-09-23T10:11:12.927Z",
+          "display_at": "2026-09-23T10:11:12.927Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "brv1bkgrwx7q",
+          "name": "API Requests",
+          "status": "operational",
+          "created_at": "2017-01-31T20:01:46.621Z",
+          "updated_at": "2026-09-23T10:58:27.066Z",
+          "position": 4,
+          "description": "Requests for GitHub APIs",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
