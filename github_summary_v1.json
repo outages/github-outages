@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-09-23T21:39:30.084Z"
+    "updated_at": "2026-09-24T00:24:00.439Z"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
       "name": "Incident across several services",
       "status": "investigating",
       "created_at": "2026-09-23T10:11:12.845Z",
-      "updated_at": "2026-09-23T21:39:30.073Z",
+      "updated_at": "2026-09-24T00:16:49.452Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -202,6 +202,26 @@
       "started_at": "2026-09-23T10:11:12.836Z",
       "page_id": "kctbh9vrtdwd",
       "incident_updates": [
+        {
+          "id": "yxvtwgr1tjt8",
+          "status": "investigating",
+          "body": "We've deployed a change intended to accelerate processing of the backlog of issue label updates in Projects. A sizable backlog still remains and we continue working through it. All other services are operating normally. We will provide another update within the next hour.",
+          "incident_id": "8zc63m64hy36",
+          "created_at": "2026-09-24T00:16:49.448Z",
+          "updated_at": "2026-09-24T00:16:49.448Z",
+          "display_at": "2026-09-24T00:16:49.448Z",
+          "affected_components": [
+            {
+              "code": "brv1bkgrwx7q",
+              "name": "API Requests",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "kpnn3vrsd5bg",
           "status": "investigating",
