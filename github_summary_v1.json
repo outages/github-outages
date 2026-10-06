@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-10-05T18:19:27.398Z"
+    "updated_at": "2026-10-06T00:05:58.952Z"
   },
   "components": [
     {
@@ -102,7 +102,7 @@
       "name": "Actions",
       "status": "operational",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2026-10-01T17:56:54.207Z",
+      "updated_at": "2026-10-05T21:54:22.987Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": true,
@@ -132,7 +132,7 @@
       "name": "Pages",
       "status": "operational",
       "created_at": "2017-01-31T20:04:33.923Z",
-      "updated_at": "2026-09-13T10:44:54.985Z",
+      "updated_at": "2026-10-05T22:40:41.750Z",
       "position": 9,
       "description": "Frontend application and API servers for Pages builds",
       "showcase": true,
@@ -188,7 +188,51 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "2kxnqcxcrr7f",
+      "name": "Disruption with some GitHub services",
+      "status": "investigating",
+      "created_at": "2026-10-05T23:47:45.202Z",
+      "updated_at": "2026-10-06T00:05:58.929Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/pjcfc4c3pm7g",
+      "started_at": "2026-10-05T23:47:45.195Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "c6bgvv8b4knj",
+          "status": "investigating",
+          "body": "Users may experience issues accessing organization and enterprise billing and licensing pages. We are deploying a mitigation and monitoring for recovery.",
+          "incident_id": "2kxnqcxcrr7f",
+          "created_at": "2026-10-06T00:05:58.926Z",
+          "updated_at": "2026-10-06T00:05:58.926Z",
+          "display_at": "2026-10-06T00:05:58.926Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "nwv30k57rx6s",
+          "status": "investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "incident_id": "2kxnqcxcrr7f",
+          "created_at": "2026-10-05T23:47:45.254Z",
+          "updated_at": "2026-10-05T23:47:45.254Z",
+          "display_at": "2026-10-05T23:47:45.254Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
