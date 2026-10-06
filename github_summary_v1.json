@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-10-06T00:05:58.952Z"
+    "updated_at": "2026-10-06T06:24:22.083Z"
   },
   "components": [
     {
@@ -188,51 +188,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "2kxnqcxcrr7f",
-      "name": "Disruption with some GitHub services",
-      "status": "investigating",
-      "created_at": "2026-10-05T23:47:45.202Z",
-      "updated_at": "2026-10-06T00:05:58.929Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/pjcfc4c3pm7g",
-      "started_at": "2026-10-05T23:47:45.195Z",
-      "page_id": "kctbh9vrtdwd",
-      "incident_updates": [
-        {
-          "id": "c6bgvv8b4knj",
-          "status": "investigating",
-          "body": "Users may experience issues accessing organization and enterprise billing and licensing pages. We are deploying a mitigation and monitoring for recovery.",
-          "incident_id": "2kxnqcxcrr7f",
-          "created_at": "2026-10-06T00:05:58.926Z",
-          "updated_at": "2026-10-06T00:05:58.926Z",
-          "display_at": "2026-10-06T00:05:58.926Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "nwv30k57rx6s",
-          "status": "investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "incident_id": "2kxnqcxcrr7f",
-          "created_at": "2026-10-05T23:47:45.254Z",
-          "updated_at": "2026-10-05T23:47:45.254Z",
-          "display_at": "2026-10-05T23:47:45.254Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
