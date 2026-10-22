@@ -4,7 +4,7 @@
     "name": "GitHub",
     "url": "https://www.githubstatus.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-10-22T08:05:40.071Z"
+    "updated_at": "2026-10-22T15:33:52.402Z"
   },
   "components": [
     {
@@ -70,9 +70,9 @@
     {
       "id": "kr09ddfgbfsf",
       "name": "Issues",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-01-31T20:01:46.638Z",
-      "updated_at": "2026-10-12T14:35:49.205Z",
+      "updated_at": "2026-10-22T15:28:04.032Z",
       "position": 5,
       "description": "Requests for Issues on GitHub.com",
       "showcase": true,
@@ -85,9 +85,9 @@
     {
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-09-02T15:39:06.329Z",
-      "updated_at": "2026-10-21T16:33:10.584Z",
+      "updated_at": "2026-10-22T15:28:04.053Z",
       "position": 6,
       "description": "Requests for Pull Requests on GitHub.com",
       "showcase": true,
@@ -100,9 +100,9 @@
     {
       "id": "br0l2tvcx85d",
       "name": "Actions",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-11-13T18:02:19.432Z",
-      "updated_at": "2026-10-21T16:57:42.116Z",
+      "updated_at": "2026-10-22T15:28:04.077Z",
       "position": 7,
       "description": "Workflows, Compute and Orchestration for GitHub Actions",
       "showcase": true,
@@ -188,10 +188,138 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "wq8305lppdc2",
+      "name": "Errors loading Issues, Pull Requests, and search results",
+      "status": "investigating",
+      "created_at": "2026-10-22T15:28:03.986Z",
+      "updated_at": "2026-10-22T15:33:52.381Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/sx51v1tlpqjc",
+      "started_at": "2026-10-22T15:28:03.979Z",
+      "page_id": "kctbh9vrtdwd",
+      "incident_updates": [
+        {
+          "id": "p6l6x8hxhbzl",
+          "status": "investigating",
+          "body": "Some users may experience intermittent errors loading Issues, Pull Requests and search results on github.com. <br /><br />We're investigating and working to restore normal service.",
+          "incident_id": "wq8305lppdc2",
+          "created_at": "2026-10-22T15:33:52.378Z",
+          "updated_at": "2026-10-22T15:33:52.378Z",
+          "display_at": "2026-10-22T15:33:52.378Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "s46d1s08z0jk",
+          "status": "investigating",
+          "body": "We are investigating reports of degraded performance for Actions, Issues and Pull Requests",
+          "incident_id": "wq8305lppdc2",
+          "created_at": "2026-10-22T15:28:04.258Z",
+          "updated_at": "2026-10-22T15:28:04.258Z",
+          "display_at": "2026-10-22T15:28:04.258Z",
+          "affected_components": [
+            {
+              "code": "kr09ddfgbfsf",
+              "name": "Issues",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "br0l2tvcx85d",
+              "name": "Actions",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hhtssxt0f5v2",
+              "name": "Pull Requests",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "kr09ddfgbfsf",
+          "name": "Issues",
+          "status": "degraded_performance",
+          "created_at": "2017-01-31T20:01:46.638Z",
+          "updated_at": "2026-10-22T15:28:04.032Z",
+          "position": 5,
+          "description": "Requests for Issues on GitHub.com",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "hhtssxt0f5v2",
+          "name": "Pull Requests",
+          "status": "degraded_performance",
+          "created_at": "2020-09-02T15:39:06.329Z",
+          "updated_at": "2026-10-22T15:28:04.053Z",
+          "position": 6,
+          "description": "Requests for Pull Requests on GitHub.com",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "br0l2tvcx85d",
+          "name": "Actions",
+          "status": "degraded_performance",
+          "created_at": "2019-11-13T18:02:19.432Z",
+          "updated_at": "2026-10-22T15:28:04.077Z",
+          "position": 7,
+          "description": "Workflows, Compute and Orchestration for GitHub Actions",
+          "showcase": true,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "kctbh9vrtdwd",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
